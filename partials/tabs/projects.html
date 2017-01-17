@@ -20,7 +20,7 @@
           <div class="card-title name-bear">{{ project.name }}</div>
           <div class="card-content">{{ project.desc | format_desc }}</div>
           <div class="card-action">
-            <span ng-repeat="mentor in project.mentors | limitTo:4"><a ng-href="https://github.com/{{mentor}}">{{mentor}}</a></span>
+            <span ng-repeat="mentor in project.mentors | limitTo:4"><a ng-href="https://github.com/{{mentor}}" class="mentors-github-id" >{{mentor}}</a></span>
           </div>
         </div>
       </div>

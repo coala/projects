@@ -384,3 +384,11 @@ a:hover > .card{
   color: lightgoldenrodyellow;
   letter-spacing: 0.1em;
 }
+.mentors-github-id{
+  font-size: 1.2em ;
+  color: darkcyan !important;
+  text-transform: none !important;
+}
+.mentors-github-id:hover{
+  color: black !important;
+}
