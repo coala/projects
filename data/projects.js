@@ -25,10 +25,12 @@ variable renamings while the user should be asked for the new variable name.",
 			],
 			"GSoC 2017 Midterm" : [
 				"The user is able to choose between multiple patches.",
+				"The new API is fully documented on <https://api.coala.io/>.",
 				"At least one bear exists that makes use of this."
 			],
 			"GSoC 2017 Final" : [
 				"The user is able to apply templated patches.",
+				"The new API is fully documented on <https://api.coala.io/>.",
 				"At least one bear exists that makes use of this."
 			]
 		},
