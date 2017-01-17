@@ -57,7 +57,6 @@ support of the community guarding your back of course.",
 			"https://github.com/coala/coala/issues/2757"
 		],
 		"mentors" : [
-			"fneu",
 			"Udayan12167",
 			"jayvdb"
 		],
@@ -110,9 +109,7 @@ milestone, split into two batches."
 		],
 		"mentors" : [
 			"AbdealiJK",
-			"Makman2",
-			"fneu",
-			"jayvdb"
+			"Makman2"
 		],
 		"milestones" : {
 			"GSoC 2017 Coding Starts" : [
@@ -158,8 +155,7 @@ programming languages.",
 		],
 		"mentors" : [
 			"fneu",
-			"jayvdb",
-			"sils"
+			"jayvdb"
 		],
 		"milestones" : {
 			"GSoC 2017 Coding Starts" : [
