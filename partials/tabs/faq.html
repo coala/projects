@@ -1,5 +1,10 @@
 <div class="main-content-faq container-fluid">
-    
+  <ul class="collapsible" data-collapsible="accordion">
+    <li ng-repeat="question in toc.faqs">
+      <div class="collapsible-header"><i class="fa fa-question" aria-hidden="true"></i>{{question.ques}}</div>
+      <div class="collapsible-body"><p>{{question.ans}}</p></div>
+    </li>
+  </ul>
 </div>
 
 <script type="text/javascript">
