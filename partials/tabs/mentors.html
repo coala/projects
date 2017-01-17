@@ -19,8 +19,8 @@
                 <div class="empty"></div>
                 <div class="card-action profile-data" >
                   <center><img class="profile-img" height="100" ng-src="{{ member.github_avatar_url }}"></center>
-                  <div class="person-name"><a ng-href="https://github.com/{{member.github_handle}}">{{ member.name }}</a></div>
-                  <div class="person-github-id">@{{ member.github_handle }}</div>
+                  <div class="person-name">{{ member.name }}</div>
+                  <div class="person-github-id"><a ng-href="https://github.com/{{member.github_handle}}">@{{ member.github_handle }}</a></div>
                   <div class="person-github-bio">{{ member.bio }}</div>
                 </div>
             </div>
