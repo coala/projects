@@ -72,7 +72,18 @@
 			templateUrl: '/partials/tabs/mentors.html',
 			controller: function ($scope) {
 				self = this
-				self.mentorsList = []
+				self.mentorsList = {}
+
+				angular.forEach(projects, function(value, key){
+					angular.forEach(value.mentors, function(value, key){
+						self.mentorsList[value] =  {
+									"github_handle" : value,
+									"github_avatar_url": "https://avatars.githubusercontent.com/" +value
+						}
+						
+					});
+				});
+
 			},
 			controllerAs: "gic"
 		}
