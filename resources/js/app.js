@@ -11,13 +11,6 @@
 		}
 	})
 
-	app.directive('home', function () {
-		return {
-			restrict: 'E',
-			templateUrl: '/partials/tabs/home.html'
-		}
-	})
-
 	app.directive('projects',  ['$http',  '$timeout' ,function ($http, $timeout) {
 		return {
 			restrict: 'E',
@@ -48,7 +41,7 @@
 		controllerAs: 'toc'
 	}
 	}]);
-		
+
 
 	app.filter('format_desc', function () {
         return function (value) {
@@ -80,7 +73,7 @@
 									"github_handle" : value,
 									"github_avatar_url": "https://avatars.githubusercontent.com/" +value
 						}
-						
+
 					});
 				});
 
