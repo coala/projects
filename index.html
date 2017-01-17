@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html ng-app="coala">
+<head>
+
+    <title>coala</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+    <script type="text/javascript" src="resources/js/app.js"></script>
+    <link rel="stylesheet" type="text/css" href="vendors/materialize/css/materialize.css">
+
+    <link rel="stylesheet" type="text/css" href="vendors/bootstrap/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i|Roboto:100,200,300,400,500,600,700,800,900|Ubuntu+Mono" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+
+</head>
+<body>
+<main>
+<div ng-controller="TabController as tc">
+    <div class="container">
+        <div class="row">
+            <div class="col s12">
+                <ul class="tabs">
+                    <li class="tab col s3"><a ng-click="tc.setTab(1)" ng-class="{active:tc.isSet(1)}">HOME</a></li>
+                    <li class="tab col s3"><a ng-click="tc.setTab(2)" ng-class="{active:tc.isSet(2)}">PROJECTS</a></li>
+                    <li class="tab col s3"><a ng-click="tc.setTab(3)" ng-class="{active:tc.isSet(3)}">MENTORS</a></li>
+                    <li class="tab col s3"><a ng-click="tc.setTab(4)" ng-class="{active:tc.isSet(4)}">FAQ</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+<div ng-show="tc.isSet(1)">
+<home></home>
+</div>
+
+<div ng-show="tc.isSet(2)">
+<projects></projects>
+</div>
+
+<div ng-show="tc.isSet(3)">
+<mentors></mentors>
+</div>
+
+<div ng-show="tc.isSet(4)">
+<faq></faq>
+</div>
+
+</div>
+</main>
+<footer class="page-footer">
+    <div class="row footer-coala-row">
+    <center>
+      <div class="col-md-6">
+        <img class="footer-logo" src="https://api.coala.io/en/latest/_static/images/coala_logo.svg"/>
+        </div>
+        <div class="col-md-6">
+            <span class="footer-coala">coala</span>
+        </div>
+    </center>
+    </div>
+    <div class="footer-text">
+        <span class="ft-span"> licensed under GNU Affero General Public License v3.0</span>
+    </div>
+</footer>
+
+</body>
+</html>
+
+<script type="text/javascript">
+$(document).ready(function () {
+    $('select').material_select();
+    //$('ul.tabs').tabs();
+    $('.github-card').html('<img src="http://placehold.it/100x100" />')
+})
+</script>

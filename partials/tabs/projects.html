@@ -1,0 +1,57 @@
+<section>
+  <div class="main-content container">
+
+    <div class="col-md-8 col-md-offset-2">
+      <div class="input-field col-md-10">
+        <input ng-model="searchText" placeholder="Search for a project" id="search" type="text" class="validate">
+      </div>
+      <div class="input-field col-md-2">
+        <center>
+          <div><a class="explore waves-effect waves-light btn">EXPLORE</a>
+          </div>
+        </center>
+      </div>
+    </div>
+  </div>
+  <section>
+    <div class="container">
+      <div class="row showcase">
+        <div ng-click="lc.showProject(project)" ng-repeat="project in projectList | filter: searchText" class="card card-main showcase-card">
+          <div class="card-title name-bear">{{ project.name }}</div>
+          <div class="card-content">{{ project.desc | format_desc }}</div>
+          <div class="card-action">
+            <span ng-repeat="mentor in project.mentors | limitTo:4">{{mentor}} </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</section>
+
+<script type="text/javascript">
+  $(document).ready(function () {
+
+
+
+    $('.explore').click(function () {
+      $('html,body').animate({
+        scrollTop: $(".showcase").offset().top},
+        'slow');
+    })
+
+    $('.modal').modal({
+      dismissible: true, // Modal can be dismissed by clicking outside of the modal
+      opacity: 0.8, // Opacity of modal background
+      in_duration: 300, // Transition in duration
+      out_duration: 200, // Transition out duration
+      starting_top: '50%', // Starting top style attribute
+      ending_top: '10%', // Ending top style attribute
+      ready: function(modal, trigger) { // Callback for Modal open. Modal and trigger parameters available.
+
+        console.log(modal, trigger);
+      },
+      complete: function() {  } // Callback for Modal close
+    }
+    );
+  })
+</script>
