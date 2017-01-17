@@ -234,8 +234,8 @@ a:hover > .card{
 .modal-content-bear{
   display: flex
 }
-.bear-name{
-  font-size: 3em;
+.project-name{
+  font-size: 2em;
   text-align: center;
   padding-right: 1em;
   padding-top: 1em;
@@ -243,15 +243,15 @@ a:hover > .card{
   font-weight: 100;
   overflow-wrap: break-word;
 }
-.bear-description{
+.project-description{
   color: lightgrey;
   text-align: justify;
-  font-size: 1.5em;
+  font-size: 1.1em;
   font-family: Roboto;
   font-weight: 300;
   padding: 1em;
 }
-.candetect{
+.pr-element-detail{
   font-size: 13px;
   text-transform: uppercase;
   letter-spacing: 0.1em;
@@ -262,6 +262,8 @@ a:hover > .card{
   font-weight: 400;
   color: lightgoldenrodyellow;
   letter-spacing: 0.1em;
+  text-transform: uppercase;
+
 }
 .authors{
   font-size: 14px;
@@ -361,4 +363,21 @@ a:hover > .card{
   width: 180px;
   bottom: 0;
   padding-bottom: 1em;
+}
+.reqs-proj > .chip{
+  border-radius: 0 !important;
+}
+.milestones-row{
+  padding: 1em;
+}
+.milestone{
+  color: wheat;
+  margin-left: 1em;
+}
+.medium-heading{
+  font-size: 1.3em; 
+  padding: 0.5em;
+  font-weight: 400;
+  color: lightgoldenrodyellow;
+  letter-spacing: 0.1em;
 }
