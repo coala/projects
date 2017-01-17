@@ -33,28 +33,23 @@
         <div class="row">
             <div class="col s12">
                 <ul class="tabs">
-                    <li class="tab col s3"><a ng-click="tc.setTab(1)" ng-class="{active:tc.isSet(1)}">HOME</a></li>
-                    <li class="tab col s3"><a ng-click="tc.setTab(2)" ng-class="{active:tc.isSet(2)}">PROJECTS</a></li>
-                    <li class="tab col s3"><a ng-click="tc.setTab(3)" ng-class="{active:tc.isSet(3)}">MENTORS</a></li>
-                    <li class="tab col s3"><a ng-click="tc.setTab(4)" ng-class="{active:tc.isSet(4)}">FAQ</a></li>
+                    <li class="tab col s3"><a ng-click="tc.setTab(2)" ng-class="{active:tc.isSet(1)}">PROJECTS</a></li>
+                    <li class="tab col s3"><a ng-click="tc.setTab(3)" ng-class="{active:tc.isSet(2)}">MENTORS</a></li>
+                    <li class="tab col s3"><a ng-click="tc.setTab(4)" ng-class="{active:tc.isSet(3)}">FAQ</a></li>
                 </ul>
             </div>
         </div>
     </div>
 
 <div ng-show="tc.isSet(1)">
-<home></home>
-</div>
-
-<div ng-show="tc.isSet(2)">
 <projects></projects>
 </div>
 
-<div ng-show="tc.isSet(3)">
+<div ng-show="tc.isSet(2)">
 <mentors></mentors>
 </div>
 
-<div ng-show="tc.isSet(4)">
+<div ng-show="tc.isSet(3)">
 <faq></faq>
 </div>
 
