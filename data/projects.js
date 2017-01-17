@@ -74,7 +74,7 @@ support of the community guarding your back of course.",
 			"GSoC 2017 Final" : [
 				"A working plugin with full functionality exists.",
 				"A full covering testsuite exists.",
-				"Full documentation exists."
+				"documentation exists."
 			]
 		},
 		"initiatives" : ["GSoC"],
