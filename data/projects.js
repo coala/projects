@@ -8,8 +8,8 @@ for different possible spelling corrections.\
 In addition bears should be able to offer templated patches, e.g. to offer \
 variable renamings while the user should be asked for the new variable name.",
 		"requirements" : [
-			"good concept in the proposal",
-			"familiarity with the coala core"
+			"The proposal has to contain a clear concept.",
+			"The applicant should have one patch accepted to the coala core."
 		],
 		"difficulty" : "low",
 		"issues" : [
