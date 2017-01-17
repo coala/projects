@@ -70,9 +70,9 @@
 		return {
 			restrict: 'E',
 			templateUrl: '/partials/tabs/mentors.html',
-			controller: function ($scope, $sessionStorage) {
+			controller: function ($scope) {
 				self = this
-				self.mentorsList = mentors
+				self.mentorsList = []
 			},
 			controllerAs: "gic"
 		}
