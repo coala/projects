@@ -1,6 +1,11 @@
 # Projects
 
-A website that showcases projects!
+A website that showcases projects! **If you want to use it and it's not exactly
+fitting your purpose, please do make upstream changes. We expect this project
+to be of use to others and we're happy to make it more generic so it's easier
+to adapt to other organizations.**
+
+(It'd be nice to have an organization YML or so e.g.)
 
 ## Purpose
 
