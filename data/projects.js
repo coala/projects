@@ -14,7 +14,7 @@ variable renamings while the user should be asked for the new variable name.",
 		"difficulty" : "low",
 		"issues" : [
 			"https://github.com/coala/coala/issues/1021"
-		]
+		],
 		"mentors" : [
 			"sils",
 			"jayvdb"
