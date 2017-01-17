@@ -26,6 +26,56 @@
       </div>
     </div>
   </section>
+
+  <div id="modal1" class="modal">
+    <div  class="modal-content-bear">
+      <div class="col-md-4 profile">
+        <div class="project-name">
+          {{currentProject.name}}
+        </div>
+        <div ng-show="currentProject.requirements.length>0" class="project-detail-element  reqs-proj">
+          <div class="small-heading">REQUIREMENTS</div>
+          <li class="pr-element-detail milestones" ng-repeat="req in currentProject.requirements">{{ req }}</li><br>
+        </div>
+
+        <div ng-show="currentProject.initiatives.length>0" class="project-detail-element">
+          <div class="small-heading">INITIATIVES</div>
+          <span class="pr-element-detail chip" ng-repeat="initiative in currentProject.initiatives">{{ initiative }}</span><br>
+        </div>
+
+        <div ng-show="currentProject.tags.length>0" class="project-detail-element">
+          <div class="small-heading">TAGS</div>
+          <span class="pr-element-detail chip" ng-repeat="tags in currentProject.tags">{{ tags }}</span>
+        </div>
+
+        <div ng-show="currentProject.difficulty" class="project-detail-element">
+          <div class="small-heading">DIFFICULTY</div>
+          <span class="pr-element-detail chip">{{ currentProject.difficulty }}</span>
+        </div>
+
+        <div ng-show="currentProject.mentors.length>0" class="project-detail-element">
+          <div class="small-heading">MENTORS</div>
+          <span class="pr-element-detail chip" ng-repeat="mentor in currentProject.mentors">@{{ mentor }}</span>
+        </div>
+        <br>
+      </div>
+
+      <div class="col-md-8 dashboard">
+        <div class="project-description">
+          {{currentProject.desc}}
+        </div>
+        <div class="row milestones-row">
+          <div class="milestones medium-heading">MILESTONES</div>
+          <div ng-repeat="milestone_header in currentMilestone">
+           <div class="small-heading">{{milestone_header}}</div>
+
+           <li class="milestone" ng-repeat="milestone in currentProject['milestones'][milestone_header]">{{ milestone }}</li>
+         </div>         
+       </div> 
+
+     </center>
+   </div>
+ </div>
 </section>
 
 <script type="text/javascript">
