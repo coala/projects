@@ -22,7 +22,7 @@
 		return {
 			restrict: 'E',
 			templateUrl: '/partials/tabs/projects.html',
-			controller: function ($scope, $sessionStorage) {
+			controller: function ($scope) {
 				self = this
 				$scope.projectList = projects
 				self.showProject = function (project) {
