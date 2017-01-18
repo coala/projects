@@ -81,5 +81,28 @@ coala should support generating metrics for your code.",
 		"initiatives" : ["GSoC"],
 		"tags" : ["Core", "Bears"],
 		"markdown": "implement_metrics_for_coala.md"
-	}
+	},
+	{
+		"name" : "Debug and Profile Bears",
+		"desc" : "coala should support developers of code analysis by providing \
+		facilities to debug and profile bears.",
+		"requirements" : [
+			"At least one patch to the coala core should be accepted and merged.",
+			"The student should be familiar with ongoing technical cEPs.",
+			"The proposal needs to contain a clear concept.",
+			"Familiarity with pdb is a plus."
+		],
+		"difficulty" : "high",
+		"issues" : [
+			"https://github.com/coala/coala/issues/565",
+			"https://github.com/coala/coala/issues/1101"
+		],
+		"mentors" : [
+			"Makman2",
+			"Udayan12167"
+		],
+		"initiatives" : ["GSoC"],
+		"tags" : ["Core", "Bears", "Debugging"],
+		"markdown": "debug_profile.md"
+	},
 ]
