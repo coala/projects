@@ -81,5 +81,27 @@ coala should support generating metrics for your code.",
 		"initiatives" : ["GSoC"],
 		"tags" : ["Core", "Bears"],
 		"markdown": "implement_metrics_for_coala.md"
+	},
+	{
+		"name" : "Optimize Caching",
+		"desc" : "Improve coala's performance by implementing caching strategies.",
+		"requirements" : [
+			"At least one patch to the coala core should be accepted and merged.",
+			"The student should be familiar with ongoing technical cEPs.",
+			"The student must have proved his or her throughout understanding of the coala core."
+		],
+		"difficulty" : "medium",
+		"issues" : [
+			"https://github.com/coala/coala/issues/2541",
+			"https://github.com/coala/coala/issues/2699"
+		],
+		"mentors" : [
+			"adtac",
+			"sils",
+			"udayan12167"
+		],
+		"initiatives" : ["GSoC"],
+		"tags" : ["Core", "Bears"],
+		"markdown": "optimize_caching.md"
 	}
 ]
