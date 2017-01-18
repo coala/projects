@@ -39,10 +39,9 @@ variable renamings while the user should be asked for the new variable name.",
 	},
 	{
 		"name" : "Create Jenkins Plugin",
-		"desc" : "Jenkins has some neat way to show code analysis results - let's \
-use that to provide Jenkins users an awesome usability! The result of this \
-project should be a full fledged Jenkins integration, living in an own \
-repository with a full testsuite.\
+		"desc" : "Jenkins users should be able to see coala results right in the \
+Jenkins UI. The result of this project should be a full fledged Jenkins \
+integration, living in an own repository with a full testsuite.\
 \
 If you find this fun you'll be the one knowing this component best and will \
 get the chance to maintain it on your own if you want - always with the \
@@ -81,7 +80,10 @@ support of the community guarding your back of course.",
 	},
 	{
 		"name" : "Extend Linter Integration",
-		"desc" : "A very easy way to cover a broad spectrum of analysis routines \
+		"desc" : "This project enhances our linter framework and creates a number \
+of third party tool integrations.\
+\
+A very easy way to cover a broad spectrum of analysis routines \
 is wrapping linters into coala. Currently we have a `Lint` class which \
 simplifies this integration. Based on this class, a large selection of \
 linters can be implemented rapidly. A tutorial on writing linter bears \
@@ -133,8 +135,10 @@ framework, if needed as a cEP."
 	},
 	{
 		"name" : "Implement Metrics for coala",
-		"desc" : "There is more to software quality than just passing builds. A \
-wide variety of design principles influence software quality, and some of \
+		"desc" : "There is more to software quality than just passing builds - \
+coala should support generating metrics for your code.\
+\
+A wide variety of design principles influence software quality, and some of \
 them can be measured objectively by so-called \
 [software metrics](https://en.wikipedia.org/wiki/Software_metric). coala \
 offers a good base for the implementation or wrapping of algorithms that \
