@@ -16,9 +16,11 @@
   <section>
     <div class="container">
       <div class="row showcase">
-        <div ng-click="lc.showProject(project)" ng-repeat="project in projectList | filter: searchText" class="card card-main showcase-card">
-          <div class="card-title name-bear">{{ project.name }}</div>
-          <div class="card-content">{{ project.desc | format_desc }}</div>
+        <div ng-repeat="project in projectList | filter: searchText" class="card card-main showcase-card">
+          <div class="project-card-detail waves-effect" ng-click="lc.showProject(project)">
+            <div class="card-title name-bear">{{ project.name }}</div>
+            <div class="card-content">{{ project.desc | format_desc }}</div>
+          </div>  
           <div class="card-action">
             <span ng-repeat="mentor in project.mentors | limitTo:4"><a ng-href="https://github.com/{{mentor}}" class="mentors-github-id" >{{mentor}}</a></span>
           </div>
