@@ -15,6 +15,12 @@ you will have to meet the following:\
   so we know that you know how to *use coala*."
 },
 {
+	"ques": "I have an own project idea! (Mentors and students!)",
+	"ans" : "Superb! We recommend you submit your idea to \
+[our projects list](https://github.com/coala/projects/blob/master/data/projects.js) \
+as a pull request."
+},
+{
 	"ques": "How do I work out a great proposal?",
 	"ans" : "Please design your project in a way that you have **multiple \
 checkpoints**. We'd like you to specify at least three milestones with \
