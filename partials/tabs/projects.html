@@ -19,7 +19,7 @@
         <div ng-repeat="project in projectList | filter: searchText" class="card card-main showcase-card">
           <div class="project-card-detail waves-effect" ng-click="lc.showProject(project)">
             <div class="card-title name-bear">{{ project.name }}</div>
-            <div class="card-content">{{ project.desc | format_desc }}</div>
+            <div btf-markdown="project.desc | format_desc" class="card-content markdown"></div>
           </div>  
           <div class="card-action">
             <span ng-repeat="mentor in project.mentors | limitTo:4"><a ng-href="https://github.com/{{mentor}}" class="mentors-github-id" >{{mentor}}</a></span>
@@ -33,7 +33,7 @@
     <div  class="modal-content-bear">
       <div class="col-md-4 profile">
         <div class="project-name">
-          {{currentProject.name}}
+        {{ currentProject.name }}
         </div>
         <div ng-show="currentProject.requirements.length>0" class="project-detail-element  reqs-proj">
           <div class="small-heading">REQUIREMENTS</div>
@@ -57,26 +57,17 @@
 
         <div ng-show="currentProject.mentors.length>0" class="project-detail-element">
           <div class="small-heading">MENTORS</div>
-          <span class="pr-element-detail chip" ng-repeat="mentor in currentProject.mentors">@{{ mentor }}</span>
+          <span class="pr-element-detail chip" ng-repeat="mentor in currentProject.mentors">@{{mentor}}</span>
         </div>
         <br>
       </div>
 
       <div class="col-md-8 dashboard">
-        <div class="project-description">
-          {{currentProject.desc}}
+        <div btf-markdown ng-include="'data/projects/' + currentProject.markdown" class="project-description markdown">
         </div>
-        <div class="row milestones-row">
-          <div class="milestones medium-heading">MILESTONES</div>
-          <div ng-repeat="milestone_header in currentMilestone">
-           <div class="small-heading">{{milestone_header}}</div>
+      </div>  
 
-           <li class="milestone" ng-repeat="milestone in currentProject['milestones'][milestone_header]">{{ milestone }}</li>
-         </div>         
-       </div> 
-
-     </center>
-   </div>
+      </div>
  </div>
 </section>
 
@@ -96,7 +87,7 @@
       opacity: 0.8, // Opacity of modal background
       in_duration: 300, // Transition in duration
       out_duration: 200, // Transition out duration
-      starting_top: '50%', // Starting top style attribute
+      starting_top: '10%', // Starting top style attribute
       ending_top: '10%', // Ending top style attribute
       ready: function(modal, trigger) { // Callback for Modal open. Modal and trigger parameters available.
 

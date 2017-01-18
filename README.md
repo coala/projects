@@ -31,16 +31,7 @@ Mentors and admins can define projects as JSON using the following structure:
 ```json
 {
   "name" : "Write Project Name Here",
-  "desc" : "The project name should be like a good commit message - use \
-imperative tense. You can use markdown in all fields.\
-\
-This one is the main description. Use it wisely.\
-\
-For a good project description try to get:\
-\
-- at least two mentors,\
-- a related issue,\
-- proper milestones.",
+  "desc" : "Write a one line Description of Project here.",
   "requirements" : [
     "The applicant has to fulfill this to get started."
   ],
@@ -52,24 +43,38 @@ For a good project description try to get:\
     "sils",
     "sims1253"
   ],
-  "milestones" : {
-    "GSoC 2017 Coding Starts" : [
-      "Conceptual work should be finished.",
-      "The student have a repository, know how to work with the community.",
-      "The applicant should know the community."
-    ],
-    "GSoC 2017 Midterm" : [
-      "Everything listed here has to be reviewed and merged by midterm.",
-      "No exceptions to that. Changing the goals is possible together with \
-  mentors.",
-      "Yes, that includes tests and documentation."
-    ],
-    "GSoC 2017 Final" : [
-      "Everything has to be reviewed and merged.",
-      "Including tests and docs, again."
-    ]
-  },
   "initiatives" : ["GSoC"],
-  "tags" : ["Plugins", "CI"]
+  "tags" : ["Plugins", "CI"],
+  "markdown" : "Add the markdown file in data/projects/ directory. The name of that .md file should come here."
+
 }
+```
+
+Sample Markdown File
+
+This file should contain Project Description and Milestones in following format.
+_You should have atleast these three milestones for GSoC projects._
+
+```
+This space is for the main description. Use it wisely. 
+
+#### Milestones
+
+##### GSOC 2017 CODING STARTS
+
+* Conceptual work should be finished.
+* The student have a repository, know how to work with the community.
+* The applicant should know the community.
+
+##### GSOC 2017 MIDTERM
+
+* Everything listed here has to be reviewed and merged by midterm.
+* No exceptions to that. Changing the goals is possible together with mentors.
+* Yes, that includes tests and documentation.
+
+##### GSOC 2017 FINAL
+
+* Everything has to be reviewed and merged.
+* Including tests and docs, again.
+
 ```

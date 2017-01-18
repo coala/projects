@@ -213,6 +213,9 @@ footer.page-footer .footer-copyright{
 .name-bear{
   font-size: 22px !important;
 }
+.markdown  p {
+  display: block !important;
+}
 a > .card{
   color: black !important;
 }
@@ -252,6 +255,18 @@ a:hover > .card{
 }
 .project-card-detail{
   cursor: pointer;
+}
+.project-description > p > a{
+  color: cornsilk
+}
+.project-description > p > a:hover{
+  opacity: 0.7;
+}
+.markdown  a{
+  color: azure;
+}
+.markdown a:hover{
+  opacity: 0.7;
 }
 .pr-element-detail{
   font-size: 1em;
@@ -367,13 +382,6 @@ a:hover > .card{
 .reqs-proj > .chip{
   border-radius: 0 !important;
 }
-.milestones-row{
-  padding: 1em;
-}
-.milestone{
-  color: wheat;
-  margin-left: 1em;
-}
 .medium-heading{
   font-size: 1.3em; 
   padding: 0.5em;
@@ -393,4 +401,25 @@ a:hover > .card{
 input:not([type]), input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea {
   background-color: lightgray;
   padding-left: 0.5em !important;
+}
+.markdown h4 {
+  font-size: 1.1em;
+  letter-spacing: 0.1em;
+  color: wheat;
+  text-transform: uppercase;
+}
+.markdown h5 {
+  font-size: 1em;
+  letter-spacing: 0.1em;
+  color: wheat;
+}
+.markdown ul li{
+  padding-left: 1em;
+  margin-left: 1em;
+}
+.markdown li{
+  list-style-type: disc !important;
+}
+.modal{
+  top: 5% !important;
 }
