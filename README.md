@@ -24,6 +24,20 @@ Why?
 - Stop wasting time maintaining a mentors list. This can be generated from the
   projects.
 
+## Usage
+
+To clone the repository and run this website on your local machine, type the following commands:
+
+    $ git clone https://github.com/coala/projects.git
+    $ cd projects
+    $ python -m SimpleHTTPServer 8080
+
+
+Then you can simply go to either of the following addresses in your browser to access the site:
+
+    0.0.0.0:8080
+    127.0.0.1:8080
+
 ## Defining Projects
 
 Mentors and admins can define projects as JSON using the following structure:
