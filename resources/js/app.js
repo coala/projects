@@ -1,5 +1,5 @@
 (function(){
-	var app = angular.module('coala', []);
+	var app = angular.module('coala', ['ngSanitize','btford.markdown']);
 
 	app.controller('TabController', function () {
 		this.tab = 1
