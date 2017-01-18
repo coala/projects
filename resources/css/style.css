@@ -178,6 +178,8 @@ footer.page-footer .footer-copyright{
 }
 .card-title{
   overflow-wrap: break-word !important;
+  padding: 0.5em;
+  text-align: center;
 }
 .footer-coala{
   font-size: 42px;
@@ -206,10 +208,6 @@ footer.page-footer .footer-copyright{
   width: 300px;
   margin-left: 0.5em;
   margin-right: 0.5em;
-}
-.card-title{
-  padding-left: 1em;
-  padding-top: 0.3em;
 }
 .name-bear{
   font-size: 22px !important;
@@ -283,10 +281,6 @@ a:hover > .card{
   width: 200px;
   margin-left: 0.5em;
   margin-right: 0.5em;
-}
-.card-title{
-  padding-left: 1em;
-  padding-top: 0.3em;
 }
 a > .card{
   color: black !important;
