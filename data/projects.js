@@ -126,5 +126,26 @@ coala should support generating metrics for your code.",
 		"initiatives" : ["GSoC"],
 		"tags" : ["Core", "Bears"],
 		"markdown": "nested_languages.md"
+	},
+	{
+		"name" : "Improve coala website & supporting tools",
+		"desc" : "This project aims to intensify usage of coala by developing \
+		well organised web interfaces.",
+		"requirements" : [
+			"At least one patch to each of coala-landing and coala-html should be \
+			accepted and merged.",
+			"The student should be familiar with web design tools & trends.",
+		],
+		"difficulty" : "medium",
+		"issues" : [
+			"https://gitlab.com/coala/landing/issues/3"
+		],
+		"mentors" : [
+			"sils",
+			"AbdealiJK"
+		],
+		"initiatives" : ["GSoC"],
+		"tags" : ["Web", "Blog"],
+		"markdown": "coala_web.md"
 	}
 ]
