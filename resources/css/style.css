@@ -5,6 +5,7 @@
   height: 48px;
   padding: 0;
   margin: 0;
+  cursor: pointer;
 }
 .tabs .tab a {
   color: lightslategrey !important;
@@ -248,6 +249,9 @@ a:hover > .card{
   font-family: Roboto;
   font-weight: 300;
   padding: 1em;
+}
+.project-card-detail{
+  cursor: pointer;
 }
 .pr-element-detail{
   font-size: 1em;
