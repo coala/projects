@@ -5,6 +5,16 @@ faq = [
 most importantly the projects page."
 },
 {
+	"ques": "What are the requirements to be accepted for GSoC?",
+	"ans" : "Other than the \
+[requirements from Google](https://developers.google.com/open-source/gsoc/faq#what_are_the_eligibility_requirements_for_participation) \
+you will have to meet the following:\
+\
+- You have completed the [coala Newcomers guide](https://coala.io/newcomer)\
+- You have a submission to [our usability survey](https://coala.io/usability)\
+  so we know that you know how to *use coala*."
+},
+{
 	"ques": "How do I work out a great proposal?",
 	"ans" : "Please design your project in a way that you have **multiple \
 checkpoints**. We'd like you to specify at least three milestones with \
