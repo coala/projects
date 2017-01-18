@@ -250,9 +250,7 @@ a:hover > .card{
   padding: 1em;
 }
 .pr-element-detail{
-  font-size: 13px;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
+  font-size: 1em;
 }
 .small-heading{
   font-size: 0.9em;
