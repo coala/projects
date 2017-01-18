@@ -330,6 +330,7 @@ a:hover > .card{
   text-align: center;
   padding: 0.5em;
   text-transform: none !important;
+  font-family: 'Roboto Mono', menlo, monospace;
 }
 .person-github-bio{
   font-size: 0.8em;
@@ -388,6 +389,7 @@ a:hover > .card{
   font-size: 1.2em ;
   color: darkcyan !important;
   text-transform: none !important;
+  font-family: 'Roboto Mono', menlo, monospace;
 }
 .mentors-github-id:hover{
   color: black !important;
