@@ -30,7 +30,7 @@ abilities.
 
 * The first batch of linters have been merged.
 * At least one improvement to the linter framework is in review state.
-* All of them are properly tested and documented."
+* All of them are properly tested and documented.
 
 ##### GSOC 2017 FINAL
 

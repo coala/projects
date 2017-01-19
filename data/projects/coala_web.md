@@ -29,15 +29,14 @@ Upstream contributions to Web Technologies, Electron are encouraged.
 
 ##### GSOC 2017 CODING STARTS
 
-* The applicant has coala-landing, coala-blog and coala-html running locally.
-* The applicant has solved atleast two issues in each of these projects.
+* The participant has coala-landing, coala-blog and coala-html running locally.
+* The participant has solved atleast two issues in each of these projects.
 
 ##### GSOC 2017 MIDTERM
 
 * The website is in a stable state with proper commits following coala
 guidelines.
-* The blog has sections for each teams in coala and teams are able 
-to post.
+* The blog has sections for each teams in coala and teams are able to post.
 * Both of them are properly tested and documented.
 
 ##### GSOC 2017 FINAL
