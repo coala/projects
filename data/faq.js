@@ -43,5 +43,17 @@ lot of helpful feedback from us!"
 	"ques": "When should I start working out the proposal?",
 	"ans" : "You can start right now! Ping any mentor and start discussing. \
 The earlier you start, the better!"
+},
+{
+	"ques": "What are my obligations as a student during the GSoC?",
+	"ans" : "We expect you to:\
+\
+- Be active on [gitter](https://coala.io/chat).\
+- Blog at least once per week (this will be aggregated on \
+	[blog.coala.io](https://blog.coala.io)).\
+- Participate in weekly meetings with your mentor.\
+- Get stuff merged, before the deadlines!\
+- Get in contact with your mentors or the admins if any even remotely \
+  potential problems arise."
 }
 ]
