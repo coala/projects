@@ -5,6 +5,7 @@
 
     <title>coala</title>
 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
@@ -36,9 +37,9 @@
         <div class="row">
             <div class="col s12">
                 <ul class="tabs">
-                    <li class="tab col s4"><a ng-click="tc.setTab(1)" ng-class="{active:tc.isSet(1)}">PROJECTS</a></li>
-                    <li class="tab col s4"><a ng-click="tc.setTab(2)" ng-class="{active:tc.isSet(2)}">MENTORS</a></li>
-                    <li class="tab col s4"><a ng-click="tc.setTab(3)" ng-class="{active:tc.isSet(3)}">FAQ</a></li>
+                    <li class="tab col-md-4"><a ng-click="tc.setTab(1)" ng-class="{active:tc.isSet(1)}">PROJECTS</a></li>
+                    <li class="tab col-md-4"><a ng-click="tc.setTab(2)" ng-class="{active:tc.isSet(2)}">MENTORS</a></li>
+                    <li class="tab col-md-4"><a ng-click="tc.setTab(3)" ng-class="{active:tc.isSet(3)}">FAQ</a></li>
                 </ul>
             </div>
         </div>
@@ -60,14 +61,11 @@
 </main>
 <footer class="page-footer">
     <div class="row footer-coala-row">
-    <center>
-      <div class="col-md-6">
+      <div class="col-md-6 col-md-offset-3 center">
         <img class="footer-logo" src="https://api.coala.io/en/latest/_static/images/coala_logo.svg"/>
-        </div>
-        <div class="col-md-6">
-            <span class="footer-coala">coala</span>
-        </div>
-    </center>
+        <span class="footer-coala">coala</span>
+      </div>
+    
     </div>
     <div class="footer-text">
         <span class="ft-span"> licensed under GNU Affero General Public License v3.0</span>

@@ -186,11 +186,7 @@ footer.page-footer .footer-copyright{
   font-size: 42px;
   font-family: -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
   font-weight: 100;
-  float: left;
-}
-.footer-logo{
-  float: right;
-  margin-top: 0.6em;
+  vertical-align: text-bottom;
 }
 .footer-coala-row{
   margin: 0 !important;
@@ -422,4 +418,18 @@ input:not([type]), input[type=text], input[type=password], input[type=email], in
 }
 .modal{
   top: 5% !important;
+}
+.tabs .col-md-4{
+  position: initial !important;
+}
+@media only screen and (max-width: 500px) {
+  .tabs .indicator {
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    background-color: black !important;
+    will-change: left, right;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+  }
 }
