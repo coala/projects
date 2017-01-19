@@ -157,5 +157,98 @@ coala should support generating metrics for your code.",
 		"tags" : ["Web", "Blog"],
 		"markdown": "coala_web.md",
 		"collaborating_projects" : ["coala"]
+	},
+	{
+		"name" : "Optimize Caching",
+		"desc" : "Improve coala's performance by implementing caching strategies.",
+		"requirements" : [
+			"At least one patch to the coala core should be accepted and merged.",
+			"The student should be familiar with ongoing technical cEPs, \
+			especially \
+			[cEP-0002](https://github.com/coala/cEPs/blob/master/cEP-0002.md).",
+			"The proposal needs to show some familiarity with coala's caching \
+			implementation.",
+		],
+		"difficulty" : "medium",
+		"issues" : [
+			"https://github.com/coala/coala/issues/2541",
+			"https://github.com/coala/coala/issues/2699",
+			"https://github.com/coala/coala/issues/2912"
+		],
+		"mentors" : [
+			"adtac",
+			"sils"
+		],
+		"initiatives" : ["GSoC"],
+		"tags" : ["Core", "Bears"],
+		"markdown": "optimize_caching.md",
+		"collaborating_projects" : ["coala"]
+	},
+	{
+		"name" : "Cohesive Editor Support",
+		"desc" : "Develop an efficient strategy that allows coala to maintain \
+		a number of plugins for different editors.",
+		"requirements" : [
+			"The proposal has to provide a convincing strategy for testin, \
+			 documentation and maintaining editor plugins",
+			"The applicant should have one patch accepted to any of the coala \
+			plugins."
+		],
+		"difficulty" : "medium",
+		"issues" : [
+			"https://github.com/coala/coala-atom/issues/37",
+			"https://github.com/coala/coala-emacs/issues/11",
+			"https://github.com/coala/coala-eclipse/issues/25",
+			"https://github.com/coala/coala-vim/issues/24",
+			"https://github.com/coala/coala-gedit/issues/5",
+			"https://github.com/coala/coala-sublime/issues/4"
+		],
+		"mentors" : [
+			"AbdealiJK",
+			"fneu"
+		],
+		"initiatives" : ["GSoC"],
+		"tags" : ["Editors", "Plugins"],
+		"markdown": "editor_support.md",
+		"collaborating_projects" : ["coala"]
+	},
+	{
+		"name" : "Real-time team communication bridge",
+		"desc" : "A way to post CI problems to online team rooms, such as IRC, \
+		Telegram, slack or gitter.",
+		"requirements" : [
+			"At least one patch to the coala core should be accepted and merged.",
+			"Some familiarity with hubot"
+		],
+		"difficulty" : "medium",
+		"issues" : [],
+		"mentors" : [
+			"jayvdb"
+		],
+		"initiatives" : ["GSoC"],
+		"tags" : ["CI", "Bots"],
+		"markdown": "communication_bridge.md",
+		"collaborating_projects" : ["coala"]
+	},
+	{
+		"name" : "Improving Bears",
+		"desc" : "Fixing issues and improving documentation and testing of \
+		existing bears.",
+		"requirements" : [
+			"The participant should have one bugfix patch to any bear accepted.",
+			"The participant should have understanding of the linter and test \
+			framework for bears.",
+			"The proposal should contain issues which are planned to be \
+			addressed, chosen (and potentially \
+			[filed](https://github.com/coala/coala-bears/issues/new)) by the \
+			student."
+		],
+		"difficulty" : "low",
+		"issues" : [],
+		"mentors" : [],
+		"initiatives" : ["GSoC"],
+		"tags" : ["Documentation", "Bears", "Testing"],
+		"markdown": "bear_updates.md",
+		"collaborating_projects" : ["coala"]
 	}
 ]
