@@ -6,7 +6,6 @@ projects = [
 			"The proposal has to contain a clear concept.",
 			"The applicant should have one patch accepted to the coala core."
 		],
-		"difficulty" : "low",
 		"issues" : [
 			"https://github.com/calipho-sib/cellosaurus/issues"
 		],
