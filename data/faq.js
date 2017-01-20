@@ -40,6 +40,12 @@ Use the \"draft\" feature on the GSoC system, submit your draft early, get a \
 lot of helpful feedback from us!"
 },
 {
+	"ques": "I found a great project! How can I contact my mentor?",
+	"ans" : "Almost all mentors are active on [gitter](https://coala.io/chat). \
+	Just drop by and leave us a message! In addition, most mentors have their \
+	mail addresses exposed on their GitHub profile."
+},
+{
 	"ques": "When should I start working out the proposal?",
 	"ans" : "You can start right now! Ping any mentor and start discussing. \
 The earlier you start, the better!"
