@@ -451,9 +451,21 @@ ul:not(.browser-default) {
   margin-left: 1em !important;
 }
 ul:not(.browser-default) li {
-  list-style-type: disc;
   margin-left: 1em;
 }
 .showcase-gi .card .card-action a:not(.btn):not(.btn-large):not(.btn-floating) {
-    margin-right: 0 !important;
+  margin-right: 0 !important;
+}
+.project-overview-element{
+  padding: 10px !important;
+}
+.req-ul li{
+  list-style-type: disc !important;
+}
+.collapsible-body p {
+  margin: 0;
+  padding: 0.5em !important;
+}
+.collapsible-body li {
+  list-style-type: disc !important;
 }
