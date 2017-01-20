@@ -1,22 +1,21 @@
 projects = [
 	{
-		"name" : "Improve Diff Handling",
-		"desc" : "Bears should be able to offer more than just one possible \
-		 patch for an issue.",
+		"name" : "Cellosaurus WikiData Integration",
+		"desc" : "Cellosaurus should be integrated into ",
 		"requirements" : [
 			"The proposal has to contain a clear concept.",
 			"The applicant should have one patch accepted to the coala core."
 		],
 		"difficulty" : "low",
 		"issues" : [
-			"https://github.com/coala/coala/issues/1021"
+			"https://github.com/calipho-sib/cellosaurus/issues"
 		],
 		"mentors" : [
-			"sils",
-			"jayvdb"
+			"ddtxra",
+			"vrechdelaval"
 		],
 		"initiatives" : ["GSoC"],
-		"tags" : ["Core", "CLI"],
+		"tags" : ["Cellosaurus", "CLI"],
 		"markdown": "improve_diff_handling.md"
 	},
 	{
