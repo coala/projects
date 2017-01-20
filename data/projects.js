@@ -17,7 +17,8 @@ projects = [
 		],
 		"initiatives" : ["GSoC"],
 		"tags" : ["Core", "CLI"],
-		"markdown": "improve_diff_handling.md"
+		"markdown": "improve_diff_handling.md",
+		"collaborating_projects" : ["coala"]
 	},
 	{
 		"name" : "Create Jenkins Plugin",
@@ -38,7 +39,8 @@ projects = [
 		],
 		"initiatives" : ["GSoC"],
 		"tags" : ["Plugins", "CI"],
-		"markdown": "create_jenkins_plugin.md"
+		"markdown": "create_jenkins_plugin.md",
+		"collaborating_projects" : ["coala"]
 	},
 	{
 		"name" : "Extend Linter Integration",
@@ -59,7 +61,8 @@ milestone, split into two batches."
 		],
 		"initiatives" : ["GSoC"],
 		"tags" : ["Linter", "Bears"],
-		"markdown": "extend_linter_integration.md"
+		"markdown": "extend_linter_integration.md",
+		"collaborating_projects" : ["coala"]
 	},
 	{
 		"name" : "Implement Metrics for coala",
@@ -81,7 +84,8 @@ coala should support generating metrics for your code.",
 		],
 		"initiatives" : ["GSoC"],
 		"tags" : ["Core", "Bears"],
-		"markdown": "implement_metrics_for_coala.md"
+		"markdown": "implement_metrics_for_coala.md",
+		"collaborating_projects" : ["coala"]
 	},
 	{
 		"name" : "Debug and Profile Bears",
@@ -105,7 +109,8 @@ coala should support generating metrics for your code.",
 		],
 		"initiatives" : ["GSoC"],
 		"tags" : ["Core", "Bears", "Debugging"],
-		"markdown": "debug_profile.md"
+		"markdown": "debug_profile.md",
+		"collaborating_projects" : ["coala"]
 	},
 	{
 		"name" : "Handle Nested Programming Languages",
@@ -128,7 +133,8 @@ coala should support generating metrics for your code.",
 		],
 		"initiatives" : ["GSoC"],
 		"tags" : ["Core", "Bears"],
-		"markdown": "nested_languages.md"
+		"markdown": "nested_languages.md",
+		"collaborating_projects" : ["coala"]
 	},
 	{
 		"name" : "Improve coala website & supporting tools",
@@ -149,6 +155,7 @@ coala should support generating metrics for your code.",
 		],
 		"initiatives" : ["GSoC"],
 		"tags" : ["Web", "Blog"],
-		"markdown": "coala_web.md"
+		"markdown": "coala_web.md",
+		"collaborating_projects" : ["coala"]
 	}
 ]

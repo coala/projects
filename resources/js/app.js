@@ -23,7 +23,6 @@
 						$('#modal1').modal('open');
 					});
 					$scope.currentProject = project
-					$scope.currentMilestone = Object.keys($scope.currentProject['milestones'])
 				}
 
 			},
