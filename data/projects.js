@@ -67,7 +67,8 @@ milestone, split into two batches."
 coala should support generating metrics for your code.",
 		"requirements" : [
 			"At least one patch to the coala core should be accepted and merged.",
-			"The student should be familiar with ongoing technical cEPs.",
+			"The student should be familiar with ongoing technical \
+			[cEPs](https://coala.io/cep).",
 			"The proposal needs to contain a clear concept."
 		],
 		"difficulty" : "high",
@@ -88,7 +89,8 @@ coala should support generating metrics for your code.",
 		facilities to debug and profile bears.",
 		"requirements" : [
 			"At least one patch to the coala core should be accepted and merged.",
-			"The student should be familiar with ongoing technical cEPs.",
+			"The student should be familiar with ongoing technical \
+			[cEPs](https://coala.io/cep).",
 			"The proposal needs to contain a clear concept.",
 			"Familiarity with pdb is a plus."
 		],
@@ -112,7 +114,8 @@ coala should support generating metrics for your code.",
 		of files.",
 		"requirements" : [
 			"At least one patch to the coala core should be accepted and merged.",
-			"The student should be familiar with ongoing technical cEPs.",
+			"The student should be familiar with ongoing technical \
+			[cEPs](https://coala.io/cep).",
 			"The proposal needs to contain a clear concept.",
 		],
 		"difficulty" : "medium",
