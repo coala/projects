@@ -66,7 +66,7 @@
 			controller: function ($scope) {
 				self = this
 				self.mentorsList = {}
-
+				self.adminsList = {}
 				angular.forEach(projects, function(value, key){
 					angular.forEach(value.mentors, function(value, key){
 						self.mentorsList[value] =  {
@@ -77,6 +77,13 @@
 					});
 				});
 
+				angular.forEach(admins, function(value, key){
+						self.adminsList[value] = {
+							"github_handle" : value,
+							"github_avatar_url": "https://avatars.githubusercontent.com/" +value
+
+						}
+				});
 			},
 			controllerAs: "gic"
 		}
