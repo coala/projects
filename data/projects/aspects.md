@@ -7,12 +7,6 @@ The aspects concept exists as
 possible to define aspects. Also, bears can already return results which are properly
 annotated with aspects.
 
-Requirements
-
-The participant should have one patch to any bear accepted.
-The participant should have understanding of cEP-0005.
-The proposal should contain bears which are planned to be addressed and a rough draft on which aspects will be needed and how they will be implemented.
-
 #### Milestones
 
 ##### GSOC 2017 CODING STARTS
