@@ -7,7 +7,7 @@
       </div>
       <div class="input-field col-md-2">
         <center>
-          <div><a class="explore waves-effect waves-light btn">EXPLORE</a>
+          <div><a class="explore waves-effect waves-light btn">Explore</a>
           </div>
         </center>
       </div>
@@ -36,27 +36,27 @@
         {{ currentProject.name }}
         </div>
         <div ng-show="currentProject.requirements.length>0" class="project-detail-element  reqs-proj">
-          <div class="small-heading">REQUIREMENTS</div>
+          <div class="small-heading">Requirements</div>
           <li class="pr-element-detail milestones" ng-repeat="req in currentProject.requirements">{{ req }}</li><br>
         </div>
 
         <div ng-show="currentProject.initiatives.length>0" class="project-detail-element">
-          <div class="small-heading">INITIATIVES</div>
+          <div class="small-heading">Initiatives</div>
           <span class="pr-element-detail chip" ng-repeat="initiative in currentProject.initiatives">{{ initiative }}</span><br>
         </div>
 
         <div ng-show="currentProject.tags.length>0" class="project-detail-element">
-          <div class="small-heading">TAGS</div>
+          <div class="small-heading">Tags</div>
           <span class="pr-element-detail chip" ng-repeat="tags in currentProject.tags">{{ tags }}</span>
         </div>
 
         <div ng-show="currentProject.difficulty" class="project-detail-element">
-          <div class="small-heading">DIFFICULTY</div>
+          <div class="small-heading">Difficulty</div>
           <span class="pr-element-detail chip">{{ currentProject.difficulty }}</span>
         </div>
 
         <div ng-show="currentProject.mentors.length>0" class="project-detail-element">
-          <div class="small-heading">MENTORS</div>
+          <div class="small-heading">Mentors</div>
           <span class="pr-element-detail chip" ng-repeat="mentor in currentProject.mentors">@{{mentor}}</span>
         </div>
         <br>
