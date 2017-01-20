@@ -21,9 +21,19 @@
             <div class="card-title name-bear">{{ project.name }}</div>
             <div btf-markdown="project.desc | format_desc" class="card-content markdown"></div>
           </div>  
-          <div class="card-action">
+          <div ng-show="project.mentors.length>0" class="card-action">
             <span ng-repeat="mentor in project.mentors | limitTo:4"><a ng-href="https://github.com/{{mentor}}" class="mentors-github-id" >{{mentor}}</a></span>
           </div>
+
+
+        <div ng-show="project.initiatives.length>0" class="project-overview-element project-detail-element card-action">
+          <span class="pr-element-detail chip" ng-repeat="initiative in project.initiatives">{{ initiative }}</span><br>
+        </div>
+
+         <div ng-show="project.collaborating_projects.length>0" class="project-overview-element project-detail-element card-action">
+          <span class="pr-element-detail chip" ng-repeat="project in project.collaborating_projects">{{ project }}</span><br>
+        </div>
+
         </div>
       </div>
     </div>

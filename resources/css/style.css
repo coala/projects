@@ -251,6 +251,7 @@ a:hover > .card{
 }
 .project-card-detail{
   cursor: pointer;
+  height: 200px;
 }
 .project-description > p > a{
   color: cornsilk
