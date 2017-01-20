@@ -59,7 +59,8 @@ Mentors and admins can define projects as JSON using the following structure:
   ],
   "initiatives" : ["GSoC"],
   "tags" : ["Plugins", "CI"],
-  "markdown" : "Add the markdown file in data/projects/ directory. The name of that .md file should come here."
+  "markdown" : "Add the markdown file in data/projects/ directory. The name of that .md file should come here.",
+  "collaborating_projects" : ["Add umbrella and sub-orgs here"]
 
 }
 ```
