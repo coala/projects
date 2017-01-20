@@ -439,3 +439,12 @@ input:not([type]), input[type=text], input[type=password], input[type=email], in
 .tabs .tab{
   text-transform: uppercase;
 }
+.markdown-reqs p{
+  display: initial !important;
+}
+.markdown-reqs a{
+  color: mediumaquamarine;
+}
+.markdown-reqs a:hover{
+  opacity: 0.7;
+}
