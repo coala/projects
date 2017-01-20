@@ -45,6 +45,11 @@
           <span class="pr-element-detail chip" ng-repeat="initiative in currentProject.initiatives">{{ initiative }}</span><br>
         </div>
 
+        <div ng-show="currentProject.collaborating_projects.length>0" class="project-detail-element">
+          <div class="small-heading">Collaborating Projects</div>
+          <span class="pr-element-detail chip" ng-repeat="project in currentProject.collaborating_projects">{{ project }}</span><br>
+        </div>
+
         <div ng-show="currentProject.tags.length>0" class="project-detail-element">
           <div class="small-heading">Tags</div>
           <span class="pr-element-detail chip" ng-repeat="tags in currentProject.tags">{{ tags }}</span>
