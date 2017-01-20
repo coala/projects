@@ -290,5 +290,21 @@ coala should support generating metrics for your code.",
 		"tags" : ["Core", "Bears", "Aspects"],
 		"markdown": "implement_aspects.md",
 		"collaborating_projects" : ["coala"]
+	},
+	{
+		"name" : "Implement GitLab Support for GitMate",
+		"desc" : "GitMate will support GitHub very soon with it's plugin \
+		system - GitLab is not far away thanks to your help!",
+		"requirements" : [
+				"The participant should have one patch to [GitMate-2](https://gitlab.com/gitmate/gitmate-2) accepted.",
+				"Django knowledge  is a big plus."
+		],
+		"difficulty" : "medium",
+		"issues" : [],
+		"mentors" : ["sils", "seblat", "fneu"],
+		"initiatives" : ["GSoC", "RGSoC"],
+		"tags" : ["Web", "CI"],
+		"markdown": "gitmate_gitlab.md",
+		"collaborating_projects" : ["coala", "GitMate", "IGitt"]
 	}
 ]
