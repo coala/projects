@@ -16,7 +16,7 @@ projects = [
 		],
 		"initiatives" : ["GSoC"],
 		"tags" : ["Cellosaurus", "CLI"],
-		"markdown": "improve_diff_handling.md"
+		"markdown": "cellosaurus.md"
 	},
 	{
 		"name" : "Create Jenkins Plugin",
