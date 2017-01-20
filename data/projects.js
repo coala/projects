@@ -15,7 +15,7 @@ projects = [
 			"sils",
 			"jayvdb"
 		],
-		"initiatives" : ["GSoC"],
+		"initiatives" : ["GSoC", "RGSoC"],
 		"tags" : ["Core", "CLI"],
 		"markdown": "improve_diff_handling.md",
 		"collaborating_projects" : ["coala"]
@@ -37,7 +37,7 @@ projects = [
 			"Udayan12167",
 			"jayvdb"
 		],
-		"initiatives" : ["GSoC"],
+		"initiatives" : ["GSoC", "RGSoC"],
 		"tags" : ["Plugins", "CI"],
 		"markdown": "create_jenkins_plugin.md",
 		"collaborating_projects" : ["coala"]
@@ -59,7 +59,7 @@ milestone, split into two batches."
 			"AbdealiJK",
 			"Makman2"
 		],
-		"initiatives" : ["GSoC"],
+		"initiatives" : ["GSoC", "RGSoC"],
 		"tags" : ["Linter", "Bears"],
 		"markdown": "extend_linter_integration.md",
 		"collaborating_projects" : ["coala"]
@@ -82,7 +82,7 @@ coala should support generating metrics for your code.",
 			"fneu",
 			"jayvdb"
 		],
-		"initiatives" : ["GSoC"],
+		"initiatives" : ["GSoC", "RGSoC"],
 		"tags" : ["Core", "Bears"],
 		"markdown": "implement_metrics_for_coala.md",
 		"collaborating_projects" : ["coala"]
@@ -107,7 +107,7 @@ coala should support generating metrics for your code.",
 			"Makman2",
 			"Udayan12167"
 		],
-		"initiatives" : ["GSoC"],
+		"initiatives" : ["GSoC", "RGSoC"],
 		"tags" : ["Core", "Bears", "Debugging"],
 		"markdown": "debug_profile.md",
 		"collaborating_projects" : ["coala"]
@@ -131,7 +131,7 @@ coala should support generating metrics for your code.",
 			"Udayan12167",
 			"sils"
 		],
-		"initiatives" : ["GSoC"],
+		"initiatives" : ["GSoC", "RGSoC"],
 		"tags" : ["Core", "Bears"],
 		"markdown": "nested_languages.md",
 		"collaborating_projects" : ["coala"]
@@ -153,7 +153,7 @@ coala should support generating metrics for your code.",
 			"sils",
 			"AbdealiJK"
 		],
-		"initiatives" : ["GSoC"],
+		"initiatives" : ["GSoC", "RGSoC"],
 		"tags" : ["Web", "Blog"],
 		"markdown": "coala_web.md",
 		"collaborating_projects" : ["coala"]
@@ -179,7 +179,7 @@ coala should support generating metrics for your code.",
 			"adtac",
 			"sils"
 		],
-		"initiatives" : ["GSoC"],
+		"initiatives" : ["GSoC", "RGSoC"],
 		"tags" : ["Core", "Bears"],
 		"markdown": "optimize_caching.md",
 		"collaborating_projects" : ["coala"]
@@ -207,7 +207,7 @@ coala should support generating metrics for your code.",
 			"AbdealiJK",
 			"fneu"
 		],
-		"initiatives" : ["GSoC"],
+		"initiatives" : ["GSoC", "RGSoC"],
 		"tags" : ["Editors", "Plugins"],
 		"markdown": "editor_support.md",
 		"collaborating_projects" : ["coala"]
@@ -225,7 +225,7 @@ coala should support generating metrics for your code.",
 		"mentors" : [
 			"jayvdb"
 		],
-		"initiatives" : ["GSoC"],
+		"initiatives" : ["GSoC", "RGSoC"],
 		"tags" : ["CI", "Bots"],
 		"markdown": "communication_bridge.md",
 		"collaborating_projects" : ["coala"]
@@ -246,7 +246,7 @@ coala should support generating metrics for your code.",
 		"difficulty" : "low",
 		"issues" : [],
 		"mentors" : [],
-		"initiatives" : ["GSoC"],
+		"initiatives" : ["GSoC", "RGSoC"],
 		"tags" : ["Documentation", "Bears", "Testing"],
 		"markdown": "bear_updates.md",
 		"collaborating_projects" : ["coala"]
