@@ -433,3 +433,9 @@ input:not([type]), input[type=text], input[type=password], input[type=email], in
     margin-right: 0.5em;
   }
 }
+.explore{
+  text-transform: uppercase;
+}
+.tabs .tab{
+  text-transform: uppercase;
+}
