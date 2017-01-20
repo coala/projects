@@ -410,7 +410,6 @@ input:not([type]), input[type=text], input[type=password], input[type=email], in
   color: wheat;
 }
 .markdown ul li{
-  padding-left: 1em;
   margin-left: 1em;
 }
 .markdown li{
@@ -447,4 +446,11 @@ input:not([type]), input[type=text], input[type=password], input[type=email], in
 }
 .markdown-reqs a:hover{
   opacity: 0.7;
+}
+ul:not(.browser-default) {
+  margin-left: 1em !important;
+}
+ul:not(.browser-default) li {
+  list-style-type: disc;
+  margin-left: 1em;
 }
