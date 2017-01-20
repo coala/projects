@@ -291,7 +291,7 @@ a:hover > .card{
   margin-top: 1em;
 }
 .showcase-card-gi{
-  width: 200px;
+  width: 220px;
   margin-left: 0.5em;
   margin-right: 0.5em;
 }
@@ -345,7 +345,7 @@ a:hover > .card{
   padding-top: 0.5em;
 }
 .person-github-id-div{
-  padding: 1em;
+  padding: 0.5em;
   text-align: center !important;
 }
 .github-link{
@@ -453,4 +453,7 @@ ul:not(.browser-default) {
 ul:not(.browser-default) li {
   list-style-type: disc;
   margin-left: 1em;
+}
+.showcase-gi .card .card-action a:not(.btn):not(.btn-large):not(.btn-floating) {
+    margin-right: 0 !important;
 }
