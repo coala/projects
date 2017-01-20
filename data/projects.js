@@ -189,7 +189,7 @@ coala should support generating metrics for your code.",
 		"desc" : "Develop an efficient strategy that allows coala to maintain \
 		a number of plugins for different editors.",
 		"requirements" : [
-			"The proposal has to provide a convincing strategy for testin, \
+			"The proposal has to provide a convincing strategy for testing, \
 			 documentation and maintaining editor plugins",
 			"The applicant should have one patch accepted to any of the coala \
 			plugins."
