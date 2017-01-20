@@ -231,7 +231,7 @@ coala should support generating metrics for your code.",
 		"collaborating_projects" : ["coala"]
 	},
 	{
-		"name" : "Improving Bears",
+		"name" : "Improve Bear Quality",
 		"desc" : "Fixing issues and improving documentation and testing of \
 		existing bears.",
 		"requirements" : [
@@ -249,6 +249,26 @@ coala should support generating metrics for your code.",
 		"initiatives" : ["GSoC"],
 		"tags" : ["Documentation", "Bears", "Testing"],
 		"markdown": "bear_updates.md",
+		"collaborating_projects" : ["coala"]
+	},
+	{
+		"name" : "Convert Bears to Aspects",
+		"desc" : "This project is about annotating results of bears with \
+		\"aspects\" which are like categories allowing to group results.",
+		"requirements" : [
+		"The participant should have one patch to any bear accepted.",
+		"The participant should have understanding of \
+		[cEP-0005](https://github.com/coala/cEPs/blob/master/cEP-0005.md).",
+		"The proposal should contain bears which are planned to be addressed \
+		and a rough draft on which aspects will be needed and how they will be \
+		implemented."
+		],
+		"difficulty" : "medium",
+		"issues" : [],
+		"mentors" : ["userzimmermann", "sils"],
+		"initiatives" : ["GSoC"],
+		"tags" : ["Documentation", "Bears", "Aspects"],
+		"markdown": "aspects.md",
 		"collaborating_projects" : ["coala"]
 	}
 ]
