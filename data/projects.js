@@ -270,5 +270,25 @@ coala should support generating metrics for your code.",
 		"tags" : ["Documentation", "Bears", "Aspects"],
 		"markdown": "aspects.md",
 		"collaborating_projects" : ["coala"]
+	},
+	{
+		"name" : "Implement Aspects Support",
+		"desc" : "This project is about collecting bears based on aspects that the \
+		user wants to have checked.",
+		"requirements" : [
+		"The participant should have one patch to any bear accepted.",
+		"The participant should have one patch to the coala core accepted.",
+		"The participant should have a solid understanding of \
+		[cEP-0005](https://github.com/coala/cEPs/blob/master/cEP-0005.md).",
+		"The participant should have a solid understanding of \
+		[cEP-0002](https://github.com/coala/cEPs/blob/master/cEP-0002.md)."
+		],
+		"difficulty" : "hard",
+		"issues" : [],
+		"mentors" : ["userzimmermann", "sils"],
+		"initiatives" : ["GSoC", "RGSoC"],
+		"tags" : ["Core", "Bears", "Aspects"],
+		"markdown": "implement_aspects.md",
+		"collaborating_projects" : ["coala"]
 	}
 ]
