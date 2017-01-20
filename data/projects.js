@@ -283,7 +283,7 @@ coala should support generating metrics for your code.",
 		"The participant should have a solid understanding of \
 		[cEP-0002](https://github.com/coala/cEPs/blob/master/cEP-0002.md)."
 		],
-		"difficulty" : "hard",
+		"difficulty" : "high",
 		"issues" : [],
 		"mentors" : ["userzimmermann", "sils"],
 		"initiatives" : ["GSoC", "RGSoC"],
