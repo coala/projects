@@ -13,8 +13,8 @@ applicable to the right locations at the right files.
 
 ##### GSOC 2017 CODING STARTS
 
-* The applicant has proposed and merged a cEP of how multiple languages will be
-  handled inside a single source file.
+* The applicant has proposed and merged a [cEP](https://coala.io/cep) of how
+  multiple languages will be handled inside a single source file.
 * The applicant is familiar with core coala codebase.
 
 ##### GSOC 2017 MIDTERM

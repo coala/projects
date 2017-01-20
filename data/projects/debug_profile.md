@@ -8,7 +8,8 @@ into Python) and step out as soon as the analysis finished.
 
 ##### GSOC 2017 CODING STARTS
 
-* The applicant has made a cEP of how the profiling will be implemented.
+* The applicant has made a [cEP](https://coala.io/cep) of how the profiling
+  will be implemented.
 * The applicant is familiar with pdb.
 * The applicant is familiar with core coala codebase.
 
