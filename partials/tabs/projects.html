@@ -1,4 +1,4 @@
-<section>
+<section id="projectCtrl">
   <div class="main-content container">
 
     <div class="col-md-8 col-md-offset-2">
@@ -39,7 +39,7 @@
     </div>
   </section>
 
-  <div id="modal1" class="modal">
+  <div ng-id='#{{currentProject.name | format_name}}' class="modal">
     <div  class="modal-content-bear">
       <div class="col-md-4 profile">
         <div class="project-name">
@@ -108,10 +108,11 @@
       starting_top: '10%', // Starting top style attribute
       ending_top: '10%', // Ending top style attribute
       ready: function(modal, trigger) { // Callback for Modal open. Modal and trigger parameters available.
-
-        console.log(modal, trigger);
       },
-      complete: function() {  } // Callback for Modal close
+      complete: function() { 
+        angular.element('#projectCtrl').scope().updateLink();
+        angular.element('#projectCtrl').scope().$apply();
+      } // Callback for Modal close
     }
     );
   })
