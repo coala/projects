@@ -25,6 +25,10 @@
 					$scope.currentProject = project
 				}
 
+					$scope.search = function (arg) {
+						$scope.searchText = arg
+					}
+
 			},
 			controllerAs: 'lc'
 		}
