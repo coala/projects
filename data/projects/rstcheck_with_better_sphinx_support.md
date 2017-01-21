@@ -1,6 +1,7 @@
 [`rstcheck`](https://github.com/myint/rstcheck) is a tool that checks the
-syntax of code blocks nested within reStructuredText. Currently, the Sphinx
-support in `rstcheck` is minimal. This results in
+syntax of code blocks nested within reStructuredText. Currently, the
+[Sphinx](http://www.sphinx-doc.org) support in `rstcheck` is minimal. This
+results in
 [false positives](https://github.com/myint/rstcheck/issues/19).
 
 It would be interesting to experiment with an alternative `rstcheck` mode that
@@ -14,9 +15,11 @@ to parse Sphinx documents exactly the same way Sphinx does.
 
 ##### GSOC 2017 CODING STARTS
 
-* Be familiar what `rstcheck` does and how it does it.
-* Be familiar with how to extend Sphinx. Particularly, learn how to parse code
-  blocks.
+* As an exercise to get familiar with `rstcheck`, add support for another code
+  block language. The languages currently supported by `rstcheck` are Bash,
+  Doctest, C, C++, JSON, Python, and reStructuredText.
+* Create an example Sphinx project for the purposes of experimenting with
+  `sphinx-build`. Particularly, pay attention to how code blocks are parsed.
 
 ##### GSOC 2017 MIDTERM
 
