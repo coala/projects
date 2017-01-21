@@ -312,6 +312,7 @@ coala should support generating metrics for your code.",
 		"desc" : "Add an alternative front end for rstcheck to better support checking Sphinx documents.",
 		"requirements" : [
 			"Familiarity with reStructuredText and Sphinx.",
+			"Familiarity with nesting code blocks within reStructuredText.",
 			"Experience with making use of Python packages to create new functionality.",
 		],
 		"difficulty" : "medium",
