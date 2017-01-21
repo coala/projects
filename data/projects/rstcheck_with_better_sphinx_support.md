@@ -17,9 +17,11 @@ to parse Sphinx documents exactly the same way Sphinx does.
 
 * As an exercise to get familiar with `rstcheck`, add support for another code
   block language. The languages currently supported by `rstcheck` are Bash,
-  Doctest, C, C++, JSON, Python, and reStructuredText.
+  Doctest, C, C++, JSON, Python, and reStructuredText. Submit a pull request
+  with this new feature.
 * Create an example Sphinx project for the purposes of experimenting with
   `sphinx-build`. Particularly, pay attention to how code blocks are parsed.
+  Put this in a public repository on GitHub.
 
 ##### GSOC 2017 MIDTERM
 
