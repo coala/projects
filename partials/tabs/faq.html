@@ -1,9 +1,9 @@
 <div class="main-content-faq container-fluid">
   <ul class="collapsible" data-collapsible="accordion">
-    <li ng-repeat="question in toc.faqs">
-     <div class="collapsible-header"><i class="fa fa-question" aria-hidden="true"></i><p btf-markdown="question.ques"></p></div>
-      <div class="collapsible-body"><p btf-markdown = "question.ans"></p></div>
-      <btf-markdown>
+    <li ng-repeat="(ques,ans) in toc.faqs">
+     <div class="collapsible-header"><i class="fa fa-question" aria-hidden="true"></i><p btf-markdown="ques"></p></div>
+      <div class="collapsible-body"><p btf-markdown ng-include="'data/faq/' + ans"></p>
+      </div>
     </li>
   </ul>
 </div>
