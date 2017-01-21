@@ -6,6 +6,8 @@ faq = {
 
 "I have an own project idea! (Mentors and students!)" : "own_project_idea.md",
 
+"What happens if someone steals my unique idea for solving a project?" : "steal_project_idea.md",
+
 "How do I work out a great proposal?" : "writing_a_great_proposal.md",
 
 "I found a great project! How can I contact my mentor?" : "contact_mentor.md",
