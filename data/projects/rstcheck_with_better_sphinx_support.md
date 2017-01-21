@@ -20,10 +20,10 @@ to parse Sphinx documents exactly the same way Sphinx does.
 
 ##### GSOC 2017 MIDTERM
 
-* Create a new front end, `rstcheck-sphinx` with first class Sphinx support.
-  It should use the `sphinx-build` infrastructure to parse the code.
+* Create a new front end, `rstcheck-sphinx` with first class Sphinx support. It
+  should use the `sphinx-build` infrastructure to parse the reStructuredText.
 * Support parsing code blocks using this new `sphinx-build` based front end.
-  And use the existing `rstcheck` checkers to lint the code blocks.
+  Use the existing `rstcheck` checkers to lint the code blocks.
 * Write unit tests to demonstrate the above functionality.
 
 ##### GSOC 2017 FINAL
