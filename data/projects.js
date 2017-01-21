@@ -322,5 +322,17 @@ coala should support generating metrics for your code.",
 		"tags" : ["reStructuredText", "Sphinx"],
 		"markdown": "rstcheck_with_better_sphinx_support.md",
 		"collaborating_projects" : ["coala", "rstcheck"]
+	},
+	{
+		"name": "coala statistics",
+		"desc": "Runtime statistics about coala",
+		"requirements": [],
+		"difficulty": "medium",
+		"mentors": [],
+		"issues": ["https://github.com/coala/coala/issues/759"]
+		"initiatives": ["GSoC", "RGSoC"],
+		"tags": ["Data Visualizations", "Data analysis", "Runtime analysis"],
+		"markdown": "coala_stats.md",
+		"collaborating_projects": ["coala"]
 	}
 ]
