@@ -20,9 +20,11 @@ to parse Sphinx documents exactly the same way Sphinx does.
 
 ##### GSOC 2017 MIDTERM
 
-* Create a basic front end, `rstcheck-sphinx`, that does `sphinx-build`-style
-  parsing. This differentiates it from `rstcheck` that uses plain `docutils`
-  only minor modification to somewhat work with Sphinx.
+* Create a new front end, `rstcheck-sphinx` with first class Sphinx support.
+  It should use the `sphinx-build` infrastructure to parse the code.
+* Support parsing code blocks using this new `sphinx-build` based front end.
+  And use the existing `rstcheck` checkers to lint the code blocks.
+* Write unit tests to demonstrate the above functionality.
 
 ##### GSOC 2017 FINAL
 
@@ -32,3 +34,5 @@ to parse Sphinx documents exactly the same way Sphinx does.
 * Add additional linting support if time permits. This could involve linting
   more kinds of languages in code blocks. Or it could involve making the
   language support more extendable.
+* Integrate with `coala` in the same way the main `rstcheck` script is
+  integrated.

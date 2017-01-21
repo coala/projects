@@ -308,7 +308,7 @@ coala should support generating metrics for your code.",
 		"collaborating_projects" : ["coala", "GitMate", "IGitt"]
 	},
 	{
-		"name" : "Better Sphinx support in rstcheck",
+		"name" : "Improve Sphinx support in rstcheck",
 		"desc" : "Add an alternative front end for rstcheck to better support checking Sphinx documents.",
 		"requirements" : [
 			"Familiarity with reStructuredText and Sphinx.",
