@@ -26,11 +26,11 @@
           </div>
 
 
-        <div ng-show="project.initiatives.length>0" class="project-overview-element project-detail-element card-action">
+        <div ng-show="project.initiatives.length>0" class="project-overview-element clickable card-action">
           <span ng-click="search(initiative)" class="pr-element-detail chip" ng-repeat="initiative in project.initiatives">{{ initiative }}</span><br>
         </div>
 
-         <div ng-show="project.collaborating_projects.length>0" class="project-overview-element project-detail-element card-action">
+         <div ng-show="project.collaborating_projects.length>0" class="project-overview-element clickable card-action">
           <span ng-click="search(project)" class="pr-element-detail chip" ng-repeat="project in project.collaborating_projects">{{ project }}</span><br>
         </div>
 
@@ -77,6 +77,11 @@
           <div class="small-heading">Mentors</div>
           <span class="pr-element-detail chip" ng-repeat="mentor in currentProject.mentors">@{{mentor}}</span>
         </div>
+
+        <div ng-show="currentProject.issues.length>0" class="project-detail-element">
+          <div class="small-heading">Related Issues</div>
+          <span ng-click="redirect(issue)" class="pr-element-detail chip clickable" ng-repeat="issue in currentProject.issues">{{ issue | format_issue }}</span>
+        </div>
         <br>
       </div>
 
@@ -108,8 +113,6 @@
       starting_top: '10%', // Starting top style attribute
       ending_top: '10%', // Ending top style attribute
       ready: function(modal, trigger) { // Callback for Modal open. Modal and trigger parameters available.
-
-        console.log(modal, trigger);
       },
       complete: function() {  } // Callback for Modal close
     }

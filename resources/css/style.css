@@ -470,6 +470,6 @@ ul:not(.browser-default) li {
 .collapsible-body li {
   list-style-type: disc !important;
 }
-.project-overview-element span{
+.clickable{
   cursor: pointer;
 }
