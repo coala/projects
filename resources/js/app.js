@@ -11,7 +11,7 @@
 		}
 	})
 
-	app.directive('projects',  ['$http',  '$timeout' ,function ($http, $timeout) {
+	app.directive('projects',  ['$http',  '$timeout', '$location' ,function ($http, $timeout, $location) {
 		return {
 			restrict: 'E',
 			templateUrl: '/partials/tabs/projects.html',
@@ -23,10 +23,14 @@
 						$('#modal1').modal('open');
 					});
 					$scope.currentProject = project
-				}
+				 }
 
 					$scope.search = function (arg) {
 						$scope.searchText = arg
+					}
+
+					$scope.redirect = function (arg) {
+						window.open(arg, '_blank');
 					}
 
 			},
@@ -47,20 +51,28 @@
 	}]);
 
 
-	app.filter('format_desc', function () {
-        return function (value) {
-            if (!value) return '';
-            var lastspace = value.indexOf('.');
-            if (lastspace != -1) {
-                if (value.charAt(lastspace-1) == ',') {
-                	lastspace = lastspace - 1;
-                }
-                  value = value.substr(0, lastspace);
-            }
+ app.filter('format_desc', function () {
+  return function (value) {
+   if (!value) return '';
+   var lastspace = value.indexOf('.');
+   if (lastspace != -1) {
+    if (value.charAt(lastspace-1) == ',') {
+    	lastspace = lastspace - 1;
+    }
+    value = value.substr(0, lastspace);
+   }
+   return value;
+  };
+ });
 
-            return value;
-        };
-    });
+ app.filter('format_issue', function () {
+  return function (value) {
+   if (!value) return '';
+   res = value.split('/')
+   res = res[3] + '/' + res[4] + '#' + res[6]
+   return res;
+  };
+ });
 
 
 	app.directive('mentors', ['$http', function ($http) {
