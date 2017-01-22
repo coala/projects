@@ -223,7 +223,8 @@ coala should support generating metrics for your code.",
 		"difficulty" : "medium",
 		"issues" : [],
 		"mentors" : [
-			"jayvdb"
+			"jayvdb",
+			"chauffer"
 		],
 		"initiatives" : ["GSoC", "RGSoC"],
 		"tags" : ["CI", "Bots"],
