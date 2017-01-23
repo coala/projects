@@ -16,5 +16,7 @@ faq = {
 
 "What are my obligations as a mentor during the GSoC?" : "mentor_obligations.md",
 
-"I want to write a thesis with coala!" : "thesis.md"
+"I want to write a thesis with coala!" : "thesis.md",
+
+"Do you have an application template?" : "application_template.md"
 }

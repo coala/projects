@@ -18,19 +18,8 @@ lot of helpful feedback from us!
 
 #### Writing the proposal
 
-Please follow the **proposal template** at [PSF-ApplicationTemplate2016](https://wiki.python.org/moin/SummerOfCode/ApplicationTemplate2016). All fields are required if not explicitly indicated otherwise. While following the application template you can consider doing an illustration of your proposed solution as it makes the application much more intuitive.
+Please follow the **application template** in the faq. All fields are required if not explicitly indicated otherwise. While following the application template you can consider doing an illustration of your proposed solution as it makes the application much more intuitive.
 
 For writing your proposal we recommend using [Google Docs](https://www.google.com/docs/about/) as this will be supported by the Google submission system.
-
-**In the `code sample` section:** Please list links to your contributions to coala **or any other OpenSource project**. Your contributions may or may not be available on github or related to coala!
-For example, to list your contributions to coala you can mention:
- - https://github.com/coala/coala/commits/master?author=YOUR_USER_NAME for coala repo
- - https://github.com/coala/coala-bears/commits/master?author=YOUR_USER_NAME for coala-bears repo
-You may also mention specific issues/commits using the commit id if you want us to take a look at that.
-
-**In the `extra information` section:** We'd like the following sub-org specific info for coala:
-
-- Will you be able to join us for a conference such as EuroPython or GUADEC and present your work if at least partial sponsorship will be provided? (See https://github.com/coala/coala/wiki/Conferences-Upcoming)
-- We love having twitter handles so we can tell people publicly about your great project and successes at <https://twitter.com/coala_analyzer>! (Not required but recommended.)
 
 If needed, you can get further information about GSoC at <http://write.flossmanuals.net/gsocstudentguide/what-is-google-summer-of-code/>.
