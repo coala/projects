@@ -323,5 +323,22 @@ coala should support generating metrics for your code.",
 		"tags" : ["reStructuredText", "Sphinx"],
 		"markdown": "rstcheck_with_better_sphinx_support.md",
 		"collaborating_projects" : ["coala", "rstcheck"]
+	},
+	{
+		"name" : "Improve the coala CLI",
+		"desc" : "There are a number of possible options to improve the coala \
+		interface written down in \
+		[a draft of cEP-0004](https://github.com/coala/cEPs/pull/29/files).",
+		"requirements" : [
+			"One patch to the coala core accepted.",
+			"Clear ideas on how to improve the CLI in the proposal."
+		],
+		"difficulty" : "medium",
+		"issues" : [],
+		"mentors" : [],
+		"initiatives" : ["GSoC", "RGSoC"],
+		"tags" : ["Core", "CLI"],
+		"markdown": "coala_cli.md",
+		"collaborating_projects" : ["coala"]
 	}
 ]
