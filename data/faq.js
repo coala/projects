@@ -14,5 +14,7 @@ faq = {
 
 "What are my obligations as a student during the GSoC?" : "student_obligations.md",
 
-"What are my obligations as a mentor during the GSoC?" : "mentor_obligations.md"
+"What are my obligations as a mentor during the GSoC?" : "mentor_obligations.md",
+
+"I want to write a thesis with coala!" : "thesis.md"
 }
