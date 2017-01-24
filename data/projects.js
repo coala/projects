@@ -361,5 +361,20 @@ coala should support generating metrics for your code.",
 		"tags" : ["Bears", "cib"],
 		"markdown": "improve_installation.md",
 		"collaborating_projects" : ["coala"]
-	}
+	},
+	{
+		"name" : "Create coala-GUI",
+		"desc" : "Crate a GUI for coala so that the user can analyse the \
+		 code in the most easiest way without worrying about any more commands.",
+		"requirements" : [
+				"The proposal needs to contain a clear concept"
+		],
+		"difficulty" : "medium/high",
+		"issues" : [],
+		"mentors" : ["@Udayan12167", "@sils"],
+		"initiatives" : ["GSoC"],
+		"tags" : ["Design", "GUI"],
+		"markdown" : "coala-GUI.md",
+		"collaborating_projects" : ["coala"]
+    }
 ]
