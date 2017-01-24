@@ -26,4 +26,4 @@ Two enhancements should be carried out concerning the [Cellosaurus](http://web.e
 ##### Requirements
 
 - The student must have read the publication and understood the algorithm.
-- The proposal has to contain a clear concept.
+- ...
