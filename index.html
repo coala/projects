@@ -44,35 +44,36 @@
             </div>
         </div>
     </div>
-
-<div ng-show="tc.isSet(1)">
-<projects></projects>
-</div>
-
-<div ng-show="tc.isSet(2)">
-<mentors></mentors>
-</div>
-
-<div ng-show="tc.isSet(3)">
-<faq></faq>
-</div>
-
-</div>
-</main>
-<footer class="page-footer">
     <div class="row footer-coala-row">
       <div class="col-md-6 col-md-offset-3 center">
-        <img class="footer-logo" src="resources/images/sib.png"/>
+        <a href="www.sib.swiss"><img class="footer-logo" src="resources/images/sib.png"/></a>
         <span class="footer-coala">SIB Swiss Institute of Bioinformatics</span>
       </div>
     </div>
-    <div class="footer-text">
-        <span class="ft-span"> licensed under GNU Affero General Public License v3.0</span>
-    </div>
-</footer>
 
-</body>
-</html>
+
+    <div ng-show="tc.isSet(1)">
+    <projects></projects>
+    </div>
+
+    <div ng-show="tc.isSet(2)">
+    <mentors></mentors>
+    </div>
+
+    <div ng-show="tc.isSet(3)">
+    <faq></faq>
+    </div>
+
+    </div>
+    </main>
+    <footer class="page-footer">
+        <div class="footer-text">
+            <span class="ft-span"> licensed under GNU Affero General Public License v3.0</span>
+        </div>
+    </footer>
+
+    </body>
+    </html>
 
 <script type="text/javascript">
 $(document).ready(function () {
@@ -80,14 +81,4 @@ $(document).ready(function () {
     //$('ul.tabs').tabs();
     $('.github-card').html('<img src="http://placehold.it/100x100" />')
 })
-</script>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-76769778-4', 'auto');
-  ga('send', 'pageview');
-
 </script>

@@ -52,7 +52,7 @@
   margin-top: 2em;
 }
 .logo{
-  height:15em;
+  height:25em;
   margin-top: 4em;
 }
 .tabs{
@@ -379,7 +379,7 @@ a:hover > .card{
   border-radius: 0 !important;
 }
 .medium-heading{
-  font-size: 1.3em; 
+  font-size: 1.3em;
   padding: 0.5em;
   font-weight: 400;
   color: lightgoldenrodyellow;

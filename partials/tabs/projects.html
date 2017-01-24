@@ -1,5 +1,16 @@
 <section>
+
+  <div class="row footer-coala-row">
+    <div class="col-md-6 col-md-offset-3 center">
+      <h4>Project proposals for <a href="https://summerofcode.withgoogle.com/">Google Summer of Code 2017</a></h4>
+      <p>SIB proposes various summer projects to be done within the program "Google Summer of Code". We're currently applying to be an organisational member.
+        As soon as we have a positive response from Google <a target="_blank" href="https://summerofcode.withgoogle.com/how-it-works/#timeline"> February 27, 2017 </a> we can start projects.
+        For now, that page serve as overview of SIB's application incl. a list of proposed open source projects.
+    </div>
+  </div>
+
   <div class="main-content container">
+
 
     <div class="col-md-8 col-md-offset-2">
       <div class="input-field col-md-10">
@@ -20,7 +31,7 @@
           <div class="project-card-detail waves-effect" ng-click="lc.showProject(project)">
             <div class="card-title name-bear">{{ project.name }}</div>
             <div btf-markdown="project.desc | format_desc" class="card-content markdown"></div>
-          </div>  
+          </div>
           <div class="card-action">
             <span ng-repeat="mentor in project.mentors | limitTo:4"><a ng-href="https://github.com/{{mentor}}" class="mentors-github-id" >{{mentor}}</a></span>
           </div>
@@ -65,7 +76,7 @@
       <div class="col-md-8 dashboard">
         <div btf-markdown ng-include="'data/projects/' + currentProject.markdown" class="project-description markdown">
         </div>
-      </div>  
+      </div>
 
       </div>
  </div>
