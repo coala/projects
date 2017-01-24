@@ -1,6 +1,5 @@
+#### Description
 Two tasks should be carried out concerning the Cellosaurus (http://web.expasy.org/cellosaurus/):
-
-#### MILESTONES
 
 ##### Task 1
 
@@ -8,7 +7,7 @@ Two tasks should be carried out concerning the Cellosaurus (http://web.expasy.or
 
 * https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3772516/
 
--	The program would run on the ExPASy server. 
+-	The program would run on the ExPASy server.
 
 ##### Task 2
 

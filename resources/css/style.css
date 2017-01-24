@@ -223,11 +223,11 @@ a:hover > .card{
   border-radius: 0px !important;
 }
 .profile{
-  background-color: #000;
+  background-color: #999999;
   color: #fff;
 }
 .dashboard{
-  background-color: darkslategrey;
+  background-color: white;
 }
 .modal-content-bear{
   display: flex
@@ -242,10 +242,10 @@ a:hover > .card{
   overflow-wrap: break-word;
 }
 .project-description{
-  color: lightgrey;
+  color: #505656;
   text-align: justify;
   font-size: 1.1em;
-  font-family: Roboto;
+  font-family: Arial,Sans-Serif;
   font-weight: 300;
   padding: 1em;
 }
@@ -278,7 +278,7 @@ a:hover > .card{
 }
 .authors{
   font-size: 14px;
-  color: wheat;
+  color: #e2011b;
   font-weight: 400;
 }
 .author-row{
@@ -387,7 +387,7 @@ a:hover > .card{
 }
 .mentors-github-id{
   font-size: 1.2em ;
-  color: darkcyan !important;
+  color: #e2011b !important;
   text-transform: none !important;
   font-family: 'Roboto Mono', menlo, monospace;
 }
@@ -401,13 +401,13 @@ input:not([type]), input[type=text], input[type=password], input[type=email], in
 .markdown h4 {
   font-size: 1.1em;
   letter-spacing: 0.1em;
-  color: wheat;
+  color: #e2011b;
   text-transform: uppercase;
 }
 .markdown h5 {
   font-size: 1em;
   letter-spacing: 0.1em;
-  color: wheat;
+  color: #e2011b;
 }
 .markdown ul li{
   padding-left: 1em;

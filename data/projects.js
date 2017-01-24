@@ -3,7 +3,7 @@ projects = [
 		"name" : "Cellosaurus Web-Tool and Wikidata bot",
 		"desc" : "The students should develop a web tool to compare STR Marker profile for a cell line and a Wikidata bot",
 		"requirements" : [
-			"The ",
+			"The student must have read the publication and understood the algorithm.",
 			"The proposal has to contain a clear concept."
 		],
 		"issues" : [
