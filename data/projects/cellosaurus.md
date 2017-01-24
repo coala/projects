@@ -1,4 +1,4 @@
-Two development tasks could be carried out concerning the Cellosaurus (http://web.expasy.org/cellosaurus/):
+Two tasks should be carried out concerning the Cellosaurus (http://web.expasy.org/cellosaurus/):
 
 #### MILESTONES
 
