@@ -3,10 +3,9 @@
 
 The cellosaurus is a knowledge resource on cell lines. It attempts to describe all cell lines used in biomedical research.
 
-![Cellosaurus](https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAVkAAAAJDQ4M2JmMzlmLTBkY2UtNGU4MC1hMjlhLTk1OTdmY2Y4ZTBhZA.jpg)
+![Cellosaurus](data/projects/images/cellosaurus.jpg)
 
-[TO BE COMPLETED][TO BE COMPLETED]
-
+[TO BE COMPLETED](TO BE COMPLETED)
 
 ##### Approach
 
@@ -18,12 +17,9 @@ Two enhancements should be carried out concerning the [Cellosaurus](http://web.e
 
 ##### Challenges
 
-- The amount of different cell line
- [TO BE COMPLETED][TO BE COMPLETED]
- Understand RDF.
+- The amount of different cell line [TO BE COMPLETED](TO BE COMPLETED)  Understand RDF.
 
 
 ##### Requirements
 
 - The student must have read the publication and understood the algorithm.
-- ...
