@@ -21,10 +21,10 @@ projects = [
 			"https://github.com/alodavide/sugarBuilder"
 		],
 		"mentors" : [
-			"alodavide"
+			"alodavide","julienmariethoz"
 		],
 		"keywords" : ["Glycomics", "ExPASy", "sugars", "carbohydrates", "javascript", "web-interface", "drawing tool"],
-		"links" : ["http://www.expasy.org/glycomics", "http://www.sib.swiss/lisacek-frederique/lisacek-frederique-sub","https://github.com/alodavide/sugarBuilder"],
+		"links" : ["http://www.expasy.org/glycomics", "http://www.sib.swiss/lisacek-frederique/","https://github.com/alodavide/sugarBuilder","http://glycopedia.eu/"],
 		"skills" : ["creativity", "design", "javascript", "D3js", "Google Polymer"],
 		"markdown": "sugarbuilder.md"
 	}
