@@ -6,7 +6,7 @@ Two tasks should be carried out concerning the Cellosaurus (http://web.expasy.or
 
 -	Development of a Web-based tool to compare a user entered STR Marker profile for a cell line with all the STR marker data stored in the Cellosaurus. The program would run an algorithm similar to that described in:
 
-* https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3772516/
+** https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3772516/
 
 -	The program would run on the ExPASy server. 
 
