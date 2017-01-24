@@ -1,7 +1,7 @@
 projects = [
 	{
-		"name" : "Cellosaurus WikiData Integration",
-		"desc" : "Cellosaurus should be integrated into ",
+		"name" : "Cellosaurus Enhancements",
+		"desc" : "Cellosaurus Enhancements ",
 		"requirements" : [
 			"The proposal has to contain a clear concept.",
 			"The applicant should have one patch accepted to the coala core."
@@ -13,7 +13,7 @@ projects = [
 			"ddtxra",
 			"vrechdelaval"
 		],
-		"initiatives" : ["GSoC"],
+		"initiatives" : ["GSOC"],
 		"tags" : ["Cellosaurus", "CLI"],
 		"markdown": "cellosaurus.md"
 	}
