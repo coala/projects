@@ -13,8 +13,9 @@ projects = [
 			"ddtxra",
 			"vrechdelaval"
 		],
-		"initiatives" : ["GSOC"],
-		"tags" : ["Cellosaurus", "CLI"],
+		"keywords" : ["cell-lines", "expasy"],
+		"links" : ["http://web.expasy.org/cellosaurus/", "https://github.com/calipho-sib/cellosaurus", "https://github.com/calipho-sib/cellosaurus-syntax-checker"],
+		"skills" : ["scala", "python", "java", "rdf"],
 		"markdown": "cellosaurus.md"
 	}
 ]

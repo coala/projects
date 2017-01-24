@@ -51,19 +51,19 @@
           <li class="pr-element-detail milestones" ng-repeat="req in currentProject.requirements">{{ req }}</li><br>
         </div>
 
-        <div ng-show="currentProject.initiatives.length>0" class="project-detail-element">
-          <div class="small-heading">Initiatives</div>
-          <span class="pr-element-detail chip" ng-repeat="initiative in currentProject.initiatives">{{ initiative }}</span><br>
+        <div ng-show="currentProject.keywords.length>0" class="project-detail-element">
+          <div class="small-heading">Keywords</div>
+          <span class="pr-element-detail chip" ng-repeat="keyword in currentProject.keywords">{{ keyword }}</span><br>
         </div>
 
-        <div ng-show="currentProject.tags.length>0" class="project-detail-element">
-          <div class="small-heading">Tags</div>
-          <span class="pr-element-detail chip" ng-repeat="tags in currentProject.tags">{{ tags }}</span>
+        <div ng-show="currentProject.skills.length>0" class="project-detail-element">
+          <div class="small-heading">Skills required or willing to develop</div>
+          <span class="pr-element-detail chip" ng-repeat="skill in currentProject.skills">{{ skill }}</span>
         </div>
 
-        <div ng-show="currentProject.difficulty" class="project-detail-element">
-          <div class="small-heading">Difficulty</div>
-          <span class="pr-element-detail chip">{{ currentProject.difficulty }}</span>
+        <div ng-show="currentProject.links.length>0" class="project-detail-element">
+          <div class="small-heading">Related links</div>
+          <span class="pr-element-detail chip" ng-repeat="link in currentProject.links"><a target="_blank" style="color: gray" ng-href="{{ link }}">{{ link }}</a></span>
         </div>
 
         <div ng-show="currentProject.mentors.length>0" class="project-detail-element">
