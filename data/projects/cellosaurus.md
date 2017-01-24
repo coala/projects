@@ -4,8 +4,6 @@ Two development tasks could be carried out concerning the Cellosaurus (http://we
 
 ##### Task 1
 
--	The applicant has understood what is the Cellosaurus
-
 -	Development of a Web-based tool to compare a user entered STR Marker profile for a cell line with all the STR marker data stored in the Cellosaurus. The program would run an algorithm similar to that described in:
 
 * https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3772516/
