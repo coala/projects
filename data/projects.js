@@ -13,9 +13,9 @@ projects = [
 			"ddtxra",
 			"vrechdelaval"
 		],
-		"keywords" : ["cell-lines", "expasy"],
+		"keywords" : ["cell line", "ExPasy"],
 		"links" : ["http://web.expasy.org/cellosaurus/", "http://web.expasy.org/cellosaurus/description.html", "https://github.com/calipho-sib/cellosaurus", "https://github.com/calipho-sib/cellosaurus-syntax-checker"],
-		"skills" : ["scala", "python", "java", "rdf"],
+		"skills" : ["scala", "python", "java", "rdf", "git"],
 		"markdown": "cellosaurus.md"
 	}
 ]
