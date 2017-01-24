@@ -182,6 +182,9 @@ footer.page-footer .footer-copyright{
   padding: 0.5em;
   text-align: center;
 }
+.card-action span{
+  display: inline-block;
+}
 .footer-coala{
   font-size: 42px;
   font-family: -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
