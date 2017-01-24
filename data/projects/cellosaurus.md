@@ -3,6 +3,7 @@
 
 The cellosaurus is a knowledge resource on cell lines. It attempts to describe all cell lines used in biomedical research.
 
+TODO ....
 
 ![Cellosaurus](https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAVkAAAAJDQ4M2JmMzlmLTBkY2UtNGU4MC1hMjlhLTk1OTdmY2Y4ZTBhZA.jpg)
 
@@ -20,4 +21,5 @@ Two tasks should be carried out concerning the [Cellosaurus](http://web.expasy.o
 
 ##### Challenges
 
-- Understand RDF.
+- TODO ....
+ Understand RDF.
