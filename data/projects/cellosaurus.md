@@ -1,20 +1,19 @@
-This project aims at integrating Cellosaurus into Wikidata and possibly wikipedia.
+Two development tasks could be carried out concerning the Cellosaurus (http://web.expasy.org/cellosaurus/):
 
 #### MILESTONES
 
-##### GSOC 2017 CODING STARTS
+##### Task 1
 
--	The applicant has understood what is the Cellosaurus$
--	The applicant has solved atleast two issues ...
+-	The applicant has understood what is the Cellosaurus
 
-##### GSOC 2017 MIDTERM
+-	Development of a Web-based tool to compare a user entered STR Marker profile for a cell line with all the STR marker data stored in the Cellosaurus. The program would run an algorithm similar to that described in:
 
--	The website is in a stable state with proper commits following coala guidelines.
--	The blog has sections for each teams in coala and teams are able to post.
--	Both of them are properly tested and documented.
+* https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3772516/
 
-##### GSOC 2017 FINAL
+-	The program would run on the ExPASy server. 
 
--	`coala-html` can be used a standalone desktop application.
--	`coala-html` is extensible and users have an API to create plugins for it.
--	It is properly tested and documented.
+##### Task 2
+
+-	 Development of a Wikidata "bot" (https://www.wikidata.org/wiki/Wikidata:Bots) to enter some of the data stored in the Cellosaurus into Wikidata. The exact specification of the mapping of Cellosaurus data into Wikidata properties/clains and statements is being finalized:
+
+- The bot would be ran at every release of the Cellosaurus to update the existing Wikidata cell line concepts and create new ones for cell lines newly entered at each release.
