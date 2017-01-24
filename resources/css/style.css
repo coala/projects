@@ -253,13 +253,13 @@ a:hover > .card{
   cursor: pointer;
 }
 .project-description > p > a{
-  color: cornsilk
+  color: red
 }
 .project-description > p > a:hover{
   opacity: 0.7;
 }
 .markdown  a{
-  color: azure;
+  color: red;
 }
 .markdown a:hover{
   opacity: 0.7;
