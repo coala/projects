@@ -361,5 +361,23 @@ coala should support generating metrics for your code.",
 		"tags" : ["Bears", "cib"],
 		"markdown": "improve_installation.md",
 		"collaborating_projects" : ["coala"]
+	},
+	{
+		"name" : "Integrate ANTLR v4 into coala",
+		"desc" : "This project is about integrating ANTLR into the coala bear \
+				 API. ",
+		"requirements" : [
+				"The participant should have one patch to [coala](https://github.com/coala/coala) accepted.",
+				"Being familiar with the current Bear API and what it provides.",
+				"Knowledge of ANTLR and Java is a bonus.",
+				"Knowledge of ASTs and basic language grammar."
+		],
+		"difficulty" : "hard",
+		"issues" : [],
+		"mentors" : ["Udayan12167"],
+		"initiatives" : ["GSoC", "RGSoC"],
+		"tags" : ["API", "AST", "Bears"],
+		"markdown": "antlr_v4.md",
+		"collaborating_projects" : ["coala", "ANTLRv4"]
 	}
 ]
