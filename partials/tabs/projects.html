@@ -73,7 +73,7 @@
         <br>
       </div>
 
-      <div class="col-md-8 dashboard">
+      <div ng-if="currentProject.markdown" class="col-md-8 dashboard">
         <div btf-markdown ng-include="'data/projects/' + currentProject.markdown" class="project-description markdown">
         </div>
       </div>
