@@ -50,21 +50,6 @@
 	}
 	}]);
 
-
- app.filter('format_desc', function () {
-  return function (value) {
-   if (!value) return '';
-   var lastspace = value.indexOf('.');
-   if (lastspace != -1) {
-    if (value.charAt(lastspace-1) == ',') {
-    	lastspace = lastspace - 1;
-    }
-    value = value.substr(0, lastspace);
-   }
-   return value;
-  };
- });
-
  app.filter('format_issue', function () {
   return function (value) {
    if (!value) return '';
