@@ -40,7 +40,7 @@ projects = [
 		"initiatives" : ["GSoC", "RGSoC"],
 		"tags" : ["Plugins", "CI"],
 		"markdown": "create_jenkins_plugin.md",
-		"collaborating_projects" : ["coala"]
+		"collaborating_projects" : ["coala", "jenkins"]
 	},
 	{
 		"name" : "Extend Linter Integration",
