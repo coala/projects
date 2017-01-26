@@ -35,7 +35,7 @@ projects = [
 		],
 		"mentors" : [
 			"Udayan12167",
-			"jayvdb"
+			"uhafner"
 		],
 		"initiatives" : ["GSoC", "RGSoC"],
 		"tags" : ["Plugins", "CI"],
