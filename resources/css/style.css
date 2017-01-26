@@ -476,3 +476,6 @@ ul:not(.browser-default) li {
 .clickable{
   cursor: pointer;
 }
+.project-card-detail .markdown a {
+  color: darkcyan;
+}
