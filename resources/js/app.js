@@ -43,7 +43,7 @@
 						$('.modal').modal('open');
 					});
 
-					mval = project["name"].split(' ').join('_').toLowerCase();
+					mval = encodeURIComponent(project["name"].split(' ').join('_').toLowerCase());
 					$location.url('?project=' + mval)
 				}
 
@@ -62,11 +62,11 @@
 				$scope.projects_url_dict = {}
 				
 				angular.forEach($scope.projectList, function(value, key){
-					value["url"] = value["name"].split(' ').join('_').toLowerCase();
+					value["url"] = encodeURIComponent(value["name"].split(' ').join('_').toLowerCase());
 					$scope.projects_url_dict[value["url"]] = key
 				});
 
-				var project_requested = $location.search().project; 
+				var project_requested = encodeURIComponent($location.search().project); 
 				if(project_requested){
 					if(Object.keys($scope.projects_url_dict).indexOf(project_requested) > -1){
 						self.showProject($scope.projectList[$scope.projects_url_dict[project_requested]])
