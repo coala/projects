@@ -1,6 +1,6 @@
 This project mostly focuses on continuing the design of the
 bear installation tool (https://gitlab.com/coala/cib) and fixing
-dependency problems across bears. Also, there should be found a way for
+dependency problems across bears. Also, there should be a way for
 fixing bears which have platform requirements (we could use conda).
 
 Currently, cib does basic operations but rudimentary, by parsing strings
@@ -38,7 +38,7 @@ DistributionRequirement should be reworked.
 
 ##### GSOC 2017 FINAL
 
-* cib should be fully functional such as that it is already used by people
+* cib should be fully functional such as that it can be used by users
   instead of having to install all the bears.
 * Tests should be written for a full coverage of cib.
 * cib should be fully documented, while also having a nice "help" menu.
