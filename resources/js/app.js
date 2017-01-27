@@ -4,6 +4,9 @@
 		app.config(['$routeProvider',
   	function($routeProvider) {
 	   $routeProvider.
+	   when('/', {
+	       redirectTo: '/projects'
+	   }).
 	   when('/projects', {
 	       template: '<projects></projects>'
 	   }).
@@ -12,10 +15,7 @@
 	   }).
 	   when('/faq', {
 	       template: '<faq></faq>'
-	   }).
-	   otherwise({
-	       redirectTo: '/projects'
-	   });
+	   })
  }]);
 	app.controller('TabController', function ($location) {
 		this.tab = $location.path()
@@ -28,18 +28,23 @@
 		}
 	})
 
-	app.directive('projects',  ['$http',  '$timeout', '$location' ,function ($http, $timeout, $location) {
+	app.directive('projects',  ['$http',  '$timeout', '$location', function ($http, $timeout, $location) {
 		return {
 			restrict: 'E',
 			templateUrl: '/partials/tabs/projects.html',
-			controller: function ($scope) {
+			controller: function ($scope, $location) {
 				self = this
 				$scope.projectList = projects
 				self.showProject = function (project) {
-					$(document).ready(function () {
-						$('#modal1').modal('open');
-					});
+					
 					$scope.currentProject = project
+
+					$(document).ready(function () {
+						 $('.modal').modal('open');
+					});
+
+					mval = project["name"].split(' ').join('_').toLowerCase();
+					$location.url('?project=' + mval)
 				 }
 
 					$scope.search = function (arg) {
@@ -49,6 +54,29 @@
 					$scope.redirect = function (arg) {
 						window.open(arg, '_blank');
 					}
+
+					$scope.updateLink = function () {
+						$location.url($location.path());
+					}
+
+	 			$scope.projects_url_dict = {}
+ 
+ 				angular.forEach($scope.projectList, function(value, key){
+ 						value["url"] = value["name"].split(' ').join('_').toLowerCase();
+ 						$scope.projects_url_dict[value["url"]] = key
+ 				});
+
+ 				var project_requested = $location.search().project; 
+ 				if(project_requested){
+ 					if(Object.keys($scope.projects_url_dict).indexOf(project_requested) > -1){
+ 						self.showProject($scope.projectList[$scope.projects_url_dict[project_requested]])
+ 						}
+ 				}
+
+ 				var search_requested = $location.search().q; 
+ 				if(search_requested){
+ 					$scope.searchText = search_requested
+ 				}
 
 			},
 			controllerAs: 'lc'
