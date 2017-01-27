@@ -1,6 +1,8 @@
 (function(){
 	var app = angular.module('coala', ['ngSanitize','btford.markdown']);
 
+	var tabsDir = './partials/tabs/';
+
 	app.controller('TabController', function () {
 		this.tab = 1
 		this.setTab = function (stab) {
@@ -14,7 +16,7 @@
 	app.directive('projects',  ['$http',  '$timeout', '$location' ,function ($http, $timeout, $location) {
 		return {
 			restrict: 'E',
-			templateUrl: '/partials/tabs/projects.html',
+			templateUrl: tabsDir+'projects.html',
 			controller: function ($scope) {
 				self = this
 				$scope.projectList = projects
@@ -41,7 +43,7 @@
 	app.directive('faq',[ '$http', function ($http) {
 		return {
 			restrict: 'E',
-			templateUrl: '/partials/tabs/faq.html',
+			templateUrl: tabsDir+'faq.html',
 			controller: function () {
 				self = this
 				self.faqs = faq
@@ -63,7 +65,7 @@
 	app.directive('mentors', ['$http', function ($http) {
 		return {
 			restrict: 'E',
-			templateUrl: '/partials/tabs/mentors.html',
+			templateUrl: tabsDir+'mentors.html',
 			controller: function ($scope) {
 				self = this
 				self.mentorsList = {}
