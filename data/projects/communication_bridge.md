@@ -27,7 +27,7 @@ large to be regularly listed in the chat room.
 
 #### Milestones
 
-##### GSOC 2017 CODING STARTS
+##### GSOC 2017 COMMUNITY BONDING
 
 * The participant has merged an enhancement to cobot.
 

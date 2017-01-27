@@ -10,7 +10,7 @@ yet!
 
 #### MILESTONES
 
-##### GSOC 2017 CODING STARTS
+##### GSOC 2017 COMMUNITY BONDING
 
 * The cEP has been updated, finished and merged.
 * The participant has a clear idea on how all parts of the cEP can be implemented.

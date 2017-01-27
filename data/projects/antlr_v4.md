@@ -24,7 +24,7 @@ References:
 
 #### Milestones
 
-##### GSOC 2017 CODING STARTS
+##### GSOC 2017 COMMUNITY BONDING
 
 - A clear understanding of ANTLR python endpoints and conceptual knowledge of
 how ANTLR works.

@@ -8,7 +8,7 @@ support of the community guarding your back of course.
 
 #### Milestones
 
-##### GSOC 2017 CODING STARTS
+##### GSOC 2017 COMMUNITY BONDING
 
 * A test jenkins instance exists.
 * An official repository exists with rultor set up.

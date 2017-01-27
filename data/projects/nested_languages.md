@@ -11,7 +11,7 @@ applicable to the right locations at the right files.
 
 #### Milestones
 
-##### GSOC 2017 CODING STARTS
+##### GSOC 2017 COMMUNITY BONDING
 
 * The applicant has proposed and merged a [cEP](https://coala.io/cep) of how
   multiple languages will be handled inside a single source file.

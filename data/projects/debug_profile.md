@@ -6,7 +6,7 @@ into Python) and step out as soon as the analysis finished.
 
 #### Milestones
 
-##### GSOC 2017 CODING STARTS
+##### GSOC 2017 COMMUNITY BONDING
 
 * The applicant has made a [cEP](https://coala.io/cep) of how the profiling
   will be implemented.

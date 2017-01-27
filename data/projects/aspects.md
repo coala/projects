@@ -9,7 +9,7 @@ annotated with aspects.
 
 #### Milestones
 
-##### GSOC 2017 CODING STARTS
+##### GSOC 2017 COMMUNITY BONDING
 
 * The names and settings of the needed aspects are drafted completely.
 

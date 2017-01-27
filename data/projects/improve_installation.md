@@ -24,7 +24,7 @@ DistributionRequirement should be reworked.
 
 #### Milestones
 
-##### GSOC 2017 CODING STARTS
+##### GSOC 2017 COMMUNITY BONDING
 
 * A cEP that describes cib is merged.
 * https://github.com/coala/coala-bears/issues/845 is solved.

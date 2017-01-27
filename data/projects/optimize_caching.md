@@ -9,7 +9,7 @@ Own performance optimization ideas are highly encouraged!
 
 #### Milestones
 
-##### GSOC 2017 CODING STARTS
+##### GSOC 2017 COMMUNITY BONDING
 
 * The applicant has determined a number of circumstances where coala needlessly
 checks unmodified files.

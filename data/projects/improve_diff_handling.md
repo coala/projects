@@ -7,7 +7,7 @@ variable renamings while the user should be asked for the new variable name.
 
 #### Milestones
 
-##### GSOC 2017 CODING STARTS
+##### GSOC 2017 COMMUNITY BONDING
 
 * A [cEP](https://coala.io/cep) for the project has been merged.
 

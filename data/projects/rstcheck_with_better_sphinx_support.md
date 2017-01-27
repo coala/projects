@@ -13,7 +13,7 @@ to parse Sphinx documents exactly the same way Sphinx does.
 
 #### Milestones
 
-##### GSOC 2017 CODING STARTS
+##### GSOC 2017 COMMUNITY BONDING
 
 * As an exercise to get familiar with `rstcheck`, add support for another code
   block language. The languages currently supported by `rstcheck` are Bash,

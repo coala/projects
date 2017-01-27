@@ -27,7 +27,7 @@ Upstream contributions to Web Technologies, Electron are encouraged.
 
 #### MILESTONES
 
-##### GSOC 2017 CODING STARTS
+##### GSOC 2017 COMMUNITY BONDING
 
 * The participant has coala-landing, coala-blog and coala-html running locally.
 * The participant has solved atleast two issues in each of these projects.
