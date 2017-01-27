@@ -1,10 +1,27 @@
 (function(){
-	var app = angular.module('coala', ['ngSanitize','btford.markdown']);
+	var app = angular.module('coala', ['ngSanitize','btford.markdown', 'ngRoute']);
 
-	app.controller('TabController', function () {
-		this.tab = 1
+		app.config(['$routeProvider',
+  	function($routeProvider) {
+	   $routeProvider.
+	   when('/projects', {
+	       template: '<projects></projects>'
+	   }).
+	   when('/mentors', {
+	       template: '<mentors></mentors>'
+	   }).
+	   when('/faq', {
+	       template: '<faq></faq>'
+	   }).
+	   otherwise({
+	       redirectTo: '/projects'
+	   });
+ }]);
+	app.controller('TabController', function ($location) {
+		this.tab = $location.path()
 		this.setTab = function (stab) {
 			this.tab = stab
+			$location.path(stab);
 		}
 		this.isSet = function (stab) {
 			return this.tab == stab
