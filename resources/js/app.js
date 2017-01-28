@@ -65,15 +65,17 @@
 				}
 
 				$scope.arrowPressed = function (e) {
-
 					if(e.keyCode == 37){
 						keyPressed = "left"
 					}
 					else if(e.keyCode == 39){
 						keyPressed = "right"
 					}
+					$scope.moveToNext(keyPressed);
+				}
 
-					if($scope.currentProject){
+				$scope.moveToNext = function (keyPressed) {
+							if($scope.currentProject){
 
 						$(document).ready(function () {
 							$('.modal-overlay').remove();
