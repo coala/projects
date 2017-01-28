@@ -1,9 +1,9 @@
-This project is about improving the general quality of coala's bears.
+This project is about improving the general quality of coala's linter bears.
 
-Especially the linter bears in coala are oftentimes not receiving enough love.
+Linter bears in coala are oftentimes not receiving enough love.
 They work but not necessarily on all platforms. They are documented, but not
 necessarily understandable. They are tested but lack corner cases or
-exploratory tests.
+exploratory tests. [See existing issues](https://github.com/coala/coala-bears/issues?q=is%3Aopen+is%3Aissue+label%3Aarea%2Flintbears)
 
 Task of this project is to solve those issues for as many bears as possible and
 derive strategies to avoid those issues in the future.

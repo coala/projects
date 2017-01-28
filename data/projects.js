@@ -233,9 +233,9 @@ coala should support generating metrics for your code.",
 		"collaborating_projects" : ["coala"]
 	},
 	{
-		"name" : "Improve Bear Quality",
+		"name" : "Improve Lint Bear Quality",
 		"desc" : "Fixing issues and improving documentation and testing of \
-		existing bears.",
+		existing linter bears.",
 		"requirements" : [
 			"The participant should have one bugfix patch to any bear accepted.",
 			"The participant should have understanding of the linter and test \
