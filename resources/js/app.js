@@ -43,8 +43,15 @@
 						$('.modal').modal('open');
 					});
 
-					mval = project["name"].split(' ').join('_').toLowerCase();
+					mval = encodeURIComponent(project["name"].split(' ').join('_').toLowerCase());
 					$location.url('?project=' + mval)
+					$scope.$evalAsync();
+				}
+
+				self.showProjectOnArrowClick = function (project) {
+					
+					$scope.currentProject = project
+					mval = encodeURIComponent(project["name"].split(' ').join('_').toLowerCase());
 				}
 
 				$scope.search = function (arg) {
@@ -59,14 +66,55 @@
 					$location.url($location.path());
 				}
 
+				$scope.encode_URI = function (project_name) {
+					return encodeURIComponent(project_name.split(' ').join('_').toLowerCase()); 
+				}
+
+				$scope.arrowPressed = function (e) {
+					if(e.keyCode == 37){
+						keyPressed = "left"
+					}
+					else if(e.keyCode == 39){
+						keyPressed = "right"
+					}
+					$scope.moveToNext(keyPressed);
+				}
+
+				$scope.moveToNext = function (keyPressed) {
+							if($scope.currentProject){
+
+						total_projects = $scope.projectList.length
+						angular.forEach($scope.projectList, function(value, key){
+							if($scope.currentProject.name == value["name"]){
+								current_project_index = key
+							}
+						});
+
+						if(keyPressed == "left"){
+							if(current_project_index == 0){
+								self.showProjectOnArrowClick($scope.projectList[total_projects-1])
+							}else{
+								self.showProjectOnArrowClick($scope.projectList[--current_project_index])
+							}
+						}
+						if(keyPressed == "right"){
+							if(current_project_index == total_projects-1){
+								self.showProjectOnArrowClick($scope.projectList[0])
+							}else{
+								self.showProjectOnArrowClick($scope.projectList[++current_project_index])
+							}
+						}					 
+					}
+				}
+
 				$scope.projects_url_dict = {}
-				
+				$scope.projects_url_list = Object.keys($scope.projects_url_dict);
 				angular.forEach($scope.projectList, function(value, key){
-					value["url"] = value["name"].split(' ').join('_').toLowerCase();
+					value["url"] = encodeURIComponent(value["name"].split(' ').join('_').toLowerCase());
 					$scope.projects_url_dict[value["url"]] = key
 				});
 
-				var project_requested = $location.search().project; 
+				var project_requested = encodeURIComponent($location.search().project); 
 				if(project_requested){
 					if(Object.keys($scope.projects_url_dict).indexOf(project_requested) > -1){
 						self.showProject($scope.projectList[$scope.projects_url_dict[project_requested]])

@@ -11,7 +11,7 @@
       </div>
     </div>
   </div>
-  <section>
+  <section tabindex="1">
     <div class="container">
       <div class="row showcase">
         <div ng-repeat="project in projectList | filter: searchText" class="card card-main showcase-card">
@@ -37,7 +37,7 @@
     </div>
   </section>
 
-  <div id="modal1" class="modal">
+  <div ng-keydown="arrowPressed($event)"  id="modal1" class="modal" tabindex="0">
     <div  class="modal-content-bear">
       <div class="col-md-4 profile">
         <div class="project-name">
@@ -89,14 +89,21 @@
       </div>  
 
       </div>
+
  </div>
+<div ng-show="currentProject" class="arrows">
+  <div class="row">
+    <div class="col-md-6 center col s6"><i ng-click="moveToNext('left')" class="fa fa-arrow-circle-left arrow-click" aria-hidden="true"></i>
+    </div>
+    <div class="col-md-6 center col s6"><i ng-click="moveToNext('right')" class="fa fa-arrow-circle-right arrow-click" aria-hidden="true"></i>
+    </div>
+  </div>
+</div>
 </section>
 
 <script type="text/javascript">
   $(document).ready(function () {
-
-
-
+    
     $('.explore').click(function () {
       $('html,body').animate({
         scrollTop: $(".showcase").offset().top},
@@ -111,6 +118,7 @@
       starting_top: '10%', // Starting top style attribute
       ending_top: '10%', // Ending top style attribute
       ready: function(modal, trigger) { // Callback for Modal open. Modal and trigger parameters available.
+        $(this).focus();
       },
       complete: function() { 
       angular.element('#projectCtrl').scope().updateLink();
