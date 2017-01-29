@@ -48,6 +48,12 @@
 					$scope.$evalAsync();
 				}
 
+				self.showProjectOnArrowClick = function (project) {
+					
+					$scope.currentProject = project
+					mval = encodeURIComponent(project["name"].split(' ').join('_').toLowerCase());
+				}
+
 				$scope.search = function (arg) {
 					$scope.searchText = arg
 				}
@@ -77,10 +83,6 @@
 				$scope.moveToNext = function (keyPressed) {
 							if($scope.currentProject){
 
-						$(document).ready(function () {
-							$('.modal-overlay').remove();
-						})
-
 						total_projects = $scope.projectList.length
 						angular.forEach($scope.projectList, function(value, key){
 							if($scope.currentProject.name == value["name"]){
@@ -90,16 +92,16 @@
 
 						if(keyPressed == "left"){
 							if(current_project_index == 0){
-								self.showProject($scope.projectList[total_projects-1])
+								self.showProjectOnArrowClick($scope.projectList[total_projects-1])
 							}else{
-								self.showProject($scope.projectList[--current_project_index])
+								self.showProjectOnArrowClick($scope.projectList[--current_project_index])
 							}
 						}
 						if(keyPressed == "right"){
 							if(current_project_index == total_projects-1){
-								self.showProject($scope.projectList[0])
+								self.showProjectOnArrowClick($scope.projectList[0])
 							}else{
-								self.showProject($scope.projectList[++current_project_index])
+								self.showProjectOnArrowClick($scope.projectList[++current_project_index])
 							}
 						}					 
 					}
