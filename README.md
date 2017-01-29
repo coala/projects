@@ -3,7 +3,8 @@
 A website that showcases projects! **If you want to use it and it's not exactly
 fitting your purpose, please do make upstream changes. We expect this project
 to be of use to others and we're happy to make it more generic so it's easier
-to adapt to other organizations.**
+to adapt to other organizations.** This was built by coala community, to view
+live projects visit [projects.coala.io](https://projects.coala.io)
 
 (It'd be nice to have an organization YML or so e.g.)
 
