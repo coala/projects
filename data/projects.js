@@ -129,7 +129,8 @@ coala should support generating metrics for your code.",
 		],
 		"mentors" : [
 			"Udayan12167",
-			"sils"
+			"sils",
+			"NiklasMM"
 		],
 		"initiatives" : ["GSoC", "RGSoC"],
 		"tags" : ["Core", "Bears"],
@@ -246,7 +247,7 @@ coala should support generating metrics for your code.",
 		],
 		"difficulty" : "low",
 		"issues" : [],
-		"mentors" : ["abhsag24"],
+		"mentors" : ["abhsag24", "NiklasMM"],
 		"initiatives" : ["GSoC", "RGSoC"],
 		"tags" : ["Documentation", "Bears", "Testing"],
 		"markdown": "bear_updates.md",
