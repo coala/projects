@@ -479,21 +479,3 @@ ul:not(.browser-default) li {
 .project-card-detail .markdown a {
   color: darkcyan;
 }
-.arrows {
-  position:fixed;
-  left:0px;
-  bottom:0px;
-  height:60px;
-  width:100%;
-  background:transparent;
-  z-index: 9999;
-  padding-top: 1em;
-}
-.arrow-click{
-  font-size: 2em !important;
-  color: lightgrey;
-  cursor: pointer
-}
-.arrow-click:hover{
-  color: lightblue !important;
-}
