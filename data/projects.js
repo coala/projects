@@ -129,7 +129,6 @@ coala should support generating metrics for your code.",
 		],
 		"mentors" : [
 			"Udayan12167",
-			"sils",
 			"NiklasMM"
 		],
 		"initiatives" : ["GSoC", "RGSoC"],
