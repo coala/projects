@@ -16,7 +16,7 @@ there is no api to do it. In such cases we  would want to use dogtail
 
 #### MILESTONES
 
-##### GSOC 2017 CODING STARTS
+##### GSOC 2017 COMMUNITY BONDING
 
 * A cEP for the testing, documentation and maintaining strategy has been merged.
 

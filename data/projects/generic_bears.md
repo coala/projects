@@ -11,7 +11,7 @@ as possible.
 
 ### Milestones
 
-##### GSoC 2017 Coding Starts
+##### GSoC 2017 Community Bonding
 
  * The Student has identified at least 10 important issues (barring newcomer difficulty) that need to be solved and has developed an idea 
  to implement atleast 1 proposed Generic Bear (either by the community or the student).

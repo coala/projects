@@ -12,7 +12,7 @@ The goals of this project are:
 
 #### Milestones
 
-##### GSOC 2017 CODING STARTS
+##### GSOC 2017 COMMUNITY BONDING
 
 - A clear concept exists for which hooks need which GitLab API endpoints.
 - A clear concept exists for which objects in IGitt need to be extended or written.

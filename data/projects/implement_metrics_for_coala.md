@@ -14,7 +14,7 @@ programming languages.
 
 #### Milestones
 
-##### GSOC 2017 CODING STARTS
+##### GSOC 2017 COMMUNITY BONDING
 
 * The applicant has created CLI and web UI mockups for metrics.
 * The applicant has created a [cEPs](https://coala.io/cep) for his project.

@@ -19,7 +19,7 @@ abilities.
 
 #### Milestones
 
-##### GSOC 2017 CODING STARTS
+##### GSOC 2017 COMMUNITY BONDING
 
 * The applicant has tried out all linters manually.
 * The applicant has outlined all changes proposed to the linter

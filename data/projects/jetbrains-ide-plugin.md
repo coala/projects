@@ -20,7 +20,7 @@ So The project is divided into two parts:
 
 #### Milestones
 
-##### GSOC 2017 CODING STARTS
+##### GSOC 2017 COMMUNITY BONDING
 
 * A concept exists for how to support showing result for code analysis tools.
 * A Mock plugin set up.

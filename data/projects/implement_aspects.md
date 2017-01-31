@@ -13,7 +13,7 @@ It should be able to ignore aspects just like bear ignoring works right now.
 
 #### Milestones
 
-##### GSOC 2017 CODING STARTS
+##### GSOC 2017 COMMUNITY BONDING
 
 * A solid plan for the implementation and the exact features exist.
 * Any needed changes to [cEP-0005](https://coala.io/cep5) have been merged.

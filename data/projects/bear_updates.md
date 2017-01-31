@@ -10,7 +10,7 @@ derive strategies to avoid those issues in the future.
 
 #### Milestones
 
-##### GSoC 2017 Coding Starts
+##### GSoC 2017 Community Bonding
 
  * For all issues, discusions about how to solve them properly and sustainably
  have to be resolved.
