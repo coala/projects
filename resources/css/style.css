@@ -500,3 +500,6 @@ ul:not(.browser-default) li {
 .capitalize{
   text-transform: capitalize;
 }
+.uppercase{
+  text-transform: uppercase;
+}
