@@ -497,3 +497,6 @@ ul:not(.browser-default) li {
 .arrow-click:hover{
   color: lightblue !important;
 }
+.capitalize{
+  text-transform: capitalize;
+}
