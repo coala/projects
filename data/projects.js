@@ -480,5 +480,24 @@ coala should support generating metrics for your code.",
 		"tags" : ["Documentation", "Bears"],
 		"markdown": "documentation_extraction.md",
 		"collaborating_projects" : ["coala"]
+	},
+	{
+		"name" : "Integrate pyflakes-enhanced AST into coala ",
+		"desc" : "Integrate pyflakes-enhanced AST into coala \
+		so that bears can access it.",
+		"requirements" : [
+                                 "The participant has a patch to any bear merged. Check out \
+                                 [existing bear proposal](https://github.com/coa\
+                                 la/coala-bears/issues).",
+                                 "The participant has a patch to pyflakes merged. Check out \
+                                 [easy task](https://bugs.launchpad.net/pyflakes/+bugs?field.tag=easy)."
+		],
+		"difficulty" : "medium",
+		"issues" : [],
+		"mentors" : ["jayvdb", "srisankethu"],
+		"initiatives" : ["GSoC", "RGSoC"],
+		"tags" : ["Bears", "Pyflakes"],
+		"markdown": "integrate-pyflakes-AST.md",
+		"collaborating_projects" : ["coala", "Pyflakes"]
 	}
 ]
