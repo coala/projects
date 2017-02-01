@@ -75,7 +75,7 @@ This space is for the main description. Use it wisely.
 
 #### Milestones
 
-##### GSOC 2017 CODING STARTS
+##### GSOC 2017 COMMUNITY BONDING
 
 * Conceptual work should be finished.
 * The student have a repository, know how to work with the community.
