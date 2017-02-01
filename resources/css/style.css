@@ -503,3 +503,6 @@ ul:not(.browser-default) li {
 .uppercase{
   text-transform: uppercase;
 }
+.lowercase{
+  text-transform: lowercase;
+}
