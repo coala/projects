@@ -419,5 +419,22 @@ coala should support generating metrics for your code.",
 		"tags" : ["Jetbrains IDEs", "Plugins"],
 		"markdown": "jetbrains-ide-plugin.md",
 		"collaborating_projects" : ["coala", "jetbrains"]
+	},
+	{
+		"name" : "Tag-based Assignment of Developers to Issues",
+		"desc" : "Make sure that developers get notified about new issues that need their input: \
+		          Use the tags of the new issue to find developers that have previously solved \
+			  similar Issues.",
+		"requirements" : [
+			"At least one patch to coala or GitMate should be accepted and merged.",
+			"Familiarity with [IGitt](https://gitlab.com/gitmate/IGitt) is advised"
+		],
+		"difficulty" : "medium"
+		"issues" : [],
+		"mentors" : ['fneu', 'sils'],
+		"initiatives" : ["Research project"],
+		"tags" : ["Workflow", "GitHub"],
+		"markdown" : "assign_issues.md",
+		"collaborating_projects" : ["coala", "GitMate"]
 	}
 ]
