@@ -429,12 +429,28 @@ coala should support generating metrics for your code.",
 			"At least one patch to coala or GitMate should be accepted and merged.",
 			"Familiarity with [IGitt](https://gitlab.com/gitmate/IGitt) is advised"
 		],
-		"difficulty" : "medium"
+		"difficulty" : "hard"
 		"issues" : [],
 		"mentors" : ['fneu', 'sils'],
 		"initiatives" : ["Research project"],
 		"tags" : ["Workflow", "GitHub"],
 		"markdown" : "assign_issues.md",
+		"collaborating_projects" : ["coala", "GitMate"]
+	},
+	{
+		"name" : "Automatic Assignment of Reviewers for Pull Requests",
+		"desc" : "Notify developers about pull requests that propose changes in their \
+			    specific field of expertise",
+		"requirements" : [
+			"At least one patch to coala or GitMate should be accepted and merged.",
+			"Familiarity with [IGitt](https://gitlab.com/gitmate/IGitt) is advised"
+		],
+		"difficulty" : "medium"
+		"issues" : [],
+		"mentors" : ['fneu', 'sils'],
+		"initiatives" : ["Research project"],
+		"tags" : ["Workflow", "GitHub"],
+		"markdown" : "assign_pull_requests.md",
 		"collaborating_projects" : ["coala", "GitMate"]
 	}
 ]
