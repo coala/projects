@@ -4,18 +4,19 @@
 	app.config(['$routeProvider',
 		function($routeProvider) {
 			$routeProvider.
-			when('/', {
-				redirectTo: '/projects'
-			}).
 			when('/projects', {
-				template: '<projects></projects>'
+				template: '<projects></projects>',
+				reloadOnSearch: false
 			}).
 			when('/mentors', {
 				template: '<mentors></mentors>'
 			}).
 			when('/faq', {
 				template: '<faq></faq>'
-			})
+			}).
+			otherwise({
+				redirectTo: '/projects'
+            		});
 		}]);
 	app.controller('TabController', function ($location) {
 		this.tab = $location.path()
@@ -24,7 +25,7 @@
 			$location.path(stab);
 		}
 		this.isSet = function (stab) {
-			return this.tab == stab
+			return $location.path() == stab
 		}
 	})
 
@@ -52,6 +53,8 @@
 					
 					$scope.currentProject = project
 					mval = encodeURIComponent(project["name"].split(' ').join('_').toLowerCase());
+					$location.url('?project=' + mval)
+                    	                $scope.$evalAsync();
 				}
 
 				$scope.search = function (arg) {
