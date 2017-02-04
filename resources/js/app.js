@@ -66,6 +66,7 @@
 				}
 
 				$scope.updateLink = function () {
+					$scope.currentProject = null;
 					$location.url($location.path());
 				}
 
