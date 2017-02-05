@@ -77,11 +77,13 @@
 				$scope.arrowPressed = function (e) {
 					if(e.keyCode == 37){
 						keyPressed = "left"
+                        			$scope.moveToNext(keyPressed);
 					}
 					else if(e.keyCode == 39){
 						keyPressed = "right"
+                        			$scope.moveToNext(keyPressed);
 					}
-					$scope.moveToNext(keyPressed);
+
 				}
 
 				$scope.moveToNext = function (keyPressed) {
