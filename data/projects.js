@@ -13,7 +13,8 @@ projects = [
 		],
 		"mentors" : [
 			"sils",
-			"jayvdb"
+			"jayvdb",
+			"Mariatta"
 		],
 		"initiatives" : ["GSoC", "RGSoC"],
 		"tags" : ["Core", "CLI"],
@@ -151,7 +152,8 @@ coala should support generating metrics for your code.",
 		],
 		"mentors" : [
 			"sils",
-			"AbdealiJK"
+			"AbdealiJK",
+			"Mariatta"
 		],
 		"initiatives" : ["GSoC", "RGSoC"],
 		"tags" : ["Web", "Blog"],
