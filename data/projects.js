@@ -441,5 +441,22 @@ coala should support generating metrics for your code.",
 		"tags" : ["Vulture", "AST", "Bears"],
 		"markdown": "vulture.md",
 		"collaborating_projects" : ["coala", "vulture"]
+    },
+    {
+		"name" : "Documentation Extraction and Parsing",
+		"desc" : "The Project is about writing language independent \
+				  documentation extraction and parsing algorithms.",
+		"requirements" : [
+			"The participant should have one bugfix patch to any bear accepted.",
+			"The participant should have a basic understanding of the algorithms \
+			behind existing documentation extraction routines."
+		],
+		"difficulty" : "high",
+		"issues" : [],
+		"mentors" : ["SanketDG"],
+		"initiatives" : ["GSoC", "RGSoC"],
+		"tags" : ["Documentation", "Bears"],
+		"markdown": "documentation_extraction.md",
+		"collaborating_projects" : ["coala"]
 	}
 ]
