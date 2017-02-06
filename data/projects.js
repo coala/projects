@@ -428,8 +428,8 @@ coala should support generating metrics for your code.",
 		women and students. ",
 		"requirements" : [
 				"The applicant should be be familiar with bear creation and XML parsing \
-				using xpath or a similar description language",
-				"The applicant reasonable familiar with the coala codebase and the workings of REST APIs, \
+				using xpath or a similar query language",
+				"The applicant should be reasonable familiar with the coala codebase and the workings of REST APIs, \
 				including authentication."
 		],
 		"difficulty" : "high",
