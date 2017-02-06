@@ -1,28 +1,57 @@
-This project involves improving coala's performance by implementing caching
-strategies. One example is to use git-like approach at file-collection level
-to not explore directories that haven't been modified. Caching per section can
-also be implemented so sections without issues don't rerun on all files where
-issues in other sections occurred.
+Currently, coala supports caching of project files. With it, coala runs
+code analysis only on files that had changed since the last run, giving a
+huge amortized performance improvement compared to simply running coala on
+everything regardless. But it is still rather slow and there is still
+room for improvement.
 
-Own performance optimization ideas are highly encouraged!
+For example, we recently discovered that we have been importing all
+the required modules irrespective of the conditional branch the program
+takes - some branches do not require some modules. We improved this
+by lazy-loading only the required modules as and when they are required - and
+this greatly improved coala's startup speed.
 
+Performance is key to usability - with faster runtimes, users can get on
+with their work quicker. And it's fun looking for performance bottlenecks!
+
+In this project, you're to improve on the current strategies. Some enhancements
+such as section-level caching, globbing improvements to not expand on
+unmodified directories, and others have been preliminarily explored. Please
+refer to the related issues to learn more about these.
+
+The student is also highly encouraged to come up with new solutions that may
+increase performance even further.
 
 #### Milestones
 
-##### GSOC 2017 COMMUNITY BONDING
+##### PREPARATION/BONDING
 
-* The applicant has determined a number of circumstances where coala needlessly
-checks unmodified files.
-* The applicant has created testcases to validate performance improvements
-* A cEP describing the changes is merged.
+* The applicant has identified at least 3 other performance bottlenecks that can be  
+  improved. These can be smaller improvements, focussing on one particular  
+  aspect of coala's core.
+* The applicant has drafted and merged a [cEP](https://github.com/coala/ceps)  
+  describing all the proposed changes thoroughly.
+* Preliminary prototypes have been tested to validate the proposed changes'  
+  performance improvements.
 
-##### GSOC 2017 MIDTERM
+##### CODING PHASE 1
 
-* The applicant has achieved a measurable performance benefit in at least one
-of the above cases.
-* The respective code has been properly tested, documented and merged.
+* The Proposed change to not explore unchanged directories has been  
+  implemented.
+* Thorough tests have been performed to concretely ascertain a measurable  
+  performance gain.
+* The corresponding code is properly tested, documented, reviewed, and merged.
 
-##### GSOC 2017 FINAL
+##### CODING PHASE 2
 
-* At least two more cases have been 'solved' in a similar fashion.
-* The respective code has been properly tested, documented and merged.
+* Section-based caching has been implemented.
+* The corresponding code has been thoroughly tested, documented, reviewed, and  
+  merged.
+* At least one of the proposed performance bottleneck improvements have been  
+  implemented, tested, documented, and merged.
+
+##### CODING PHASE 3
+
+* At least an additional proposed performance bottleneck improvement has been  
+  implemented, tested, documented, and merged.
+* A final report describing the measured performance improvements for the  
+  various implemented techniqes has been published.
