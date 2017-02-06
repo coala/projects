@@ -421,5 +421,25 @@ coala should support generating metrics for your code.",
 		"tags" : ["Jetbrains IDEs", "Plugins"],
 		"markdown": "jetbrains-ide-plugin.md",
 		"collaborating_projects" : ["coala", "jetbrains"]
+	},
+	{
+		"name" : "Vulture dead code removal",
+		"desc" : "This project is about using vulture to automatically remove \
+				  unused python code.",
+		"requirements" : [
+				"The participant should have one patch to \
+				[vulture](https://bitbucket.org/jendrikseipp/vulture) accepted.",
+				"Being familiar with the current Bear API and what it provides. \
+				 Fixing an issue for a Bear during the newcomer process would \
+				 help with this.",
+				"Knowledge of ASTs and basic language grammar is a bonus."
+		],
+		"difficulty" : "medium",
+		"issues" : [],
+		"mentors" : ["jendrikseipp"],
+		"initiatives" : ["GSoC", "RGSoC"],
+		"tags" : ["Vulture", "AST", "Bears"],
+		"markdown": "vulture.md",
+		"collaborating_projects" : ["coala", "vulture"]
 	}
 ]
