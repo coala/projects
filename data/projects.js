@@ -163,7 +163,8 @@ coala should support generating metrics for your code.",
 	},
 	{
 		"name" : "Optimize Caching",
-		"desc" : "Improve coala's performance by implementing caching strategies.",
+		"desc" : "Improve coala's performance by improving file caching and other \
+                  performance bottlenecks.",
 		"requirements" : [
 			"At least one patch to the coala core should be accepted and merged.",
 			"The student should be familiar with ongoing technical cEPs, \
