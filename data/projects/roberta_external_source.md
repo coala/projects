@@ -44,6 +44,7 @@ additional certification through Fraunhofer IAIS in Sankt Augustin, Germany.
 
 * A NEPO program stored on the Open Roberta Lab can be checked from the web interface
 * The infrastructure for downloading external resources through the web interface is well documented and loaders for other resource locations can easily be added
+* All necessary changes to the webpage UI are implemented
 
 ##### CODING PHASE 3 (July 28 - August 29)
 

@@ -424,13 +424,13 @@ coala should support generating metrics for your code.",
 		"name" : "One click linting for online projects in the browser",
 		"desc" : "Create a loader for projects from remote data sources \
 		that can be used from the coala web page in order to provide one click linting \
-		for online projects in collaboration with the Roberta outreach project for young \
-		women and students. ",
+		for online projects. ",
 		"requirements" : [
 				"The applicant should be be familiar with bear creation and XML parsing \
 				using xpath or a similar query language",
 				"The applicant should be reasonable familiar with the coala codebase and the workings of REST APIs, \
-				including authentication."
+				including authentication.",
+				"The applicant has contributed to a relevant coala module, the Open Roberta platform, or both."
 		],
 		"difficulty" : "high",
 		"issues" : [
