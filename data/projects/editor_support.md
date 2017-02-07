@@ -14,8 +14,6 @@ widely used, but it would also benefit the end-users by giving them a working
 linter plugin across their favourite editors which are easily maintained and
 tested regularly with the latest build of coala.
 
-Details (for testing): 
-
 For sublime, we'll be using the 
 [unittest plugin](https://github.com/randy3k/UnitTesting)
 which is a plugin by itself. 
@@ -28,14 +26,10 @@ there is no api to do it. In such cases we  would want to use
 [dogtail](https://fedorahosted.org/dogtail/)
 (a GUI tester) or a similar tool to do this.
 
-Details (for maintenance):
-
 We will have to explore the possibility of having a single git repository for 
 atom, sublime-text and vim as it will ultimately be easier to maintain in the
 long run and will have a proper CI, which can be easily managed. Issues will 
 be raised more frequently as a result of this.
-
-Details (for documentation):
 
 Documentation which isn't available at the moment will have to describe the 
 usage details of existing plugins, we can have asciicinemas or gifs of the
