@@ -10,15 +10,21 @@ yet!
 
 #### MILESTONES
 
-##### GSOC 2017 COMMUNITY BONDING
+##### PREPARATION/BONDING
 
 * The cEP has been updated, finished and merged.
 * The participant has a clear idea on how all parts of the cEP can be implemented.
 
-##### GSOC 2017 MIDTERM
+##### CODING PHASE 1
 
-* At least half of the points given in the cEP are done, merged, tested and properly documented.
+* A sizeable number of the points given in the cEP are done, merged, tested and properly documented.
+* If any changes are made, cEP is modified and merged accordingly.
 
-##### GSOC 2017 FINAL
+##### CODING PHASE 2
+
+* At least two-third of the points given in the cEP are done, merged, tested and properly documented.
+
+##### CODING PHASE 3
 
 * All of the points given in the cEP are done, merged, tested and properly documented.
+* Extensive feedback is taken from the coala community to get rid of all issues that remain, if at all.
