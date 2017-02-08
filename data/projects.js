@@ -386,12 +386,12 @@ coala should support generating metrics for your code.",
 	},
 	{
 		"name" : "Improve Generic Bear Quality",
-		"desc" : "The Project is about fixing Issues with Generic Bears and \
+		"desc" : "The project is about fixing Issues with Generic Bears and \
 				  providing better API.",
 		"requirements" : [
 			"The participant should have one bugfix patch to any bear accepted.",
-			"The participant should have an understanding of the algorithms behind \
-			 existing Generic bears and test framework for bears.",
+			"The participant should have an understanding of the algorithms \
+			 behind existing Generic bears and test framework for bears.",
 			"The proposal should contain issues which are planned to be \
 			addressed, chosen (and potentially \
 			[filed](https://github.com/coala/coala-bears/issues/new)) by the \
