@@ -14,3 +14,12 @@ We want this to be a fun and educating experience for you!
 
 Use the"draft" feature on the GSoC system, submit your draft early, get a
 lot of helpful feedback from us!
+
+
+#### Writing the proposal
+
+Please follow the **application template** in the faq. All fields are required if not explicitly indicated otherwise. While following the application template you can consider doing an illustration of your proposed solution as it makes the application much more intuitive.
+
+For writing your proposal we recommend using [Google Docs](https://www.google.com/docs/about/) as this will be supported by the Google submission system.
+
+If needed, you can get further information about GSoC at <http://write.flossmanuals.net/gsocstudentguide/what-is-google-summer-of-code/>.

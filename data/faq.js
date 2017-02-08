@@ -8,11 +8,17 @@ faq = {
 
 "How do I work out a great proposal?" : "writing_a_great_proposal.md",
 
+"A showcased project on the website doesn't have a mentor, but I'm interested in that project?" : "is_mentor_necessary.md",
+
 "I found a great project! How can I contact my mentor?" : "contact_mentor.md",
 
 "When should I start working out the proposal?" : "working_out_the_proposal.md",
 
 "What are my obligations as a student during the GSoC?" : "student_obligations.md",
 
-"What are my obligations as a mentor during the GSoC?" : "mentor_obligations.md"
+"What are my obligations as a mentor during the GSoC?" : "mentor_obligations.md",
+
+"I want to write a thesis with coala!" : "thesis.md",
+
+"Do you have an application template?" : "application_template.md"
 }

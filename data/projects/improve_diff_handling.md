@@ -1,24 +1,44 @@
-Bears should be able to offer more than just one possible patch
-for an issue. Users should be able to choose between different patches, e.g.
-for different possible spelling corrections.
+One advantage of using coala is that some Bears offer automatically generated
+diffs to fix the problems they detect. This mechanism works smoothly as of now
+and even applies the proposed diff automatically to the problematic file if the
+user so desires. This is very helpful to the users. At the same time, not
+every issue in the code can have just a single correct solution. The fix can
+and should also be modifiable by the preferences of the user. Thus the
+following improvements can be incorporated giving coala the ability to:
 
-In addition bears should be able to offer templated patches, e.g. to offer
+1. Offer multiple diffs, i.e. multiple different fixes to the same issue.
+Giving the user a choice to pick the most desireable one.
+2. Incorporate input from the user into the diffs offered by using a
+templating mechanism.
+
+The above improvements can be used in these sample situations. For example when
+suggesting natural language corrections, it can offer multiple spelling
+corrections or gramatical corrections.
+
+In addition Bears will be able to offer templated patches, e.g. to offer
 variable renamings while the user should be asked for the new variable name.
 
 #### Milestones
 
-##### GSOC 2017 COMMUNITY BONDING
+##### PREPARATION/BONDING
 
 * A [cEP](https://coala.io/cep) for the project has been merged.
 
-##### GSOC 2017 MIDTERM
+##### CODING PHASE 1
 
 * The user is able to choose between multiple patches.
 * The new API is fully documented on <https://api.coala.io/>.
-* At least one bear exists that makes use of this.
+* Proposal of a Bear using multiple patches is finished.
+* Coding of the above mentioned Bear has begun.
 
-##### GSOC 2017 FINAL
+##### CODING PHASE 2
 
-* The user is able to apply templated patches.
+* Implementation of the multiple diff Bear is completed and it is merged.
+* The implementation for templated patches is nearing complete and is
+  being tested.
+
+##### CODING PHASE 3
+
+* The feature of templated patches is merged and fully tested.
 * The new API is fully documented on <https://api.coala.io/>.
-* At least one bear exists that makes use of this.
+* At least one Bear exists that makes use of this.

@@ -6,7 +6,7 @@
         <input ng-model="searchText" placeholder="Search for a project" id="search" type="text" class="validate">
       </div>
       <div class="input-field col-md-2">
-        <a class="explore waves-effect waves-light btn">Explore</a>
+        <a class="explore uppercase waves-effect waves-light btn">Explore</a>
       </div>
     </div>
   </div>
@@ -43,7 +43,7 @@
         {{ currentProject.name }}
         </div>
         <div ng-show="currentProject.requirements.length>0" class="project-detail-element  reqs-proj">
-          <div class="small-heading">Requirements</div>
+          <div class="small-heading uppercase">Requirements</div>
           <ul class="req-ul">
           <li btf-markdown="req" class="pr-element-detail milestones markdown-reqs" ng-repeat="req in currentProject.requirements"></li>
           </ul>
@@ -51,35 +51,35 @@
         </div>
 
         <div ng-show="currentProject.initiatives.length>0" class="project-detail-element">
-          <div class="small-heading">Initiatives</div>
+          <div class="small-heading uppercase">Initiatives</div>
           <span class="pr-element-detail chip" ng-repeat="initiative in currentProject.initiatives">{{ initiative }}</span><br>
         </div>
 
         <div ng-show="currentProject.collaborating_projects.length>0" class="project-detail-element">
-          <div class="small-heading">Collaborating Projects</div>
+          <div class="small-heading uppercase">Collaborating projects</div>
           <span class="pr-element-detail chip" ng-repeat="project in currentProject.collaborating_projects">{{ project }}</span><br>
         </div>
 
         <div ng-show="currentProject.tags.length>0" class="project-detail-element">
-          <div class="small-heading">Tags</div>
+          <div class="small-heading uppercase">Tags</div>
           <span class="pr-element-detail chip" ng-repeat="tags in currentProject.tags">{{ tags }}</span>
         </div>
 
         <div ng-show="currentProject.difficulty" class="project-detail-element">
-          <div class="small-heading">Difficulty</div>
+          <div class="small-heading uppercase">Difficulty</div>
           <span class="pr-element-detail chip">{{ currentProject.difficulty }}</span>
         </div>
 
         <div ng-show="currentProject.mentors.length>0" class="project-detail-element">
-          <div class="small-heading">Mentors</div>
+          <div class="small-heading uppercase">Mentors</div>
           <span class="pr-element-detail chip" ng-repeat="mentor in currentProject.mentors">@{{mentor}}</span>
         </div>
 
         <div ng-show="currentProject.issues.length>0" class="project-detail-element">
-          <div class="small-heading">Related Issues</div>
+          <div class="small-heading uppercase">Related issues</div>
           <span ng-click="redirect(issue)" class="pr-element-detail chip clickable" ng-repeat="issue in currentProject.issues">{{ issue | format_issue }}</span>
+          <br><br><br><br>
         </div>
-        <br>
       </div>
 
       <div class="col-md-8 dashboard">

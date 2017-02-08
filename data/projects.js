@@ -13,7 +13,8 @@ projects = [
 		],
 		"mentors" : [
 			"sils",
-			"jayvdb"
+			"jayvdb",
+			"Mariatta"
 		],
 		"initiatives" : ["GSoC", "RGSoC"],
 		"tags" : ["Core", "CLI"],
@@ -57,7 +58,8 @@ milestone, split into two batches."
 		],
 		"mentors" : [
 			"AbdealiJK",
-			"Makman2"
+			"Makman2",
+			"Mixih"
 		],
 		"initiatives" : ["GSoC", "RGSoC"],
 		"tags" : ["Linter", "Bears"],
@@ -151,7 +153,8 @@ coala should support generating metrics for your code.",
 		],
 		"mentors" : [
 			"sils",
-			"AbdealiJK"
+			"AbdealiJK",
+			"Mariatta"
 		],
 		"initiatives" : ["GSoC", "RGSoC"],
 		"tags" : ["Web", "Blog"],
@@ -395,7 +398,7 @@ coala should support generating metrics for your code.",
 		],
 		"difficulty" : "medium",
 		"issues" : [],
-		"mentors" : ["abhsag24"],
+		"mentors" : ["abhsag24", "Mixih"],
 		"initiatives" : ["GSoC", "RGSoC"],
 		"tags" : ["Documentation", "Bears", "Testing"],
 		"markdown": "generic_bears.md",
@@ -440,5 +443,42 @@ coala should support generating metrics for your code.",
 		"tags" : ["Bears", "Web"],
 		"markdown": "roberta_external_source.md",
 		"collaborating_projects" : ["coala", "openroberta"]
+	},
+	{
+		"name" : "Vulture dead code removal",
+		"desc" : "This project is about using vulture to automatically remove \
+				  unused python code.",
+		"requirements" : [
+				"The participant should have one patch to \
+				[vulture](https://bitbucket.org/jendrikseipp/vulture) accepted.",
+				"Being familiar with the current Bear API and what it provides. \
+				 Fixing an issue for a Bear during the newcomer process would \
+				 help with this.",
+				"Knowledge of ASTs and basic language grammar is a bonus."
+		],
+		"difficulty" : "medium",
+		"issues" : [],
+		"mentors" : ["jendrikseipp"],
+		"initiatives" : ["GSoC", "RGSoC"],
+		"tags" : ["Vulture", "AST", "Bears"],
+		"markdown": "vulture.md",
+		"collaborating_projects" : ["coala", "vulture"]
+    },
+    {
+		"name" : "Documentation Extraction and Parsing",
+		"desc" : "The Project is about writing language independent \
+				  documentation extraction and parsing algorithms.",
+		"requirements" : [
+			"The participant should have one bugfix patch to any bear accepted.",
+			"The participant should have a basic understanding of the algorithms \
+			behind existing documentation extraction routines."
+		],
+		"difficulty" : "high",
+		"issues" : [],
+		"mentors" : ["SanketDG"],
+		"initiatives" : ["GSoC", "RGSoC"],
+		"tags" : ["Documentation", "Bears"],
+		"markdown": "documentation_extraction.md",
+		"collaborating_projects" : ["coala"]
 	}
 ]

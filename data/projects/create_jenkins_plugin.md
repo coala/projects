@@ -1,26 +1,44 @@
-Jenkins users should be able to see coala results right in the 
-Jenkins UI. The result of this project should be a full fledged Jenkins 
-integration, living in an own repository with a full testsuite.
+Jenkins is the most popular ci-cd server, and there are many corporations 
+who already use it. Integrating coala into Jenkins can attract business 
+clients better who could end up sponsoring/helping out coala. 
+It also generally allows a wider range of users to use coala 
+in their prefered way.
 
-If you find this fun you'll be the one knowing this component best and will 
-get the chance to maintain it on your own if you want - always with the
-support of the community guarding your back of course.
+The goal of this project is to offer a coala plugin for Jenkins to 
+allow easy integration of coala. The users should benefit from coala 
+without additional manual work and get the result clearly in Jenkins.
+
+[Writing a coala Jenkins Plugin - Google Groups](https://groups.google.com/forum/#!msg/jenkinsci-dev/2LciAQgdRcY/Kv2rQlwXAAAJ) 
+could help you to build the plugin. 
+There is a similiar plugin in Jenkins plugin repository, 
+[warnings plugin](https://wiki.jenkins-ci.org/display/JENKINS/Warnings+Plugin). 
+It can parse the output and present warnings and errors in JenkinsUI. 
+A parser for warnings plugin could be implemented in the early stage 
+of developing. It's easy to get started.
 
 #### Milestones
 
-##### GSOC 2017 COMMUNITY BONDING
+##### PREPARATION/BONDING
 
 * A test jenkins instance exists.
-* An official repository exists with rultor set up.
+* An official repository exists with CI.
 
-##### GSOC 2017 MIDTERM
+##### CODING PHASE 1
+
+* A parser exists for parsing coala result.
+
+##### CODING PHASE 2
 
 * A working plugin with minimal functionality exists.
-* A basic testsuite exists.
-* Basic documentation exists.
+* Corresponding testsuite exists.
+* Corresponding documentation exists.
 
-##### GSOC 2017 FINAL
+The testsuite and documentation should be exhaustive and complete. 
+As the plugin is just rudimentary, the testsuite and documentation also 
+are simple at this stage.
+
+##### CODING PHASE 3
 
 * A working plugin with full functionality exists.
 * A full covering testsuite exists.
-* documentation exists.
+* Full Documentation exists.
