@@ -9,7 +9,7 @@ IndentationBear looks cool but is not usable yet. These bears can be found
 The task is to fix as many issues with these bears and make them as usable
 as possible.
 
-### Milestones
+#### Milestones
 
 ##### GSoC 2017 Community Bonding
 
