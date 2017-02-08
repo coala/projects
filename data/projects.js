@@ -58,7 +58,8 @@ milestone, split into two batches."
 		],
 		"mentors" : [
 			"AbdealiJK",
-			"Makman2"
+			"Makman2",
+			"Mixih"
 		],
 		"initiatives" : ["GSoC", "RGSoC"],
 		"tags" : ["Linter", "Bears"],
@@ -397,7 +398,7 @@ coala should support generating metrics for your code.",
 		],
 		"difficulty" : "medium",
 		"issues" : [],
-		"mentors" : ["abhsag24"],
+		"mentors" : ["abhsag24", "Mixih"],
 		"initiatives" : ["GSoC", "RGSoC"],
 		"tags" : ["Documentation", "Bears", "Testing"],
 		"markdown": "generic_bears.md",
