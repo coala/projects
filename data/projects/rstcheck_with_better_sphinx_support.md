@@ -13,7 +13,7 @@ to parse Sphinx documents exactly the same way Sphinx does.
 
 #### Milestones
 
-##### GSOC 2017 COMMUNITY BONDING
+##### PREPARATION/BONDING
 
 * As an exercise to get familiar with `rstcheck`, add support for another code
   block language. The languages currently supported by `rstcheck` are Bash,
@@ -23,7 +23,7 @@ to parse Sphinx documents exactly the same way Sphinx does.
   `sphinx-build`. Particularly, pay attention to how code blocks are parsed.
   Put this in a public repository on GitHub.
 
-##### GSOC 2017 MIDTERM
+##### CODING PHASE 1
 
 * Create a new front end, `rstcheck-sphinx` with first class Sphinx support. It
   should use the `sphinx-build` infrastructure to parse the reStructuredText.
@@ -31,11 +31,14 @@ to parse Sphinx documents exactly the same way Sphinx does.
   Use the existing `rstcheck` checkers to lint the code blocks.
 * Write unit tests to demonstrate the above functionality.
 
-##### GSOC 2017 FINAL
+##### CODING PHASE 2
 
 * Write scripts to automatically test against existing Sphinx projects to check
   for false positives in `rstcheck-sphinx`.
 * Integrate with the main `rstcheck` script if appropriate.
+
+##### CODING PHASE 3
+
 * Add additional linting support if time permits. This could involve linting
   more kinds of languages in code blocks. Or it could involve making the
   language support more extendable.
