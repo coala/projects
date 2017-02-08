@@ -222,6 +222,7 @@ a:hover > .card{
 .modal{
   width: 90% !important;
   border-radius: 0px !important;
+  max-width: 1200px;
 }
 .profile{
   background-color: #000;
