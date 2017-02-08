@@ -30,23 +30,23 @@ additional certification through Fraunhofer IAIS in Sankt Augustin, Germany.
 
 #### Milestones
 
-##### PREPARATION/BONDING (May 4 - May 30)
+##### PREPARATION/BONDING
 
 * Familiarity with the OpenRoberta partner project is established and a method for external access is designed and implemented in a basic fashion
 * A design goal is reached with the coala project on how to integrate external data sources into the coala web page, including mock-ups and a prototype implementation for the UI
 
-##### CODING PHASE 1 (May 30 - June 30)
+##### CODING PHASE 1
 
 * A bear for downloaded NEPO-programs is created that checks for certain simple properties of the program, like nesting depths and whether any part of the program tree is undefined. The specific properties shall be defined in the GSoC application.
 * The infrastructure for downloading external resources through the web interface is established and working in a basic fashion
 
-##### CODING PHASE 2 (June 30 - July 28)
+##### CODING PHASE 2
 
 * A NEPO program stored on the Open Roberta Lab can be checked from the web interface
 * The infrastructure for downloading external resources through the web interface is well documented and loaders for other resource locations can easily be added
 * All necessary changes to the webpage UI are implemented
 
-##### CODING PHASE 3 (July 28 - August 29)
+##### CODING PHASE 3
 
 * A NEPO program stored on the Open Roberta Lab can be checked from the web interface and a user receives useful advice about the quality of their project
 * A github repository can be checked from the web interface. A useful collection of bears is chosen using github's project language hints.
