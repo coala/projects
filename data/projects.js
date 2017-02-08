@@ -1,5 +1,191 @@
 projects = [
 	{
+		"name" : "One click linting for online projects in the browser",
+		"desc" : "Create a loader for projects from remote data sources \
+		that can be used from the coala web page in order to provide one click linting \
+		for online projects. ",
+		"requirements" : [
+				"The applicant should be be familiar with bear creation and XML parsing \
+				using xpath or a similar query language",
+				"The applicant should be reasonable familiar with the coala codebase and the workings of REST APIs, \
+				including authentication.",
+				"The applicant has contributed to a relevant coala module, the Open Roberta platform, or both."
+		],
+		"difficulty" : "high",
+		"issues" : [
+		],
+		"mentors" : ["maweki"],
+		"initiatives" : ["GSoC"],
+		"tags" : ["Bears", "Web"],
+		"markdown": "roberta_external_source.md",
+		"collaborating_projects" : ["coala", "openroberta"]
+	},
+	{
+		"name" : "Integrate ANTLR v4 into coala",
+		"desc" : "This project is about integrating ANTLR into the coala bear \
+				 API. ",
+		"requirements" : [
+				"The participant should have one patch to [coala](https://github.com/coala/coala) accepted.",
+				"Being familiar with the current Bear API and what it provides.",
+				"Knowledge of ANTLR and Java is a bonus.",
+				"Knowledge of ASTs and basic language grammar."
+		],
+		"difficulty" : "hard",
+		"issues" : [],
+		"mentors" : ["Udayan12167"],
+		"initiatives" : ["GSoC", "RGSoC"],
+		"tags" : ["API", "AST", "Bears"],
+		"markdown": "antlr_v4.md",
+		"collaborating_projects" : ["coala", "ANTLRv4"]
+	},
+	{
+		"name" : "Improve Generic Bear Quality",
+		"desc" : "The project is about fixing Issues with Generic Bears and \
+				  providing better API.",
+		"requirements" : [
+			"The participant should have one bugfix patch to any bear accepted.",
+			"The participant should have an understanding of the algorithms \
+			 behind existing Generic bears and test framework for bears.",
+			"The proposal should contain issues which are planned to be \
+			addressed, chosen (and potentially \
+			[filed](https://github.com/coala/coala-bears/issues/new)) by the \
+			student."
+		],
+		"difficulty" : "medium",
+		"issues" : [],
+		"mentors" : ["abhsag24", "Mixih"],
+		"initiatives" : ["GSoC", "RGSoC"],
+		"tags" : ["Documentation", "Bears", "Testing"],
+		"markdown": "generic_bears.md",
+		"collaborating_projects" : ["coala"]
+	},
+	{
+		"name" : "Improve Lint Bear Quality",
+		"desc" : "Fixing issues and improving documentation and testing of \
+		existing linter bears.",
+		"requirements" : [
+			"The participant should have one bugfix patch to any bear accepted.",
+			"The participant should have understanding of the linter and test \
+			framework for bears.",
+			"The proposal should contain issues which are planned to be \
+			addressed, chosen (and potentially \
+			[filed](https://github.com/coala/coala-bears/issues/new)) by the \
+			student."
+		],
+		"difficulty" : "low",
+		"issues" : [],
+		"mentors" : ["abhsag24", "NiklasMM"],
+		"initiatives" : ["GSoC", "RGSoC"],
+		"tags" : ["Documentation", "Bears", "Testing"],
+		"markdown": "bear_updates.md",
+		"collaborating_projects" : ["coala"]
+	},
+	{
+		"name" : "Implement Aspects Support",
+		"desc" : "This project is about collecting bears based on aspects that the \
+		user wants to have checked.",
+		"requirements" : [
+		"The participant should have one patch to any bear accepted.",
+		"The participant should have one patch to the coala core accepted.",
+		"The participant should have a solid understanding of \
+		[cEP-0005](https://github.com/coala/cEPs/blob/master/cEP-0005.md).",
+		"The participant should have a solid understanding of \
+		[cEP-0002](https://github.com/coala/cEPs/blob/master/cEP-0002.md)."
+		],
+		"difficulty" : "high",
+		"issues" : [],
+		"mentors" : ["userzimmermann", "sils"],
+		"initiatives" : ["GSoC", "RGSoC"],
+		"tags" : ["Core", "Bears", "Aspects"],
+		"markdown": "implement_aspects.md",
+		"collaborating_projects" : ["coala"]
+	},
+	{
+		"name" : "Convert Bears to Aspects",
+		"desc" : "This project is about annotating results of bears with \
+		\"aspects\" which are like categories allowing to group results.",
+		"requirements" : [
+		"The participant should have one patch to any bear accepted.",
+		"The participant should have understanding of \
+		[cEP-0005](https://github.com/coala/cEPs/blob/master/cEP-0005.md).",
+		"The proposal should contain bears which are planned to be addressed \
+		and a rough draft on which aspects will be needed and how they will be \
+		implemented."
+		],
+		"difficulty" : "medium",
+		"issues" : [],
+		"mentors" : ["userzimmermann", "sils"],
+		"initiatives" : ["GSoC"],
+		"tags" : ["Documentation", "Bears", "Aspects"],
+		"markdown": "aspects.md",
+		"collaborating_projects" : ["coala"]
+	},
+	{
+		"name" : "Implement GitLab and Bitbucket Support for GitMate",
+		"desc" : "GitMate will support GitHub very soon with it's plugin \
+		system - GitLab and Bitbucket are not far away thanks to your help!",
+		"requirements" : [
+				"The participant should have one patch to \
+				 [GitMate-2](https://gitlab.com/gitmate/gitmate-2) accepted.",
+				"Django knowledge  is a big plus."
+		],
+		"difficulty" : "medium",
+		"issues" : [],
+		"mentors" : ["sils", "seblat", "fneu"],
+		"initiatives" : ["GSoC", "RGSoC"],
+		"tags" : ["Web", "CI"],
+		"markdown": "gitmate_gitlab.md",
+		"collaborating_projects" : ["coala", "GitMate", "IGitt"]
+	},
+	{
+		"name" : "Cohesive Editor Support",
+		"desc" : "Develop an efficient strategy that allows coala to maintain \
+		a number of plugins for different editors.",
+		"requirements" : [
+			"The proposal has to provide a convincing strategy for testing, \
+			 documentation and maintaining editor plugins",
+			"The applicant should have one patch accepted to any of the coala \
+			plugins."
+		],
+		"difficulty" : "medium",
+		"issues" : [
+			"https://github.com/coala/coala-atom/issues/37",
+			"https://github.com/coala/coala-emacs/issues/11",
+			"https://github.com/coala/coala-eclipse/issues/25",
+			"https://github.com/coala/coala-vim/issues/24",
+			"https://github.com/coala/coala-gedit/issues/5",
+			"https://github.com/coala/coala-sublime/issues/4"
+		],
+		"mentors" : [
+			"AbdealiJK",
+			"fneu"
+		],
+		"initiatives" : ["GSoC", "RGSoC"],
+		"tags" : ["Editors", "Plugins"],
+		"markdown": "editor_support.md",
+		"collaborating_projects" : ["coala"]
+	},
+	{
+		"name" : "Vulture dead code removal",
+		"desc" : "This project is about using vulture to automatically remove \
+				  unused python code.",
+		"requirements" : [
+				"The participant should have one patch to \
+				[vulture](https://bitbucket.org/jendrikseipp/vulture) accepted.",
+				"Being familiar with the current Bear API and what it provides. \
+				 Fixing an issue for a Bear during the newcomer process would \
+				 help with this.",
+				"Knowledge of ASTs and basic language grammar is a bonus."
+		],
+		"difficulty" : "medium",
+		"issues" : [],
+		"mentors" : ["jendrikseipp"],
+		"initiatives" : ["GSoC", "RGSoC"],
+		"tags" : ["Vulture", "AST", "Bears"],
+		"markdown": "vulture.md",
+		"collaborating_projects" : ["coala", "vulture"]
+    },
+	{
 		"name" : "Improve Diff Handling",
 		"desc" : "Bears should be able to offer more than just one possible \
 		 patch for an issue.",
@@ -20,28 +206,6 @@ projects = [
 		"tags" : ["Core", "CLI"],
 		"markdown": "improve_diff_handling.md",
 		"collaborating_projects" : ["coala"]
-	},
-	{
-		"name" : "Create Jenkins Plugin",
-		"desc" : "Jenkins users should be able to see coala results right in the \
-		Jenkins UI.",
-		"requirements" : [
-			"Any patch to jenkins has been accepted.",
-			"The applicant is familiar with the coala plugins.",
-			"Any patch to any coala plugin has been accepted and merged."
-		],
-		"difficulty" : "low",
-		"issues" : [
-			"https://github.com/coala/coala/issues/2757"
-		],
-		"mentors" : [
-			"Udayan12167",
-			"uhafner"
-		],
-		"initiatives" : ["GSoC", "RGSoC"],
-		"tags" : ["Plugins", "CI"],
-		"markdown": "create_jenkins_plugin.md",
-		"collaborating_projects" : ["coala", "jenkins"]
 	},
 	{
 		"name" : "Extend Linter Integration",
@@ -189,147 +353,6 @@ coala should support generating metrics for your code.",
 		"collaborating_projects" : ["coala"]
 	},
 	{
-		"name" : "Cohesive Editor Support",
-		"desc" : "Develop an efficient strategy that allows coala to maintain \
-		a number of plugins for different editors.",
-		"requirements" : [
-			"The proposal has to provide a convincing strategy for testing, \
-			 documentation and maintaining editor plugins",
-			"The applicant should have one patch accepted to any of the coala \
-			plugins."
-		],
-		"difficulty" : "medium",
-		"issues" : [
-			"https://github.com/coala/coala-atom/issues/37",
-			"https://github.com/coala/coala-emacs/issues/11",
-			"https://github.com/coala/coala-eclipse/issues/25",
-			"https://github.com/coala/coala-vim/issues/24",
-			"https://github.com/coala/coala-gedit/issues/5",
-			"https://github.com/coala/coala-sublime/issues/4"
-		],
-		"mentors" : [
-			"AbdealiJK",
-			"fneu"
-		],
-		"initiatives" : ["GSoC", "RGSoC"],
-		"tags" : ["Editors", "Plugins"],
-		"markdown": "editor_support.md",
-		"collaborating_projects" : ["coala"]
-	},
-	{
-		"name" : "Real-time team communication bridge",
-		"desc" : "A way to post CI problems to online team rooms, such as IRC, \
-		Telegram, slack or gitter.",
-		"requirements" : [
-			"At least one patch to the coala core should be accepted and merged.",
-			"Some familiarity with hubot"
-		],
-		"difficulty" : "medium",
-		"issues" : [],
-		"mentors" : [
-			"jayvdb",
-			"chauffer"
-		],
-		"initiatives" : ["GSoC", "RGSoC"],
-		"tags" : ["CI", "Bots"],
-		"markdown": "communication_bridge.md",
-		"collaborating_projects" : ["coala"]
-	},
-	{
-		"name" : "Improve Lint Bear Quality",
-		"desc" : "Fixing issues and improving documentation and testing of \
-		existing linter bears.",
-		"requirements" : [
-			"The participant should have one bugfix patch to any bear accepted.",
-			"The participant should have understanding of the linter and test \
-			framework for bears.",
-			"The proposal should contain issues which are planned to be \
-			addressed, chosen (and potentially \
-			[filed](https://github.com/coala/coala-bears/issues/new)) by the \
-			student."
-		],
-		"difficulty" : "low",
-		"issues" : [],
-		"mentors" : ["abhsag24", "NiklasMM"],
-		"initiatives" : ["GSoC", "RGSoC"],
-		"tags" : ["Documentation", "Bears", "Testing"],
-		"markdown": "bear_updates.md",
-		"collaborating_projects" : ["coala"]
-	},
-	{
-		"name" : "Convert Bears to Aspects",
-		"desc" : "This project is about annotating results of bears with \
-		\"aspects\" which are like categories allowing to group results.",
-		"requirements" : [
-		"The participant should have one patch to any bear accepted.",
-		"The participant should have understanding of \
-		[cEP-0005](https://github.com/coala/cEPs/blob/master/cEP-0005.md).",
-		"The proposal should contain bears which are planned to be addressed \
-		and a rough draft on which aspects will be needed and how they will be \
-		implemented."
-		],
-		"difficulty" : "medium",
-		"issues" : [],
-		"mentors" : ["userzimmermann", "sils"],
-		"initiatives" : ["GSoC"],
-		"tags" : ["Documentation", "Bears", "Aspects"],
-		"markdown": "aspects.md",
-		"collaborating_projects" : ["coala"]
-	},
-	{
-		"name" : "Implement Aspects Support",
-		"desc" : "This project is about collecting bears based on aspects that the \
-		user wants to have checked.",
-		"requirements" : [
-		"The participant should have one patch to any bear accepted.",
-		"The participant should have one patch to the coala core accepted.",
-		"The participant should have a solid understanding of \
-		[cEP-0005](https://github.com/coala/cEPs/blob/master/cEP-0005.md).",
-		"The participant should have a solid understanding of \
-		[cEP-0002](https://github.com/coala/cEPs/blob/master/cEP-0002.md)."
-		],
-		"difficulty" : "high",
-		"issues" : [],
-		"mentors" : ["userzimmermann", "sils"],
-		"initiatives" : ["GSoC", "RGSoC"],
-		"tags" : ["Core", "Bears", "Aspects"],
-		"markdown": "implement_aspects.md",
-		"collaborating_projects" : ["coala"]
-	},
-	{
-		"name" : "Implement GitLab Support for GitMate",
-		"desc" : "GitMate will support GitHub very soon with it's plugin \
-		system - GitLab is not far away thanks to your help!",
-		"requirements" : [
-				"The participant should have one patch to \
-				 [GitMate-2](https://gitlab.com/gitmate/gitmate-2) accepted.",
-				"Django knowledge  is a big plus."
-		],
-		"difficulty" : "medium",
-		"issues" : [],
-		"mentors" : ["sils", "seblat", "fneu"],
-		"initiatives" : ["GSoC", "RGSoC"],
-		"tags" : ["Web", "CI"],
-		"markdown": "gitmate_gitlab.md",
-		"collaborating_projects" : ["coala", "GitMate", "IGitt"]
-	},
-	{
-		"name" : "Improve Sphinx support in rstcheck",
-		"desc" : "Add an alternative front end for rstcheck to better support checking Sphinx documents.",
-		"requirements" : [
-			"Familiarity with reStructuredText and Sphinx.",
-			"Familiarity with nesting code blocks within reStructuredText.",
-			"Experience with making use of Python packages to create new functionality.",
-		],
-		"difficulty" : "medium",
-		"issues" : [],
-		"mentors" : ["myint"],
-		"initiatives" : ["GSoC", "RGSoC"],
-		"tags" : ["reStructuredText", "Sphinx"],
-		"markdown": "rstcheck_with_better_sphinx_support.md",
-		"collaborating_projects" : ["coala", "rstcheck"]
-	},
-	{
 		"name" : "Improve the coala CLI",
 		"desc" : "There are a number of possible options to improve the coala \
 		interface written down in \
@@ -344,66 +367,6 @@ coala should support generating metrics for your code.",
 		"initiatives" : ["GSoC", "RGSoC"],
 		"tags" : ["Core", "CLI"],
 		"markdown": "coala_cli.md",
-		"collaborating_projects" : ["coala"]
-	},
-	{
-		"name" : "Improve installation of coala and coala-bears",
-		"desc" : "This project is about improving the \
-		[bear installation tool](https://gitlab.com/coala/cib) and \
-		working around platform dependent requirements.",
-		"requirements" : [
-				"The participant should have one patch to [coala-bears](https://github.com/coala/coala-bears) accepted.",
-				"Huge plus is being familiar with the current design of cib",
-				"Knowledge of conda is a bonus, but not required."
-		],
-		"difficulty" : "medium",
-		"issues" : [
-			"https://github.com/coala/coala-bears/issues/845",
-			"https://github.com/coala/coala-bears/issues/664"
-		],
-		"mentors" : ["Adrianzatreanu", "Udayan12167", "fneu"],
-		"initiatives" : ["GSoC", "RGSoC"],
-		"tags" : ["Bears", "cib"],
-		"markdown": "improve_installation.md",
-		"collaborating_projects" : ["coala"]
-	},
-	{
-		"name" : "Integrate ANTLR v4 into coala",
-		"desc" : "This project is about integrating ANTLR into the coala bear \
-				 API. ",
-		"requirements" : [
-				"The participant should have one patch to [coala](https://github.com/coala/coala) accepted.",
-				"Being familiar with the current Bear API and what it provides.",
-				"Knowledge of ANTLR and Java is a bonus.",
-				"Knowledge of ASTs and basic language grammar."
-		],
-		"difficulty" : "hard",
-		"issues" : [],
-		"mentors" : ["Udayan12167"],
-		"initiatives" : ["GSoC", "RGSoC"],
-		"tags" : ["API", "AST", "Bears"],
-		"markdown": "antlr_v4.md",
-		"collaborating_projects" : ["coala", "ANTLRv4"]
-	},
-	{
-		"name" : "Improve Generic Bear Quality",
-		"desc" : "The project is about fixing Issues with Generic Bears and \
-				  providing better API.",
-		"requirements" : [
-			"The participant should have one bugfix patch to any bear accepted.",
-			"The participant should have an understanding of the algorithms \
-			 behind existing Generic bears and test framework for bears.",
-			"The proposal should contain issues which are planned to be \
-			addressed, chosen (and potentially \
-			[filed](https://github.com/coala/coala-bears/issues/new)) by the \
-			student."
-		],
-		"difficulty" : "medium",
-		"issues" : [],
-		"mentors" : ["abhsag24", "Mixih"],
-		"initiatives" : ["GSoC", "RGSoC"],
-		"tags" : ["Documentation", "Bears", "Testing"],
-		"markdown": "generic_bears.md",
 		"collaborating_projects" : ["coala"]
 	},
 	{
@@ -425,47 +388,6 @@ coala should support generating metrics for your code.",
 		"markdown": "jetbrains-ide-plugin.md",
 		"collaborating_projects" : ["coala", "jetbrains"]
 	},
-	{
-		"name" : "One click linting for online projects in the browser",
-		"desc" : "Create a loader for projects from remote data sources \
-		that can be used from the coala web page in order to provide one click linting \
-		for online projects. ",
-		"requirements" : [
-				"The applicant should be be familiar with bear creation and XML parsing \
-				using xpath or a similar query language",
-				"The applicant should be reasonable familiar with the coala codebase and the workings of REST APIs, \
-				including authentication.",
-				"The applicant has contributed to a relevant coala module, the Open Roberta platform, or both."
-		],
-		"difficulty" : "high",
-		"issues" : [
-		],
-		"mentors" : ["maweki"],
-		"initiatives" : ["GSoC"],
-		"tags" : ["Bears", "Web"],
-		"markdown": "roberta_external_source.md",
-		"collaborating_projects" : ["coala", "openroberta"]
-	},
-	{
-		"name" : "Vulture dead code removal",
-		"desc" : "This project is about using vulture to automatically remove \
-				  unused python code.",
-		"requirements" : [
-				"The participant should have one patch to \
-				[vulture](https://bitbucket.org/jendrikseipp/vulture) accepted.",
-				"Being familiar with the current Bear API and what it provides. \
-				 Fixing an issue for a Bear during the newcomer process would \
-				 help with this.",
-				"Knowledge of ASTs and basic language grammar is a bonus."
-		],
-		"difficulty" : "medium",
-		"issues" : [],
-		"mentors" : ["jendrikseipp"],
-		"initiatives" : ["GSoC", "RGSoC"],
-		"tags" : ["Vulture", "AST", "Bears"],
-		"markdown": "vulture.md",
-		"collaborating_projects" : ["coala", "vulture"]
-    },
     {
 		"name" : "Documentation Extraction and Parsing",
 		"desc" : "The Project is about writing language independent \
@@ -501,5 +423,83 @@ coala should support generating metrics for your code.",
 		"tags" : ["Bears", "Pyflakes"],
 		"markdown": "integrate-pyflakes-AST.md",
 		"collaborating_projects" : ["coala", "Pyflakes"]
+	},
+	{
+		"name" : "Create Jenkins Plugin",
+		"desc" : "Jenkins users should be able to see coala results right in the \
+		Jenkins UI.",
+		"requirements" : [
+			"Any patch to jenkins has been accepted.",
+			"The applicant is familiar with the coala plugins.",
+			"Any patch to any coala plugin has been accepted and merged."
+		],
+		"difficulty" : "low",
+		"issues" : [
+			"https://github.com/coala/coala/issues/2757"
+		],
+		"mentors" : [
+			"Udayan12167",
+			"uhafner"
+		],
+		"initiatives" : ["GSoC", "RGSoC"],
+		"tags" : ["Plugins", "CI"],
+		"markdown": "create_jenkins_plugin.md",
+		"collaborating_projects" : ["coala", "jenkins"]
+	},
+	{
+		"name" : "Improve Sphinx support in rstcheck",
+		"desc" : "Add an alternative front end for rstcheck to better support checking Sphinx documents.",
+		"requirements" : [
+			"Familiarity with reStructuredText and Sphinx.",
+			"Familiarity with nesting code blocks within reStructuredText.",
+			"Experience with making use of Python packages to create new functionality.",
+		],
+		"difficulty" : "medium",
+		"issues" : [],
+		"mentors" : ["myint"],
+		"initiatives" : ["GSoC", "RGSoC"],
+		"tags" : ["reStructuredText", "Sphinx"],
+		"markdown": "rstcheck_with_better_sphinx_support.md",
+		"collaborating_projects" : ["coala", "rstcheck"]
+	},
+	{
+		"name" : "Real-time team communication bridge",
+		"desc" : "A way to post CI problems to online team rooms, such as IRC, \
+		Telegram, slack or gitter.",
+		"requirements" : [
+			"At least one patch to the coala core should be accepted and merged.",
+			"Some familiarity with hubot"
+		],
+		"difficulty" : "medium",
+		"issues" : [],
+		"mentors" : [
+			"jayvdb",
+			"chauffer"
+		],
+		"initiatives" : ["GSoC", "RGSoC"],
+		"tags" : ["CI", "Bots"],
+		"markdown": "communication_bridge.md",
+		"collaborating_projects" : ["coala"]
+	},
+	{
+		"name" : "Improve installation of coala and coala-bears",
+		"desc" : "This project is about improving the \
+		[bear installation tool](https://gitlab.com/coala/cib) and \
+		working around platform dependent requirements.",
+		"requirements" : [
+				"The participant should have one patch to [coala-bears](https://github.com/coala/coala-bears) accepted.",
+				"Huge plus is being familiar with the current design of cib",
+				"Knowledge of conda is a bonus, but not required."
+		],
+		"difficulty" : "medium",
+		"issues" : [
+			"https://github.com/coala/coala-bears/issues/845",
+			"https://github.com/coala/coala-bears/issues/664"
+		],
+		"mentors" : ["Adrianzatreanu", "Udayan12167", "fneu"],
+		"initiatives" : ["GSoC", "RGSoC"],
+		"tags" : ["Bears", "cib"],
+		"markdown": "improve_installation.md",
+		"collaborating_projects" : ["coala"]
 	}
 ]
