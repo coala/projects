@@ -301,7 +301,8 @@ coala should support generating metrics for your code.",
 		"desc" : "GitMate will support GitHub very soon with it's plugin \
 		system - GitLab is not far away thanks to your help!",
 		"requirements" : [
-				"The participant should have one patch to [GitMate-2](https://gitlab.com/gitmate/gitmate-2) accepted.",
+				"The participant should have one patch to \
+				 [GitMate-2](https://gitlab.com/gitmate/gitmate-2) accepted.",
 				"Django knowledge  is a big plus."
 		],
 		"difficulty" : "medium",
