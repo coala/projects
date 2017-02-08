@@ -424,6 +424,27 @@ coala should support generating metrics for your code.",
 		"collaborating_projects" : ["coala", "jetbrains"]
 	},
 	{
+		"name" : "One click linting for online projects in the browser",
+		"desc" : "Create a loader for projects from remote data sources \
+		that can be used from the coala web page in order to provide one click linting \
+		for online projects. ",
+		"requirements" : [
+				"The applicant should be be familiar with bear creation and XML parsing \
+				using xpath or a similar query language",
+				"The applicant should be reasonable familiar with the coala codebase and the workings of REST APIs, \
+				including authentication.",
+				"The applicant has contributed to a relevant coala module, the Open Roberta platform, or both."
+		],
+		"difficulty" : "high",
+		"issues" : [
+		],
+		"mentors" : ["maweki"],
+		"initiatives" : ["GSoC"],
+		"tags" : ["Bears", "Web"],
+		"markdown": "roberta_external_source.md",
+		"collaborating_projects" : ["coala", "openroberta"]
+	},
+	{
 		"name" : "Vulture dead code removal",
 		"desc" : "This project is about using vulture to automatically remove \
 				  unused python code.",
