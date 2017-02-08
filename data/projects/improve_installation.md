@@ -24,19 +24,22 @@ DistributionRequirement should be reworked.
 
 #### Milestones
 
-##### GSOC 2017 COMMUNITY BONDING
+##### PREPARATION/BONDING
 
 * A cEP that describes cib is merged.
 * https://github.com/coala/coala-bears/issues/845 is solved.
 
-##### GSOC 2017 MIDTERM
+##### CODING PHASE 1
 
-* Platform dependencies should be working.
 * All bears should have dependencies sorted out.
 * Tests should be written for all the dependencies and the classes.
 * All requirement classes shall be properly documented.
 
-##### GSOC 2017 FINAL
+##### CODING PHASE 2
+
+* Platform dependencies should be working.
+
+##### CODING PHASE 3
 
 * cib should be fully functional such as that it can be used by users
   instead of having to install all the bears.
