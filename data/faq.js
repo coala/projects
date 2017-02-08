@@ -22,5 +22,7 @@ faq = {
 
 "I want to write a thesis with coala!" : "thesis.md",
 
-"Do you have an application template?" : "application_template.md"
+"Do you have an application template?" : "application_template.md",
+
+"Do all listed projects will be part of GSoC (or any other initiative)?" : "project_participation.md"
 }
