@@ -143,8 +143,8 @@ coala should support generating metrics for your code.",
 		"desc" : "This project aims to intensify usage of coala by developing \
 		well organised web interfaces.",
 		"requirements" : [
-			"At least one patch to each of coala-landing and coala-html should be \
-			accepted and merged.",
+			"At least one patch to each of coala-landing and coala-html should \
+			 be accepted and merged.",
 			"The student should be familiar with web design tools & trends.",
 		],
 		"difficulty" : "medium",
