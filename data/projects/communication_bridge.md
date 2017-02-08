@@ -27,15 +27,18 @@ large to be regularly listed in the chat room.
 
 #### Milestones
 
-##### GSOC 2017 COMMUNITY BONDING
+##### PREPARATION/BONDING
 
 * The participant has merged an enhancement to cobot.
 
-##### GSOC 2017 MIDTERM
+##### CODING PHASE 1
 
 * A system exists that posts notices into a chat room for every new error that
 occurs, without duplicating notices.
 
-##### GSOC 2017 FINAL
+##### CODING PHASE 2
+
+
+##### CODING PHASE 3
 
 * A system exists that engages contributors to pick up errors to be fixed.
