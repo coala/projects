@@ -1,4 +1,4 @@
-Initial configuration of coala is **unnecessary hard**, especially for new
+Initial configuration of coala is **unnecessarily hard**, especially for new
 users. There are a few reasons for this.
 
 New users are not always familiar with all the functionality provided by various
