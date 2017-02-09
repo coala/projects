@@ -30,7 +30,7 @@ projects = [
 				"Knowledge of ANTLR and Java is a bonus.",
 				"Knowledge of ASTs and basic language grammar."
 		],
-		"difficulty" : "hard",
+		"difficulty" : "high",
 		"issues" : [],
 		"mentors" : ["Udayan12167"],
 		"initiatives" : ["GSoC", "RGSoC"],
