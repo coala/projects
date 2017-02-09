@@ -2,7 +2,7 @@ Jenkins is the most popular ci-cd server, and there are many corporations
 who already use it. Integrating coala into Jenkins can attract business
 clients better who could end up sponsoring/helping out coala.
 It also generally allows a wider range of users to use coala
-in their prefered way.
+in their preferred way.
 
 The goal of this project is to offer a coala plugin for Jenkins to
 allow easy integration of coala. The users should benefit from coala
