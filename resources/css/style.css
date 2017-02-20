@@ -126,18 +126,16 @@ body {
 main {
   flex: 1 0 auto;
 }
-footer.page-footer
-{
-  margin-top:20px;
-  padding-top:20px;
-  background-color:#fff !important
+footer.page-footer {
+  margin-top: 20px;
+  padding-top: 20px;
+  background-color: #37474f !important;
 }
-footer.page-footer .footer-copyright{
-  overflow:hidden;
-  height:50px;
-  line-height:50px;
-  color:lightslategrey !important;
-  background-color:#fff !important
+footer.page-footer .footer-copyright {
+  overflow: hidden;
+  height: 50px;
+  line-height: 50px;
+  background-color: #263238 !important;
 }
 #search{
   font-size: 24px !important;
@@ -183,14 +181,50 @@ footer.page-footer .footer-copyright{
 .card-action span{
   display: inline-block;
 }
-.footer-coala{
+.footer-coala {
   font-size: 42px;
   font-family: -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
   font-weight: 100;
-  vertical-align: text-bottom;
+  float: left;
 }
-.footer-coala-row{
+.footer-logo {
+  float: right;
+  margin-top: 0.6em;
+}
+.footer-coala-row {
   margin: 0 !important;
+}
+.footer-title {
+  font-family: apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+  font-weight: 100;
+}
+.footer-small-title {
+  text-transform: uppercase !important;
+  color: lightcyan !important;
+  letter-spacing: 0.1em !important;
+  padding: 1em !important;
+  text-align: center;
+}
+.page-footer li a:hover {
+  opacity: 1;
+}
+.page-footer li a {
+  opacity: 0.6;
+  cursor: pointer !important;
+}
+.page-footer li {
+  padding: 0.2em;
+}
+.footer-btn-text {
+  vertical-align: top;
+  padding-left: 1em;
+}
+.footer-btn-row {
+  text-transform: uppercase;
+  margin-top: 4.1em;
+}
+.footer-small-title-row {
+  margin-bottom: 0 !important;
 }
 .snippet-card{
   white-space: pre-line !important;
@@ -443,10 +477,10 @@ input:not([type]), input[type=text], input[type=password], input[type=email], in
   opacity: 0.7;
 }
 ul:not(.browser-default) {
-  margin-left: 1em !important;
+  margin-left: 0em !important;
 }
 ul:not(.browser-default) li {
-  margin-left: 1em;
+  margin-left: 0em;
 }
 .showcase-gi .card .card-action a:not(.btn):not(.btn-large):not(.btn-floating) {
   margin-right: 0 !important;
