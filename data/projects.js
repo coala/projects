@@ -539,5 +539,27 @@ coala should support generating metrics for your code.",
 		"tags": ["coala", "GitMate", "performance"],
 		"markdown": "pr_perftest.md",
 		"collaborating_projects": ["coala", "GitMate"]
+	},
+	{
+	  "name" : "Enhance coala-quickstart",
+	  "desc" : "Extract useful data from a project's configuration files to build a relevant `.coafile`.",
+	  "requirements" : [.
+	    "At least one patch to coala core and coala-quickstart each should be accepted and merged.",
+	    "The student should be familiar with ongoing technical \
+			[cEPs](https://coala.io/cep).",
+	  ],
+	  "difficulty" : "medium",
+	  "issues" : [
+	    "https://github.com/coala/coala-quickstart/issues/22",
+	    "https://github.com/coala/coala-quickstart/issues/42"
+	  ],
+	  "mentors" : [
+	    "adtac",
+	    "Adrianzatreanu"
+	  ],
+	  "initiatives" : ["GSoC", "RGSoC"],
+	  "tags" : ["Information Extraction", "CLI", "CI"],
+	  "markdown" : "enhancing_coala_quickstart.md",
+	  "collaborating_projects" : ["coala"]
 	}
 ]
