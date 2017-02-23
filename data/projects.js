@@ -447,6 +447,24 @@ coala should support generating metrics for your code.",
 		"collaborating_projects" : ["coala", "jenkins"]
 	},
 	{
+		"name" : "Build an ideas website for GSoC",
+		"desc" : "There are a number of possible ways to improve the \
+                          implementation of GSoC keeping [projects](https://projects.coala.io) \
+                          in mind.",
+		"requirements" : [
+			"One patch to projects accepted.",
+			"Clear ideas on how to improve the GSoC ideas implementation \
+                         in the proposal."
+		],
+		"difficulty" : "medium",
+		"issues" : [],
+		"mentors" : [],
+		"initiatives" : ["GSoC", "RGSoC"],
+		"tags" : ["Projects"],
+		"markdown": "projects_gsoc.md",
+		"collaborating_projects" : ["coala"]
+	},
+	{
 		"name" : "Improve Sphinx support in rstcheck",
 		"desc" : "Add an alternative front end for rstcheck to better support checking Sphinx documents.",
 		"requirements" : [
