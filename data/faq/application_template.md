@@ -54,7 +54,7 @@ Project Info
   be the first listed mentor as primary and another as secondary.
   All projects will have a primary and a secondary mentor.
 
-- What parts of coala to you have to work with in order to complete
+- What parts of coala do you have to work with in order to complete
   this project? What else are you planning on using?
 
 - Why are you the right person to work on this project?
