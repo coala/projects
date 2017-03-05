@@ -31,6 +31,12 @@
           <span ng-click="search(project)" class="pr-element-detail chip" ng-repeat="project in project.collaborating_projects">{{ project }}</span><br>
         </div>
 
+        <div ng-show="project.crowded" class="crowded project-overview-element clickable card-action">
+          <span class="crowded-title">HIGH INVOLVEMENT</span>
+          <br>
+          <span class="crowded-subtitle">If you haven't put work into this, look out for other projects for better chances!</span>
+        </div>
+
         </div>
       </div>
     </div>
