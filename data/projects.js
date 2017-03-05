@@ -60,8 +60,7 @@ projects = [
 		"collaborating_projects" : ["coala"]
 	},
 	{
-		"name" : "
-		Lint Bear Quality",
+		"name" : "Improve Lint Bear Quality",
 		"desc" : "Fixing issues and improving documentation and testing of \
 		existing linter bears.",
 		"requirements" : [
