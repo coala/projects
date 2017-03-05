@@ -479,7 +479,8 @@ coala should support generating metrics for your code.",
 		"initiatives" : ["GSoC", "RGSoC"],
 		"tags" : ["CI", "Bots"],
 		"markdown": "communication_bridge.md",
-		"collaborating_projects" : ["coala"]
+		"collaborating_projects" : ["coala"],
+		"crowded" : true,
 	},
 	{
 		"name" : "Improve installation of coala and coala-bears",
