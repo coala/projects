@@ -60,7 +60,8 @@ projects = [
 		"collaborating_projects" : ["coala"]
 	},
 	{
-		"name" : "Improve Lint Bear Quality",
+		"name" : "
+		Lint Bear Quality",
 		"desc" : "Fixing issues and improving documentation and testing of \
 		existing linter bears.",
 		"requirements" : [
@@ -323,7 +324,8 @@ coala should support generating metrics for your code.",
 		"initiatives" : ["GSoC", "RGSoC"],
 		"tags" : ["Web", "Blog"],
 		"markdown": "coala_web.md",
-		"collaborating_projects" : ["coala"]
+		"collaborating_projects" : ["coala"],
+		"crowded" : true,
 	},
 	{
 		"name" : "Optimize Caching",
