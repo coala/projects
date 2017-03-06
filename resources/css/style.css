@@ -506,11 +506,20 @@ ul:not(.browser-default) li {
   text-align: center;
   color: white;
 }
-.crowded-title{
+.completed{
+  background: lightseagreen !important;
+  text-align: center;
+  color: white;
+}
+.in-progress{
+  background: yellow !important;
+  text-align: center;
+  color: black;
+}
+.status-title{
   letter-spacing: 0.1em;
   font-weight: 400;
 }
-.crowded-subtitle{
+.status-subtitle{
   font-size: 0.8em !important;
-  color: antiquewhite;
 }
