@@ -22,4 +22,4 @@ Please follow the **application template** in the faq. All fields are required i
 
 For writing your proposal we recommend using [Google Docs](https://www.google.com/docs/about/) as this will be supported by the Google submission system.
 
-If needed, you can get further information about GSoC at <http://write.flossmanuals.net/gsocstudentguide/what-is-google-summer-of-code/>.
+If needed, you can get further information about GSoC [here](http://write.flossmanuals.net/gsocstudentguide/what-is-google-summer-of-code).
