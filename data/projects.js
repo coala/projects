@@ -529,7 +529,7 @@ coala should support generating metrics for your code.",
 		"issues": [],
 		"initiatives": ["Paper"],
 		"tags": ["coala", "GitMate", "performance"],
-		"markdown": "pr_perftest.md"
+		"markdown": "pr_perftest.md",
 		"collaborating_projects": ["coala", "GitMate"]
 	}
 ]
