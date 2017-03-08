@@ -503,5 +503,20 @@ coala should support generating metrics for your code.",
 		"tags" : ["Bears", "cib"],
 		"markdown": "improve_installation.md",
 		"collaborating_projects" : ["coala"]
-	}
+	},
+	{
+		"name": "Researching commit-based performance testing",
+		"desc": "A technique to view the performance of a piece of software \
+		and automatically identify and classify performance drops and gains.",
+		"requirements": [
+			"The participant should have some prior experience with investigating \
+			the performance of software."
+		],
+		"in_progress": true,
+		"difficulty": "medium",
+		"issues": [],
+		"intiatives": ["Paper"],
+		"tags": ["Research", "coala"],
+		"markdown": "commit_based_perftest.md"
+	},
 ]
