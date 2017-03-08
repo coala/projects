@@ -519,4 +519,17 @@ coala should support generating metrics for your code.",
 		"tags": ["Research", "coala"],
 		"markdown": "commit_based_perftest.md"
 	},
+	{
+		"name": "Performance measurement for pull requests",
+		"desc": "Essentially a codecov for performance, but smarter.",
+		"requirements": [
+			"Prior experience with commit-based performance testing."
+		],
+		"difficulty": "medium",
+		"issues": [],
+		"initiatives": ["Paper"],
+		"tags": ["coala", "GitMate", "performance"],
+		"markdown": "pr_perftest.md"
+		"collaborating_projects": ["coala", "GitMate"]
+	}
 ]
