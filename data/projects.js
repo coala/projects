@@ -61,6 +61,7 @@ projects = [
 	},
 	{
 		"name" : "Improve Lint Bear Quality",
+		"crowded": true,
 		"desc" : "Fixing issues and improving documentation and testing of \
 		existing linter bears.",
 		"requirements" : [
@@ -82,6 +83,7 @@ projects = [
 	},
 	{
 		"name" : "Implement Aspects Support",
+		"crowded": true,
 		"desc" : "This project is about collecting bears based on aspects that the \
 		user wants to have checked.",
 		"requirements" : [
@@ -102,6 +104,7 @@ projects = [
 	},
 	{
 		"name" : "Convert Bears to Aspects",
+		"crowded": true,
 		"desc" : "This project is about annotating results of bears with \
 		\"aspects\" which are like categories allowing to group results.",
 		"requirements" : [
@@ -209,6 +212,7 @@ projects = [
 	},
 	{
 		"name" : "Extend Linter Integration",
+		"crowded": true,
 		"desc" : "This project enhances our linter framework and creates a number \
 		of third party tool integrations.",
 		"requirements" : [
@@ -255,6 +259,7 @@ coala should support generating metrics for your code.",
 	},
 	{
 		"name" : "Debug and Profile Bears",
+		"crowded": true,
 		"desc" : "coala should support developers of code analysis by providing \
 		facilities to debug and profile bears.",
 		"requirements" : [
@@ -304,6 +309,7 @@ coala should support generating metrics for your code.",
 	},
 	{
 		"name" : "Improve coala website & supporting tools",
+		"crowded": true,
 		"desc" : "This project aims to intensify usage of coala by developing \
 		well organised web interfaces.",
 		"requirements" : [
@@ -355,6 +361,7 @@ coala should support generating metrics for your code.",
 	},
 	{
 		"name" : "Improve the coala CLI",
+		"crowded": true,
 		"desc" : "There are a number of possible options to improve the coala \
 		interface written down in \
 		[a draft of cEP-0004](https://github.com/coala/cEPs/pull/29/files).",
@@ -465,6 +472,7 @@ coala should support generating metrics for your code.",
 	},
 	{
 		"name" : "Real-time team communication bridge",
+		"crowded": true,
 		"desc" : "A way to post CI problems to online team rooms, such as IRC, \
 		Telegram, slack or gitter.",
 		"requirements" : [
