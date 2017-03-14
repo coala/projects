@@ -25,7 +25,7 @@ benefit of better quality Bears being contributed to the community.
 
 ##### PREPARATION/BONDING
 
-* The applicant has gone through the [pdb docuemntation](https://docs.python.org/3.4/library/pdb.html).
+* The applicant has gone through the [pdb documentation](https://docs.python.org/3.4/library/pdb.html).
 * The applicant has made a [cEP](https://coala.io/cep) of how the profiling
   will be implemented has been merged.
 
