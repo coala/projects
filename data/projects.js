@@ -559,7 +559,7 @@ coala should support generating metrics for your code.",
 	  ],
 	  "initiatives" : ["GSoC", "RGSoC"],
 	  "tags" : ["Information Extraction", "CLI", "CI"],
-	  "markdown" : "enhancing_coala_quickstart.md",
+	  "markdown" : "enhance_coala_quickstart.md",
 	  "collaborating_projects" : ["coala"]
 	}
 ]
