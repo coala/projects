@@ -543,7 +543,7 @@ coala should support generating metrics for your code.",
 	{
 	  "name" : "Enhance coala-quickstart",
 	  "desc" : "Extract useful data from a project's configuration files to build a relevant `.coafile`.",
-	  "requirements" : [.
+	  "requirements" : [
 	    "At least one patch to coala core and coala-quickstart each should be accepted and merged.",
 	    "The student should be familiar with ongoing technical \
 			[cEPs](https://coala.io/cep).",
