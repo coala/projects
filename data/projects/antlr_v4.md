@@ -14,7 +14,7 @@ they provide.
 
 Hence this project has two targets:
 
-- Succesful integration of ANTLR into the coala core providing the user with an AST interface when writing a Bear.
+- Successful integration of ANTLR into the coala core providing the user with an AST interface when writing a Bear.
 - Writing a basic Bear which tests this functionality using the AST.
 
 References:
