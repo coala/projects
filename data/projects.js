@@ -566,5 +566,23 @@ coala should support generating metrics for your code.",
 	  "markdown" : "enhance_coala_quickstart.md",
 	  "collaborating_projects" : ["coala"],
 	  "crowded": true,
+	},
+	{
+		"name" : "Newcomer metrics and gamification",
+		"desc" : "Provide public metrics about newcomers and the newcomer process.",
+		"requirements" : [
+			"At least one patch to each of coala-landing and coala-html should \
+			be accepted and merged.",
+			"The student should be familiar with web design tools & trends.",
+		],
+		"difficulty" : "medium",
+		"issues" : [],
+		"mentors" : [
+			"jayvdb"
+		],
+		"initiatives" : ["GSoC"],
+		"tags" : ["community", "webservice"],
+		"markdown" : "newcomer_metrics.md",
+		"collaborating_projects" : ["coala"]
 	}
 ]
