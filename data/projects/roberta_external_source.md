@@ -24,7 +24,7 @@ Using Open Roberta as an extensible platform instead of proprietary programmers
 specific to certain robotics hardware is an important part of Roberta's main goal
 of accessibility and outreach for young women and students of all ages.
 
-The student will work with members from the Coala team, and members from
+The student will work with members from the coala team, and members from
 Fraunhofer IAIS and other Roberta-related projects. The student may acquire
 additional certification through Fraunhofer IAIS in Sankt Augustin, Germany.
 

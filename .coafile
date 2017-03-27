@@ -1,0 +1,16 @@
+[global]
+bears = coalaBear, InvalidLinkBear
+files = **.yml, **.html, **.md, **.js, **.css
+ignore = vendors/**
+link_ignore_regex = (twitter.com|githubusercontent.com|github.com/{{)
+
+[linecount]
+files = **.yml, **.html, **.md, **.js
+bears = LineCountBear
+ignore = vendors/**, data/projects.js
+max_lines_per_file = 200
+
+[filenames]
+bears = FilenameBear
+files = **.yml, **.html, **.md, **.js, **.css
+ignore = vendors/**, data/projects/integrate-pyflakes-AST.md
