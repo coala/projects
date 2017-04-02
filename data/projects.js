@@ -138,7 +138,8 @@ projects = [
 		"initiatives" : ["GSoC", "RGSoC"],
 		"tags" : ["Web", "CI"],
 		"markdown": "gitmate_gitlab.md",
-		"collaborating_projects" : ["coala", "GitMate", "IGitt"]
+		"collaborating_projects" : ["coala", "GitMate", "IGitt"],
+		"crowded": true,
 	},
 	{
 		"name" : "Cohesive Editor Support",
@@ -166,7 +167,8 @@ projects = [
 		"initiatives" : ["GSoC", "RGSoC"],
 		"tags" : ["Editors", "Plugins"],
 		"markdown": "editor_support.md",
-		"collaborating_projects" : ["coala"]
+		"collaborating_projects" : ["coala"],
+		"crowded": true,
 	},
 	{
 		"name" : "Vulture dead code removal",
@@ -305,7 +307,8 @@ coala should support generating metrics for your code.",
 		"initiatives" : ["GSoC", "RGSoC"],
 		"tags" : ["Core", "Bears"],
 		"markdown": "nested_languages.md",
-		"collaborating_projects" : ["coala"]
+		"collaborating_projects" : ["coala"],
+		"crowded": true,
 	},
 	{
 		"name" : "Improve coala website & supporting tools",
@@ -357,11 +360,11 @@ coala should support generating metrics for your code.",
 		"initiatives" : ["GSoC", "RGSoC"],
 		"tags" : ["Core", "Bears"],
 		"markdown": "optimize_caching.md",
-		"collaborating_projects" : ["coala"]
+		"collaborating_projects" : ["coala"],
+		"crowded" : true,
 	},
 	{
 		"name" : "Improve the coala CLI",
-		"crowded": true,
 		"desc" : "There are a number of possible options to improve the coala \
 		interface written down in \
 		[a draft of cEP-0004](https://github.com/coala/cEPs/pull/29/files).",
@@ -375,7 +378,8 @@ coala should support generating metrics for your code.",
 		"initiatives" : ["GSoC", "RGSoC"],
 		"tags" : ["Core", "CLI"],
 		"markdown": "coala_cli.md",
-		"collaborating_projects" : ["coala"]
+		"collaborating_projects" : ["coala"],
+		"crowded": true,
 	},
 	{
 		"name" : "Plugin for jetbrains IDEs",
@@ -560,6 +564,7 @@ coala should support generating metrics for your code.",
 	  "initiatives" : ["GSoC", "RGSoC"],
 	  "tags" : ["Information Extraction", "CLI", "CI"],
 	  "markdown" : "enhance_coala_quickstart.md",
-	  "collaborating_projects" : ["coala"]
+	  "collaborating_projects" : ["coala"],
+	  "crowded": true,
 	}
 ]
