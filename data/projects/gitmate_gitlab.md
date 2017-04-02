@@ -10,7 +10,7 @@ for you to fix.
 The only problem with it is, that it only supports GitHub at the moment.
 
 Most of coala's repositories are located at GitHub but some are with GitLab.
-As GitMate and it's git wrapper IGITT will be released as open source, this is
+As GitMate and it's git wrapper IGitt will be released as open source, this is
 the perfect opportunity to not only support all coala repositories but enable
 GitMate support for all GitLab users.
 To complete the big three git hosting providers, support for Bitbucket has to
@@ -22,14 +22,13 @@ GitHub.
 Eventually it will support automatic code review via coala, just as
 [the prototype](http://gitmate.io) does.
 It is currently developed as a plugin platform so plugins can be reused
-for any git hoster and just plugged into hooks, similar to the GitHub webhooks.
+for any git hosted repository and just plugged into hooks, similar to the GitHub webhooks.
 
 The goals of this project are:
 
 - Add [GitLab](https://gitlab.com/) and
-  [https://bitbucket.org/product]( Bitbucket) support for
-  [IGitt](https://gitlab.com/gitmate/IGitt)
-- Add GitLa and Bitbucket support for all existing hooks in GitMate
+- [Bitbucket](https://bitbucket.org/product) support for [IGitt](https://gitlab.com/gitmate/IGitt)
+- Add GitLab and Bitbucket support for all existing hooks in GitMate
 
 #### Milestones
 
