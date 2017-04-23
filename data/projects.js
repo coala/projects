@@ -585,4 +585,93 @@ coala should support generating metrics for your code.",
 		"markdown" : "newcomer_metrics.md",
 		"collaborating_projects" : ["coala"]
 	}
+	{
+		"name" : "Debug and profile bears",
+		"desc" : "In the development lifecycle of a Bear it needs to be \
+debugged and profiled and coala should provide a comprehensive environment \
+for this. In this project the participant shall develop a system to easily \
+step into the analysis code (likely using the Pdb module already integrated \
+into Python) and step out as soon as the analysis finished.\
+\
+On this way it would be useful retrieving profiling information while \
+debugging/running.",
+		"requirements" : [
+			"At least one patch to the coala core should be accepted and merged.",
+			"The student should be familiar with ongoing technical cEPs.",
+			"The proposal needs to contain a clear concept.",
+			"Familiarity with pdb is a plus."
+		],
+		"difficulty" : "high",
+		"issues" : [
+			"https://github.com/coala/coala/issues/565",
+			"https://github.com/coala/coala/issues/1101"
+		],
+		"mentors" : [
+			"Makman2",
+			"Udayan12167"
+		],
+		"milestones" : {
+			"GSoC 2017 Coding Starts" : [
+				"The applicant has made a cEP of how the profiling will be \
+implemented.",
+				"The applicant is familiar with pdb.",
+				"The applicant is familiar with core coala codebase."
+			],
+			"GSoC 2017 Midterm" : [
+				"Pdb should be integrated completely into the coala core.",
+				"Settings of Bears can be accessed in the debug environment.",
+				"Documentation and tests for the above task should also have \
+been completed."
+			],
+			"GSoC 2017 Final" : [
+				"The profile option to CLI is added and merged.",
+				"The ability to inspect results produced by the bear is \
+implemented.",
+				"The documentation about profiling is written."
+			]
+		},
+		"initiatives" : ["GSoC"],
+		"tags" : ["Core", "Bears", "Debugging", "pdb"]
+	}
+	{
+		"name" : "Handle languages inside other languages",
+		"desc" : "Multiple programming languages can coexist in a single \
+source file and coala would benefit from having an API to support such \
+analysis algorithms. If we have a php file, it is inevitable that we'd have \
+chunks of html inside a few of them. We want some method of finding specific \
+languages inside other languages and handle them accordingly for e.g. awk \
+inside bash, JSON inside Javascript, etc.",
+		"requirements" : [
+			"At least one patch to the coala core should be accepted and merged.",
+			"The student should be familiar with ongoing technical cEPs.",
+			"The proposal needs to contain a clear concept.",
+		],
+		"difficulty" : "medium",
+		"issues" : [
+			"https://github.com/coala/coala/issues/1690"
+		],
+		"mentors" : [
+			"Udayan12167"
+		],
+		"milestones" : {
+			"GSoC 2017 Coding Starts" : [
+				"The applicant has made a cEP of how multiple languages will \
+be handled inside a single source file.",
+				"The applicant is familiar with core coala codebase."
+			],
+			"GSoC 2017 Midterm" : [
+				"The API code should be ready and in testing.",
+				"The API should be documented so that it is possible to write \
+a bear using it."
+				"An example bear using the API should be showcased."
+			],
+			"GSoC 2017 Final" : [
+				"The API should be merged and well documented.",
+				"The bears should be merged that showcase the API.",
+				"Clear examples should be incorporated in the documentation."
+			]
+		},
+		"initiatives" : ["GSoC"],
+		"tags" : ["Core", "API"]
+	}
 ]
