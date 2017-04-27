@@ -61,7 +61,7 @@ projects = [
 	},
 	{
 		"name" : "Improve Lint Bear Quality",
-		"crowded": true,
+		"status" : "high involvement",
 		"desc" : "Fixing issues and improving documentation and testing of \
 		existing linter bears.",
 		"requirements" : [
@@ -83,7 +83,7 @@ projects = [
 	},
 	{
 		"name" : "Implement Aspects Support",
-		"crowded": true,
+		"status" : "high involvement",
 		"desc" : "This project is about collecting bears based on aspects that the \
 		user wants to have checked.",
 		"requirements" : [
@@ -104,7 +104,7 @@ projects = [
 	},
 	{
 		"name" : "Convert Bears to Aspects",
-		"crowded": true,
+		"status" : "high involvement",
 		"desc" : "This project is about annotating results of bears with \
 		\"aspects\" which are like categories allowing to group results.",
 		"requirements" : [
@@ -125,6 +125,7 @@ projects = [
 	},
 	{
 		"name" : "Implement GitLab and Bitbucket Support for GitMate",
+		"status" : "high involvement",
 		"desc" : "GitMate will support GitHub very soon with it's plugin \
 		system - GitLab and Bitbucket are not far away thanks to your help!",
 		"requirements" : [
@@ -138,11 +139,11 @@ projects = [
 		"initiatives" : ["GSoC", "RGSoC"],
 		"tags" : ["Web", "CI"],
 		"markdown": "gitmate_gitlab.md",
-		"collaborating_projects" : ["coala", "GitMate", "IGitt"],
-		"crowded": true,
+		"collaborating_projects" : ["coala", "GitMate", "IGitt"]
 	},
 	{
 		"name" : "Cohesive Editor Support",
+		"status" : "high involvement",
 		"desc" : "Develop an efficient strategy that allows coala to maintain \
 		a number of plugins for different editors.",
 		"requirements" : [
@@ -167,8 +168,7 @@ projects = [
 		"initiatives" : ["GSoC", "RGSoC"],
 		"tags" : ["Editors", "Plugins"],
 		"markdown": "editor_support.md",
-		"collaborating_projects" : ["coala"],
-		"crowded": true,
+		"collaborating_projects" : ["coala"]
 	},
 	{
 		"name" : "Vulture dead code removal",
@@ -214,7 +214,7 @@ projects = [
 	},
 	{
 		"name" : "Extend Linter Integration",
-		"crowded": true,
+		"status" : "high involvement",
 		"desc" : "This project enhances our linter framework and creates a number \
 		of third party tool integrations.",
 		"requirements" : [
@@ -261,7 +261,7 @@ coala should support generating metrics for your code.",
 	},
 	{
 		"name" : "Debug and Profile Bears",
-		"crowded": true,
+		"status" : "high involvement",
 		"desc" : "coala should support developers of code analysis by providing \
 		facilities to debug and profile bears.",
 		"requirements" : [
@@ -287,6 +287,7 @@ coala should support generating metrics for your code.",
 	},
 	{
 		"name" : "Handle Nested Programming Languages",
+		"status" : "high involvement",
 		"desc" : "Multiple programming languages can coexist in the same source \
 		file - coala should support writing code analysis that only works on parts \
 		of files.",
@@ -307,12 +308,11 @@ coala should support generating metrics for your code.",
 		"initiatives" : ["GSoC", "RGSoC"],
 		"tags" : ["Core", "Bears"],
 		"markdown": "nested_languages.md",
-		"collaborating_projects" : ["coala"],
-		"crowded": true,
+		"collaborating_projects" : ["coala"]
 	},
 	{
 		"name" : "Improve coala website & supporting tools",
-		"crowded": true,
+		"status" : "high involvement",
 		"desc" : "This project aims to intensify usage of coala by developing \
 		well organised web interfaces.",
 		"requirements" : [
@@ -332,11 +332,11 @@ coala should support generating metrics for your code.",
 		"initiatives" : ["GSoC", "RGSoC"],
 		"tags" : ["Web", "Blog"],
 		"markdown": "coala_web.md",
-		"collaborating_projects" : ["coala"],
-		"crowded" : true,
+		"collaborating_projects" : ["coala"]
 	},
 	{
 		"name" : "Optimize Caching",
+		"status" : "high involvement",
 		"desc" : "Improve coala's performance by improving file caching and other \
                   performance bottlenecks.",
 		"requirements" : [
@@ -360,11 +360,11 @@ coala should support generating metrics for your code.",
 		"initiatives" : ["GSoC", "RGSoC"],
 		"tags" : ["Core", "Bears"],
 		"markdown": "optimize_caching.md",
-		"collaborating_projects" : ["coala"],
-		"crowded" : true,
+		"collaborating_projects" : ["coala"]
 	},
 	{
 		"name" : "Improve the coala CLI",
+		"status" : "high involvement",
 		"desc" : "There are a number of possible options to improve the coala \
 		interface written down in \
 		[a draft of cEP-0004](https://github.com/coala/cEPs/pull/29/files).",
@@ -378,8 +378,7 @@ coala should support generating metrics for your code.",
 		"initiatives" : ["GSoC", "RGSoC"],
 		"tags" : ["Core", "CLI"],
 		"markdown": "coala_cli.md",
-		"collaborating_projects" : ["coala"],
-		"crowded": true,
+		"collaborating_projects" : ["coala"]
 	},
 	{
 		"name" : "Plugin for jetbrains IDEs",
@@ -476,7 +475,7 @@ coala should support generating metrics for your code.",
 	},
 	{
 		"name" : "Real-time team communication bridge",
-		"crowded": true,
+		"status" : "high involvement",
 		"desc" : "A way to post CI problems to online team rooms, such as IRC, \
 		Telegram, slack or gitter.",
 		"requirements" : [
@@ -492,8 +491,7 @@ coala should support generating metrics for your code.",
 		"initiatives" : ["GSoC", "RGSoC"],
 		"tags" : ["CI", "Bots"],
 		"markdown": "communication_bridge.md",
-		"collaborating_projects" : ["coala"],
-		"crowded" : true,
+		"collaborating_projects" : ["coala"]
 	},
 	{
 		"name" : "Improve installation of coala and coala-bears",
@@ -518,13 +516,13 @@ coala should support generating metrics for your code.",
 	},
 	{
 		"name": "Researching commit-based performance testing",
+		"status" : "in progress",
 		"desc": "A technique to view the performance of a piece of software \
 		and automatically identify and classify performance drops and gains.",
 		"requirements": [
 			"The participant should have some prior experience with investigating \
 			the performance of software."
 		],
-		"in_progress": true,
 		"difficulty": "medium",
 		"issues": [],
 		"intiatives": ["Paper"],
@@ -546,6 +544,7 @@ coala should support generating metrics for your code.",
 	},
 	{
 	  "name" : "Enhance coala-quickstart",
+	  "status" : "high involvement",
 	  "desc" : "Extract useful data from a project's configuration files to build a relevant `.coafile`.",
 	  "requirements" : [
 	    "At least one patch to coala core and coala-quickstart each should be accepted and merged.",
@@ -564,8 +563,7 @@ coala should support generating metrics for your code.",
 	  "initiatives" : ["GSoC", "RGSoC"],
 	  "tags" : ["Information Extraction", "CLI", "CI"],
 	  "markdown" : "enhance_coala_quickstart.md",
-	  "collaborating_projects" : ["coala"],
-	  "crowded": true,
+	  "collaborating_projects" : ["coala"]
 	},
 	{
 		"name" : "Newcomer metrics and gamification",
