@@ -46,6 +46,7 @@ Mentors and admins can define projects as JSON using the following structure:
 ```json
 {
   "name" : "Write Project Name Here",
+  "status" : "high involvement|in progress|completed",
   "desc" : "Write a one line Description of Project here.",
   "requirements" : [
     "The applicant has to fulfill this to get started."

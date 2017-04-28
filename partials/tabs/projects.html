@@ -17,7 +17,7 @@
           <div class="project-card-detail waves-effect" ng-click="lc.showProject(project)">
             <div class="card-title name-bear">{{ project.name }}</div>
             <div btf-markdown="project.desc" class="card-content markdown"></div>
-          </div>  
+          </div>
           <div ng-show="project.mentors.length>0" class="card-action">
             <span ng-repeat="mentor in project.mentors | limitTo:4"><a ng-href="https://github.com/{{mentor}}" class="mentors-github-id" target="_blank">{{mentor}}</a></span>
           </div>
@@ -31,19 +31,19 @@
           <span ng-click="search(project)" class="pr-element-detail chip" ng-repeat="project in project.collaborating_projects">{{ project }}</span><br>
         </div>
 
-        <div ng-show="project.crowded" class="crowded project-overview-element clickable card-action">
+        <div ng-click="search(project.status)" ng-if="project.status == 'high involvement'" class="crowded project-overview-element clickable card-action">
           <span class="status-title">HIGH INVOLVEMENT</span>
           <br>
           <span class="status-subtitle">If you haven't put work into this, look out for other projects for better chances!</span>
         </div>
 
-        <div ng-show="project.in_progress" class="in-progress project-overview-element clickable card-action">
+        <div ng-click="search(project.status)" ng-if="project.status == 'in progress'" class="in-progress project-overview-element clickable card-action">
           <span class="status-title">IN PROGRESS</span>
           <br>
           <span class="status-subtitle">Work on this project is going on at full pace!</span>
         </div>
 
-        <div ng-show="project.completed" class="completed project-overview-element clickable card-action">
+        <div ng-click="search(project.status)" ng-if="project.status == 'completed'" class="completed project-overview-element clickable card-action">
           <span class="status-title">COMPLETED</span>
           <br>
           <span class="status-subtitle">Hooray!</span>
@@ -102,7 +102,7 @@
       <div class="col-md-8 dashboard">
         <div btf-markdown ng-include="'data/projects/' + currentProject.markdown" class="project-description markdown">
         </div>
-      </div>  
+      </div>
 
       </div>
 
@@ -119,7 +119,7 @@
 
 <script type="text/javascript">
   $(document).ready(function () {
-    
+
     $('.explore').click(function () {
       $('html,body').animate({
         scrollTop: $(".showcase").offset().top},
@@ -136,7 +136,7 @@
       ready: function(modal, trigger) { // Callback for Modal open. Modal and trigger parameters available.
         $(this).focus();
       },
-      complete: function() { 
+      complete: function() {
       angular.element('#projectCtrl').scope().updateLink();
       angular.element('#projectCtrl').scope().$apply();
      } // Callback for Modal close
