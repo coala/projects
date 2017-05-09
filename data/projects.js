@@ -83,7 +83,7 @@ projects = [
 	},
 	{
 		"name" : "Implement Aspects Support",
-		"crowded": true,
+		"in_progress" : true,
 		"desc" : "This project is about collecting bears based on aspects that the \
 		user wants to have checked.",
 		"requirements" : [
@@ -104,7 +104,7 @@ projects = [
 	},
 	{
 		"name" : "Convert Bears to Aspects",
-		"crowded": true,
+		"in_progress": true,
 		"desc" : "This project is about annotating results of bears with \
 		\"aspects\" which are like categories allowing to group results.",
 		"requirements" : [
@@ -139,7 +139,7 @@ projects = [
 		"tags" : ["Web", "CI"],
 		"markdown": "gitmate_gitlab.md",
 		"collaborating_projects" : ["coala", "GitMate", "IGitt"],
-		"crowded": true,
+		"in_progress": true,
 	},
 	{
 		"name" : "Cohesive Editor Support",
@@ -174,6 +174,7 @@ projects = [
 		"name" : "Vulture dead code removal",
 		"desc" : "This project is about using vulture to automatically remove \
 				  unused python code.",
+		"in_progress" : true,
 		"requirements" : [
 				"The participant should have one patch to \
 				[vulture](https://bitbucket.org/jendrikseipp/vulture) accepted.",
@@ -214,7 +215,7 @@ projects = [
 	},
 	{
 		"name" : "Extend Linter Integration",
-		"crowded": true,
+		"in_progress": true,
 		"desc" : "This project enhances our linter framework and creates a number \
 		of third party tool integrations.",
 		"requirements" : [
@@ -312,9 +313,9 @@ coala should support generating metrics for your code.",
 	},
 	{
 		"name" : "Improve coala website & supporting tools",
-		"crowded": true,
 		"desc" : "This project aims to intensify usage of coala by developing \
 		well organised web interfaces.",
+		"in_progress": true,
 		"requirements" : [
 			"At least one patch to each of coala-landing and coala-html should \
 			 be accepted and merged.",
@@ -332,8 +333,7 @@ coala should support generating metrics for your code.",
 		"initiatives" : ["GSoC", "RGSoC"],
 		"tags" : ["Web", "Blog"],
 		"markdown": "coala_web.md",
-		"collaborating_projects" : ["coala"],
-		"crowded" : true,
+		"collaborating_projects" : ["coala"]
 	},
 	{
 		"name" : "Optimize Caching",
@@ -379,7 +379,7 @@ coala should support generating metrics for your code.",
 		"tags" : ["Core", "CLI"],
 		"markdown": "coala_cli.md",
 		"collaborating_projects" : ["coala"],
-		"crowded": true,
+		"in_progress": true,
 	},
 	{
 		"name" : "Plugin for jetbrains IDEs",
@@ -404,6 +404,7 @@ coala should support generating metrics for your code.",
 		"name" : "Documentation Extraction and Parsing",
 		"desc" : "The Project is about writing language independent \
 				  documentation extraction and parsing algorithms.",
+		"in_progress" : true,
 		"requirements" : [
 			"The participant should have one bugfix patch to any bear accepted.",
 			"The participant should have a basic understanding of the algorithms \
@@ -565,7 +566,7 @@ coala should support generating metrics for your code.",
 	  "tags" : ["Information Extraction", "CLI", "CI"],
 	  "markdown" : "enhance_coala_quickstart.md",
 	  "collaborating_projects" : ["coala"],
-	  "crowded": true,
+	  "in_progress": true,
 	},
 	{
 		"name" : "Newcomer metrics and gamification",
