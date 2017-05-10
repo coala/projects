@@ -42,16 +42,19 @@ References:
 
 - Vulture offers its functionality as a library
 - The VultureBear uses the new vulture library
+- Confidence values are implemented for vulture results
 
 ##### CODING PHASE 2
 
-- Confidence values are implemented for vulture results
-
-##### CODING PHASE 3
-
+- Configuring vulture so as to subsume a whitelist file by default.
 - If a way was found to offer source ranges, the removal of dead code is
   implemented for the VultureBear using a confidence value as threshold.
 - If no way was found, additional detection cases for vulture are implemented.
   In this case the last milestone has to be reimplemented during the Bonding and
   coding phase 1 in cooperation with the coala and vulture mentors.
+
+##### CODING PHASE 3
+
+- Update the API to easily transmit newly created data (confidence values, unreachable code, source range, etc.)
+- Integrate the resulting API with the VultureBear
 - All implemented code is fully tested and documented.
