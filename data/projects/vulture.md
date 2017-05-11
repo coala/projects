@@ -38,7 +38,6 @@ References:
 
 - A concept for the source range acquisition is finalized.
 - Use vulture to report dead code for popular Python projects on Github
-- Refine default whitelists for vulture
 
 ##### CODING PHASE 1
 
@@ -48,6 +47,7 @@ References:
 
 ##### CODING PHASE 2
 
+- Refine default whitelists for vulture
 - Create whitelist files for popular Python frameworks like Django
 - If a way was found to offer source ranges, the removal of dead code is
   implemented for the VultureBear using a confidence value as threshold.
