@@ -37,6 +37,8 @@ References:
 ##### PREPARATION/BONDING
 
 - A concept for the source range acquisition is finalized.
+- Use vulture to report dead code for popular Python projects on Github
+- Refine default whitelists for vulture
 
 ##### CODING PHASE 1
 
@@ -46,15 +48,12 @@ References:
 
 ##### CODING PHASE 2
 
-- Configuring vulture so as to subsume a whitelist file by default.
+- Create whitelist files for popular Python frameworks like Django
 - If a way was found to offer source ranges, the removal of dead code is
   implemented for the VultureBear using a confidence value as threshold.
-- If no way was found, additional detection cases for vulture are implemented.
-  In this case the last milestone has to be reimplemented during the Bonding and
-  coding phase 1 in cooperation with the coala and vulture mentors.
 
 ##### CODING PHASE 3
-
+- Implement additional detection cases for unreachable code
 - Update the API to easily transmit newly created data (confidence values, unreachable code, source range, etc.)
 - Integrate the resulting API with the VultureBear
 - All implemented code is fully tested and documented.
