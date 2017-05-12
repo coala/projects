@@ -29,24 +29,24 @@ capabilities.
 ##### PREPARATION/BONDING
 
 * The applicant has tried out all linters manually.
-* The applicant has outlined all changes proposed to the linter
-  framework, if needed as a [cEP](https://coala.io/cep).
+* Designing the new testing API to yield useful results.
 
 ##### CODING PHASE 1
 
-* At least one linter bear has been merged.
-* At least one improvement to the linter framework is in review state.
-* All of them are properly tested and documented.
+* Modification of the testing API to display user friendly results and add
+  corresponding documentation.
+* Implementation of the StylintBear.
+* Implementation of the ErlangBear.
 
 ##### CODING PHASE 2
 
-* At least two linter bears have been merged.
-* At least one improvement to the linter framework has been merged,
-  if possible using newly implemented features to `@linter`.
-* All of them are properly tested and documented.
+* Get the MarkdownBear to a working state.
+* Implementation of the TravisLintBear.
+* Implementation of the PugLintBear.
+* Implementation of the AstyleBear.
 
 ##### CODING PHASE 3
 
-* At least three linter bears have been merged.
-* All improvement to the linter framework has been merged.
-* All of them are properly tested and documented.
+* Implementation of the MakefileLintBear.
+* Implementation of the CSSCombBear.
+* Implementation of the HttpoliceBear.
