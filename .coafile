@@ -1,8 +1,7 @@
 [global]
-bears = coalaBear, InvalidLinkBear
+bears = coalaBear
 files = **.yml, **.html, **.md, **.js, **.css
 ignore = vendors/**
-link_ignore_regex = (twitter.com|githubusercontent.com|github.com/{{)
 
 [linecount]
 files = **.yml, **.html, **.md, **.js
