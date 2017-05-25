@@ -1,13 +1,15 @@
-<section id="projectCtrl">
+<!-- projectCtrl is linked with angular controller of the same name
+therefore adding an ignore comment -->
+<section id="projectCtrl"> <!-- Ignore HTMLLintBear -->
   <br>
   <div class="main-content container">
     <div class="col m8 col offset-m2 s12">
       <div class="input-field searchbar">
-        <input ng-model="searchText" placeholder="Search for a project" id="search" type="search" class="validate">
-      </div>
+        <input ng-model="searchText" placeholder="Search for a project" id="search" type="search" class="validate"> </div>
     </div>
   </div>
-  <br><br>
+  <br>
+  <br>
   <section tabindex="1">
     <div class="container">
       <div class="row outline">
@@ -17,106 +19,70 @@
               <div class="card-content waves-effect" ng-click="lc.showProject(project)">
                 <div class="card-title center">{{ project.name }}</div>
                 <div btf-markdown="project.desc" class="markdown"></div>
-              </div>  
-              <div ng-show="project.mentors.length>0" class="card-action">
-                <span ng-repeat="mentor in project.mentors | limitTo:4"><a ng-href="https://github.com/{{mentor}}" class="mentors-github-id" target="_blank">{{mentor}}</a></span>
               </div>
-              <div ng-show="project.initiatives.length>0" class="project-overview-element clickable card-action">
-                <span ng-click="search(initiative)" class="pr-element-detail chip" ng-repeat="initiative in project.initiatives">{{ initiative }}</span>
-                <br>
-              </div>
-              <div ng-show="project.collaborating_projects.length>0" class="project-overview-element clickable card-action">
-                <span ng-click="search(project)" class="pr-element-detail chip" ng-repeat="project in project.collaborating_projects">{{ project }}</span><br>
-              </div>
-              <div ng-show="project.crowded" class="red white-text flag card-action center">
-                <span class="status-title">HIGH INVOLVEMENT</span>
-                <br>
-                <span class="tiny">If you haven't put work into this, look out for other projects for better chances!</span>
-              </div>
-              <div ng-show="project.in_progress" class="yellow black-text flag card-action center">
-                <span class="status-title">IN PROGRESS</span>
-                <br>
-                <span class="tiny">Work on this project is going on at full pace!</span>
-              </div>
-              <div ng-show="project.completed" class="green white-text flag card-action center">
-                <span class="status-title">COMPLETED</span>
-                <br>
-                <span class="tiny">Hooray!</span>
-              </div>
+              <div ng-show="project.mentors.length>0" class="card-action"> <span ng-repeat="mentor in project.mentors | limitTo:4"><a ng-href="https://github.com/{{mentor}}" class="mentors-github-id" target="_blank">{{mentor}}</a></span> </div>
+              <div ng-show="project.initiatives.length>0" class="project-overview-element clickable card-action"> <span ng-click="search(initiative)" class="pr-element-detail chip" ng-repeat="initiative in project.initiatives">{{ initiative }}</span>
+                <br> </div>
+              <div ng-show="project.collaborating_projects.length>0" class="project-overview-element clickable card-action"> <span ng-click="search(project)" class="pr-element-detail chip" ng-repeat="project in project.collaborating_projects">{{ project }}</span>
+                <br> </div>
+              <div ng-show="project.crowded" class="red white-text flag card-action center"> <span class="status-title">HIGH INVOLVEMENT</span>
+                <br> <span class="tiny">If you haven't put work into this, look out for other projects for better chances!</span> </div>
+              <div ng-show="project.in_progress" class="yellow black-text flag card-action center"> <span class="status-title">IN PROGRESS</span>
+                <br> <span class="tiny">Work on this project is going on at full pace!</span> </div>
+              <div ng-show="project.completed" class="green white-text flag card-action center"> <span class="status-title">COMPLETED</span>
+                <br> <span class="tiny">Hooray!</span> </div>
             </div>
           </div>
         </div>
       </div>
     </div>
   </section>
-
-  <div ng-keydown="arrowPressed($event)"  id="modal1" class="modal theatre margin" tabindex="0">
+  <div ng-keydown="arrowPressed($event)" id="modal1" class="modal theatre margin" tabindex="0">
     <div class="modal-content">
       <div class="col m4 profile">
-        <div class="name">
-        {{ currentProject.name }}
-        </div>
+        <div class="name"> {{ currentProject.name }} </div>
         <div ng-show="currentProject.requirements.length>0">
           <div class="small-heading uppercase">Requirements</div>
           <ul class="req-ul">
-          <li btf-markdown="req" class="milestones" ng-repeat="req in currentProject.requirements"></li>
+            <li btf-markdown="req" class="milestones" ng-repeat="req in currentProject.requirements"></li>
           </ul>
-          <br>
-        </div>
-
+          <br> </div>
         <div ng-show="currentProject.initiatives.length>0">
-          <div class="small-heading uppercase">Initiatives</div>
-          <span class="chip" ng-repeat="initiative in currentProject.initiatives">{{ initiative }}</span><br>
-        </div>
-
+          <div class="small-heading uppercase">Initiatives</div> <span class="chip" ng-repeat="initiative in currentProject.initiatives">{{ initiative }}</span>
+          <br> </div>
         <div ng-show="currentProject.collaborating_projects.length>0">
-          <div class="small-heading uppercase">Collaborating projects</div>
-          <span class="pr-element-detail chip" ng-repeat="project in currentProject.collaborating_projects">{{ project }}</span><br>
-        </div>
-
+          <div class="small-heading uppercase">Collaborating projects</div> <span class="pr-element-detail chip" ng-repeat="project in currentProject.collaborating_projects">{{ project }}</span>
+          <br> </div>
         <div ng-show="currentProject.tags.length>0">
-          <div class="small-heading uppercase">Tags</div>
-          <span class="pr-element-detail chip" ng-repeat="tags in currentProject.tags">{{ tags }}</span>
-        </div>
-
+          <div class="small-heading uppercase">Tags</div> <span class="pr-element-detail chip" ng-repeat="tags in currentProject.tags">{{ tags }}</span> </div>
         <div ng-show="currentProject.difficulty" class="project-detail-element">
-          <div class="small-heading uppercase">Difficulty</div>
-          <span class="pr-element-detail chip">{{ currentProject.difficulty }}</span>
-        </div>
-
+          <div class="small-heading uppercase">Difficulty</div> <span class="pr-element-detail chip">{{ currentProject.difficulty }}</span> </div>
         <div ng-show="currentProject.mentors.length>0" class="project-detail-element">
-          <div class="small-heading uppercase">Mentors</div>
-          <span class="pr-element-detail chip" ng-repeat="mentor in currentProject.mentors">@{{mentor}}</span>
-        </div>
-
+          <div class="small-heading uppercase">Mentors</div> <span class="pr-element-detail chip" ng-repeat="mentor in currentProject.mentors">@{{mentor}}</span> </div>
         <div ng-show="currentProject.issues.length>0" class="project-detail-element">
-          <div class="small-heading uppercase">Related issues</div>
-          <span ng-click="redirect(issue)" class="pr-element-detail chip clickable" ng-repeat="issue in currentProject.issues">{{ issue | format_issue }}</span>
-          <br><br><br><br>
-        </div>
+          <div class="small-heading uppercase">Related issues</div> <span ng-click="redirect(issue)" class="pr-element-detail chip clickable" ng-repeat="issue in currentProject.issues">{{ issue | format_issue }}</span>
+          <br>
+          <br>
+          <br>
+          <br> </div>
       </div>
-
       <div class="col m8 dashboard">
-        <div btf-markdown ng-include="'data/projects/' + currentProject.markdown" class="description markdown">
-        </div><br><br>
-      </div>  
-
-      </div>
-
- </div>
-<div ng-show="currentProject" class="arrows">
-  <div class="row">
-    <div class="col m6 center s6"><i ng-click="moveToNext('left')" class="fa fa-arrow-circle-left arrow-click" aria-hidden="true"></i>
-    </div>
-    <div class="col m6 center s6"><i ng-click="moveToNext('right')" class="fa fa-arrow-circle-right arrow-click" aria-hidden="true"></i>
+        <div btf-markdown ng-include="'data/projects/' + currentProject.markdown" class="description markdown"> </div>
+        <br>
+        <br> </div>
     </div>
   </div>
-</div>
+  <div ng-show="currentProject" class="arrows">
+    <div class="row">
+      <div class="col m6 center s6"><i ng-click="moveToNext('left')" class="fa fa-arrow-circle-left arrow-click" aria-hidden="true"></i> </div>
+      <div class="col m6 center s6"><i ng-click="moveToNext('right')" class="fa fa-arrow-circle-right arrow-click" aria-hidden="true"></i> </div>
+    </div>
+  </div>
 </section>
 
-<script type="text/javascript">
-  $(document).ready(function () {
-    
+
+<script>
+  $(document).ready(function(){
     $('.explore').click(function () {
       $('html,body').animate({
         scrollTop: $(".showcase").offset().top},
@@ -130,10 +96,9 @@
       out_duration: 200, // Transition out duration
       starting_top: '10%', // Starting top style attribute
       ending_top: '10%', // Ending top style attribute
-      ready: function(modal, trigger) { // Callback for Modal open. Modal and trigger parameters available.
+      ready:function(modal, trigger) { // Callback for Modal open. Modal and trigger parameters available.
         $(this).focus();
-      },
-      complete: function() { 
+      },complete:function(){
       angular.element('#projectCtrl').scope().updateLink();
       angular.element('#projectCtrl').scope().$apply();
      } // Callback for Modal close

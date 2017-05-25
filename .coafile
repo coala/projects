@@ -13,3 +13,14 @@ max_lines_per_file = 200
 bears = FilenameBear
 files = **.yml, **.html, **.md, **.js, **.css
 ignore = vendors/**, data/projects/integrate-pyflakes-AST.md
+
+[spacing]
+bears = SpaceConsistencyBear
+files = **.html, **.css, **.js
+ignore = vendors/**
+use_spaces = True
+
+[html]
+bears = HTMLLintBear
+files = **.html
+htmllint_ignore = optional_tag, protocol, indentation,  concerns_separation, capitalization
