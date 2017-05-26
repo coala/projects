@@ -14,18 +14,21 @@ coala. The specific areas and points to focus on are:
 5. Make the implementation of ApplyPatchAction log the applied patch.
 6. Reprompt after running actions only if the action says so.
 
-The end goal of the project is to make coala easier to use, hence the
-project is going to rely heavily upon mockups and feedback from the
-community. Also, in addition to the above changes the applicant is encouraged
-to come up with their own ideas to improve the CLI.
+The end goal of the project is to:
+- [ ] Make coala easier to use
+- [ ] Adds new functionality so the user could have multiple options when he uses coala
+- [X] Mockups and feedback from the community
+- [X] The applicant comes up with their own ideas to improve the CLI
+
+NOTE: Those written in italic are Work in Progress.
 
 [cEP-0010](https://github.com/coala/cEPs/pull/79/files) contains further
 details about the project.
+
 Make coala easier to use, hence the project is going to rely heavily upon
 mockups and feedback from the community. Adds new functionality so user could
 have multiple options when uses coala. The user interface would help coala
 become much more user friendly and intuitive.
-
 
 #### MILESTONES
 
@@ -34,7 +37,7 @@ become much more user friendly and intuitive.
 [PHASE 2] https://gitlab.com/coala/GSoC-2017/milestones/18
 [PHASE 3] https://gitlab.com/coala/GSoC-2017/milestones/19
 
-##### PREPARATION/BONDING
+##### [PREPARATION/BONDING](https://gitlab.com/coala/GSoC-2017/milestones/16)
 
 * The [cEP](https://github.com/coala/cEPs/pull/79/files) has been updated, finished and merged with
   the help of mockups and community feedback.
@@ -48,7 +51,7 @@ Related issues:
 [mockups] https://gitlab.com/coala/GSoC-2017/issues/53
 
 
-##### CODING PHASE 1
+##### [CODING PHASE 1](https://gitlab.com/coala/GSoC-2017/milestones/17)
 
 * Implemented at least 3 improvements from the above list including what has
   been proposed by the participant.
@@ -63,7 +66,7 @@ Related issues:
 [Chaining actions] https://gitlab.com/coala/GSoC-2017/issues/129
 [Testing and writing documentation] https://gitlab.com/coala/GSoC-2017/issues/133
 
-##### CODING PHASE 2
+##### [CODING PHASE 2](https://gitlab.com/coala/GSoC-2017/milestones/18)
 
 * Implement 'Reprompt' for actions
 
@@ -80,7 +83,7 @@ Related issue:
 Related issue:
 [apply patch] https://gitlab.com/coala/GSoC-2017/issues/134
 
-##### CODING PHASE 3
+##### [CODING PHASE 3](https://gitlab.com/coala/GSoC-2017/milestones/19)
 
 * Implemented, documented and tested all improvements.
 
@@ -98,5 +101,8 @@ Related issues:
 Related issue:
 [asciinemas] https://gitlab.com/coala/GSoC-2017/issues/158
 
+https://github.com/coala/coala/issues/2912
+https://github.com/coala/coala/issues/2699
+https://github.com/coala/coala/issues/2541
 
 GSoC Proposal for this project: https://docs.google.com/document/d/10FHYhRzK9IxroDoPxI5V_nWCR3DO-g-C-g12B0WKkQA/edit?usp=sharing
