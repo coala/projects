@@ -652,5 +652,33 @@ coala should support generating metrics for your code.",
         "tags" : ["community", "webservice"],
         "markdown" : "newcomer_metrics.md",
         "collaborating_projects" : ["coala"]
+    },
+    {
+        "name": "cobot enhancement, testing and porting",
+        "desc": "Port cobot to errbot, test the new plugins, and introduce new useful features",
+        "requirements" : [
+            "At least one patch to cobot should be accepted and merged.",
+        ],
+        "difficulty": "medium",
+        "issues": [
+            "https://gitlab.com/coala/GSoC-2017/issues/152",
+            "https://gitlab.com/coala/GSoC-2017/issues/50",
+            "https://gitlab.com/coala/GSoC-2017/issues/45",
+            "https://gitlab.com/coala/GSoC-2017/issues/44",
+            "https://gitlab.com/coala/GSoC-2017/issues/47",
+            "https://gitlab.com/coala/GSoC-2017/issues/46",
+            "https://gitlab.com/coala/GSoC-2017/issues/20",
+            "https://gitlab.com/coala/GSoC-2017/issues/49",
+            "https://gitlab.com/coala/GSoC-2017/issues/48"
+        ],
+        "mentors" : [
+            "Udayan12167",
+            "sadovnychyi"
+        ],
+        "initiatives": ["GSoC"],
+        "tags": ["community", "cobot"],
+        "markdown": "cobot_enhancement.md",
+        "collaborating_projects": ["coala"],
+        "in_progress": true
     }
 ]
