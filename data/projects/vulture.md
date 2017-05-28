@@ -19,11 +19,9 @@ confidence value for every result, this shall be helpful when tackling false pos
 #### Specifications
 ##### 1.) Realise vulture’s API in VultureBear
 
-- Extending vulture’s API: This would allow the user to find all the unused code through a single abstract layer: ```get_unused_code```. Strategy here would be to:
+- Extending vulture’s API: This would allow the user to find all the unused code through a single abstract layer: ```get_unused_code```.
 
-	* Parse all files straight away from dict(filename: filecontent)  - This would highly improve the performance of the bear later due to the time we save of memory copying.
-	* Return a sorted list of tuples [(item.filename, item.lineno, item.typ, item)...] - which would be easily configurable.
-	*  This can be easily implemented, given the already existing Vulture.scan(), Vulture.report() , Vulture.unused_funcs(), etc.
+	* This can be easily implemented, given the already existing Vulture.scan(), Vulture.report() , Vulture.unused_funcs(), etc. with minimal changes in vulture's code base.
 
 - Enhance VultureBear
 
@@ -31,7 +29,7 @@ confidence value for every result, this shall be helpful when tackling false pos
 	- Further enhancements in vulture (detect unreachable code and reporting ranges of dead code)  would influence the API, which would also need refactoring of the Bear.
 
 
-##### 2.) Improving default whitelist default
+##### 2.) Improving default whitelist
 The first step here would be to make the whitelist default. The important thing would be to identify possible cases which might cause vulture to report a false positive. This can be achieved through extensive testing with major projects - trending python projects on github would cater to our need for the purpose. This approach would serve us many benefits:
 
 - We can identify instances of what should ideally be in our whitelist file - as we may find any lesser known constructs.
