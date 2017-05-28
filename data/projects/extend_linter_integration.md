@@ -46,18 +46,18 @@ to include the newly written Linter bears.
 
 * Modification of the testing API to display user friendly results and add
   corresponding documentation.
-* Implementation of the StylintBear.
-* Implementation of the ErlangBear.
+* Implementation of the [StylintBear](https://github.com/coala/coala-bears/issues/754).
+* Implementation of the [TextLintBear](https://github.com/coala/coala-bears/issues/1576).
 
 ##### CODING PHASE 2
 
-* Get the MarkdownBear to a working state.
-* Implementation of the TravisLintBear.
-* Implementation of the PugLintBear.
-* Implementation of the AstyleBear.
+* Enhancement of the MarkdownBear.
+* Implementation of the [TravisLintBear](https://github.com/coala/coala-bears/issues/294).
+* Implementation of the [PugLintBear](https://github.com/coala/coala-bears/issues/290).
+* Implementation of the [AstyleBear](https://github.com/coala/coala-bears/issues/388).
 
 ##### CODING PHASE 3
 
-* Implementation of the MakefileLintBear.
-* Implementation of the CSSCombBear.
-* Implementation of the HttpoliceBear.
+* Implementation of the [ReekBear](https://github.com/coala/coala-bears/issues/439).
+* Implementation of the [CSSCombBear](https://github.com/coala/coala-bears/issues/634).
+* Implementation of the [HttpoliceBear](https://github.com/coala/coala-bears/issues/596).
