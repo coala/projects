@@ -1,28 +1,39 @@
-A very easy way to cover a broad spectrum of analysis routines
-is wrapping linters into coala.
-Currently we have the `@linter` decorator which simplifies this integration.
-Based on this decorator, a large selection of linters can be implemented
-rapidly.
+### Overview
 
-This project would widen the range of existing linters coala supports and makes
-them available for usage in coala.
-This helps devs whose favourite tools were not supported.
-It also enhances the testing API of linter bears, which are essential to a
-bugfree codebase.
-A tutorial on writing linter bears is available at
-[the linter documentation](http://api.coala.io/en/latest/Developers/Writing_Linter_Bears.html).
+The aim of the project is to ease the process of testing bears in coala by
+significantly improving the testing API to yield favorable, easy to understand
+results, add support for at least 8 additional useful linter bears, integrate
+the MarkdownBear with useful plugins, include `remark-lint` to report error
+messages and get the MarkdownBear to a bug free state, enhance documentation
+to include the newly written Linter bears.
 
-This project proposal should contain a concrete list of linters that are
-wrapped together with concrete improvement proposals to the `@linter`
-decorator if needed.
-Because implementing a linter bear is a rather trivial task, we want to
-spice up the project with something interesting, like adding project wide
-linter support to the `@linter` decorator or improving the testing API of
-linter bears or even improving the linter bear docs!
-Improving by adding more options can also be part of this.
+### Goals
 
-Upstream contributions to linters are encouraged, e.g. to add auto fixing
-capabilities.
+* With the integration of at least 8 linters, coala’s codebase
+  will be enriched with the most useful Linter bears. This will increase
+  flexibility and modularity of coala, eliminating the need to use different
+  third party tools every time by the end user for different programming
+  languages.
+* The testing API will provide useful messages to the bear writer and make the
+  writing/testing of bears experience a lot smoother. The new testing API will
+  point out the exact difference between the expected result that the user
+  enters and the observed result that the bear returns, excluding the hard to
+  understand messages generated in the present case. This will eliminate the
+  need to use a debugger when tests fail.
+* Robust testing methods will be implemented (ie.`check_results(...)`
+  will be used instead of the other methods(ie.`check_validity(...)` and
+  `verify_local_bear(...)`)) that will help developers visualise the results
+  in a fruitful way because asserting that a given local bear either yields or
+  does not yield any results is not very advantageous.
+* The MarkdownBear will be rewritten with a couple of useful plugins like
+  `remark-lint-no-trailing-spaces`, `remark-validate-links plugin`, etc and will
+  yield effective error messages with the help of `remark-lint`. Other issues
+  will be addressed and robust test methods will be written for a long term
+  maintenance and prevent bugs from creeping in.
+* Enhanced documentation about the linter bears created during the coding period
+  that would ease the process of writing  and debugging Linter bears for
+  newcomers and make their experience with coala richer and upgrading
+  information about ci, code coverage, etc.
 
 #### Milestones
 
