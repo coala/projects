@@ -19,9 +19,8 @@ confidence value for every result, this shall be helpful when tackling false pos
 #### Specifications
 ##### 1.) Realise vulture’s API in VultureBear
 
-- Extending vulture’s API: This would allow the user to find all the unused code through a single abstract layer: ```get_unused_code```.
-
-	* This can be easily implemented, given the already existing Vulture.scan(), Vulture.report() , Vulture.unused_funcs(), etc. with minimal changes in vulture's code base.
+<<<<<<< HEAD
+- Extending vulture’s API: This would allow the user to find all the unused code through a single abstract layer: ```get_unused_code```. This can be easily implemented, given the already existing Vulture.scan(), Vulture.report() , Vulture.unused_funcs(), etc. with minimal changes in vulture's code base.
 
 - Enhance VultureBear
 
