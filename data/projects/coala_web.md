@@ -1,54 +1,61 @@
-Usually when first time users land on coala website, they want to know how
-to install it, run it, get the results as soon as possible.
-It'd be helpful if the website offers a bear search mechanism.
-Users can search bears and filter the search results on basis of language,
-its ability to detect and fix code problems and more such parameters.
-Furthermore the website can show analytics related to Bears like, the most
-popular bears, recently created bears.
-The contributors and community are an essential part of coala.
-The website can show coala activity of contributors in an interactive manner,
-like having a dashboard type view showing data of each contributor.
+This project aims to increase the user base of coala and provide a web based
+interface to use coala on their projects. The project is conceptually built upon
+various previous projects (coala-gui, coala-html) which have helped us refine, 
+redefine and revisit our GUI approach.
 
-Lots of amazing things happen in coala at the same time.
-This project also aims to develop the coala blog and push it towards becoming
-a platform to share these stories.
-A better designed platform in terms of user interface and experience.
+By providing first time users a one click interface to obtain a coafile online
+and to run coala at coala.io on their projects by two means, by pasting the code
+in the given editor box, and by pasting the link to their GitHub repository in 
+a link box. This will help them to get started with coala very easily.
 
-We currently have coala-html to view coala analysis results in the browser
-in a beautiful format, out of CLI world.
-But some of its components require user interaction with CLI, for eg: starting
-up coala-html requires `coala-html -h`.
-If coala-html is converted to a cross platform desktop application using
-frameworks such as Electron, we can have a CLI independent tool.
+The next thing where the project will help us is that it will provide an
+effective bear search mechanism on coala.io by improving the current one, and
+this will benefit first time users and developers alike. Its this one tool
+where we will type the name of language or aspect on which the user wants to do
+analysis, and the appropriate bears would be filtered and displayed.
 
-The Sublime Text package control page could be used as inspiration for a
-bear page: <https://packagecontrol.io/>
+For the community, having all the web interfaces and UI elements in one place
+will provide a great headstart to any web project in the community. Apart from
+that, this project will help projects.coala.io become configurable. With these
+implemented, those who have their use cases similar to ours will easily be able
+to integrate these UI components with just one link, and get a projects page of
+their own in seconds.
+
+This project will also create a coafile bot. Users will be able to 'mention' the
+bot name in the issues section of their GitHub repositories, and then this bot
+will comment back with a coafile for their project. Additionaly it will also
+make a Pull Request with that coafile. The prototype can be found
+[here](https://github.com/hemangsk/gh-node-bot-prototype) and an example issue
+is [here](https://github.com/rahulcode22/Hackerrank/issues/6). 
 
 #### Milestones
 
-##### PREPARATION/BONDING
+##### [PREPARATION/BONDING](https://gitlab.com/coala/GSoC-2017/milestones/3)
 
-* The participant has coala-landing, coala-blog and coala-html running locally.
-* The participant has solved atleast two issues in each of these projects.
-* The Participant created mock-ups of all improvements and gathered community
-  feedback on them.
+* Decouple CSS from web projects and create unified library.
+* Make code coala compliant in landing-frontend, projects and webServices.
+* Add ```analytics``` endpoint in webServices to obtain bear click data.
+* Finalize enhanced UI mockups for coala Online and coala-html.
 
-##### CODING PHASE 1
+##### [CODING PHASE 1](https://gitlab.com/coala/GSoC-2017/milestones/7)
 
-* The website is in a stable state with proper commits following coala
-  guidelines.
-* The blog has sections for each teams in coala and teams are able to post.
-* Both of them are properly tested and documented.
+* Add ```--dir``` and ```--sections_only``` option in coala-quickstart.
+* Add backend support for coala Online module on webServices.
+* Add backend support for GitHub repository linting on webServices.
+* Create frontend for coala Online by creating a JS library using directives
+from coala-html.
 
-##### CODING PHASE 2
+##### [CODING PHASE 2](https://gitlab.com/coala/GSoC-2017/milestones/8)
 
-* `coala-html` can be used as a standalone desktop application.
-* It is properly tested and documented.
+* Add frontend support for GitHub repository linting on coala.io.
+* Implement a coafile bot.
+* Make projects repo easily configurable so that other orgs can use it.
+* Improve coala Online and GH linting UI based on user feedback.
 
-##### CODING PHASE 3
+##### [CODING PHASE 3](https://gitlab.com/coala/GSoC-2017/milestones/9)
 
-* `coala-html` is extensible and users have an API to create plugins
-  for it.
-* At least one example plugin exists including a tutorial to create additional
-  ones.
-
+* Add CI on landing-frontend, projects and webServices.
+* Enhance coala-html UI and Add searching and filtering functionality.
+* Solve [coala-html#34](https://github.com/coala/coala-html/issues/34) and 
+[coala-html#33](https://github.com/coala/coala-html/issues/33)
+* Revisit code in landing-frontend, projects and webServices and add tests.
