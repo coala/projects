@@ -345,12 +345,27 @@ coala should support generating metrics for your code.",
         ],
         "difficulty" : "medium",
         "issues" : [
-            "https://gitlab.com/coala/landing/issues/3"
+            "https://gitlab.com/coala/GSoC-2017/issues/12",
+            "https://gitlab.com/coala/GSoC-2017/issues/35",
+            "https://gitlab.com/coala/GSoC-2017/issues/36",
+            "https://gitlab.com/coala/GSoC-2017/issues/37",
+            "https://gitlab.com/coala/GSoC-2017/issues/38",
+            "https://gitlab.com/coala/GSoC-2017/issues/39",
+            "https://gitlab.com/coala/GSoC-2017/issues/40",
+            "https://gitlab.com/coala/GSoC-2017/issues/41",
+            "https://gitlab.com/coala/GSoC-2017/issues/190",
+            "https://gitlab.com/coala/GSoC-2017/issues/191",
+            "https://gitlab.com/coala/GSoC-2017/issues/194",
+            "https://gitlab.com/coala/GSoC-2017/issues/195",
+            "https://gitlab.com/coala/GSoC-2017/issues/196",
+            "https://gitlab.com/coala/GSoC-2017/issues/197",
+            "https://gitlab.com/coala/GSoC-2017/issues/198",
+            "https://gitlab.com/coala/GSoC-2017/issues/199",
+            "https://gitlab.com/coala/GSoC-2017/issues/204"
         ],
         "mentors" : [
             "sils",
-            "AbdealiJK",
-            "Mariatta"
+            "fneu"
         ],
         "initiatives" : ["GSoC", "RGSoC"],
         "tags" : ["Web", "Blog"],
