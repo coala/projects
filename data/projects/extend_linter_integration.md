@@ -1,4 +1,4 @@
-#### Overview
+#### OVERVIEW
 The aim of the project is to ease the process of testing bears in coala by
 significantly improving the testing API to yield favorable, easy to understand
 results, add support for at least 8 additional useful linter bears, integrate
@@ -6,7 +6,7 @@ the MarkdownBear with useful plugins, include `remark-lint` to report error
 messages and get the MarkdownBear to a bug free state, enhance documentation
 to include the newly written Linter bears.
 
-#### Goals
+#### GOALS
 * With the integration of at least 8 linters, coala’s codebase
   will be enriched with the most useful Linter bears. This will increase
   flexibility and modularity of coala, eliminating the need to use different
