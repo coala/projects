@@ -96,7 +96,7 @@ projects = [
         ],
         "difficulty" : "high",
         "issues" : [],
-        "mentors" : ["userzimmermann", "sils"],
+        "mentors" : ["userzimmermann", "jayvdb", "myint"],
         "initiatives" : ["GSoC", "RGSoC"],
         "tags" : ["Core", "Bears", "Aspects"],
         "markdown": "implement_aspects.md",

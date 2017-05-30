@@ -1,4 +1,6 @@
-Initial configuration of coala is **unnecessarily hard**, especially for new
+**Background**
+
+Initial configuration of coala is **unnecessary hard**, especially for new
 users. There are a few reasons for this.
 
 New users are not always familiar with all the functionality provided by various
@@ -38,33 +40,64 @@ The difference between this project and "Convert Bears to Aspects" is that the
 other project focuses on defining aspects on *each bears* while this project
 implements how the coala core is handling bears that use aspects.
 
-References
+**Implementation**
 
-* Aspects concept based on
+This project could be divided into 3 main step, which is:
+
+1. aspect based configuration
+
+Define new option and variable that could be used on coafile to define list
+of aspect and taste that user want to run over the project.
+
+2. Bear picking strategy
+
+Implement required algorithm to pick list of bear based on required aspect on
+coafile. This involve collecting all bears metadata to read its capability and
+prioritizing picking by few criteria like choosing bear that could fix the
+problem (not only detect), minimizing number of individual bears, and
+minimizing different runtime environment of external linter bear.
+
+3. Documentation, depreciation, and testing
+
+Writing or updating documentation on how aspect work and how to write new
+configuration file. Also I plan to do an integration test that will run coala
+with new aspect based configuration and the old one over an example project
+and compare the result.
+
+**References**
+
+* aspects concept based on
   [cEP-0005](https://github.com/coala/cEPs/blob/master/cEP-0005.md)
 * Proposal on how new bears could be designed
   [cEP-0002](https://github.com/coala/cEPs/blob/master/cEP-0002.md)
-* Current aspects prototype
-  [coala/aspect-docs](https://github.com/coala/aspect-docs)
+* Current aspects code on
+  [coala/coala](https://github.com/coala/coala/tree/master/coalib/bearlib/aspects)
 
 #### Milestones
 
-##### PREPARATION/BONDING
+##### [PREPARATION/BONDING](https://gitlab.com/coala/GSoC-2017/milestones/36)
 
 * A solid plan for the implementation and the exact features exist.
 * Any needed changes to [cEP-0005](https://coala.io/cep5) have been merged.
 
-##### CODING PHASE 1
+##### [CODING PHASE 1](https://gitlab.com/coala/GSoC-2017/milestones/37)
 
 * coala understands the new aspect-based configuration file.
 * The new aspect-based configuration file is documented properly.
+* Fix one issue on autoflake
 
-##### CODING PHASE 2
+##### [CODING PHASE 2](https://gitlab.com/coala/GSoC-2017/milestones/38)
 
-* coala can choose the right bears for an aspect.
+* coala can pick the right bears to resolve an aspect.
+* coala use few prioritization criteria to pick those bear.
 * coala can return only the relevant results based on aspects configuration.
+* Fix one issue on autoflake
 
-##### CODING PHASE 3
+##### [CODING PHASE 3](https://gitlab.com/coala/GSoC-2017/milestones/39)
 
 * Ensure backward compatibility with old bears and configuration file.
-* Everything is documented (and tested) properly.
+* Everything is documented properly.
+* Write AutoflakeBear that will use all of the aspect feature as a proof of
+  works. 
+* Integration test, run and compare coala result in a project with the new 
+  aspect configuration and old configuration setup.
