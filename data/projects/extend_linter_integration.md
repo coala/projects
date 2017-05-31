@@ -54,11 +54,11 @@ the same number of characters (632) due to which testing transforms to a
 challenging task. Hit and trial methods or the usage of a debugger are the
 only possible ways to overcome these errors.
 ```
-E           AssertionError: Lists differ: [<Result object(id=0xce0383d576a84f34848d66d0ddc87479, origin=[632 chars]710>] != [<Result object(id=0x7e58527926a345f8a2bb36305c58f9f6, origin=[632 chars]400>]
+E           AssertionError: Lists differ: [&lt;Result object(id=0xce0383d576a84f34848d66d0ddc87479, origin=[632 chars]710&gt;] != [&lt;Result object(id=0x7e58527926a345f8a2bb36305c58f9f6, origin=[632 chars]400&gt;]
 E           
 E           First differing element 0:
-E           <Result object(id=0xce0383d576a84f34848d66d0ddc87479, origin=[631 chars]0710>
-E           <Result object(id=0x7e58527926a345f8a2bb36305c58f9f6, origin=[631 chars]0400>
+E           &lt;Result object(id=0xce0383d576a84f34848d66d0ddc87479, origin=[631 chars]0710&gt;
+E           &lt;Result object(id=0x7e58527926a345f8a2bb36305c58f9f6, origin=[631 chars]0400&gt;
 ```
 Eg. Error in `execute_bears(...)` does not show the actual error and it can get
 difficult to debug things like:
@@ -88,6 +88,7 @@ The given implementation is expected to eliminate the usage of a debugger,
 providing productive results while writing and testing bears.
 
 To summarise, the new Testing API would look like:
+
 ![new test api](https://cloud.githubusercontent.com/assets/14862976/26557881/4103628c-44c2-11e7-9a06-68591d000aa0.jpg)
 
 **(B) PROBLEM: PLENTY OF ISSUES RELATED TO THE MARKDOWNBEAR**
@@ -161,6 +162,7 @@ I’m planning to add more support to coala-bears by expanding the linter
 integration and adding the essential 8 linter bears, giving widespread support
 to the user from a variety of local and global bears with the goal of appending
 the following bears :
+
 * [StylintBear](https://github.com/coala/coala-bears/issues/754)
 * [TextLintBear](https://github.com/coala/coala-bears/issues/1576)                                      
 * [ReekBear](https://github.com/coala/coala-bears/issues/439)               
