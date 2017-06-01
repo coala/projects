@@ -9,7 +9,7 @@ such as capitalization and grammar.
 
 For python, its [docstrings](https://www.python.org/dev/peps/pep-0257/)
 
-The aim of the project is to develop a language independent analyzing routine
+The aim of the project is to develop an analyzing routine at least for python and java
 that will find all documentation strings in a file, parse them into specific
 groups and check them against a specified documentation style given by the
 user. The functionality can be extended so that the analyzing routine provides
@@ -21,25 +21,28 @@ errors and perform other aesthetical fixes.
 
 ##### PREPARATION/BONDING
 
-* Learn about how different languages have their own documentation standards.
-* Learn about the work already done in documentation extraction and parsing.
-* A concept of an efficient documentation parsing system is designed.
+* Investigate about docstring diff's cut-off bug.
+  Related: [#4187](https://github.com/coala/coala/issues/4187)
+* Fix `allow_missing_func_desc` in current implementation of DocStyleBear.
+* Investigate about existing DocStyleBear. (Check if DocStyleBear runs fine on coala and coala-bears repo)
+* Investigate about coala's project structure. (Write a blog introducing the same to the community)
 
 ##### CODING PHASE 1
 
-* DocumentationStyleBear should work for at least one language,
-  preferably python.
-* Malformed documentation should raise errors.
-  Related: [#2143](https://github.com/coala/coala/issues/2143)
+* Fix DocumentationExtraction related issues.
+  Related: [#18](https://gitlab.com/coala/GSoC-2017/issues/18)
+* Fix DocumentationComment related issues.
+  Related: [#19](https://gitlab.com/coala/GSoC-2017/issues/19)
 
 ##### CODING PHASE 2
 
-* A base class, that does the extraction and parsing, is implemented.
-  [#2659](https://github.com/coala/coala/issues/2659)
-
+* Rigorous testing of newly renovated DocumentationAPI, with the use of existing DocStyleBear.
+* A `DocBaseClass`, which does extraction, parsing and diff generation, is implemented.
+  Related: [#2659](https://github.com/coala/coala/issues/2659)
+* DocStyleBear at least for python and java, which uses `DocBaseClass`, is implemented.
 
 ##### CODING PHASE 3
 
-  * A bear which fixes grammar inside documentation is implemented.
-  * Fix [#2645](https://github.com/coala/coala/issues/2645)
-    and [#2646](https://github.com/coala/coala/issues/2646)
+* DocGrammarBear at least for python and java, which uses `DocBaseClass`, is implemented.
+* Investigate newly formed DocStyleBear and DocGrammarBear by running them on real projects.
+* Improve/Fix bugs, quirks, unit-testing, improvements over test cases and documentation.
