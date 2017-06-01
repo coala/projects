@@ -23,40 +23,35 @@ However, there’s scope for improvement in the following areas:
 
 #### Milestones
 
- [BONDING] https://gitlab.com/coala/GSoC-2017/milestones/6
- [PHASE 1] https://gitlab.com/coala/GSoC-2017/milestones/20
- [PHASE 2] https://gitlab.com/coala/GSoC-2017/milestones/21
- [PHASE 3] https://gitlab.com/coala/GSoC-2017/milestones/22
- [STRETCH GOALS] https://gitlab.com/coala/GSoC-2017/milestones/41
-
 ##### [PREPARATION/BONDING](https://gitlab.com/coala/GSoC-2017/milestones/6) 4th May - 29th May
-* Identified all the kinds of configuration files to be worked
+* [X] Identified all the kinds of configuration files to be worked
   on in the project.
-* Figure out all the useful information that could be
+* [X] Figure out all the useful information that could be
   extracted from these files.
-* Get the cEP https://github.com/coala/cEPs/issues/80 merged.
+* [X] Get the cEP https://github.com/coala/cEPs/issues/80 merged.
 
 ##### [CODING PHASE 1: Extracting Information](https://gitlab.com/coala/GSoC-2017/milestones/20) 30th May - 26th June
 
-* The basic structure of the information extraction system is implemented.
-* Extract information from `Gruntfile.js`, `package.json` and `Gemfile`.
+* [ ] The basic structure of the information extraction system is implemented.
+* [ ] Extract information from `Gruntfile.js`, `package.json` and `Gemfile`.
 
 ##### [CODING PHASE 2: Utilizing the Information](https://gitlab.com/coala/GSoC-2017/milestones/21) 30th June - 24th July
 
-* CLI: Add autocomplete feature, add prompts for "detect" and "fix" capabilities.
-* Collect and organize bears' metadata.
-* Filter and recommend bears after utilizing extracted information.
+* [ ] CLI: Add autocomplete feature, add prompts for "detect" and "fix" capabilities.
+* [ ] Collect and organize bears' metadata.
+* [ ] Filter and recommend bears after utilizing extracted information.
 
 ##### [CODING PHASE 3: CLI enhancements](https://gitlab.com/coala/GSoC-2017/milestones/22) 28th July - 21st August
 
-* Validate user input.
-* Fix warning and formattings on the CLI.
-* Continuous Integration.
-* Complete Pending tasks (if any).
+* [ ] Validate user input.
+* [ ] Fix warning and formattings on the CLI.
+* [ ] Continuous Integration.
+* [ ] Complete Pending tasks (if any).
 
 ##### [Stretch Goals](https://gitlab.com/coala/GSoC-2017/milestones/4)
 
-* Implement `.editorconfig` parser and extract information from `.editorconfig`
-* Extract information from other meta-files.
-* Smart update of generated `.coafile` w.r.t. changes in meta-files.
-* Installing required bear-dependencies using cib.
+* [ ] Implement `.editorconfig` parser and extract information from `.editorconfig`
+* [ ] Extract information from other meta-files.
+* [ ] Smart update of generated `.coafile` w.r.t. changes in meta-files.
+* [ ] Installing required bear-dependencies using cib.
+
