@@ -39,10 +39,10 @@ become much more user friendly and intuitive.
 
 ##### [PREPARATION/BONDING](https://gitlab.com/coala/GSoC-2017/milestones/16)
 
-* The [cEP](https://github.com/coala/cEPs/pull/79/files) has been updated, finished and merged with
+- [X] The [cEP](https://github.com/coala/cEPs/pull/79/files) has been updated, finished and merged with
   the help of mockups and community feedback.
-* A survey is done on the importance of each proposed change to the CLI.
-* Concept for implementation exists in the cEP.
+- [X] A survey is done on the importance of each proposed change to the CLI.
+- [X] Concept for implementation exists in the cEP.
 
 Related issues:
 
@@ -53,10 +53,10 @@ Related issues:
 
 ##### [CODING PHASE 1](https://gitlab.com/coala/GSoC-2017/milestones/17)
 
-* Implemented at least 3 improvements from the above list including what has
+- [ ] Implemented at least 3 improvements from the above list including what has
   been proposed by the participant.
-* Thorough testing of the implemented improvements is done and they are merged.
-* Documentation using illustrations of the improvements is merged.
+- [ ] Thorough testing of the implemented improvements is done and they are merged.
+- [ ] Documentation using illustrations of the improvements is merged.
 
 Related issues:
 
@@ -68,35 +68,35 @@ Related issues:
 
 ##### [CODING PHASE 2](https://gitlab.com/coala/GSoC-2017/milestones/18)
 
-* Implement 'Reprompt' for actions
+- [ ] Implement 'Reprompt' for actions
 
 Related issues:
 [Reprompt] https://gitlab.com/coala/GSoC-2017/issues/131
 
-* Implement 'selection action for all results' option
+- [ ] Implement 'selection action for all results' option
 
 Related issue:
 [selection action] https://gitlab.com/coala/GSoC-2017/issues/132
 
-* Implement 'ApplyPatchAction'
+- [ ] Implement 'ApplyPatchAction'
 
 Related issue:
 [apply patch] https://gitlab.com/coala/GSoC-2017/issues/134
 
 ##### [CODING PHASE 3](https://gitlab.com/coala/GSoC-2017/milestones/19)
 
-* Implemented, documented and tested all improvements.
+- [ ] Implemented, documented and tested all improvements.
 
 Related issue:
 [tests] https://gitlab.com/coala/GSoC-2017/issues/138
 
-* Implement 'interactive patches'
+- [ ] Implement 'interactive patches'
 
 Related issues:
 [patches] https://gitlab.com/coala/GSoC-2017/issues/136
 [functionality] https://gitlab.com/coala/GSoC-2017/issues/137
 
-* Creation of asciinemas showing the usage of the implemented CLI improvements.
+- [ ] Creation of asciinemas showing the usage of the implemented CLI improvements.
 
 Related issue:
 [asciinemas] https://gitlab.com/coala/GSoC-2017/issues/158
