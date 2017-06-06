@@ -96,6 +96,7 @@ projects = [
         ],
         "difficulty" : "high",
         "issues" : [],
+        "developers_involved" :[],
         "mentors" : ["userzimmermann", "jayvdb", "myint"],
         "initiatives" : ["GSoC", "RGSoC"],
         "tags" : ["Core", "Bears", "Aspects"],
@@ -117,6 +118,7 @@ projects = [
         ],
         "difficulty" : "medium",
         "issues" : [],
+        "developers_involved" : [],
         "mentors" : ["userzimmermann", "sils"],
         "initiatives" : ["GSoC"],
         "tags" : ["Documentation", "Bears", "Aspects"],
@@ -162,6 +164,7 @@ projects = [
         "markdown": "gitmate_gitlab.md",
         "collaborating_projects" : ["coala", "GitMate", "IGitt"],
         "in_progress": true,
+        "developers_involved" : []
     },
     {
         "name" : "Cohesive Editor Support",
@@ -211,7 +214,8 @@ projects = [
         "initiatives" : ["GSoC", "RGSoC"],
         "tags" : ["Vulture", "AST", "Bears"],
         "markdown": "vulture.md",
-        "collaborating_projects" : ["coala", "vulture"]
+        "collaborating_projects" : ["coala","vulture"],
+        "developers_involved" : []
     },
     {
         "name" : "Improve Diff Handling",
@@ -254,6 +258,7 @@ milestone, split into two batches."
             "Makman2",
             "Mixih"
         ],
+        "developers_involved" : [],
         "initiatives" : ["GSoC", "RGSoC"],
         "tags" : ["Linter", "Bears"],
         "markdown": "extend_linter_integration.md",
@@ -344,6 +349,7 @@ coala should support generating metrics for your code.",
             "The student should be familiar with web design tools & trends.",
         ],
         "difficulty" : "medium",
+        "developers_involved" : [],
         "issues" : [
             "https://gitlab.com/coala/GSoC-2017/issues/12",
             "https://gitlab.com/coala/GSoC-2017/issues/35",
@@ -435,6 +441,7 @@ coala should support generating metrics for your code.",
         "tags" : ["Core", "CLI"],
         "markdown": "coala_cli.md",
         "collaborating_projects" : ["coala"],
+        "developers_involved" : [],
         "in_progress": true,
     },
     {
@@ -472,6 +479,7 @@ coala should support generating metrics for your code.",
         "initiatives" : ["GSoC", "RGSoC"],
         "tags" : ["Documentation", "Bears"],
         "markdown": "documentation_extraction.md",
+        "developers_involved" : [],
         "collaborating_projects" : ["coala"]
     },
     {
@@ -584,6 +592,7 @@ coala should support generating metrics for your code.",
         "in_progress": true,
         "difficulty": "medium",
         "issues": [],
+        "developers_involved" : [],
         "intiatives": ["Paper"],
         "tags": ["Research", "coala"],
         "markdown": "commit_based_perftest.md"
@@ -633,6 +642,7 @@ coala should support generating metrics for your code.",
       "tags" : ["Information Extraction", "CLI", "CI"],
       "markdown" : "enhance_coala_quickstart.md",
       "collaborating_projects" : ["coala"],
+      "developers_involved" : [],
       "in_progress": true,
     },
     {
@@ -679,6 +689,7 @@ coala should support generating metrics for your code.",
         "tags": ["community", "cobot"],
         "markdown": "cobot_enhancement.md",
         "collaborating_projects": ["coala"],
+        "developers_involved" : [],
         "in_progress": true
     }
 ]
