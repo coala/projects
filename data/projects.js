@@ -691,5 +691,57 @@ coala should support generating metrics for your code.",
         "collaborating_projects": ["coala"],
         "developers_involved" : [],
         "in_progress": true
+    },
+    {
+        "name": "Use coala CI on a popular GitHub repository",
+        "desc": "Use coala CI on a popular GitHub project, of your choice, using a Docker image on Travis CI, and report the results to the coala developers.",
+        "requirements" : [
+            "Joined http://coala.io/chat .",
+        ],
+        "difficulty": "beginner",
+        "issues": [
+            "https://github.com/coala/meta/issues/58",
+            "https://github.com/coala/meta/issues/81"
+        ],
+        "mentors" : [
+            "jayvdb",
+            "sils"
+        ],
+        "initiatives": ["GCI"],
+        "tags": ["community", "docker"],
+        "markdown": "use_coala.md",
+        "collaborating_projects": ["docker-coala-base"]
+    },
+    {
+        "name": "Use coala CI on a popular GitHub repository - Advanced",
+        "desc": "Fix a popular GitHub project so that the repository contents conform to linter rules that are verified by coala CI on each commit using Travis CI.",
+        "requirements" : [
+            "Completed task 'use_coala'.",
+        ],
+        "difficulty": "medium",
+        "mentors" : [
+            "jayvdb",
+            "sils"
+        ],
+        "initiatives": ["GCI"],
+        "tags": ["community", "docker"],
+        "markdown": "use_coala_2.md",
+        "collaborating_projects": ["docker-coala-base"]
+    },
+    {
+        "name": "Implement coala CI on a popular GitHub repository",
+        "desc": "Implement coala CI on a popular GitHub project, of your choice, using a Docker image on Travis CI, and report the results to the coala developers.",
+        "requirements" : [
+            "Completed task 'use_coala_2'.",
+        ],
+        "difficulty": "medium",
+        "mentors" : [
+            "jayvdb",
+            "sils"
+        ],
+        "initiatives": ["GCI"],
+        "tags": ["community", "docker"],
+        "markdown": "use_coala_3.md",
+        "collaborating_projects": ["docker-coala-base"]
     }
 ]

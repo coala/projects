@@ -7,7 +7,7 @@ ignore = vendors/**
 files = **.yml, **.html, **.md, **.js
 bears = LineCountBear
 ignore = vendors/**, data/projects.js
-max_lines_per_file = 200
+max_lines_per_file = 500
 
 [filenames]
 bears = FilenameBear
