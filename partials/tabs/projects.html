@@ -72,12 +72,8 @@ therefore adding an ignore comment -->
         <br> </div>
     </div>
   </div>
-  <div ng-show="currentProject" class="arrows">
-    <div class="row">
-      <div class="col m6 center s6"><i ng-click="moveToNext('left')" class="fa fa-arrow-circle-left arrow-click" aria-hidden="true"></i> </div>
-      <div class="col m6 center s6"><i ng-click="moveToNext('right')" class="fa fa-arrow-circle-right arrow-click" aria-hidden="true"></i> </div>
-    </div>
-  </div>
+  <i ng-show="currentProject" ng-click="moveToNext('left')" class="fa fa-arrow-circle-left arrow-click arrow-move-left" aria-hidden="true"></i>
+  <i ng-show="currentProject" ng-click="moveToNext('right')" class="fa fa-arrow-circle-right arrow-click arrow-move-right" aria-hidden="true"></i>
 </section>
 
 
