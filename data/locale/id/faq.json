@@ -1,3 +1,15 @@
 {
-  "contact_mentor.md": "Aku menemukan proyek hebat! Bagaimana saya menghubungi mentor saya?"
+  "i_want_to_do_a_gsoc.md": "Saya ingin mengikuti GSoC!",
+  "gsoc_requirements.md": "Apa yang dibutuhkan untuk diterima GSoC?",
+  "own_project_idea.md": "Saya memiliki ide untuk sebuah proyek! (Mentor dan murid!)",
+  "steal_project_idea.md": "Apa yang terjadi apabila seseorang mencuri ide unik saya untuk memecahakan sebuah proyek?",
+  "writing_a_great_proposal.md": "Bagaimana cara membuat sebuah proposal yang baik?",
+  "is_mentor_necessary.md": "Sebuah proyek yang dipamerkan tidak memiliki mentor, namun saya tertarik dengan proyek tersebut.",
+  "contact_mentor.md": "Saya menemukan proyek hebat! Bagaimana saya menghubungi mentor saya?",
+  "working_out_the_proposal.md": "Kapan sebaiknya saya menulis proposal?",
+  "student_obligations.md": "Apa kewajiban saya sebagai murid saat menjalakan GSoC?",
+  "mentor_obligations.md": "Apa kewajiban saya sebagai mentor saat menjalakan GSoC?",
+  "thesis.md": "saya ingin menulis tesis bersama Coala!",
+  "application_template.md": "Apakah anda memiliki templat aplikasi?",
+  "project_participation.md": "Apakah semua proyek yang terdaftar akan menjadi bagian dari GSoC (atau inisiasi lainnya)?"
 }
