@@ -12,7 +12,7 @@ max_lines_per_file = 500
 [filenames]
 bears = FilenameBear
 files = **.yml, **.html, **.md, **.js, **.css
-ignore = vendors/**, data/projects/integrate-pyflakes-AST.md, _site/**
+ignore = vendors/**, _projects/integrate-pyflakes-AST.md, _site/**
 
 [spacing]
 bears = SpaceConsistencyBear
