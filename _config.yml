@@ -1,0 +1,15 @@
+title: coala Projects
+license: GNU AFFERO GENERAL PUBLIC LICENSE V3.0
+organization: coala
+description: A website that showcases interesting projects, using Angular JS. 
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+
+
+# Build settings
+markdown: kramdown
+collections:
+  projects:
+    output: true
+  faq:
+    output: true

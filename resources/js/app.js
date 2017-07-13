@@ -1,6 +1,38 @@
 (function(){
     var app = angular.module('coala', ['ngSanitize','btford.markdown', 'ngRoute']);
 
+    app.factory('Languages', function ($location) {
+        langs = [{
+            'name' : 'English',
+            'code' : 'en'
+        },
+        {
+            'name' : 'Bahasa',
+            'code' : 'id'
+        }];
+        selected_language = JSON.parse(window.localStorage.getItem('lang')) || langs[0];
+        return {
+            setData: function (val) {
+                angular.forEach(langs, function(v, k){
+                    if (v.code == val){
+                        window.localStorage.setItem('lang', JSON.stringify(v));
+                        selected_language = v;
+                    }
+                });
+            },
+            getData: function () {
+                return selected_language['code'];
+
+            },
+            getAllLanguages: function () {
+                return langs;
+            },
+            getLanguageObject: function () {
+                return selected_language;
+            }
+        }
+    });
+
     app.config(['$routeProvider',
         function($routeProvider) {
             $routeProvider.
@@ -16,8 +48,25 @@
             }).
             otherwise({
                 redirectTo: '/projects'
-                    });
-        }]);
+            });
+    }]);
+
+    app.controller('LanguageController', function ($scope, Languages) {
+        $scope.langs = Languages.getAllLanguages();
+        $scope.update = function () {
+            Languages.setData($scope.language.code);
+        }
+        $scope.init_language = Languages.getLanguageObject();
+        $scope.getLanguage = function () {
+            $scope.init_language = Languages.getLanguageObject();
+            $(document).ready(function(){
+                $('select').material_select();
+            })
+            $scope.$evalAsync();
+            return $scope.init_language;
+        }
+    })
+
     app.controller('TabController', function ($location) {
         this.tab = $location.path()
         this.setTab = function (stab) {
@@ -29,26 +78,71 @@
         }
     })
 
-    app.directive('projects',  ['$http',  '$timeout', '$location', function ($http, $timeout, $location) {
+    app.directive('projects',  ['$http',  '$timeout', '$location', 'Languages', function ($http, $timeout, $location, Languages) {
         return {
             restrict: 'E',
             templateUrl: '/partials/tabs/projects.html',
-            controller: function ($scope, $location) {
+            controller: function ($scope, $location, Languages) {
                 self = this
-                lang = $location.search().lang || window.localStorage.getItem('lang');
-                $scope.projectList = projects
+
+                $scope.getDefaultProjectsMetadata = function () {
+                    $http.get('data/projects.liquid')
+                        .then(function (res) {
+                            $scope.projectList = res.data;
+                        })
+                }
+
+                $scope.lang = Languages.getData();
+
+                $scope.getDefaultProjectsMetadata();
+
+                $scope.$watch( function () {
+                    return Languages.getData();
+                }, function () {
+                    $scope.setLanguage(Languages.getData());
+                }, true);
+
+
+                $scope.setLanguage = function (val) {
+                    $scope.lang = val;
+                    $scope.updateProjects();
+                }
+
+                $scope.updateProjects = function () {
+                    if ($scope.lang != 'en') {
+                        $http.get('data/locale/'+$scope.lang+'/projects.json')
+                            .then(function (res) {
+                                $scope.projectList.map(function (project) {
+                                    if (res.data[project.markdown]) {
+                                        Object.keys(project).map(function (key) {
+                                            if (res.data[project.markdown][key]) {
+                                                project[key] = res.data[project.markdown][key]
+                                            }
+                                        });
+                                    }
+                                });
+
+                                $scope.projectRequest();
+                            });
+                    } else {
+                        $scope.getDefaultProjectsMetadata();
+                        $scope.projectRequest();
+                    }
+                }
 
                 function generateMarkdown() {
+
                     function setFromDefault() {
-                        $http.get('data/projects/' + $scope.currentProject.markdown).then(function (res) {
-                            $scope.currentProject.content = res.data
-                        }, function() {
-                            $scope.currentProject.content = 'No content'
-                        });
+                        $http.get($scope.currentProject.content_url)
+                            .then(function (res) {
+                                $scope.currentProject.content = res.data
+                            }, function() {
+                                $scope.currentProject.content = 'No content'
+                            });
                     }
 
-                    if (lang) {
-                        $http.get('data/locale/' + lang + '/projects/' + $scope.currentProject.markdown).then(function (res) {
+                    if ($scope.lang != 'en') {
+                        $http.get('data/locale/' + $scope.lang + '/projects/' + $scope.currentProject.markdown).then(function (res) {
                             $scope.currentProject.content = res.data
                         }, function () {
                             setFromDefault()
@@ -67,7 +161,7 @@
                     });
 
                     mval = encodeURIComponent(project["name"].split(' ').join('_').toLowerCase());
-                    $location.url('?project=' + mval + ( lang ? '&lang=' + lang : '' ))
+                    $location.url('?project=' + mval + ( $scope.lang ? '&lang=' + $scope.lang : '' ))
                     $scope.$evalAsync();
 
                     generateMarkdown()
@@ -77,7 +171,7 @@
 
                     $scope.currentProject = project
                     mval = encodeURIComponent(project["name"].split(' ').join('_').toLowerCase());
-                    $location.url('?project=' + mval + ( lang ? '&lang=' + lang : '' ))
+                    $location.url('?project=' + mval + ( $scope.lang ? '&lang=' + $scope.lang : '' ))
                                         $scope.$evalAsync();
                     generateMarkdown()
                 }
@@ -112,7 +206,7 @@
                 }
 
                 $scope.moveToNext = function (keyPressed) {
-                            if($scope.currentProject){
+                    if($scope.currentProject){
 
                         total_projects = $scope.projectList.length
                         angular.forEach($scope.projectList, function(value, key){
@@ -154,24 +248,6 @@
                     }
                 }
 
-                if (lang) {
-                    $http.get('data/locale/'+lang+'/projects.json').then(function (res) {
-                        projects.map(function (project) {
-                            if (res.data[project.markdown]) {
-                                Object.keys(project).map(function (key) {
-                                    if (res.data[project.markdown][key]) {
-                                        project[key] = res.data[project.markdown][key]
-                                    }
-                                });
-                            }
-                        });
-
-                        $scope.projectRequest()
-                    });
-                } else {
-                    $scope.projectRequest()
-                }
-
                 var search_requested = $location.search().q;
                 if(search_requested){
                     $scope.searchText = search_requested
@@ -182,46 +258,83 @@
         }
     }]);
 
-    app.directive('faq',[ '$http', '$templateCache', function ($http, $templateCache) {
+    app.directive('faq',[ '$http', '$templateCache', function ($http, $templateCache, Languages) {
         return {
             restrict: 'E',
             templateUrl: '/partials/tabs/faq.html',
-            controller: function () {
-                self = this
-                lang = window.localStorage.getItem('lang')
-                self.faqs = faq
+            controller: function ($scope, Languages) {
+                $scope.lang = Languages.getData();
 
-                self.setFromDefault = function (key) {
-                    $http.get('data/faq/' + faq[key]).then(function (res) {
-                        faq[key] = res.data;
-                    }, function() {
-                        faq[key] = 'No content';
-                    });
+                $scope.getDefaultFAQMetadata = function () {
+                    $http.get('data/faq.liquid')
+                        .then(function (res) {
+                            $scope.faqs = res.data;
+                            $scope.generateMarkdown();
+                        })
                 }
 
-                if (lang) {
-                    $http.get('data/locale/' + lang + '/faq.json').then(function (res) {
-                        Object.keys(faq).map(function (title) {
-                            if (res.data[faq[title]]) {
-                                faq[res.data[faq[title]]] = faq[title];
-                                delete faq[title];
-                            }
-                        });
+                $scope.lang = Languages.getData();
 
-                        Object.keys(faq).map(function (key) {
-                            $http.get('data/locale/' + lang +'/faq/' + faq[key]).then(function (res) {
-                                faq[key] = res.data;
-                            }, function() {
-                                self.setFromDefault(key)
+                $scope.getDefaultFAQMetadata();
+
+                $scope.$watch( function () {
+                    return Languages.getData();
+                }, function () {
+                    $scope.setLanguage(Languages.getData());
+                }, true);
+
+
+                $scope.setLanguage = function (val) {
+                    $scope.lang = val;
+                    $scope.updateFAQ();
+                }
+
+                $scope.updateFAQ = function () {
+                    if ($scope.lang != 'en') {
+
+                        $http.get('data/locale/'+$scope.lang+'/faq.json')
+                            .then(function (res) {
+                                $scope.faqs.map(function (faq) {
+                                    if (res.data[faq.markdown]) {
+                                        Object.keys(faq).map(function (key) {
+                                            if (res.data[faq.markdown]) {
+                                                faq['question'] = res.data[faq.markdown]
+
+                                            }
+                                        });
+                                    }
+                                });
+                                $scope.generateMarkdown();
                             });
-
-                        });
-                    });
-                } else {
-                    Object.keys(faq).map(function (key) {
-                        self.setFromDefault(key)
-                    });
+                    } else {
+                        $scope.getDefaultFAQMetadata();
+                    }
                 }
+
+                $scope.generateMarkdown = function() {
+
+                    if ($scope.lang != 'en') {
+                        $scope.faqs.forEach(function (faq, key) {
+                            $http.get('data/locale/' + $scope.lang + '/faq/' + faq.markdown)
+                                .then(function (res) {
+                                    $scope.faqs[key].answer = res.data
+                                }, function (error) {
+                                    $http.get($scope.faqs[key].url)
+                                        .then(function (res) {
+                                            $scope.faqs[key].answer = res.data;
+                                        })
+                                });
+                        })
+                    } else {
+                        $scope.faqs.forEach(function (f, k) {
+                            $http.get($scope.faqs[k].url)
+                                .then(function (res) {
+                                    $scope.faqs[k].answer = res.data
+                                });
+                        })
+                    }
+                }
+
             },
             controllerAs: 'toc'
         }
@@ -240,27 +353,36 @@
         return {
             restrict: 'E',
             templateUrl: '/partials/tabs/mentors.html',
-            controller: function ($scope) {
+            controller: function ($scope, $rootScope) {
                 self = this
                 self.mentorsList = {}
                 self.adminsList = {}
-                angular.forEach(projects, function(value, key){
-                    angular.forEach(value.mentors, function(value, key){
-                        self.mentorsList[value] =  {
-                            "github_handle" : value,
-                            "github_avatar_url": "https://avatars.githubusercontent.com/" +value
-                        }
 
-                    });
-                });
+                $http.get('data/projects.liquid')
+                    .then(function (res) {
+                        $scope.projects = res.data
+                        angular.forEach($scope.projects, function(value, key){
+                            angular.forEach(value.mentors, function(value, key){
+                                self.mentorsList[value] =  {
+                                    "github_handle" : value,
+                                    "github_avatar_url": "https://avatars.githubusercontent.com/" +value
+                                }
+                            });
+                        });
+                    })
 
-                angular.forEach(admins, function(value, key){
-                    self.adminsList[value] = {
-                        "github_handle" : value,
-                        "github_avatar_url": "https://avatars.githubusercontent.com/" +value
+                $http.get('data/admins.json')
+                    .then(function (res) {
+                        admins = res.data
+                        angular.forEach(admins, function(value, key){
+                            self.adminsList[value] = {
+                                "github_handle" : value,
+                                "github_avatar_url": "https://avatars.githubusercontent.com/" +value
 
-                    }
-                });
+                            }
+                        });
+                    })
+
             },
             controllerAs: "gic"
         }

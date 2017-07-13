@@ -1,17 +1,16 @@
+---
+---
 <!DOCTYPE html>
-<html ng-app="coala">
+<html>
 
 <head>
-  <title>coala Projects</title>
+  <title>{{ site.title }}</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.0/angular-route.min.js"></script>
-  <script src="data/faq.js"></script>
-  <script src="data/projects.js"></script>
-  <script src="data/admins.js"></script>
   <script src="vendors/angular-sanitize/angular-sanitize.js"></script>
   <script src="vendors/showdown/showdown.js"></script>
   <script src="vendors/markdown/markdown.js"></script>
@@ -27,7 +26,7 @@
 </head>
 
 <body>
-  <main>
+  <main ng-app="coala">
     <div ng-controller="TabController as tc">
       <div>
         <div class="row">
@@ -45,19 +44,17 @@
       </div>
       <div ng-view=""></div>
     </div>
+    <div ng-controller="LanguageController as langCtrl" style="position: fixed; left: 60px; bottom: 20px;">
+    <select ng-init="language = init_language" ng-options="l as l.name for l in langs" ng-model="language" ng-change="update()">
+    </select>
+  </div>
   </main>
   <footer class="page-footer footer-light transparent">
     <div class="row">
-      <div class="col m6 offset-m3 center"> <img class="footer-logo" src="https://api.coala.io/en/latest/_static/images/coala_logo.svg"> <span class="footer-title">coala</span> </div>
+      <div class="col m6 offset-m3 center"> <img class="footer-logo" src="https://api.coala.io/en/latest/_static/images/coala_logo.svg"> <span class="footer-title">{{ site.organization }}</span> </div>
     </div>
-    <div class="footer-small-title center"> <span class="blue-grey-text text-lighten-3 uppercase"> Licensed under GNU affero general public license v3.0</span> </div>
+    <div class="footer-small-title center"> <span class="blue-grey-text text-lighten-3 uppercase"> Licensed under {{ site.license }}</span> </div>
   </footer>
-  <div style="position: fixed; left: 60px; bottom: 20px;">
-    <select onchange="window.localStorage.setItem('lang', this.value); location.reload()">
-      <option value="">English (Default)</option>
-      <option value="id">Bahasa</option>
-    </select>
-  </div>
 </body>
 
 </html>

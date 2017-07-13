@@ -27,11 +27,11 @@ Why?
 
 ## Usage
 
-To clone the repository and run this website on your local machine, type the following commands:
+To clone the repository and run this website on your local machine, [install Jekyll](https://jekyllrb.com/docs/installation/) for your OS and type the following commands:
 
     $ git clone https://github.com/coala/projects.git
     $ cd projects
-    $ python -m SimpleHTTPServer 8080
+    $ jekyll serve
 
 
 Then you can simply go to either of the following addresses in your browser to access the site:
@@ -41,37 +41,29 @@ Then you can simply go to either of the following addresses in your browser to a
 
 ## Defining Projects
 
-Mentors and admins can define projects as JSON using the following structure:
-
-```json
-{
-  "name" : "Write Project Name Here",
-  "desc" : "Write a one line Description of Project here.",
-  "requirements" : [
-    "The applicant has to fulfill this to get started."
-  ],
-  "difficulty" : "low|medium|high",
-  "issues" : [
-    "https://github.com/coala/coala/issues/####"
-  ],
-  "mentors" : [
-    "sils",
-    "sims1253"
-  ],
-  "initiatives" : ["GSoC"],
-  "tags" : ["Plugins", "CI"],
-  "markdown" : "Add the markdown file in data/projects/ directory. The name of that .md file should come here.",
-  "collaborating_projects" : ["Add umbrella and sub-orgs here"]
-
-}
-```
-
-Sample Markdown File
-
-This file should contain Project Description and Milestones in following format.
-_You should have atleast these three milestones for GSoC projects._
+Mentors and admins can define projects in markdown using the following structure and save it in the _projects folder with a relevant filename:
 
 ```
+---
+name: "Write Project Name Here"
+desc: "Write a one line Description of Project here."
+requirements: 
+ - "The applicant has to fulfill this to get started."
+difficulty: "low|medium|high"
+issues: 
+ - "https://github.com/coala/coala/issues/####"
+mentors: 
+ - sils
+ - sims1253
+initiatives: 
+ - GSoC
+tags: 
+ - Plugins
+ - CI
+collaborating_projects: 
+ - "Add umbrella and sub-orgs here"
+---
+
 This space is for the main description. Use it wisely. 
 
 #### Milestones

@@ -25,11 +25,11 @@ therefore adding an ignore comment -->
                 <br> </div>
               <div ng-show="project.collaborating_projects.length>0" class="project-overview-element clickable card-action"> <span ng-click="search(project)" class="pr-element-detail chip" ng-repeat="project in project.collaborating_projects">{{ project }}</span>
                 <br> </div>
-              <div ng-show="project.crowded" class="red white-text flag card-action center"> <span class="status-title">HIGH INVOLVEMENT</span>
+              <div ng-show="project.status=='crowded'" class="red white-text flag card-action center"> <span class="status-title">HIGH INVOLVEMENT</span>
                 <br> <span class="tiny">If you haven't put work into this, look out for other projects for better chances!</span> </div>
-              <div ng-show="project.in_progress" class="yellow black-text flag card-action center"> <span class="status-title">IN PROGRESS</span>
+              <div ng-show="project.status=='in_progress'" class="yellow black-text flag card-action center"> <span class="status-title">IN PROGRESS</span>
                 <br> <span class="tiny">Work on this project is going on at full pace!</span> </div>
-              <div ng-show="project.completed" class="green white-text flag card-action center"> <span class="status-title">COMPLETED</span>
+              <div ng-show="project.status=='completed'" class="green white-text flag card-action center"> <span class="status-title">COMPLETED</span>
                 <br> <span class="tiny">Hooray!</span> </div>
             </div>
           </div>
