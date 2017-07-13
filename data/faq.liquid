@@ -1,0 +1,10 @@
+---
+---
+[
+{% for faq in site.faq %}
+{
+ "question" : "{{ faq.question }}",
+ "url" : "{{ faq.url }}",
+ "markdown" : "{{ faq.path | replace: '_faq/', ''}}" 
+}{% unless forloop.last %},{% endunless %}{% endfor %}
+]

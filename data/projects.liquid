@@ -1,0 +1,23 @@
+---
+---
+[
+{% for post in site.projects %}
+{
+"name" : "{{ post.name }}",
+"desc" : "{{ post.desc }}",
+"requirements" : [{% for req in post.requirements %}"{{ req }}"{% unless forloop.last %},{% endunless %}
+{% endfor %}],
+"difficulty" : "{{ post.difficulty }}",
+"issues" :  [{% for post in post.issues %}"{{ post }}"{% unless forloop.last %},{% endunless %}
+{% endfor %}],
+"mentors" :  [{% for mentor in post.mentors %}"{{ mentor }}" {% unless forloop.last %},{% endunless %}{% endfor %}],
+"initiatives" :  [{% for initiative in post.initiatives %} "{{ initiative }}" {% unless forloop.last %},{% endunless %}{% endfor %}],
+"tags" :  [{% for tag in post.tags %} "{{ tag }}"{% unless forloop.last %},{% endunless %}{% endfor %}],
+"collaborating_projects" : [{% for cp in post.collaborating_projects %}"{{ cp }}"{% unless forloop.last %},{% endunless %}{% endfor %}],
+"content_url" : "{{post.url}}",
+"path" : "{{post.path}}",
+"status" : "{{post.status}}",
+"markdown" : "{{post.path | replace: '_projects/',''}}"
+}{% unless forloop.last %},{% endunless %}{% endfor %}
+]
+
