@@ -710,7 +710,7 @@ coala should support generating metrics for your code.",
         "initiatives": ["GCI"],
         "tags": ["community", "docker"],
         "markdown": "use_coala.md",
-        "collaborating_projects": ["docker-coala-base"]
+        "collaborating_projects": ["docker-coala-base", "coala-quickstart"]
     },
     {
         "name": "Use coala CI on a popular GitHub repository - Advanced",
