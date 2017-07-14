@@ -9,6 +9,10 @@
         {
             'name' : 'Bahasa',
             'code' : 'id'
+        },
+        {
+            'name' : 'हिन्दी',
+            'code' : 'hi'
         }];
         selected_language = JSON.parse(window.localStorage.getItem('lang')) || langs[0];
         return {
