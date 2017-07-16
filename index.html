@@ -52,6 +52,12 @@
     </div>
     <div class="footer-small-title center"> <span class="blue-grey-text text-lighten-3 uppercase"> Licensed under GNU affero general public license v3.0</span> </div>
   </footer>
+  <div style="position: fixed; left: 60px; bottom: 20px;">
+    <select onchange="window.localStorage.setItem('lang', this.value); location.reload()">
+      <option value="">English (Default)</option>
+      <option value="id">Bahasa</option>
+    </select>
+  </div>
 </body>
 
 </html>

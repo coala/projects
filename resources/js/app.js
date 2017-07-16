@@ -35,7 +35,29 @@
             templateUrl: '/partials/tabs/projects.html',
             controller: function ($scope, $location) {
                 self = this
+                lang = $location.search().lang || window.localStorage.getItem('lang');
                 $scope.projectList = projects
+
+                function generateMarkdown() {
+                    function setFromDefault() {
+                        $http.get('data/projects/' + $scope.currentProject.markdown).then(function (res) {
+                            $scope.currentProject.content = res.data
+                        }, function() {
+                            $scope.currentProject.content = 'No content'
+                        });
+                    }
+
+                    if (lang) {
+                        $http.get('data/locale/' + lang + '/projects/' + $scope.currentProject.markdown).then(function (res) {
+                            $scope.currentProject.content = res.data
+                        }, function () {
+                            setFromDefault()
+                        });
+                    } else {
+                        setFromDefault()
+                    }
+                }
+
                 self.showProject = function (project) {
 
                     $scope.currentProject = project
@@ -45,16 +67,19 @@
                     });
 
                     mval = encodeURIComponent(project["name"].split(' ').join('_').toLowerCase());
-                    $location.url('?project=' + mval)
+                    $location.url('?project=' + mval + ( lang ? '&lang=' + lang : '' ))
                     $scope.$evalAsync();
+
+                    generateMarkdown()
                 }
 
                 self.showProjectOnArrowClick = function (project) {
 
                     $scope.currentProject = project
                     mval = encodeURIComponent(project["name"].split(' ').join('_').toLowerCase());
-                    $location.url('?project=' + mval)
+                    $location.url('?project=' + mval + ( lang ? '&lang=' + lang : '' ))
                                         $scope.$evalAsync();
+                    generateMarkdown()
                 }
 
                 $scope.search = function (arg) {
@@ -113,18 +138,38 @@
                     }
                 }
 
-                $scope.projects_url_dict = {}
-                $scope.projects_url_list = Object.keys($scope.projects_url_dict);
-                angular.forEach($scope.projectList, function(value, key){
-                    value["url"] = encodeURIComponent(value["name"].split(' ').join('_').toLowerCase());
-                    $scope.projects_url_dict[value["url"]] = key
-                });
+                $scope.projectRequest = function () {
+                    $scope.projects_url_dict = {}
+                    $scope.projects_url_list = Object.keys($scope.projects_url_dict);
+                    angular.forEach($scope.projectList, function(value, key){
+                        value["url"] = encodeURIComponent(value["name"].split(' ').join('_').toLowerCase());
+                        $scope.projects_url_dict[value["url"]] = key
+                    });
 
-                var project_requested = encodeURIComponent($location.search().project);
-                if(project_requested){
-                    if(Object.keys($scope.projects_url_dict).indexOf(project_requested) > -1){
-                        self.showProject($scope.projectList[$scope.projects_url_dict[project_requested]])
+                    var project_requested = encodeURIComponent($location.search().project);
+                    if(project_requested){
+                        if(Object.keys($scope.projects_url_dict).indexOf(project_requested) > -1){
+                            self.showProject($scope.projectList[$scope.projects_url_dict[project_requested]])
+                        }
                     }
+                }
+
+                if (lang) {
+                    $http.get('data/locale/'+lang+'/projects.json').then(function (res) {
+                        projects.map(function (project) {
+                            if (res.data[project.markdown]) {
+                                Object.keys(project).map(function (key) {
+                                    if (res.data[project.markdown][key]) {
+                                        project[key] = res.data[project.markdown][key]
+                                    }
+                                });
+                            }
+                        });
+
+                        $scope.projectRequest()
+                    });
+                } else {
+                    $scope.projectRequest()
                 }
 
                 var search_requested = $location.search().q;
@@ -137,13 +182,46 @@
         }
     }]);
 
-    app.directive('faq',[ '$http', function ($http) {
+    app.directive('faq',[ '$http', '$templateCache', function ($http, $templateCache) {
         return {
             restrict: 'E',
             templateUrl: '/partials/tabs/faq.html',
             controller: function () {
                 self = this
+                lang = window.localStorage.getItem('lang')
                 self.faqs = faq
+
+                self.setFromDefault = function (key) {
+                    $http.get('data/faq/' + faq[key]).then(function (res) {
+                        faq[key] = res.data;
+                    }, function() {
+                        faq[key] = 'No content';
+                    });
+                }
+
+                if (lang) {
+                    $http.get('data/locale/' + lang + '/faq.json').then(function (res) {
+                        Object.keys(faq).map(function (title) {
+                            if (res.data[faq[title]]) {
+                                faq[res.data[faq[title]]] = faq[title];
+                                delete faq[title];
+                            }
+                        });
+
+                        Object.keys(faq).map(function (key) {
+                            $http.get('data/locale/' + lang +'/faq/' + faq[key]).then(function (res) {
+                                faq[key] = res.data;
+                            }, function() {
+                                self.setFromDefault(key)
+                            });
+
+                        });
+                    });
+                } else {
+                    Object.keys(faq).map(function (key) {
+                        self.setFromDefault(key)
+                    });
+                }
             },
             controllerAs: 'toc'
         }

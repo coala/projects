@@ -1,0 +1,14 @@
+{
+  "roberta_external_source.md": {
+    "name" : "Linting dengan satu klik untuk proyek online di browser",
+    "desc" : "Buat sebuah loader untuk proyek-proyek dari sumber data remote yang bisa digunakan dari halaman web coala untuk menyediakan linting dalam satu klik untuk proyek-proyek online.",
+    "requirements" : [
+      "Pelamar (applicant) sebaiknya terbiasa dengan pembuatan bear dan XML parsing menggunakan xpath atau bahasa query yang sejenis",
+      "Pelamar sebaiknya terbiasa dengan codebase coala dan cara kerja dari REST APInya, termasuk otentikasi.",
+      "Pelamar telah berkontribusi ke modul coala yang relevan, platform Open Roberta, atau keduanya."
+    ],
+    "difficulty" : "tinggi",
+    "issues" : [
+    ]
+  }
+}
