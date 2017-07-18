@@ -1,6 +1,6 @@
 [global]
 bears = coalaBear
-files = **.yml, **.html, **.md, **.js, **.css
+files = **.yml, **.html, **.md, **.js, **.css, **.json
 ignore = vendors/**, _site/**
 
 [linecount]
@@ -16,7 +16,7 @@ ignore = vendors/**, _projects/integrate-pyflakes-AST.md, _site/**
 
 [spacing]
 bears = SpaceConsistencyBear
-files = **.html, **.css, **.js
+files = **.html, **.css, **.js, **.json
 ignore = vendors/**, _site/**
 use_spaces = True
 
