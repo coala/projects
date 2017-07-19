@@ -2233,6 +2233,7 @@ a {
 a:active,
 a:hover {
   outline: 0;
+  cursor: pointer;
 }
 
 /* Text-level semantics
