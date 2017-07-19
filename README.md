@@ -28,16 +28,18 @@ Why?
 ## Usage
 
 To clone the repository and run this website on your local machine, [install Jekyll](https://jekyllrb.com/docs/installation/) for your OS and type the following commands:
-
-    $ git clone https://github.com/coala/projects.git
+				
+				$ sudo gem install jekyll bundler
+				$ git clone https://github.com/coala/projects.git
     $ cd projects
-    $ jekyll serve
+    $ bundle install
+				$ bundle exec jekyll serve
 
 
 Then you can simply go to either of the following addresses in your browser to access the site:
 
-    0.0.0.0:8080
-    127.0.0.1:8080
+    127.0.0.1:4000
+    localhost:4000
 
 ## Defining Projects
 
