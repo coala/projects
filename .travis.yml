@@ -1,3 +1,16 @@
-language: generic
-services: docker
-script: docker run -v=$(pwd):/app --workdir=/app coala/base coala --ci
+language: ruby
+rvm:
+- 2.3.3
+
+before_script:
+ - chmod +x ./ci/cibuild # or do this locally and commit
+
+# Assume bundler is being used, therefore
+# the `install` step will run `bundle install` by default.
+script: ./ci/cibuild
+
+env:
+  global:
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
+
+sudo: false # route your build to the container-based infrastructure for a faster build

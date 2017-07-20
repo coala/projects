@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <div class="main-content container-fluid">
   <div class="row">
     <div class="col m8 offset-m2">
@@ -19,7 +20,8 @@
         <div class="parent">
           <div ng-repeat="member in gic.mentorsList" class="card child card-main sc">
             <div class="empty"></div>
-            <div class="data thumbnail center"> <img class="center dp" height="100" ng-src="{{ member.github_avatar_url }}">
+            <!-- data-proofer-ignore as html-proofer doesn't recognise ng-src -->
+            <div class="data thumbnail center"> <img alt="{{member.github_handle}}" class="center dp" height="100" ng-src="{{ member.github_avatar_url }}" data-proofer-ignore>
               <div class="name center">{{ member.name }}</div>
               <div class="handle center"><a class="yellow-text text-darken-4" ng-href="https://github.com/{{member.github_handle}}">@{{ member.github_handle }}</a>
               </div>
@@ -52,7 +54,8 @@
         <div class="parent">
           <div ng-repeat="member in gic.adminsList" class="card card-main child sc">
             <div class="empty"></div>
-            <div class="data thumbnail center"> <img class="center dp" height="100" ng-src="{{ member.github_avatar_url }}">
+            <!-- data-proofer-ignore as html-proofer doesn't recognise ng-src -->
+            <div class="data thumbnail center"> <img alt="{{member.github_handle}}" class="center dp" height="100" ng-src="{{ member.github_avatar_url }}" data-proofer-ignore>
               <div class="name center">{{ member.name }}</div>
               <div class="handle center"><a class="yellow-text text-darken-4" ng-href="https://github.com/{{member.github_handle}}">@{{ member.github_handle }}</a>
               </div>

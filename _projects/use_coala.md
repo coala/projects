@@ -190,7 +190,7 @@ the repository that you have selected for this task.
 
 On the repository that you have selected, click the
 [fork](https://help.github.com/articles/fork-a-repo/) button.
-![](https://help.github.com/assets/images/help/repository/fork_button.jpg)
+![Fork Button](https://help.github.com/assets/images/help/repository/fork_button.jpg)
 
 You should be redirected to your own copy of the same repository on GitHub,
 with a URL like `https://github.com/your_username/your_selected_repository_name`
