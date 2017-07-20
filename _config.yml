@@ -7,6 +7,7 @@ url: "" # the base hostname & protocol for your site
 
 
 # Build settings
+exclude: [vendor]
 markdown: kramdown
 collections:
   projects:
