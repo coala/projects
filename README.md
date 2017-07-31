@@ -1,3 +1,5 @@
+<p align="center"><img src="screenshots/header.png"></p>
+
 # Projects
 
 A website that showcases projects! **If you want to use it and it's not exactly
@@ -88,3 +90,32 @@ This space is for the main description. Use it wisely.
 * Including tests and docs, again.
 
 ```
+
+## Defining FAQs
+
+Users can also add FAQs by simply creating a markdown file in _faq folder.
+
+Format for faq markdown file is as follows: 
+```
+---
+Question: <Write the question here>
+---
+
+Answer
+```
+
+## Multi Language Support
+
+coala Projects supports multiple 'human languages'. To add a translation of a project
+in a language, the following steps can be followed:
+
+- Create a folder with language code in ```data/locale``` folder.
+- Create ```faq.json```, ```projects.json```, ```faq``` and ```projects``` folder
+if they do not exist already.
+- Add translated content of a project inside ```projects``` folder. The names of the
+file should be same.
+- Similiarly translated content of a faq goes inside ```data/locale/ < language-id > /faq```
+folder.
+- For the faq.json and projects.json metadata, refer to Bahasa and Hindi
+Translations available in ```data/locale``` directory.
+- Lastly, in ```resources/js/app.js``` file, Add the new language json in Language service.
