@@ -1,7 +1,6 @@
 --- 
 collaborating_projects: 
   - coala
-status: crowded
 desc: "A way to post CI problems to online team rooms, such as IRC, Telegram, slack or gitter."
 difficulty: medium
 initiatives: 

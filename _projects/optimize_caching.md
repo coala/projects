@@ -1,7 +1,6 @@
 --- 
 collaborating_projects: 
   - coala
-status: crowded
 desc: "Improve coala's performance by improving file caching and other performance bottlenecks."
 difficulty: medium
 initiatives: 

@@ -1,7 +1,6 @@
 --- 
 collaborating_projects: 
   - coala
-status: crowded
 desc: "coala should support developers of code analysis by providing facilities to debug and profile bears."
 difficulty: high
 initiatives: 

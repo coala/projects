@@ -1,7 +1,6 @@
 --- 
 collaborating_projects: 
   - coala
-crowded: true
 desc: "Fixing issues and improving documentation and testing of existing linter bears."
 difficulty: low
 initiatives: 
