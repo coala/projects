@@ -97,6 +97,7 @@
                     $http.get('data/projects.liquid')
                         .then(function (res) {
                             $scope.projectList = res.data;
+                            $scope.projectRequest();
                         })
                 }
 
