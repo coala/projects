@@ -1,0 +1,61 @@
+.report .card {
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.0), 0 1px 1px 0 rgba(0, 0, 0, 0.0), 0 1px 1px 0px rgba(0, 0, 0, 0.05);
+  margin-bottom: 0 !important;
+}
+.report {
+  background-color: #f3f5f8;
+}
+.report .card .card-content {
+  padding: 12px;
+}
+.report .link {
+  padding: 0.5em;
+}
+.report .fullh {
+  height: 100%;
+}
+.report .blog-title {
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  text-align: center;
+}
+.report .links-section a {
+  text-decoration: none;
+  color: lightslategray;
+  padding: 0.1em;
+}
+.report .row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+}
+.report .row > [class*='col'] {
+  display: flex;
+  flex-direction: column;
+}
+.report .flex1 {
+  flex: 1;
+}
+.report .activity {
+  white-space: pre;
+}
+.report .fl {
+  background: lightcyan;
+  text-align: center;
+}
+.report .card {
+  word-break: break-word;
+}
+.report td p {
+  display: inline;
+}
+.report .padding-table tbody tr {
+  border-bottom: 1px solid aliceblue;
+}
+@media only screen and (min-width: 993px) {
+  .container {
+      width: 90% !important;
+  }
+}
