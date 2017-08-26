@@ -1,6 +1,6 @@
 ---
 layout: report
-permalink: /GSoC/2017/ProjectReport/HemangKumar
+permalink: /GSoC/2017/StatusReport/HemangKumar
 student: Hemang Kumar
 organisation: coala
 organisation_link : https://coala.io
