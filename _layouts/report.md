@@ -6,7 +6,7 @@
     <head>
         <title>{{ page.student }} | Project Report </title>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-        <link rel="stylesheet" href="/resources/css/style.css">
+        <link rel="stylesheet" href="https://rawgit.com/coala/projects/master/resources/css/style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
         <link rel="stylesheet" href="https://rawgit.com/coala/coalaCSS/master/coala.css">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
