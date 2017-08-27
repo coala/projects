@@ -109,6 +109,12 @@
                 </div>
             </div>  
             <br>
+             <div class="row no-margin">
+                <div class="col m12">
+                    <h5 class="left light">Links to commits and repositories I've worked on:</h5>
+                </div>
+                <br>
+            </div>
             <div class="no-margin">
                 <table class="padding-table">
                     <thead class="no-border">
