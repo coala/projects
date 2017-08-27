@@ -79,7 +79,7 @@
                 <div class="col m2">
                     <div class="card flex1">
                         <div class="card-content">
-                            <div class="center"><h5 class="light no-margin">Project Tarball</h5></div>
+                            <div class="center"><h5 class="light no-margin">Patches Tarball</h5></div>
                             <br>
                             <div class="center"><a href="{{ page.tarball }}">Download</a></div>
                         </div>
