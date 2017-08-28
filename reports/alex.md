@@ -15,7 +15,7 @@ phase:
  - Phase 2 : https://gitlab.com/coala/GSoC-2017/milestones/18
  - Phase 3 : https://gitlab.com/coala/GSoC-2017/milestones/19
 bio: >
- I'm a 3rd year student of Computer Science & Engineering at Politehnica University of Bucharest. I participated in GSoC and worked with [coala](https://coala.io) to improve coala CLI experience. Most of the people who use a CLI program do not read the whole output, only a small part of it. Also, a large output from a command could tire them and could make them stop using our application. Remove the redundant information, keeping only the necessary information.  
+ I'm a 3rd year student of Computer Science & Engineering at Politehnica University of Bucharest. I participated in GSoC and worked with [coala](https://coala.io) to improve coala CLI experience. The end goal of the project was to: make coala easier to use, adds new functionality so the user could have multiple options when he uses coala and design mockups based on the feedback from the community.
 social:
  - GitHub:
    - username: Nosferatul
