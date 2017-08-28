@@ -1,0 +1,747 @@
+---
+layout: report
+permalink: /GSoC/2017/StatusReport/MeetMangukiya
+student: Meet Mangukiya
+organisation: coala
+organisation_link: https://coala.io
+project: cobot enhancement, testing and porting
+project_link: https://summerofcode.withgoogle.com/projects/#4913450777051136
+tarball: https://rawgit.com/meetmangukiya/GSoCReport/master/patches.tar
+mentors: >
+ [Udayan Tandon](https://github.com/udayan12167) & [Dmytro Sadovnychyi](https://github.com/sadovnychyi)
+phase:
+ - Bonding : https://gitlab.com/coala/GSoC-2017/milestones/2
+ - Phase 1 : https://gitlab.com/coala/GSoC-2017/milestones/23
+ - Phase 2 : https://gitlab.com/coala/GSoC-2017/milestones/24
+ - Phase 3 : https://gitlab.com/coala/GSoC-2017/milestones/25
+bio: >
+ I'm a second year student of K.J. Somaiya College of Engineering, Mumbai. I
+ participated in GSoC and worked with [coala](https://coala.io) to port cobot
+ form coffeescript framework([hubot](https://hubot.github.com/)) to a python
+ framework([errbot](http://errbot.io)).
+
+social:
+  - GitHub:
+    - username: meetmangukiya
+    - link: https://github.com/meetmangukiya
+  - GitLab:
+    - username: meetmangukiya
+    - link: https://gitlab.com/meetmangukiya
+  - Gitter:
+    - username: meetmangukiya
+    - link: https://gitter.im/meetmangukiya
+email: meetmangukiya98@gmail.com
+blog: https://meetmangukiya.github.io/
+activity:
+- 0:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/ba3856396d22f1ffb33167ad9d9e279e3ac1814c
+  - details: .travis.yml꞉ Remove GitCommitBear if ran in travis
+- 1:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/feb9a633f3e915a702309c1a6cc8e19814a203f3
+  - details: config.py꞉ Change extra_plugin_dir to root
+- 2:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/21091edc607a785380579b1a1e0613cfaab406c0
+  - details: labhub꞉ Check if the inviter is maintainer
+- 3:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/a9de37f1128318029a69af30cc7c6031f299cf92
+  - details: labhub꞉ Check if user is part of only newcomers
+- 4:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/ba23468f36f44d9c8e4ae113f0989c6214da6ca9
+  - details: coatils꞉ Add run coala cmd
+- 5:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/9879a0fa339c6295b3219e85f9479623cdc910a4
+  - details: labhub꞉ Pass the token as kwarg token
+- 6:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/809c97fab11507a3f9577fda3a174286ed10ee62
+  - details: plugins/**꞉ Add help string for re_botcmds
+- 7:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/9d4ac4c0ef8fd23c50278710868da26856c3efb3
+  - details: README꞉ Add travis badge
+- 8:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/c83e7678dc7feb156778fc78eb8c33fef1f2aa25
+  - details: LabHub꞉ github invite feature and hello world cmd
+- 9:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/da01434bfd49768c73b85d775a33e4bec02ac3a8
+  - details: err-backend-gitter꞉ Update submodule
+- 10:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/364d684a5644db431ae0a56db40762b10a124142
+  - details: .github꞉ Add PR template
+- 11:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/93b5b802c72e85ee02f2d2c9b6e1163ea5eed51b
+  - details: LabHub꞉ Add PR labelling feature
+- 12:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/657ed5e70728e215f462c2b2a5baca0c42d6eaf2
+  - details: lmgtfy꞉ Add lmgtfy plugin
+- 13:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/7e7c267997d66b7cdc8d63ae29b77daad28e8b53
+  - details: labhub꞉ Use single line strings
+- 14:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/6edeb7468cafd014203141dcc45b7a9da925f1b8
+  - details: config.py꞉ Divert help command to private message.
+- 15:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/b5787623a80d60dcd043d29e7f50ab24f1b17b1b
+  - details: .ci/semaphore.docker.sh꞉ Answer microservice image
+- 16:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/a95c02e7d97c22e187f18f3a79e4f093b9328ddb
+  - details: requirements.txt꞉ Bump IGitt version
+- 17:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/bfb1f9b578f635fb1732bfe831d7e0cbcc629638
+  - details: labhub꞉ Check eligibility only if coala org
+- 18:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/083b91f5f7ad81894de37745b36990306591add7
+  - details: answers꞉ Add answers microservice
+- 19:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/29003636f66db09e47feea85c5d0286109b821dd
+  - details: answers꞉ Use absolute imports
+- 20:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/4478e6745c46e102f4851701247df50df9e69ee2
+  - details: docs/answers.rst꞉ Add docs regarding answers
+- 21:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/a25e37e5f173fec4146d7e1fb21803542261e8e0
+  - details: webservices.raml꞉ Add coala webservices raml
+- 22:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/e5cc143ab2c9d177190007b784eda3b365e410ac
+  - details: labhub꞉ Use @-mentions in create issue
+- 23:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/f4d705aa40587318f8f2e7821be9eb7012bcc426
+  - details: ghetto꞉ Record the test request and use it
+- 24:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/ebf1554339c787769ec679eded8a6bf81adbf89a
+  - details: labhub꞉ Add usability with sub-groups
+- 25:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/3747904b40f0df371ab21daf140ed1ed825dff5e
+  - details: utils꞉ Add utils plugin
+- 26:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/78e04795286a4c604d265f64b752b7e42651b9b0
+  - details: setup.cfg꞉ Move the tests to testpaths key
+- 27:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/0a9b5b7fe400265d46e85b4d1727e5936b700d35
+  - details: utils/filters꞉ Filter messages of ignored users
+- 28:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/3f44c407cc3006e0d12a8e7569512de25c66c961
+  - details: .coafile꞉ Change prefered quotation to ' and apply
+- 29:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/32f0421fa165e4d8600c67adefa3a282428ba8fd
+  - details: labhub꞉ Turn current_labels to a list
+- 30:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/bcbf01f4b2e78143427dd6b6ecbe854853d1635c
+  - details: labhub꞉ Optionally work with @, make team optional
+- 31:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/8d9d7a974b165ce1138f5fa65191a869ff32b3df
+  - details: labhub꞉ Include link to gitter message in iss body
+- 32:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/4ae86a73c2d811396b650b1ada2fe4ac8fa6d34c
+  - details: LabHub꞉ Add create issue feature
+- 33:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/2faca5c9e42c4be38e7733c79db89ed279120570
+  - details: err-backend-gitmate꞉ Update submodule
+- 34:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/8c4c59e9c71a214b1690e1ab039cf2541ff1b98b
+  - details: utils꞉ Fix the AttributeError
+- 35:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/68665f22c695c3b48e56f08b3bc17f6d868a1646
+  - details: coatils꞉ Add stats
+- 36:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/44a9eef0a161b1606c0edcd0c5159e160ee6d636
+  - details: answers/extraction꞉ Extract text from docs
+- 37:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/7d80ae5ebceadca0e7fb12c995a147ecdde77aff
+  - details: README꞉ Add docker setup instructions&improvements
+- 38:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/393044102b7eff8889eacf034dede0e0860723c8
+  - details: explain꞉ Optionally direct the explain to user
+- 39:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/3a5dc64bbee28801e60f35a52d34965a7d99f08d
+  - details: config.py꞉ Hide commands that user cannot use
+- 40:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/9a2d76da4382b50ed92262a41eaa447bfc1aebde
+  - details: labhub꞉ Use @-mention in issue body
+- 41:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/0c4cf36dab700b27b242ecdd3451874299cafd7a
+  - details: answers꞉ Remove singleton data holder DATA & adapt
+- 42:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/867f8f4d58ba8faf538c6963bebb6eca4ca9dc0b
+  - details: answer꞉ Remove unused import `quote`
+- 43:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/55177a96ed39ce5813ff22d8c6866e8a27fd0e7c
+  - details: config.py꞉ Set bot prefix to corobo
+- 44:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/e942acae5fb2f985fde3c939e884b0bba3929fd5
+  - details: config꞉ Make bot admins, rooms & backend cfgable
+- 45:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/b9b675b9e03ded945d172780b995d8538961060f
+  - details: .travis.yml꞉ Show missing column in tests
+- 46:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/ce9a91cc17f38ab0dfcd696402b34c3fed334057
+  - details: utils꞉ Add install requirements command
+- 47:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/b9a84aa94e8a78eba7a6a28633d1c9b133e64bac
+  - details: answers/Dockerfile꞉ Expose port, clone coala repo
+- 48:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/d0a38f9727913455d27c52f51d6ffb37b401d7cc
+  - details: err-backend-gitter꞉ Fix gitter backend breakage
+- 49:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/a847a8e41919917f82d96763fcf5c4f0f0540892
+  - details: config꞉ Fix the config file
+- 50:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/7dcc1e07a4b4f795b2d8de9cea324b7de860d76f
+  - details: filters꞉ Filter echo cmd from coala and bears
+- 51:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/8f32e7260dbf941ecbe68d27186319a1359b71da
+  - details: README꞉ Update with new env vars used
+- 52:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/db01045b4b77ef429f46791f8e4c7adc8379fff0
+  - details: err-backend꞉ Update submodule that includes msg id
+- 53:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/3fcbdb14365a5409ba6e62235230c7f69bdf4377
+  - details: .travis.yml꞉ Remove the vim-vint install statement
+- 54:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/7c3ac8028dc918bad59825591c514025ee84237c
+  - details: wolfram_alpha꞉ Check if the pods exist
+- 55:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/e5ba3eddcd8886fdf342b7995efd40070c3c32b1
+  - details: coatils꞉ Fix formatting in run command
+- 56:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/867e3373848c577f63dde23f27630bf828371c19
+  - details: .travis.yml꞉ Run coverage and add codecov badge
+- 57:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/846e93ae315918c0bb450ec0d069f8908188610f
+  - details: plugins/answers꞉ Return top 3 answers
+- 58:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/81472b2b1137bd271383811d2c0c605d6e3a6cc9
+  - details: .travis.yml꞉ Fail if coverage less than 100
+- 59:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/ce2a27a3f42d97eb1ffcfcaffe98fe9b0bdb587d
+  - details: tests/helper꞉ Add a helper function
+- 60:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/92d0357fbafd26c0fd8e5293469cd182c5b76fc8
+  - details: config.py꞉ Add CHATROOM_PRESENCE
+- 61:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/00a0ca3a6187e36f2469b21b7f3d3b3d781379c3
+  - details: test-requirements꞉ Add requests_mock
+- 62:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/f0c6725242c3e409294a7da18c387eb13716f64f
+  - details: constants꞉ Make org names configurable
+- 63:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/6d14a8333ae89e8a0ab249242834779b497e133b
+  - details: labhub꞉ Maintain a list of invited users
+- 64:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/2f99c2bbf3fb5fb8c5b84c975bd43709390ff4d4
+  - details: docs/corobo.rst꞉ Document corobo commands
+- 65:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/68d22d5786dffc440cb8f6cfe39d142edd973299
+  - details: Dockerfile꞉ Install slack and telegram clients
+- 66:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/8447382efa67e0dea696746fa6db15ff8377db20
+  - details: .travis.yml꞉ Add integration for gitter chatroom
+- 67:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/99a895e5648859d014d6af58c14998154ba17a0d
+  - details: README꞉ Add information regarding env vars
+- 68:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/6a256a18da07039a5989c63bcd97630a4fa7523f
+  - details: config.py꞉ Set AUTOINSTALL_DEPS
+- 69:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/d739209bc7be4583e0df1711e771217963262dbd
+  - details: .coafile꞉ Enable KeywordBear for pdb keyword
+- 70:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/2cd8c62b5e1c26aa9101834c1b24a95a5c352a4e
+  - details: labhub꞉ Log RuntimeError as exception, not error
+- 71:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/8ba536926370a8cb26baeccad17e06f0444e0899
+  - details: coala_lowercase_c꞉ Add coala_lowercase_c plugin
+- 72:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/7f1b9ccafce6861d1364b5ba911547ad9b119fd3
+  - details: README.md꞉ Add ANSWER_END env_var
+- 73:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/a6fb1c0d2653cafffe38797d80e2fc53f30514e3
+  - details: .coafile꞉ Add InvalidLinkBear to detect dead links
+- 74:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/68f4b85702bc6fc5b3cecd278382a5de0cf1d78e
+  - details: LabHub꞉ Add unassign feature
+- 75:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/a98dbdaa1664ada2b2ad33b69dec1862eb6b7dc5
+  - details: labhub꞉ Def team 'coala newcomers' -> 'newcomers'
+- 76:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/ddc14f9fd92f873c370b131a55876612a4f2d322
+  - details: explain꞉ Change coala.io/git to coala.io/rebase
+- 77:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/69352515a15d9c7e1384290bada3407390b86a7d
+  - details: ship_it꞉ Add ship_it plugin
+- 78:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/6a672b29f8ed759e3db7a45f2c0f45530fe2fa83
+  - details: .ci/semaphore.docker꞉ Cache answers docker image
+- 79:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/26964adece921b827db4d93c37c1cf03cfd118d1
+  - details: explain꞉ Add explain plugin
+- 80:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/83fa29a1da8bcc1e026c5568b9c7881458fa1301
+  - details: labhub꞉ Split repo fetching into two try blocks
+- 81:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/02e576870b71a7581093255ce1bd0a04ad2e60a0
+  - details: labhub꞉ Move the 'Opened by' message outside try
+- 82:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/f64b7617c6125c2ceb792a54e28d13a1d7ac9849
+  - details: requirements꞉ Install errbot from git repository
+- 83:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/c5daecfe734aee015b534f84fccd82df5707af67
+  - details: setup.cfg꞉ Add pytest opts
+- 84:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/0934a6964806d2767f6b272b77d7dbbe97c8ff4b
+  - details: searchdocs꞉ Add searchdocs plugin
+- 85:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/33a5b0f6ab2f3e7a197fb91760bba732209e0bab
+  - details: labhub꞉ Add base plugin
+- 86:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/117c7473efc40b13914b6848d1c7df8fa537dad3
+  - details: .travis.yml꞉ Run tests in docker
+- 87:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/80a718cadbc715d87d6bc6403c5de1459bd750e9
+  - details: deploy.sh꞉ Show the command that is running
+- 88:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/bd29979e01fb75c5a52ee990fb81c0da5b9480f7
+  - details: err-backend-gitter꞉ Update to include message ids
+- 89:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/ab53298342bf1a1bd568ecc3a6369292d704c9cf
+  - details: the_rules꞉ Add the_rules plugin
+- 90:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/b1ff0a7275cfad40c6abbff6f81169115079210c
+  - details: labhub꞉ Add newcomer form to developer welcome msg
+- 91:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/6ef33dc45ca1e9c13512b7e06fec3f67dc504d66
+  - details: plugins/answer.py꞉ typo data -> json
+- 92:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/ae682526c1e12bf9872b21b05aebffe069411860
+  - details: answers꞉ Extract docs from coala/documentation
+- 93:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/b23e77f729b3367f84a52b99ac4a0af79fb4e566
+  - details: nevermind.py꞉ Add doc string for nm command
+- 94:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/9a70670ebd9a1c878774766fbc731c0964dcfb83
+  - details: .coafile꞉ Add GitCommitBear
+- 95:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/7bef6e69564ada5b7bd190d480d66e58fd7ca4cb
+  - details: .ci/semaphore꞉ Add setup, tests, docker steps
+- 96:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/d49d7bf0711ab04060f7c4b1c73d9f5b76a7789b
+  - details: answers/final꞉ Add answering plugin dependencies
+- 97:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/ab93c8897cc5d993aee2980d287ca0e7bfd33531
+  - details: labhub꞉ Catch KeyErrors for other backends
+- 98:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/e5f1ee1f3bb7b6ee6afb88c2ed42bc5a813ade0b
+  - details: err-backend-gitter꞉ Update submodule
+- 99:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/93a4d7c2fd54b0a1515841c67f61c67478890cf3
+  - details: answers꞉ POST text to summarize as data
+- 100:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/e541c60a2b0609e3311bd8ed6234034534f9b967
+  - details: LabHub꞉ Add assign feature
+- 101:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/319fd503bf536a4c6de2c0313d34fa446896d38d
+  - details: plugins/answer꞉ Add answering plugin
+- 102:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/54d433d93a20c220fa7397ac9cfd7ad3206962fe
+  - details: answers/utils꞉ Add get_abs_path function
+- 103:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/57a2f94eb2138d3c20bd43baf4bbc175fc590c53
+  - details: ghetto꞉ Add ghetto plugin
+- 104:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/2b90d719836096d1d72fe7d15bb6446b45744cdc
+  - details: coatils꞉ Add ls bears cmd
+- 105:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/77649014a1da075cd7f16f3fb6657b3ced999cf8
+  - details: wolframalpha꞉ Add wolframalpha plugin
+- 106:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/aad6eef09e23a33657b54e43c4c81defe5d060c3
+  - details: .travis.yml꞉ Calculate coverage of plugins and not
+- 107:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/d117b007e9f4a807c503bcd95c0d9b59e73d1770
+  - details: README.md꞉ Add Semaphore CI badge
+- 108:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/baa960badb05ddbf1e3a5a32b7882c139843be97
+  - details: answer꞉ Send link to google form
+- 109:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/4789c0ffe01072c333f50d683221ff1dfca3b8e3
+  - details: explain꞉ Don't use @ if not addressed to anyone
+- 110:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/4f35b0d262bc2bd5c45cfad8683fca14aab88730
+  - details: Change cobot to BOT_PREFIX
+- 111:
+  - repo: IGitt
+  - link: https://gitlab.com/gitmate/open-source/IGitt/commit/aa28ea30f9e9876b3f2ffe54eeee21449fae732e
+  - details: Interfaces꞉ Change User-Agent to IGitt
+- 112:
+  - repo: IGitt
+  - link: https://gitlab.com/gitmate/open-source/IGitt/commit/f6bcd100eab3a94a8a22bd198557d96a274cb72e
+  - details: Fix GitHubRepository tests
+- 113:
+  - repo: IGitt
+  - link: https://gitlab.com/gitmate/open-source/IGitt/commit/0ef0749d95ed5a105afdc922fa17e1e7e93231a6
+  - details: setup.cfg꞉ Rename `pytest` -> `tool꞉pytest`
+- 114:
+  - repo: IGitt
+  - link: https://gitlab.com/gitmate/open-source/IGitt/commit/2740be109db4e2f7e125466a0589b9fc1ed244c9
+  - details: test_actions꞉ Add tests for Actions
+- 115:
+  - repo: IGitt
+  - link: https://gitlab.com/gitmate/open-source/IGitt/commit/71ef089445031ecea76767a3661e7441ea2c2291
+  - details: IGitt꞉ Implement setters for assignee property
+- 116:
+  - repo: IGitt
+  - link: https://gitlab.com/gitmate/open-source/IGitt/commit/11f485a36602d27469f181e025341d788f69d117
+  - details: GitHub꞉ Add GitHubToken class
+- 117:
+  - repo: IGitt
+  - link: https://gitlab.com/gitmate/open-source/IGitt/commit/376d6c364e699ebc03a10e443dec86d5bce10e8a
+  - details: test_init꞉ Add tests for GitHub __init__ file
+- 118:
+  - repo: IGitt
+  - link: https://gitlab.com/gitmate/open-source/IGitt/commit/ead94bffba26e0b0c4e4aa90b53a924ef5371911
+  - details: Allow creating issues without body
+- 119:
+  - repo: IGitt
+  - link: https://gitlab.com/gitmate/open-source/IGitt/commit/c05d8be2b0ebe4c658e01c2b337c778679d9afe4
+  - details: test_github_repository꞉ Add tests for GitHubRepository
+- 120:
+  - repo: IGitt
+  - link: https://gitlab.com/gitmate/open-source/IGitt/commit/7a3785114609dcb4e10eca7c7ad6111ba962e931
+  - details: test_gitlab_merge_request꞉ Record diffstat request
+- 121:
+  - repo: IGitt
+  - link: https://gitlab.com/gitmate/open-source/IGitt/commit/3dade8558f24612b18df8bef4d68af273b8679f9
+  - details: GitLab꞉ Incorporate the usage of *Token classes
+- 122:
+  - repo: IGitt
+  - link: https://gitlab.com/gitmate/open-source/IGitt/commit/c5215ff0adccc1e330abcf4b7785838bcb28274d
+  - details: setup.cfg꞉ Enforce 100% coverage
+- 123:
+  - repo: IGitt
+  - link: https://gitlab.com/gitmate/open-source/IGitt/commit/9442b6489323b874b0d88f15675109edf8763a12
+  - details: test_github_commit꞉ Add unittests for GitHubCommit
+- 124:
+  - repo: IGitt
+  - link: https://gitlab.com/gitmate/open-source/IGitt/commit/8163a94493bbde34b32b2ac57ef9b7de6259a5ad
+  - details: GitHub Incorporate the usage of GitHubToken class
+- 125:
+  - repo: IGitt
+  - link: https://gitlab.com/gitmate/open-source/IGitt/commit/fe09c84ed0f0481ca99ff03130f574da89f7bc3f
+  - details: GitHubIssue꞉ Add create method to create new issue
+- 126:
+  - repo: IGitt
+  - link: https://gitlab.com/gitmate/open-source/IGitt/commit/41656b9a8008485332b1db05f80bcc325a800791
+  - details: IGitt꞉ Add url property to Issue objects
+- 127:
+  - repo: IGitt
+  - link: https://gitlab.com/gitmate/open-source/IGitt/commit/0f06985c88df7551d891882fcbfc2e87a9a927a0
+  - details: GitLab꞉ Create GitLabOAuthToken GitLabPrivateToken
+- 128:
+  - repo: IGitt
+  - link: https://gitlab.com/gitmate/open-source/IGitt/commit/89c2029acf9f612aec1a6af7597f1eae2fc524d4
+  - details: Hoster꞉ Add repository method to expose Repository
+- 129:
+  - repo: IGitt
+  - link: https://gitlab.com/gitmate/open-source/IGitt/commit/44a11c78b3942c82a61610efd7b0387b19a8eede
+  - details: IGitt꞉ Allow searching PRs by specifying time
+- 130:
+  - repo: IGitt
+  - link: https://gitlab.com/gitmate/open-source/IGitt/commit/1edf6fee1543732a74f386d603bafeefde2111b2
+  - details: GitHub꞉ Implement repository function
+- 131:
+  - repo: IGitt
+  - link: https://gitlab.com/gitmate/open-source/IGitt/commit/ecc89ca6b867f41ffd653c3c818863780cb352b6
+  - details: MergeRequests꞉ Override url property
+- 132:
+  - repo: IGitt
+  - link: https://gitlab.com/gitmate/open-source/IGitt/commit/20f3e30a858b0826eed6cf2072d423a2be9588d1
+  - details: test_github_hoster꞉ Add tests for GitHub
+- 133:
+  - repo: IGitt
+  - link: https://gitlab.com/gitmate/open-source/IGitt/commit/e5f5bfab999a37c0648ac4206ea8beea01b3343f
+  - details: GitLab꞉ Catch TypeError, KeyError in write_repos
+- 134:
+  - repo: IGitt
+  - link: https://gitlab.com/gitmate/open-source/IGitt/commit/767a894f761ba1b8377c02b8afae8bbddafc0d8f
+  - details: test_github_issue꞉ Add tests for GitHubIssue
+- 135:
+  - repo: IGitt
+  - link: https://gitlab.com/gitmate/open-source/IGitt/commit/1ba5770172b2144b99c0ee9d195c1d06f5f8bd0f
+  - details: .gitlab-ci.yaml꞉ Cache pip dir
+- 136:
+  - repo: IGitt
+  - link: https://gitlab.com/gitmate/open-source/IGitt/commit/45bb16c24c4c6d58d781cb017696e232e909942c
+  - details: IGitt꞉ Add assign, unassign methods, change assignee
+- 137:
+  - repo: IGitt
+  - link: https://gitlab.com/gitmate/open-source/IGitt/commit/a2217aa7ea160e6e047cd7cd48757d9f20048b02
+  - details: setup꞉ Move tests from addopts to testpaths keys
+- 138:
+  - repo: IGitt
+  - link: https://gitlab.com/gitmate/open-source/IGitt/commit/ed582a4ba4b4b026e1677fb92427f0016c844e79
+  - details: IGitt꞉ Add get_mr to Repository Interface and
+- 139:
+  - repo: IGitt
+  - link: https://gitlab.com/gitmate/open-source/IGitt/commit/04e4f082b5a747cb97518d9fbe75d20093b6ce9f
+  - details: test_github_merge_request꞉ Add tests for GitHub-MR
+- 140:
+  - repo: IGitt
+  - link: https://gitlab.com/gitmate/open-source/IGitt/commit/96691901dd5c7e2e048785ab1d1b44196670fc4a
+  - details: test_commit꞉ Add tests for commit interface
+- 141:
+  - repo: IGitt
+  - link: https://gitlab.com/gitmate/open-source/IGitt/commit/79084b8e9f0d12bf952690ac4bc7c135fe31cc81
+  - details: GitHub꞉ Return GitHubRepository objects instead of
+- 142:
+  - repo: IGitt
+  - link: https://gitlab.com/gitmate/open-source/IGitt/commit/20aec4bdd044c932432e3295cc1259c27123faca
+  - details: test_github_comment꞉ Add tests for GitHubComment
+- 143:
+  - repo: IGitt
+  - link: https://gitlab.com/gitmate/open-source/IGitt/commit/975e06025f3738fe9c5b212035f61a44440b8506
+  - details: Interfaces꞉ Add Token base class
+- 144:
+  - repo: IGitt
+  - link: https://gitlab.com/gitmate/open-source/IGitt/commit/c8c6e725f319a2e4c96054d07ae2e142168ec02c
+  - details: GitHubRepository꞉ Implement create_issue function
+- 145:
+  - repo: IGitt
+  - link: https://gitlab.com/gitmate/open-source/IGitt/commit/80443b86d7f1dc0d5813f5e1b15dd6b1be79ceb9
+  - details: Repository.py꞉ Add create_issue function
+- 146:
+  - repo: IGitt
+  - link: https://gitlab.com/gitmate/open-source/IGitt/commit/604acaf90773ac7b5419f18376f5d594e6486a76
+  - details: .gitlab-ci.yml꞉ Update coala version and use pip
+- 147:
+  - repo: IGitt
+  - link: https://gitlab.com/gitmate/open-source/IGitt/commit/1eabaaac9cf78a35db5951764a58b8af19079849
+  - details: test_repository꞉ Add tests for repository interface
+- 148:
+  - repo: errbot
+  - link: https://github.com/errbotio/errbot/commit/01b9401c7d4597c584c2c3eac0075ae6f30336b7
+  - details: backends/test꞉ Correct docstring of
+- 149:
+  - repo: errbot
+  - link: https://github.com/errbotio/errbot/commit/931691c063a4a3809dfaf8b4e4f1e46d9770bdde
+  - details: backends/test꞉ use assert instead of raising an exception
+- 150:
+  - repo: errbot
+  - link: https://github.com/errbotio/errbot/commit/1950c1865299dfd9653e7aa39866ab5c4624bf9f
+  - details: plugib_wizard꞉ Don't create errbot section if versions not
+- 151:
+  - repo: errbot
+  - link: https://github.com/errbotio/errbot/commit/cb0d0b9af19b878e4230f7dceea5bf028b0d0b55
+  - details: docs/testing.rst꞉ Highligh assertCommand assertion
+- 152:
+  - repo: errbot
+  - link: https://github.com/errbotio/errbot/commit/d678a61d65998182128729e20d6d7862ed7cfe7a
+  - details: backends/test꞉ Typo pushMessage -> push_message (#1014)
+- 153:
+  - repo: ramlient
+  - link: https://github.com/timofurrer/ramlient/commit/fae32e11e1239ff7e7cff52ebb8efdb5bdd4c2f0
+  - details: core꞉ Fix absolute_uri property
+- 154:
+  - repo: ramlient
+  - link: https://github.com/timofurrer/ramlient/commit/dc9a67308709c0561a3287ca1a08e43f60bf5d9a
+  - details: core꞉ Add absolute_uri property to Node
+- 155:
+  - repo: ramlient
+  - link: https://github.com/timofurrer/ramlient/commit/70ac6919092fe19d3524da42146f253ae4711813
+  - details: request꞉ Make requests absolute_uri instead of path
+- 156:
+  - repo: ramlient
+  - link: https://github.com/timofurrer/ramlient/commit/dbd38b49b9d56b6f092f8b5580c1e885f9795ea2
+  - details: setup.py꞉ Remove parse_requirements and read the file
+- 157:
+  - repo: ramlient
+  - link: https://github.com/timofurrer/ramlient/commit/4f74526963a4c145a337f4df9efb3b47dff2e8d5
+  - details: Remove Node.absolute_uri and use ResourceNode.absolute_uri
+- 158:
+  - repo: ramlient
+  - link: https://github.com/timofurrer/ramlient/commit/c82294810f3c4d7494c88c334c778d9e68648fb9
+  - details: core.py꞉ Match endpoints ending with '/' as well
+- 159:
+  - repo: ramlient
+  - link: https://github.com/timofurrer/ramlient/commit/0de4851e197ac9a8feb74cec7566cf1793334e30
+  - details: request꞉ Allow passing data and json kwargs
+- 160:
+  - repo: err-backend-gitter
+  - link: https://github.com/errbotio/err-backend-gitter/commit/b2880a9d88769f72dd703a8ee2a222ce7881f1fd
+  - details: gitter꞉ Add threaded argument to build_reply function
+- 161:
+  - repo: err-backend-gitter
+  - link: https://github.com/errbotio/err-backend-gitter/commit/a9831f1711ebc1430955f5dc7c86b8d70a9c3d62
+  - details: gitter꞉ Set the extras attribute during instantiation
+- 162:
+  - repo: err-backend-gitter
+  - link: https://github.com/errbotio/err-backend-gitter/commit/502a60979b9a9386a3f0af87cf0e841055ac8238
+  - details: gitter꞉ Add message id to extras
+- 163:
+  - repo: err-backend-gitter
+  - link: https://github.com/errbotio/err-backend-gitter/commit/7bc57a772cbc7c1026a2a140bc58277824153342
+  - details: gitter꞉ Add id attribute to Message.extras
+- 164:
+  - repo: err-backend-gitter
+  - link: https://github.com/errbotio/err-backend-gitter/commit/dcfeb7ad8b4a3e9be07ff00cb033f7eb710a1636
+  - details: gitter.py꞉ Create GitterRoomThread class and use it
+- 165:
+  - repo: err-backend-gitter
+  - link: https://github.com/errbotio/err-backend-gitter/commit/ca1dc5461573ab086612b11502139fa989aabf9e
+  - details: gitter.py꞉ Implement room topics
+- 166:
+  - repo: err-backend-gitter
+  - link: https://github.com/errbotio/err-backend-gitter/commit/910399048e881dbe6f00ede95d7528ebc6b3b36f
+  - details: gitter꞉ Maintain a list of threads and create only one
+- 167:
+  - repo: err-backend-gitter
+  - link: https://github.com/errbotio/err-backend-gitter/commit/d36d033f69e662d00a5e7ff1fccb9ffcbf00a2f6
+  - details: gitter꞉ Import random module
+---
+
+### cobot enhancement, testing and porting
+
+#### Work Done
+
+1. All the hubot scripts from `cobot` are ported to errbot scripts of `corobo`
+2. New scripts added:
+   1. `Answer` - Answers a given question using existing user and API docs
+   2. `coatils`
+      - coala user, lang, bear stats.
+      - List bears by language.
+      - Running coala on a given code snippet from gitter.
+3. Tests have been written for all plugins - old and new.
+4. Docs have been added for `corobo` commands and for the working of `answers` plugin.
+5. Tokens class was implemented in IGitt.
+6. `ramlient` raml client was fixed, and the feature of posting data was added.
+7. Custom help strings for `re_botcmd`s was added.
+8. `GitterThread` was created to create a new streaming request if the stream is
+   broken even once. Earlier, if once broken, it didn't reconnect leading to bot
+   absense in the room.
+
+#### Challenges
+
+Finding answers for questions using documentation was one of the most challenging
+parts. We tried out many ways. There was a lot of prototyping. We tried out using
+topic modeling with TF-IDF, manual tagging, some search methods, etc.
+
+We later settled for an unsupervised way explained in [this](https://pdfs.semanticscholar.org/57dc/e89754ad37b1a631e4ac6f375ce9cae3988e.pdf)
+research paper. It uses `spacy` for NLP, tagging part of speech and other
+semantic relations.
+
+#### Work to be done
+
+1. General refactoring of `answers` package.
+2. Add new plugins that have been proposed. (See it in the
+    [issue tracker](https://github.com/coala/corobo/issues))
+3. Improve CI, try to reduce the build times. Focus on caching. Improve the existing tests.
+
+<!-- Ignore LineCountBear -->
