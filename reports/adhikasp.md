@@ -8,9 +8,9 @@ project: Implement Aspect
 project_link: https://summerofcode.withgoogle.com/projects/#5847850440196096
 tarball: https://rawgit.com/adhikasp/GSoC-2017-Report/master/adhikasp_tarball.tar.gz
 mentors: >
- [John Vandenberg]<http://github.com/jayvdb>,
- [Stefan Zimmermann]<https://github.com/userzimmermann>,
- [Steven Myint]<https://github.com/myint>
+ [John Vandenberg](http://github.com/jayvdb),
+ [Stefan Zimmermann](https://github.com/userzimmermann),
+ [Steven Myint](https://github.com/myint)
 phase:
  - Bonding : https://gitlab.com/coala/GSoC-2017/milestones/36
  - Phase 1 : https://gitlab.com/coala/GSoC-2017/milestones/37
