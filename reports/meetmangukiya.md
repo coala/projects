@@ -705,6 +705,26 @@ activity:
   - repo: err-backend-gitter
   - link: https://github.com/errbotio/err-backend-gitter/commit/d36d033f69e662d00a5e7ff1fccb9ffcbf00a2f6
   - details: gitter꞉ Import random module
+- 168:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/8020287179bd9ea2db848c0b4265b3bdb16d0f3e
+  - details: requirements꞉ Bump up IGitt version
+- 169:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/6e196fbdf6c3d5e0e247f0362efc5ffd4358cf31
+  - details: LabHub꞉ Add PR stats command
+- 170:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/e61571d86d9d9b03ca589d2867ad9c9687bb80e9
+  - details: .ci/check_docker.py꞉ Add check_docker
+- 171:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/98ebcbfc891a842f871ef9d3f45ac39a505899ed
+  - details: .ci/semaphore.answers.sh꞉ Add semaphore.answers.sh
+- 172:
+  - repo: corobo
+  - link: https://github.com/coala/corobo/commit/6a2180918f1ce13e1b50ba952e9f6c80c4373da9
+  - details: semaphore.docker꞉ Check if image has to be rebuilt
 ---
 
 ### cobot enhancement, testing and porting
