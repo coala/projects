@@ -248,7 +248,7 @@ activity:
 
 #### Work Done
 
-[coala] is a modular and language-agnostic tool for performing static code analysis. [coala-quickstart] is a tool designed to do all the boilerplate work for coala and help users to quickly get started with coala.
+[coala](https://coala.io) is a modular and language-agnostic tool for performing static code analysis. [coala-quickstart](https://github.com/coala/coala-quickstart) is a tool designed to do all the boilerplate work for coala and help users to quickly get started with coala.
 
 **Major tasks of the project:**
 
@@ -262,10 +262,10 @@ activity:
   More information about each of the files can be found [here](https://gitlab.com/coala/GSoC-2017/issues/21)
 - Utilizing the information extracted from project files to
   - Suggest static code analysis routines to users
-  - Automatically identify values required for settings in [.coafile] (coala's configuration file)
+  - Automatically identify values required for settings in `.coafile` (coala's configuration file)
   - Detect inconsistencies among files
 - Recommending and Filtering static code analysis routines to users based on:
-  - [Capabilities] selected by the users.
+  - [Capabilities](http://api.coala.io/en/latest/Developers/Writing_Native_Bears.html#can-detect-and-can-fix) selected by the users.
   - A curated list of static code analysis routines.
   - Insights about static code analysis tools already used by the project.
 - Improving the existing CLI by
@@ -274,6 +274,7 @@ activity:
   - Validating user inputs
 - Adding Continuous Integration support for Windows.
 
+Check out the lateset [release](https://pypi.python.org/pypi/coala-quickstart/0.4.0) of coala-quickstart to see all of the above discussed features in action!
 
 #### Challenges
 
