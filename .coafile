@@ -25,3 +25,7 @@ bears = HTMLLintBear
 files = **.html
 htmllint_ignore = optional_tag, protocol, indentation,  concerns_separation, capitalization
 ignore = resources/vendors/**, _site/**
+
+[yml]
+bears = YAMLLintBear
+files = **.yml
