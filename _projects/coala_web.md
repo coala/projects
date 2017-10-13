@@ -4,7 +4,7 @@ collaborating_projects:
 desc: "This project aims to intensify usage of coala by developing well organised web interfaces."
 developers_involved: []
 difficulty: medium
-status: in_progress
+status: completed
 initiatives: 
   - GSoC
   - RGSoC

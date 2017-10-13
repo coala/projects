@@ -4,7 +4,7 @@ collaborating_projects:
 desc: "This project enhances our linter framework and creates a number of third party tool integrations."
 developers_involved: []
 difficulty: medium
-status: in_progress
+status: completed
 initiatives: 
   - GSoC
   - RGSoC

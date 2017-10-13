@@ -5,7 +5,7 @@ collaborating_projects:
 desc: "This project is about using vulture to automatically remove unused python code."
 developers_involved: []
 difficulty: medium
-status: in_progress
+status: completed
 initiatives: 
   - GSoC
   - RGSoC

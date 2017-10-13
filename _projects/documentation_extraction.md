@@ -4,7 +4,7 @@ collaborating_projects:
 desc: "The Project is about writing language independent documentation extraction and parsing algorithms."
 developers_involved: []
 difficulty: high
-status: in_progress
+status: completed
 initiatives: 
   - GSoC
   - RGSoC

@@ -4,7 +4,7 @@ collaborating_projects:
 desc: "This project is about collecting bears based on aspects that the user wants to have checked."
 developers_involved: []
 difficulty: high
-status: in_progress
+status: completed
 initiatives: 
   - GSoC
   - RGSoC

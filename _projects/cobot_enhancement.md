@@ -4,7 +4,7 @@ collaborating_projects:
 desc: "Port cobot to errbot, test the new plugins, and introduce new useful features"
 developers_involved: []
 difficulty: medium
-status: in_progress
+status: completed
 initiatives: 
   - GSoC
 issues: 

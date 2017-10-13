@@ -4,7 +4,7 @@ collaborating_projects:
 desc: "There are a number of possible options to improve the coala interface written down in [a draft of cEP-0004](https://github.com/coala/cEPs/pull/29/files)."
 developers_involved: []
 difficulty: medium
-status: in_progress
+status: completed
 initiatives: 
   - GSoC
   - RGSoC

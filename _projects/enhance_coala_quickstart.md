@@ -4,7 +4,7 @@ collaborating_projects:
 desc: "Extract useful data from a project's configuration files to build a relevant `.coafile`."
 developers_involved: []
 difficulty: medium
-status: in_progress
+status: completed
 initiatives: 
   - GSoC
   - RGSoC

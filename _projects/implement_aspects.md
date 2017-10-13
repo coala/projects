@@ -4,7 +4,7 @@ collaborating_projects:
 desc: "This project is about annotating results of bears with ``aspects`` which are like categories allowing to group results."
 developers_involved: []
 difficulty: medium
-status: in_progress
+status: completed
 initiatives: 
   - GSoC
 issues: []
