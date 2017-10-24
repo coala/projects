@@ -11,6 +11,9 @@
 .report .link {
   padding: 0.5em;
 }
+.tab {
+  cursor: pointer;
+}
 .report .fullh {
   height: 100%;
 }
