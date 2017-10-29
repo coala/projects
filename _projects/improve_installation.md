@@ -88,7 +88,7 @@ another bear.
 
 ##### PREPARATION/BONDING
 
-* A cEP that describes cib is merged.
+* A [cEP](https://github.com/coala/cEPs) that describes cib is merged.
 * https://github.com/coala/coala-bears/issues/845 is solved.
 * cib should be tested with full coverage.
 
