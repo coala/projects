@@ -129,7 +129,7 @@ The text for many licenses can be obtained from https://choosealicense.com/
 1. Copy it to the clipboard.
 2. Fork the repository
 3. Add a LICENSE file to the repository, committing the new file to a branch.
-   1. Be aware that may licenses provide template values that must be substituted with the correct values
+   1. Be aware that many licenses provide template values that must be substituted with the correct values
 4. Submit your branch to the main repository as a pull request.
 
 A quick way to create a license file is to create a fork and then create a URL
