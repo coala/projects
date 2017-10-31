@@ -44,7 +44,7 @@
       </div>
       <div ng-view=""></div>
     </div>
-    <div ng-controller="LanguageController as langCtrl" style="position: relative; margin: 50% auto; width: 100px;">
+    <div ng-controller="LanguageController as langCtrl" style="position: relative; margin: auto; width: 100px;">
     <select ng-init="language = init_language" ng-options="l as l.name for l in langs" ng-model="language" ng-change="update()">
     </select>
   </div>
