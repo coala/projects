@@ -135,7 +135,7 @@ The text for many licenses can be obtained from https://choosealicense.com/
 A quick way to create a license file is to create a fork and then create a URL
 using the following template.
 
-`https://github.com/<your username>/<repository name>/community/license/new?branch=license&template=mit`
+`https://github.com/<your_username>/<repository_name>/community/license/new?branch=license&template=mit`
 
 Replace `mit` with the short license identifier that GitHub has allocated to the selected license.
 
