@@ -1,7 +1,17 @@
 [global]
-bears = coalaBear
+bears = coalaBear, InvalidLinkBear
 files = **.yml, **.html, **.md, **.js, **.css, **.json
-ignore = vendor/**, resources/vendors/**, _site/**
+ignore = vendor/**, resources/vendors/**, _site/**, _book/**
+# These sites all reject spiders
+link_ignore_list =
+  https://twitter.com/**,
+  https://gitlab.com/**,
+  https://withgoogle.com/**,
+  https://avatars.githubusercontent.com/**,
+  https://github.com/**
+# clbin.com doesnt work in link_ignore_list
+# See https://github.com/coala/coala-bears/issues/2126
+link_ignore_regex = clbin.com
 
 [linecount]
 files = **.yml, **.html, **.md, **.js

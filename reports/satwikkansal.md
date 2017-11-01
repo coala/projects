@@ -292,6 +292,6 @@ Apart from that, there's also scope to extract useful information from meta file
 
 #### Thanks giving!
 
-Thanks a lot to all my fellow coalians for making my so far wonderful journey with coala. It's been around 9 months since I started contributing to coala and I've learned a lot till now. A very very special thanks to [Adhityaa](https://gihub.com/adtac) for helping me constantly throughout the summer despite of his own internship. He was quick in doing critical code reviews and absolutely a fun mentor to work with (not to mention the interesting conversations between [Adrian](https://github.com/Adrianzatreanu) and him during the initial weekly meetings).
+Thanks a lot to all my fellow coalians for making my so far wonderful journey with coala. It's been around 9 months since I started contributing to coala and I've learned a lot till now. A very very special thanks to [Adhityaa](https://github.com/adtac) for helping me constantly throughout the summer despite of his own internship. He was quick in doing critical code reviews and absolutely a fun mentor to work with (not to mention the interesting conversations between [Adrian](https://github.com/Adrianzatreanu) and him during the initial weekly meetings).
 
 I'll definitely keep on contributing to coala-quickstart and coala in general after my GSoC.
