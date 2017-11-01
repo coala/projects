@@ -1,4 +1,5 @@
 .coverage.*
 **.orig
 _site/
+_book/
 rultor_secrets.sh
