@@ -1,31 +1,33 @@
 [global]
 bears = coalaBear
 files = **.yml, **.html, **.md, **.js, **.css, **.json
-ignore = resources/vendors/**, _site/**
+ignore = vendor/**, resources/vendors/**, _site/**
 
 [linecount]
 files = **.yml, **.html, **.md, **.js
 bears = LineCountBear
-ignore = resources/vendors/**, data/projects.js, _site/**
+ignore = vendor/**, resources/vendors/**, data/projects.js, _site/**
 max_lines_per_file = 500
 
 [filenames]
 bears = FilenameBear
 files = **.yml, **.html, **.md, **.js, **.css
-ignore = resources/vendors/**, _projects/integrate-pyflakes-AST.md, _site/**, data/locale/en/projects/**
+ignore = vendor/**, resources/vendors/**, _projects/integrate-pyflakes-AST.md, data/locale/en/projects/**, _site/**
+file_naming_convention = snake
 
 [spacing]
 bears = SpaceConsistencyBear
 files = **.html, **.css, **.js, **.json
-ignore = resources/vendors/**, _site/**
+ignore = vendor/**, resources/vendors/**, _site/**
 use_spaces = True
 
 [html]
 bears = HTMLLintBear
 files = **.html
 htmllint_ignore = optional_tag, protocol, indentation,  concerns_separation, capitalization
-ignore = resources/vendors/**, _site/**
+ignore = vendor/**, resources/vendors/**, _site/**
 
 [yml]
 bears = YAMLLintBear
 files = **.yml
+ignore = vendor/**

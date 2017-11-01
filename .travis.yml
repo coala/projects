@@ -1,3 +1,5 @@
+services: docker
+
 language: ruby
 rvm:
   - 2.3.3
@@ -5,7 +7,9 @@ cache: bundler
 
 # Assume bundler is being used, therefore
 # the `install` step will run `bundle install` by default.
-script: .ci/build.sh
+script:
+  - .ci/build.sh
+  - docker run -v=$(pwd):/app --workdir=/app coala/base coala --ci
 
 env:
   global:
