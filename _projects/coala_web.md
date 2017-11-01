@@ -1,4 +1,4 @@
---- 
+---
 collaborating_projects: 
   - coala
 desc: "This project aims to intensify usage of coala by developing well organised web interfaces."

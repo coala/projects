@@ -1,4 +1,4 @@
---- 
+---
 collaborating_projects: 
   - coala
   - ANTLRv4

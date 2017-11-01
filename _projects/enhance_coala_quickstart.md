@@ -1,4 +1,4 @@
---- 
+---
 collaborating_projects: 
   - coala
 desc: "Extract useful data from a project's configuration files to build a relevant `.coafile`."

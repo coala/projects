@@ -1,4 +1,4 @@
---- 
+---
 collaborating_projects: 
   - coala
 desc: "coala should support developers of code analysis by providing facilities to debug and profile bears."

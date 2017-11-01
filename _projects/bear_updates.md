@@ -1,4 +1,4 @@
---- 
+---
 collaborating_projects: 
   - coala
 desc: "Fixing issues and improving documentation and testing of existing linter bears."

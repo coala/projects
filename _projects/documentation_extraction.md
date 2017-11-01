@@ -1,4 +1,4 @@
---- 
+---
 collaborating_projects: 
   - coala
 desc: "The Project is about writing language independent documentation extraction and parsing algorithms."

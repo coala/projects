@@ -1,4 +1,4 @@
---- 
+---
 collaborating_projects: 
   - coala
 desc: "This project is about annotating results of bears with ``aspects`` which are like categories allowing to group results."

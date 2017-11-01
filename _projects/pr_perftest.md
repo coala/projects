@@ -1,4 +1,4 @@
---- 
+---
 collaborating_projects: 
   - coala
   - GitMate

@@ -1,4 +1,4 @@
---- 
+---
 collaborating_projects: 
   - coala
 desc: "This project enhances our linter framework and creates a number of third party tool integrations."

@@ -1,4 +1,4 @@
---- 
+---
 collaborating_projects: 
   - coala
 desc: "Improve coala's performance by improving file caching and other performance bottlenecks."

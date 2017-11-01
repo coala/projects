@@ -1,4 +1,4 @@
---- 
+---
 collaborating_projects: 
   - coala
 desc: "Port cobot to errbot, test the new plugins, and introduce new useful features"

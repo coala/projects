@@ -1,4 +1,4 @@
---- 
+---
 collaborating_projects: 
   - coala
 desc: "Bears should be able to offer more than just one possible patch for an issue."

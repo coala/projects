@@ -1,4 +1,4 @@
---- 
+---
 collaborating_projects: 
   - coala
 desc: "Provide public metrics about newcomers and the newcomer process."
