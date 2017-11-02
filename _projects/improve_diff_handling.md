@@ -30,7 +30,7 @@ and should also be modifiable by the preferences of the user. Thus the
 following improvements can be incorporated giving coala the ability to:
 
 1. Offer multiple diffs, i.e. multiple different fixes to the same issue.
-Giving the user a choice to pick the most desireable one.
+Giving the user a choice to pick the most desirable one.
 2. Incorporate input from the user into the diffs offered by using a
 templating mechanism.
 
