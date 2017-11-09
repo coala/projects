@@ -1,22 +1,22 @@
 ---
-collaborating_projects: 
+collaborating_projects:
   - coala
   - Pyflakes
 desc: "Integrate pyflakes-enhanced AST into coala so that bears can access it."
 difficulty: medium
-initiatives: 
+initiatives:
   - GSoC
   - RGSoC
 issues: []
 markdown: integrate-pyflakes-AST.md
-mentors: 
+mentors:
   - jayvdb
   - srisankethu
 name: "Integrate pyflakes-enhanced AST into coala "
-requirements: 
+requirements:
   - "The participant has a patch to any bear merged. Check out [existing bear proposal](https://github.com/coala/coala-bears/issues)."
   - "The participant has a patch to pyflakes merged. Check out [easy task](https://bugs.launchpad.net/pyflakes/+bugs?field.tag=easy)."
-tags: 
+tags:
   - Bears
   - Pyflakes
 ---

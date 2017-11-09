@@ -1,14 +1,14 @@
 ---
-collaborating_projects: 
+collaborating_projects:
   - coala
 desc: "Extract useful data from a project's configuration files to build a relevant `.coafile`."
 developers_involved: []
 difficulty: medium
 status: completed
-initiatives: 
+initiatives:
   - GSoC
   - RGSoC
-issues: 
+issues:
   - "https://gitlab.com/coala/GSoC-2017/issues/21"
   - "https://gitlab.com/coala/GSoC-2017/issues/56"
   - "https://gitlab.com/coala/GSoC-2017/issues/58"
@@ -23,14 +23,14 @@ issues:
   - "https://gitlab.com/coala/GSoC-2017/issues/66"
   - "https://gitlab.com/coala/GSoC-2017/issues/67"
 markdown: enhance_coala_quickstart.md
-mentors: 
+mentors:
   - adtac
   - Adrianzatreanu
 name: "Enhance coala-quickstart"
-requirements: 
+requirements:
   - "At least one patch to coala core and coala-quickstart each should be accepted and merged."
   - "The student should be familiar with ongoing technical [cEPs](https://coala.io/cep)."
-tags: 
+tags:
   - "Information Extraction"
   - CLI
   - CI

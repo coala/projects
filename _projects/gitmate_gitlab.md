@@ -1,5 +1,5 @@
 ---
-collaborating_projects: 
+collaborating_projects:
   - coala
   - GitMate
   - IGitt
@@ -7,10 +7,10 @@ desc: "GitMate will support GitHub very soon with it's plugin system - GitLab an
 developers_involved: []
 difficulty: medium
 status: completed
-initiatives: 
+initiatives:
   - GSoC
   - RGSoC
-issues: 
+issues:
   - "https://gitlab.com/coala/GSoC-2017/issues/6"
   - "https://gitlab.com/coala/GSoC-2017/issues/26"
   - "https://gitlab.com/coala/GSoC-2017/issues/27"
@@ -33,15 +33,15 @@ issues:
   - "https://gitlab.com/coala/GSoC-2017/issues/96"
   - "https://gitlab.com/coala/GSoC-2017/issues/97"
 markdown: gitmate_gitlab.md
-mentors: 
+mentors:
   - sils
   - seblat
   - fneu
 name: "Implement GitLab and Bitbucket Support for GitMate"
-requirements: 
+requirements:
   - "The participant should have one patch to [GitMate-2](https://gitlab.com/gitmate/gitmate-2) accepted."
   - "Django knowledge  is a big plus."
-tags: 
+tags:
   - Web
   - CI
 ---

@@ -1,18 +1,18 @@
 ---
-collaborating_projects: 
+collaborating_projects:
   - docker-coala-base
 desc: "Fix a popular GitHub project so that the repository contents conform to linter rules that are verified by coala CI on each commit using Travis CI."
 difficulty: medium
-initiatives: 
+initiatives:
   - GCI
 markdown: use_coala_2.md
-mentors: 
+mentors:
   - jayvdb
   - sils
 name: "Use coala CI on a popular GitHub repository - Advanced"
-requirements: 
+requirements:
   - "Completed task 'use_coala'."
-tags: 
+tags:
   - community
   - docker
 ---

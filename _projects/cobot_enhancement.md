@@ -1,13 +1,13 @@
 ---
-collaborating_projects: 
+collaborating_projects:
   - coala
 desc: "Port cobot to errbot, test the new plugins, and introduce new useful features"
 developers_involved: []
 difficulty: medium
 status: completed
-initiatives: 
+initiatives:
   - GSoC
-issues: 
+issues:
   - "https://gitlab.com/coala/GSoC-2017/issues/152"
   - "https://gitlab.com/coala/GSoC-2017/issues/50"
   - "https://gitlab.com/coala/GSoC-2017/issues/45"
@@ -18,13 +18,13 @@ issues:
   - "https://gitlab.com/coala/GSoC-2017/issues/49"
   - "https://gitlab.com/coala/GSoC-2017/issues/48"
 markdown: cobot_enhancement.md
-mentors: 
+mentors:
   - Udayan12167
   - sadovnychyi
 name: "cobot enhancement, testing and porting"
-requirements: 
+requirements:
   - "At least one patch to cobot should be accepted and merged."
-tags: 
+tags:
   - community
   - cobot
 ---

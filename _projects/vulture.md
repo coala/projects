@@ -1,24 +1,24 @@
 ---
-collaborating_projects: 
+collaborating_projects:
   - coala
   - vulture
 desc: "This project is about using vulture to automatically remove unused python code."
 developers_involved: []
 difficulty: medium
 status: completed
-initiatives: 
+initiatives:
   - GSoC
   - RGSoC
 issues: []
 markdown: vulture.md
-mentors: 
+mentors:
   - jendrikseipp
 name: "Vulture dead code removal"
-requirements: 
+requirements:
   - "The participant should have one patch to [vulture](https://bitbucket.org/jendrikseipp/vulture) accepted."
   - "Being familiar with the current Bear API and what it provides. Fixing an issue for a Bear during the newcomer process would help with this."
   - "Knowledge of ASTs and basic language grammar is a bonus."
-tags: 
+tags:
   - Vulture
   - AST
   - Bears

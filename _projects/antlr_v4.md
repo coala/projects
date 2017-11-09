@@ -1,23 +1,23 @@
 ---
-collaborating_projects: 
+collaborating_projects:
   - coala
   - ANTLRv4
 desc: "This project is about integrating ANTLR into the coala bear API. "
 difficulty: high
-initiatives: 
+initiatives:
   - GSoC
   - RGSoC
 issues: []
 markdown: antlr_v4.md
-mentors: 
+mentors:
   - Udayan12167
 name: "Integrate ANTLR v4 into coala"
-requirements: 
+requirements:
   - "The participant should have one patch to [coala](https://github.com/coala/coala) accepted."
   - "Being familiar with the current Bear API and what it provides."
   - "Knowledge of ANTLR and Java is a bonus."
   - "Knowledge of ASTs and basic language grammar."
-tags: 
+tags:
   - API
   - AST
   - Bears

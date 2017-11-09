@@ -1,23 +1,23 @@
 ---
-collaborating_projects: 
+collaborating_projects:
   - coala
 desc: "Multiple programming languages can coexist in the same source file - coala should support writing code analysis that only works on parts of files."
 difficulty: medium
-initiatives: 
+initiatives:
   - GSoC
   - RGSoC
-issues: 
+issues:
   - "https://github.com/coala/coala/issues/1690"
 markdown: nested_languages.md
-mentors: 
+mentors:
   - Udayan12167
   - NiklasMM
 name: "Handle Nested Programming Languages"
-requirements: 
+requirements:
   - "At least one patch to the coala core should be accepted and merged."
   - "The student should be familiar with ongoing technical [cEPs](https://coala.io/cep)."
   - "The proposal needs to contain a clear concept."
-tags: 
+tags:
   - Core
   - Bears
 ---

@@ -1,23 +1,23 @@
 ---
-collaborating_projects: 
+collaborating_projects:
   - coala
 desc: "There is more to software quality than just passing builds - coala should support generating metrics for your code."
 difficulty: high
-initiatives: 
+initiatives:
   - GSoC
   - RGSoC
-issues: 
+issues:
   - "https://github.com/coala/coala/issues/759"
 markdown: implement_metrics_for_coala.md
-mentors: 
+mentors:
   - fneu
   - jayvdb
 name: "Implement Metrics for coala"
-requirements: 
+requirements:
   - "At least one patch to the coala core should be accepted and merged."
   - "The student should be familiar with ongoing technical [cEPs](https://coala.io/cep)."
   - "The proposal needs to contain a clear concept."
-tags: 
+tags:
   - Core
   - Bears
 ---

@@ -51,20 +51,20 @@ Mentors and admins can define projects in markdown using the following structure
 ---
 name: "Write Project Name Here"
 desc: "Write a one line Description of Project here."
-requirements: 
+requirements:
  - "The applicant has to fulfill this to get started."
 difficulty: "low|medium|high"
-issues: 
+issues:
  - "https://github.com/coala/coala/issues/####"
-mentors: 
+mentors:
  - sils
  - sims1253
-initiatives: 
+initiatives:
  - GSoC
-tags: 
+tags:
  - Plugins
  - CI
-collaborating_projects: 
+collaborating_projects:
  - "Add umbrella and sub-orgs here"
 ---
 

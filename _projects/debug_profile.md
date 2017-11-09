@@ -1,25 +1,25 @@
 ---
-collaborating_projects: 
+collaborating_projects:
   - coala
 desc: "coala should support developers of code analysis by providing facilities to debug and profile bears."
 difficulty: high
-initiatives: 
+initiatives:
   - GSoC
   - RGSoC
-issues: 
+issues:
   - "https://github.com/coala/coala/issues/565"
   - "https://github.com/coala/coala/issues/1101"
 markdown: debug_profile.md
-mentors: 
+mentors:
   - Makman2
   - Udayan12167
 name: "Debug and Profile Bears"
-requirements: 
+requirements:
   - "At least one patch to the coala core should be accepted and merged."
   - "The student should be familiar with ongoing technical [cEPs](https://coala.io/cep)."
   - "The proposal needs to contain a clear concept."
   - "Familiarity with pdb is a plus."
-tags: 
+tags:
   - Core
   - Bears
   - Debugging

@@ -1,14 +1,14 @@
 ---
-collaborating_projects: 
+collaborating_projects:
   - coala
 desc: "There are a number of possible options to improve the coala interface written down in [a draft of cEP-0004](https://github.com/coala/cEPs/pull/29/files)."
 developers_involved: []
 difficulty: medium
 status: completed
-initiatives: 
+initiatives:
   - GSoC
   - RGSoC
-issues: 
+issues:
   - "https://gitlab.com/coala/GSoC-2017/issues/51"
   - "https://gitlab.com/coala/GSoC-2017/issues/52"
   - "https://gitlab.com/coala/GSoC-2017/issues/53"
@@ -28,14 +28,14 @@ issues:
   - "https://gitlab.com/coala/GSoC-2017/issues/138"
   - "https://gitlab.com/coala/GSoC-2017/issues/158"
 markdown: coala_cli.md
-mentors: 
+mentors:
   - yukiisbored
   - Adrianzatreanu
 name: "Improve the coala CLI"
-requirements: 
+requirements:
   - "One patch to the coala core accepted."
   - "Clear ideas on how to improve the CLI in the proposal."
-tags: 
+tags:
   - Core
   - CLI
 ---

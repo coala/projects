@@ -1,24 +1,24 @@
 ---
-collaborating_projects: 
+collaborating_projects:
   - coala
   - jenkins
 desc: "Jenkins users should be able to see coala results right in the Jenkins UI."
 difficulty: low
-initiatives: 
+initiatives:
   - GSoC
   - RGSoC
-issues: 
+issues:
   - "https://github.com/coala/coala/issues/2757"
 markdown: create_jenkins_plugin.md
-mentors: 
+mentors:
   - Udayan12167
   - uhafner
 name: "Create Jenkins Plugin"
-requirements: 
+requirements:
   - "Any patch to jenkins has been accepted."
   - "The applicant is familiar with the coala plugins."
   - "Any patch to any coala plugin has been accepted and merged."
-tags: 
+tags:
   - Plugins
   - CI
 ---

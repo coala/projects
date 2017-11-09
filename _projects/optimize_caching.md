@@ -1,25 +1,25 @@
 ---
-collaborating_projects: 
+collaborating_projects:
   - coala
 desc: "Improve coala's performance by improving file caching and other performance bottlenecks."
 difficulty: medium
-initiatives: 
+initiatives:
   - GSoC
   - RGSoC
-issues: 
+issues:
   - "https://github.com/coala/coala/issues/2541"
   - "https://github.com/coala/coala/issues/2699"
   - "https://github.com/coala/coala/issues/2912"
 markdown: optimize_caching.md
-mentors: 
+mentors:
   - adtac
   - sils
 name: "Optimize Caching"
-requirements: 
+requirements:
   - "At least one patch to the coala core should be accepted and merged."
   - "The student should be familiar with ongoing technical cEPs especially [cEP-0002](https://github.com/coala/cEPs/blob/master/cEP-0002.md)."
   - "The proposal needs to show some familiarity with coala's caching implementation."
-tags: 
+tags:
   - Core
   - Bears
 ---

@@ -1,13 +1,13 @@
 ---
-collaborating_projects: 
+collaborating_projects:
   - coala
 status: in_progress
 desc: "Develop an efficient strategy that allows coala to maintain a number of plugins for different editors."
 difficulty: medium
-initiatives: 
+initiatives:
   - GSoC
   - RGSoC
-issues: 
+issues:
   - "https://github.com/coala/coala-atom/issues/37"
   - "https://github.com/coala/coala-emacs/issues/11"
   - "https://github.com/coala/coala-eclipse/issues/25"
@@ -15,14 +15,14 @@ issues:
   - "https://github.com/coala/coala-gedit/issues/5"
   - "https://github.com/coala/coala-sublime/issues/4"
 markdown: editor_support.md
-mentors: 
+mentors:
   - AbdealiJK
   - fneu
 name: "Cohesive Editor Support"
-requirements: 
+requirements:
   - "The proposal has to provide a convincing strategy for testing, documentation and maintaining editor plugins"
   - "The applicant should have one patch accepted to any of the coala plugins."
-tags: 
+tags:
   - Editors
   - Plugins
 ---

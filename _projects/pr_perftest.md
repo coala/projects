@@ -1,17 +1,17 @@
 ---
-collaborating_projects: 
+collaborating_projects:
   - coala
   - GitMate
 desc: "Essentially a codecov for performance, but smarter."
 difficulty: medium
-initiatives: 
+initiatives:
   - Paper
 issues: []
 markdown: pr_perftest.md
 name: "Performance measurement for pull requests"
-requirements: 
+requirements:
   - "Prior experience with commit-based performance testing."
-tags: 
+tags:
   - coala
   - GitMate
   - performance

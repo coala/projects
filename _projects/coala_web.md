@@ -1,14 +1,14 @@
 ---
-collaborating_projects: 
+collaborating_projects:
   - coala
 desc: "This project aims to intensify usage of coala by developing well organised web interfaces."
 developers_involved: []
 difficulty: medium
 status: completed
-initiatives: 
+initiatives:
   - GSoC
   - RGSoC
-issues: 
+issues:
   - "https://gitlab.com/coala/GSoC-2017/issues/12"
   - "https://gitlab.com/coala/GSoC-2017/issues/35"
   - "https://gitlab.com/coala/GSoC-2017/issues/36"
@@ -27,14 +27,14 @@ issues:
   - "https://gitlab.com/coala/GSoC-2017/issues/199"
   - "https://gitlab.com/coala/GSoC-2017/issues/204"
 markdown: coala_web.md
-mentors: 
+mentors:
   - sils
   - fneu
 name: "Improve coala website & supporting tools"
-requirements: 
+requirements:
   - "At least one patch to each of coala-landing and coala-html should be accepted and merged."
   - "The student should be familiar with web design tools & trends."
-tags: 
+tags:
   - Web
   - Blog
 ---

@@ -1,26 +1,26 @@
 ---
-collaborating_projects: 
+collaborating_projects:
   - coala
 desc: "This project is about collecting bears based on aspects that the user wants to have checked."
 developers_involved: []
 difficulty: high
 status: completed
-initiatives: 
+initiatives:
   - GSoC
   - RGSoC
 issues: []
 markdown: implement_aspects.md
-mentors: 
+mentors:
   - userzimmermann
   - jayvdb
   - myint
 name: "Implement Aspects Support"
-requirements: 
+requirements:
   - "The participant should have one patch to any bear accepted."
   - "The participant should have one patch to the coala core accepted."
   - "The participant should have a solid understanding of [cEP-0005](https://github.com/coala/cEPs/blob/master/cEP-0005.md)."
   - "The participant should have a solid understanding of [cEP-0002](https://github.com/coala/cEPs/blob/master/cEP-0002.md)."
-tags: 
+tags:
   - Core
   - Bears
   - Aspects

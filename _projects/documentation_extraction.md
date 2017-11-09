@@ -1,23 +1,23 @@
 ---
-collaborating_projects: 
+collaborating_projects:
   - coala
 desc: "The Project is about writing language independent documentation extraction and parsing algorithms."
 developers_involved: []
 difficulty: high
 status: completed
-initiatives: 
+initiatives:
   - GSoC
   - RGSoC
 issues: []
 markdown: documentation_extraction.md
-mentors: 
+mentors:
   - SanketDG
   - NiklasMM
 name: "Documentation Extraction and Parsing"
-requirements: 
+requirements:
   - "The participant should have one bugfix patch to any bear accepted."
   - "The participant should have a basic understanding of the algorithms behind existing documentation extraction routines."
-tags: 
+tags:
   - Documentation
   - Bears
 ---

@@ -1,19 +1,19 @@
 ---
-collaborating_projects: 
+collaborating_projects:
   - coala
 desc: "Provide public metrics about newcomers and the newcomer process."
 difficulty: medium
-initiatives: 
+initiatives:
   - GSoC
 issues: []
 markdown: newcomer_metrics.md
-mentors: 
+mentors:
   - jayvdb
 name: "Newcomer metrics and gamification"
-requirements: 
+requirements:
   - "At least one patch to each of coala-landing and coala-html should be accepted and merged."
   - "The student should be familiar with web design tools & trends."
-tags: 
+tags:
   - community
   - webservice
 ---

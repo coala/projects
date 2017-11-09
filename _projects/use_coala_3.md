@@ -1,18 +1,18 @@
 ---
-collaborating_projects: 
+collaborating_projects:
   - docker-coala-base
 desc: "Implement coala CI on a popular GitHub project, of your choice, using a Docker image on Travis CI, and report the results to the coala developers."
 difficulty: medium
-initiatives: 
+initiatives:
   - GCI
 markdown: use_coala_3.md
-mentors: 
+mentors:
   - jayvdb
   - sils
 name: "Implement coala CI on a popular GitHub repository"
-requirements: 
+requirements:
   - "Completed task 'use_coala_2'."
-tags: 
+tags:
   - community
   - docker
 ---

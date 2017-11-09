@@ -3,14 +3,14 @@ desc: "A technique to view the performance of a piece of software and automatica
 developers_involved: []
 difficulty: medium
 status: in_progress
-intiatives: 
+intiatives:
   - Paper
 issues: []
 markdown: commit_based_perftest.md
 name: "Researching commit-based performance testing"
-requirements: 
+requirements:
   - "The participant should have some prior experience with investigating the performance of software."
-tags: 
+tags:
   - Research
   - coala
 ---

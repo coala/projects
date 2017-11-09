@@ -1,22 +1,22 @@
 ---
-collaborating_projects: 
+collaborating_projects:
   - coala
 desc: "Fixing issues and improving documentation and testing of existing linter bears."
 difficulty: low
-initiatives: 
+initiatives:
   - GSoC
   - RGSoC
 issues: []
 markdown: bear_updates.md
-mentors: 
+mentors:
   - abhsag24
   - NiklasMM
 name: "Improve Lint Bear Quality"
-requirements: 
+requirements:
   - "The participant should have one bugfix patch to any bear accepted."
   - "The participant should have understanding of the linter and test framework for bears."
   - "The proposal should contain issues which are planned to be addressed, chosen (and potentially [filed](https://github.com/coala/coala-bears/issues/new)) by the student."
-tags: 
+tags:
   - Documentation
   - Bears
   - Testing

@@ -1,22 +1,22 @@
 ---
-collaborating_projects: 
+collaborating_projects:
   - coala
   - rstcheck
 desc: "Add an alternative front end for rstcheck to better support checking Sphinx documents."
 difficulty: medium
-initiatives: 
+initiatives:
   - GSoC
   - RGSoC
 issues: []
 markdown: rstcheck_with_better_sphinx_support.md
-mentors: 
+mentors:
   - myint
 name: "Improve Sphinx support in rstcheck"
-requirements: 
+requirements:
   - "Familiarity with reStructuredText and Sphinx."
   - "Familiarity with nesting code blocks within reStructuredText."
   - "Experience with making use of Python packages to create new functionality."
-tags: 
+tags:
   - reStructuredText
   - Sphinx
 ---

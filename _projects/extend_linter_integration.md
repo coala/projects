@@ -1,25 +1,25 @@
 ---
-collaborating_projects: 
+collaborating_projects:
   - coala
 desc: "This project enhances our linter framework and creates a number of third party tool integrations."
 developers_involved: []
 difficulty: medium
 status: completed
-initiatives: 
+initiatives:
   - GSoC
   - RGSoC
-issues: 
+issues:
   - "https://github.com/coala/engagement/issues/66"
 markdown: extend_linter_integration.md
-mentors: 
+mentors:
   - AbdealiJK
   - Makman2
   - Mixih
 name: "Extend Linter Integration"
-requirements: 
+requirements:
   - "The applicant has added an arbitrary linter to coala."
   - "The proposal contains a list of linters to integrate for every milestone, split into two batches."
-tags: 
+tags:
   - Linter
   - Bears
 ---

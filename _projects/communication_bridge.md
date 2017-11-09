@@ -1,21 +1,21 @@
 ---
-collaborating_projects: 
+collaborating_projects:
   - coala
 desc: "A way to post CI problems to online team rooms, such as IRC, Telegram, slack or gitter."
 difficulty: medium
-initiatives: 
+initiatives:
   - GSoC
   - RGSoC
 issues: []
 markdown: communication_bridge.md
-mentors: 
+mentors:
   - jayvdb
   - chauffer
 name: "Real-time team communication bridge"
-requirements: 
+requirements:
   - "At least one patch to the coala core should be accepted and merged."
   - "Some familiarity with hubot"
-tags: 
+tags:
   - CI
   - Bots
 ---
