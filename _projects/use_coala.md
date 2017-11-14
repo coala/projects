@@ -71,7 +71,7 @@ Find a GitHub repository that meets all these criteria:
 [GitHub Advanced Search](https://help.github.com/articles/advanced-search/)
 can be used to help select a repository that meets those criteria.
 
-To filter out repositories that do not met the first two requirements, combine
+To filter out repositories that do not meet the first two requirements, combine
 
 1. [`stars:>99`](https://github.com/search?o=desc&q=stars%3A%3E%3D99&ref=searchresults&s=updated&type=Repositories&utf8=%E2%9C%93), and
 2. [`pushed:>2016-09-30`](https://github.com/search?utf8=%E2%9C%93&q=pushed%3A%3E2016-09-30&type=Repositories&ref=searchresults)
