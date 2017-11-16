@@ -62,3 +62,7 @@
       width: 90% !important;
   }
 }
+
+div.card > div.card-action > span.chip {
+  cursor: pointer;
+}
