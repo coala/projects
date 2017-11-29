@@ -67,7 +67,7 @@
                             <br>
                             <div class="row no-margin center">
                                 <div class="col m3"><i class="fa fa-envelope-o"></i></div>
-                                <div class="col m9">{{ page.email }}</div>
+                                <div class="col m9"><a href="mailto:{{ page.email }}">{{ page.email }}</a></div>
                             </div>
 
                         </div>
