@@ -74,13 +74,13 @@ can be used to help select a repository that meets those criteria.
 To filter out repositories that do not meet the first two requirements, combine
 
 1. [`stars:>99`](https://github.com/search?o=desc&q=stars%3A%3E%3D99&ref=searchresults&s=updated&type=Repositories&utf8=%E2%9C%93), and
-2. [`pushed:>2017-09-30`](https://github.com/search?utf8=%E2%9C%93&q=pushed%3A%3E2016-09-30&type=Repositories&ref=searchresults)
+2. [`pushed:>2017-09-30`](https://github.com/search?utf8=%E2%9C%93&q=pushed%3A%3E2017-09-30&type=Repositories&ref=searchresults)
 
 The [combined query](https://github.com/search?o=asc&q=stars%3A%3E%3D100+pushed%3A>2017-09-30&ref=searchresults&s=updated&type=Repositories&utf8=%E2%9C%93)
 has more than 28,000 repository results, so there are many to choose from.
 
 An optional additional search term is
-[`forks:>100`](https://github.com/search?o=asc&q=stars%3A%3E%3D100+pushed%3A%3E2016-09-30+forks%3A%3E%3D100&ref=searchresults&s=updated&type=Repositories&utf8=%E2%9C%93)
+[`forks:>100`](https://github.com/search?o=asc&q=stars%3A%3E%3D100+pushed%3A%3E2017-09-30+forks%3A%3E%3D100&ref=searchresults&s=updated&type=Repositories&utf8=%E2%9C%93)
 which returns over 11,000 repository results, and these are more likely
 to be suitable for this task.
 
@@ -103,9 +103,9 @@ to one that you like.  Currently the breakdown is:
 
 However, you can also find many other languages manually, by adding
 the `language` search term term, such as
-[Pascal](https://github.com/search?q=stars%3A%3E%3D100+pushed%3A%3E2016-09-30+forks%3A%3E%3D100+language%3APascal&ref=searchresults&type=Repositories&utf8=%E2%9C%93).
+[Pascal](https://github.com/search?q=stars%3A%3E%3D100+pushed%3A%3E2017-09-30+forks%3A%3E%3D100+language%3APascal&ref=searchresults&type=Repositories&utf8=%E2%9C%93).
 
-Another optional additional search term is [`size:5000..10000`](https://github.com/search?o=asc&q=stars%3A%3E%3D100+pushed%3A%3E2016-09-30+forks%3A%3E%3D100+size%3A5000..10000&ref=searchresults&s=forks&type=Repositories&utf8=%E2%9C%93)
+Another optional additional search term is [`size:5000..10000`](https://github.com/search?o=asc&q=stars%3A%3E%3D100+pushed%3A%3E2017-09-30+forks%3A%3E%3D100+size%3A5000..10000&ref=searchresults&s=forks&type=Repositories&utf8=%E2%9C%93)
 which restricts the list to repositories of size 5-10Mb.
 If you have a small Internet bandwidth, a smaller repository is a better
 choice for when you progress to the second task.
