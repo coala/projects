@@ -4,6 +4,7 @@ collaborating_projects:
   - GitMate
 desc: "Make sure that developers get notified about new issues that need their input: Use the tags of the new issue to find developers that have previously solved similar Issues."
 difficulty: high
+status: completed
 initiatives:
   - Research
 issues: []
