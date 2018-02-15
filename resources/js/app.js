@@ -93,6 +93,17 @@
             controller: function ($scope, $location, Languages) {
                 self = this
 
+                var mapping = {
+                    '': 0,
+                    'crowded': 1,
+                    'in_progress': 2,
+                    'completed': 3
+                }
+
+                $scope.sortOrder = function(project) {
+                    return mapping[project.status];
+                }
+
                 $scope.getDefaultProjectsMetadata = function () {
                     $http.get('data/projects.liquid')
                         .then(function (res) {

@@ -16,7 +16,7 @@ therefore adding an ignore comment -->
       <div class="row outline">
         <div class="parent-wrapper">
           <div class="parent">
-            <div ng-repeat="project in projectList | filter: searchText" class="card child">
+            <div ng-repeat="project in projectList | filter: searchText | orderBy: sortOrder" class="card child">
               <div class="card-content waves-effect" ng-click="lc.showProject(project)">
                 <div class="card-title center">{{ project.name }}</div>
                 <div btf-markdown="project.desc" class="markdown"></div>
