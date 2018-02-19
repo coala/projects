@@ -363,9 +363,9 @@
     app.filter('format_issue', function () {
         return function (value) {
             if (!value) return '';
-            res = value.split('/')
-            res = res[3] + '/' + res[4] + '#' + res[6]
-            return res;
+            res = value.split('/');
+            last = res.length - 1;
+            return res.slice(3, last - 1).join('/') + '#' + res[last];
         };
     });
 
