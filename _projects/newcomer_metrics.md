@@ -11,7 +11,7 @@ mentors:
   - jayvdb
 name: "Newcomer metrics and gamification"
 requirements:
-  - "At least one patch to each of coala-landing and coala-html should be accepted and merged."
+  - "The student should have patches and PRs in coala/community repo."
   - "The student should be familiar with web design tools & trends."
 tags:
   - community
