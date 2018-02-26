@@ -12,7 +12,6 @@ markdown: improve_diff_handling.md
 mentors:
   - sils
   - jayvdb
-  - Mariatta
 name: "Improve Diff Handling"
 requirements:
   - "The proposal has to contain a clear concept."
