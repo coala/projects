@@ -43,6 +43,8 @@ Then you can simply go to either of the following addresses in your browser to a
     127.0.0.1:4000
     localhost:4000
 
+If you face problems while installing Jekyll or using its gem bundler you may go through its [troubleshooting docs](https://jekyllrb.com/docs/troubleshooting/)
+
 ## Defining Projects
 
 Mentors and admins can define projects in markdown using the following structure and save it in the _projects folder with a relevant filename:
