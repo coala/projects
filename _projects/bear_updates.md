@@ -49,7 +49,7 @@ Possible areas to investigate include:
 
 ##### CODING PHASE 1
 
- * Ideas for how to solve each of the indetified issues are drafted. If possible ways to automatically check bears are drafted.
+ * Ideas for how to solve each of the identified issues are drafted. If possible ways to automatically check bears are drafted.
  * Changes to the [linter bear documentation](http://api.coala.io/en/latest/Developers/Writing_Linter_Bears.html) to improve quality of future bears are proposed.
  * A list of bears which suffer from any of the identified issues is composed.
 
