@@ -44,7 +44,7 @@ Project Info
 
 - Which project from http://projects.coala.io are you applying for?
   If you have your own idea, please add it to our projects list:
-  https://github.com/coala/projects/blob/master/data/projects.js
+  https://github.com/coala/projects/blob/master/data/projects.liquid
 
 - How is your project helping coala and its community?
 
