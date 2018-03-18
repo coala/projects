@@ -13,6 +13,11 @@ link_ignore_list =
 # See https://github.com/coala/coala-bears/issues/2126
 link_ignore_regex = clbin.com
 
+[commit]
+bears = GitCommitBear
+shortlog_trailing_period = False
+shortlog_regex = ([^:]*|[^:]+[^ ]: [A-Z0-9*].*)
+
 [linecount]
 files = **.yml, **.html, **.md, **.js
 bears = LineCountBear
