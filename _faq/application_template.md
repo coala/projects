@@ -1,7 +1,7 @@
 ---
 question: "Do you have an application template?"
 ---
-coala 2017 Application Template
+coala 2018 Application Template
 ===============================
 
 ```
@@ -77,7 +77,7 @@ Other Commitments
 -----------------
 
 - Do you have any other commitments during the GSoC period,
-  May 8th to August 29th?
+  May 14th to August 6th?
 
     - We don't penalize students for needing adjustments to schedule if
       they're up-front about them and have a plan to mitigate any issues.
