@@ -10,6 +10,7 @@ issues:
   - "https://github.com/coala/coala/issues/1021"
 markdown: improve_diff_handling.md
 mentors:
+  - satwikkansal
   - sils
   - jayvdb
 name: "Improve Diff Handling"
