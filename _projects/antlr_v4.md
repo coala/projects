@@ -12,6 +12,7 @@ markdown: antlr_v4.md
 mentors:
   - Udayan12167
   - aptrishu
+  - corona10
 name: "Integrate ANTLR v4 into coala"
 requirements:
   - "The participant should have one patch to [coala](https://github.com/coala/coala) accepted."
