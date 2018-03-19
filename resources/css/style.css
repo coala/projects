@@ -62,3 +62,7 @@
       width: 90% !important;
   }
 }
+.theatre .name {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
