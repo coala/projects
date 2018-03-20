@@ -77,7 +77,7 @@ Other Commitments
 -----------------
 
 - Do you have any other commitments during the GSoC period,
-  May 14th to August 6th?
+  May 14th to August 14th?
 
     - We don't penalize students for needing adjustments to schedule if
       they're up-front about them and have a plan to mitigate any issues.
