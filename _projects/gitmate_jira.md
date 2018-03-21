@@ -41,6 +41,7 @@ requirements:
   - "The participant should have at least one patch to [IGitt](https://gitlab.com/gitmate/open-source/IGitt/) accepted."
   - "The participant should have at least one patch to [GitMate](https://gitlab.com/gitmate/open-source/gitmate-2) accepted."
   - "The participant should demonstrate that he can operate Jira from the Python shell in his proposal."
+status: in_progress
 tags:
   - IGitt
   - Jira
