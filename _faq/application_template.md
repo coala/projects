@@ -11,6 +11,7 @@ Student Info
 - Name:
 - GitHub username:
 - Alternative-/Nickname:
+- Username Checker: (e.g. https://username-check.herokuapp.com/?username=your_username)
 - Email:
 - Which country will you reside in during the project?
 - Which city, region or other geographical boundary?
