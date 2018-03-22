@@ -21,11 +21,11 @@ tags:
   - Pyflakes
 ---
 flake8 has many plugins which are commonly used in the python development
-community. flake8 is a wrapper, similar to coala, that provides the
-python-enhanced AST to its plugins. Instead of coala using the flake8
+community. flake8 is a wrapper, similar to coala, that provides the 
+AST to its plugins. Instead of coala using the flake8
 wrapper, which adds another level of complexity and uncertainty with regards
 to configuration, coala would like to directly load the python-enhanced AST
-and invoke the flake8 plugins.
+and invoke the plugins.
 
 This allows the coala and flake8 communities to cooperate on plugin
 development using a common plugin framework.
@@ -33,15 +33,18 @@ development using a common plugin framework.
 This project focuses on integrating the
 [`pyflakes`](https://pypi.python.org/pypi/pyflakes)-enhanced
 [AST](https://en.wikipedia.org/wiki/Abstract_syntax_tree) into coala and
-wrap flake8 AST plugins
+redesign flake8 plugins
 [`flake8-future-import`](https://github.com/xZise/flake8-future-import) and
-[`flake8-string-format`](https://github.com/xZise/flake8-string-format) using
-it.
+[`flake8-builtins`](https://github.com/gforcada/flake8-builtins) so that they 
+use pyflakes-enhanced AST.
+A seperate wrapper is also needed to be designed so that the pre-existing
+plugins can work without any modification.
 
-This can be done by creating a meta bear like
+This project involves creating a meta bear like
 [AnnotationBear](https://github.com/coala/coala-bears/blob/1892b64722f1c10bd2a29611af4dcc18ad76af3a/bears/general/AnnotationBear.py)
 and [ClangBear](https://github.com/coala/coala-bears/blob/27a06d19076633a4e796472cf6d6ad55c27045c5/bears/c_languages/ClangBear.py),
-say PyflakesASTBear. Then use this bear to wrap the flake8 AST plugins.
+say PyflakesASTBear. Then use this bear to redesign the flake8 AST plugins.
+Then create a seperate meta bear that wraps flake8 and allows to invoke existing flake8 plugins.
 Tutorials for writing and testing bears can be found in our
 [documentation](https://api.coala.io).
 
@@ -66,12 +69,13 @@ PyflakesASTBear.
 
 ##### CODING PHASE 2
 
-* Write a bear that wraps `flake8-future-import` using PyflakesASTBear.
-* Write tests for the resulting bear.
-* Document the resulting bear.
+* Write bears that provides functionality of `flake8-future-import`
+ and `flake8-builtins` using PyflakesASTBear.
+* Write tests for the resulting bears.
+* Document the resulting bears.
 
 ##### CODING PHASE 3
 
-* Write a bear that wraps `flake8-string-format` using PyflakesASTBear.
+* Write a bear that wraps `flake8` so that pre-existing plugins can work as it is.
 * Write tests for the resulting bear.
-* Document the resulting bear.
+* Document the meta-bear.
