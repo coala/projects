@@ -61,6 +61,14 @@
   .container {
       width: 90% !important;
   }
+  .for-mobile {
+    display: none;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .for-non-mobile {
+    display: none;
+  }
 }
 .theatre .name {
   padding-left: 0.5em;
@@ -70,4 +78,10 @@
 .project-detail-element > .clickable:hover, .clickable:hover .chip:hover {
   cursor: pointer;
   background-color: #f3f5f8;
+}
+.ribbon {
+  position: absolute;
+  top: 0; right: 0;
+  border: 0;
+  z-index: 9;
 }
