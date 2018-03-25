@@ -4,6 +4,7 @@ collaborating_projects:
   - openroberta
 desc: "Create a loader for projects from remote data sources that can be used from the coala web page in order to provide one click linting for online projects. "
 difficulty: high
+status: disabled
 initiatives:
   - GSoC
 issues: []
@@ -19,6 +20,11 @@ tags:
   - Bears
   - Web
 ---
+
+**Disabled: This project is not available for GSOC 2018. 
+See OpenRoberta's GSOC 
+[page](https://summerofcode.withgoogle.com/organizations/6256279438229504/)
+if you are interested in working with them**
 
 For children and students, learning to program becomes increasingly accessible
 through programming platforms like the Open Roberta Lab and Code.org, etc..
