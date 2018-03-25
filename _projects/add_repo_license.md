@@ -3,6 +3,7 @@ collaborating_projects:
   - about-code
 desc: "Add a recognised license file to a GitHub repository."
 difficulty: low
+status: completed
 initiatives:
   - GCI
 issues:

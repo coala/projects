@@ -3,6 +3,7 @@ collaborating_projects:
   - docker-coala-base
 desc: "Use coala CI on a popular GitHub project, of your choice, using a Docker image on Travis CI, and report the results to the coala developers."
 difficulty: beginner
+status: completed
 initiatives:
   - GCI
 issues:
