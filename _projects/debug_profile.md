@@ -19,6 +19,7 @@ requirements:
   - "The student should be familiar with ongoing technical [cEPs](https://coala.io/cep)."
   - "The proposal needs to contain a clear concept."
   - "Familiarity with pdb is a plus."
+status: crowded
 tags:
   - Core
   - Bears

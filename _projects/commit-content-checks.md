@@ -13,6 +13,7 @@ mentors:
  - satwikkansal
 initiatives:
  - GSoC
+status: crowded
 tags:
  - CI
 collaborating_projects:
