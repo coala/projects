@@ -35,6 +35,8 @@ therefore adding an ignore comment -->
                 <br> <span class="tiny">Work on this project is going on at full pace!</span> </div>
               <div ng-show="project.status=='completed'" class="green white-text flag card-action center"> <span class="status-title">COMPLETED</span>
                 <br> <span class="tiny">Hooray!</span> </div>
+              <div ng-show="project.status=='disabled'" class="grey white-text flag card-action center"> <span class="status-title">DISABLED</span>
+                <br> <span class="tiny">This project is currently unavailable. See project description for details</span> </div>
             </div>
           </div>
         </div>
