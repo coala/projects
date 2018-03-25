@@ -24,12 +24,15 @@ Code Sample
 -----------
 
 Link all your contributions to coala and any other open source project here.
-For example, to list your contributions to coala you can mention:
 
-- https://github.com/coala/coala/commits/master?author=YOUR_USER_NAME
-  for coala repo
-- https://github.com/coala/coala-bears/commits/master?author=YOUR_USER_NAME
-  for coala-bears repo
+For example, to list your contributions to coala you can mention:
+  - https://github.com/coala/coala/commits/master?author=YOUR_USER_NAME
+    for coala repo
+  - https://github.com/coala/coala-bears/commits/master?author=YOUR_USER_NAME
+    for coala-bears repo
+
+- Link all your contributions to upstream repositories here. Such as third-party
+  linters and libraries that coala depends on.
 
 You may also mention specific issues/commits using the commit id if you want
 us to take a look at that.
