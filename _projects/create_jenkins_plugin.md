@@ -4,6 +4,7 @@ collaborating_projects:
   - jenkins
 desc: "Jenkins users should be able to see coala results right in the Jenkins UI."
 difficulty: low
+status: disabled
 initiatives:
   - GSoC
   - RGSoC
@@ -22,6 +23,10 @@ tags:
   - Plugins
   - CI
 ---
+
+**Disabled: This project is not available for GSOC 2018. See Jenkin's GSOC
+[page](https://summerofcode.withgoogle.com/organizations/5572716199936000/) 
+if you are interested in working with them**
 
 Jenkins is the most popular ci-cd server, and there are many corporations
 who already use it. Integrating coala into Jenkins can attract business
