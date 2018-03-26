@@ -13,6 +13,7 @@ name: "Newcomer metrics and gamification"
 requirements:
   - "The student should have patches and PRs in coala/community repo."
   - "The student should be familiar with web design tools & trends."
+status: crowded
 tags:
   - community
   - webservice
