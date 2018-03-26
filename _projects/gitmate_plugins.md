@@ -12,6 +12,7 @@ difficulty: medium
 issues:
   - "https://github.com/coala/projects/issues/488"
   - "https://github.com/coala/projects/issues/487"
+  - "https://github.com/coala/projects/issues/532"
   - "https://gitlab.com/gitmate/GitMate-2-ideas/issues/31"
   - "https://gitlab.com/gitmate/open-source/gitmate-2/issues/363"
 tags:
@@ -62,6 +63,7 @@ support all existing plugins and be capable of supporting new plugins as well.
 * Implement "recheck" command for cases where issues unrelated to the 
   PR cause tests to fail.
 * Squash command implemented.
+* Implement auto-assign issue based on commit mention.
 
 #### CODING PHASE 2
 * GitMate should mark PRs as WIP if GitMate's coala plugin finds defects.
