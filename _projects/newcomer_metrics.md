@@ -9,6 +9,7 @@ issues: []
 markdown: newcomer_metrics.md
 mentors:
   - jayvdb
+  - prnvdixit
 name: "Newcomer metrics and gamification"
 requirements:
   - "The student should have patches and PRs in coala/community repo."
