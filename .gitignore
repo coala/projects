@@ -3,3 +3,4 @@
 _site/
 _book/
 rultor_secrets.sh
+.DS_Store
