@@ -12,6 +12,7 @@ issues:
 markdown: coala_language_server.md
 mentors:
   - gaocegege
+  - gatesn
 name: "coala Language Server"
 requirements:
   - "The applicant should have at least one patch accepted to any of the coala repositories."
