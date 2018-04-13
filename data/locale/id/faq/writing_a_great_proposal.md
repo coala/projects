@@ -5,7 +5,7 @@ Silakan merancang proyek Anda dengan cara yang Anda memiliki ** beberapa
 pos pemeriksaan **. Kami ingin Anda untuk menentukan setidaknya tiga tonggak dengan
 tujuan spesifik: jika terjadi kesalahan untuk alasan yang sah, kita bisa mengatur ulang
 jadwal Anda penuh arti. Masing-masing tujuan tersebut harus digabung menjadi utama
-COALA basis kode dalam rangka untuk itu untuk dianggap "lengkap". Anda harus
+coala basis kode dalam rangka untuk itu untuk dianggap "lengkap". Anda harus
 menyadari apa yang melibatkan untuk Anda (tes tertulis, menulis dokumen, akan
 melalui review kode yang luas, belajar :), mengulangi).
 

@@ -1,7 +1,7 @@
 ---
 Pertanyaan: "Apa kewajiban saya sebagai mentor selama GSoC?"
 ---
-COALA memiliki dua mentor untuk setiap proyek:
+coala memiliki dua mentor untuk setiap proyek:
 
 1. ** mentor Primer **: bertanggung jawab untuk tugas-tugas administrasi proyek.
 2. ** mentor Sekunder **: memiliki sedikit atau tidak ada tanggung jawab, tetapi menyediakan cadangan
@@ -20,6 +20,6 @@ potensi masalah timbul.
 
 Jika Anda tertarik mentoring, silahkan hubungi salah satu admin
 menunjukkan alasan proyek open source Anda cocok untuk dimasukkan sebagai
-proyek yang akan dibimbing di bawah payung administrasi COALA.
+proyek yang akan dibimbing di bawah payung administrasi coala.
 
 Daftar admin adalah [di sini] (http://projects.coala.io/#/mentors).

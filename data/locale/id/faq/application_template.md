@@ -1,7 +1,7 @@
 ---
 Pertanyaan: "Apakah Anda memiliki template aplikasi?"
 ---
-COALA Template 2018 Aplikasi
+coala Template 2018 Aplikasi
 ===============================
 
 `` `
@@ -23,7 +23,7 @@ Info Mahasiswa
 Contoh kode
 -----------
 
-Menghubungkan semua kontribusi Anda untuk COALA dan proyek open source lain di sini.
+Menghubungkan semua kontribusi Anda untuk coala dan proyek open source lain di sini.
 
 Misalnya, untuk daftar kontribusi Anda untuk COALA Anda dapat menyebutkan:
   - https://github.com/coala/coala/commits/master?author=YOUR_USER_NAME
@@ -32,12 +32,12 @@ Misalnya, untuk daftar kontribusi Anda untuk COALA Anda dapat menyebutkan:
     untuk COALA-beruang repo
 
 - semua kontribusi Tautan ke hulu repositori di sini. Seperti pihak ketiga
-  Linter dan perpustakaan yang COALA tergantung pada.
+  Linter dan perpustakaan yang coala tergantung pada.
 
 Anda juga dapat menyebutkan isu-isu spesifik / melakukan menggunakan komit id jika Anda ingin
 kita untuk melihat pada saat itu.
 
-Anda harus menyelesaikan panduan COALA pendatang baru yang akan diterima:
+Anda harus menyelesaikan panduan coala pendatang baru yang akan diterima:
 http://coala.io/newcomer
 
 
@@ -48,7 +48,7 @@ Info proyek
   Jika Anda memiliki ide Anda sendiri, silakan menambahkannya ke daftar proyek-proyek kami:
   https://github.com/coala/projects/blob/master/data/projects.liquid
 
-- Bagaimana proyek Anda membantu COALA dan masyarakat?
+- Bagaimana proyek Anda membantu coala dan masyarakat?
 
 - Apa tujuan akhir untuk proyek ini? Apa yang akan membuatnya total
   dan keberhasilan yang sempurna?
@@ -59,7 +59,7 @@ Info proyek
   menjadi mentor terdaftar pertama sebagai primer dan yang lain sebagai sekunder.
   Semua proyek akan memiliki primer dan mentor sekunder.
 
-- bagian dari COALA Apa yang Anda harus bekerja dengan untuk menyelesaikan
+- bagian dari coala Apa yang Anda harus bekerja dengan untuk menyelesaikan
   proyek ini? Apa lagi yang Anda berencana menggunakan?
 
 - Mengapa Anda orang yang tepat untuk bekerja pada proyek ini?
@@ -105,7 +105,7 @@ Komitmen lainnya
 Informasi tambahan
 -----------------
 
-Informasi tambahan ini tidak dibutuhkan oleh COALA tetapi dapat membantu kita untuk belajar
+Informasi tambahan ini tidak dibutuhkan oleh coala tetapi dapat membantu kita untuk belajar
 lebih lanjut tentang Anda. Semua bidang di bagian ini adalah opsional.
 
 - Link ke openhub akun:
