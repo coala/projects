@@ -22,19 +22,23 @@ This space is for the main description. Use it wisely.
 
 #### Milestones
 
-##### GSOC 2017 COMMUNITY BONDING
+##### PREPARATION/BONDING
 
 * Conceptual work should be finished.
-* The student have a repository, know how to work with the community.
+* The student should have a repository, know how to work with the community.
 * The applicant should know the community.
 
-##### GSOC 2017 MIDTERM
+##### CODING PHASE 1
 
-* Everything listed here has to be reviewed and merged by midterm.
+* Everything listed here has to be reviewed and merged.
 * No exceptions to that. Changing the goals is possible together with mentors.
 * Yes, that includes tests and documentation.
 
-##### GSOC 2017 FINAL
+##### CODING PHASE 2
+
+* Most of the coding work must be finished.
+
+##### CODING PHASE 3
 
 * Everything has to be reviewed and merged.
 * Including tests and docs, again.
