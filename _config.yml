@@ -15,5 +15,6 @@ markdown: kramdown
 collections:
   projects:
     output: true
+    exclude: [example.md]
   faq:
     output: true
