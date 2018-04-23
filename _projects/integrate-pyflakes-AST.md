@@ -11,11 +11,13 @@ issues: []
 markdown: integrate-pyflakes-AST.md
 mentors:
   - jayvdb
-  - srisankethu
+  - myint
+  - adhikasp
 name: "Integrate pyflakes-enhanced AST into coala "
 requirements:
   - "The participant has a patch to any bear merged. Check out [existing bear proposal](https://github.com/coala/coala-bears/issues)."
   - "The participant has a patch to pyflakes merged. Check out [easy task](https://bugs.launchpad.net/pyflakes/+bugs?field.tag=easy)."
+status: in_progress
 tags:
   - Bears
   - Pyflakes

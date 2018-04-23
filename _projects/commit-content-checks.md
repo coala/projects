@@ -9,11 +9,12 @@ issues:
  - "https://github.com/coala/coala-bears/issues/1976"
  - "https://github.com/coala/coala-bears/issues/1037"
 mentors:
- - jayvdb
- - satwikkansal
+ - damngamerz
+ - guyzmo
+ - latacz-io
 initiatives:
  - GSoC
-status: crowded
+status: in_progress
 tags:
  - CI
 collaborating_projects:

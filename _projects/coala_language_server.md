@@ -13,11 +13,13 @@ markdown: coala_language_server.md
 mentors:
   - gaocegege
   - gatesn
+  - sadovnychyi
+  - stevepeak
 name: "coala Language Server"
 requirements:
   - "The applicant should have at least one patch accepted to any of the coala repositories."
   - "The applicant should be familiar with language server protocol."
-status: crowded
+status: in_progress
 tags:
   - Language Server
   - Plugins

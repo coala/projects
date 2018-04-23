@@ -11,15 +11,16 @@ issues:
   - "https://github.com/coala/coala/issues/1101"
 markdown: debug_profile.md
 mentors:
+  - fneu
+  - arjunsinghy96
   - Makman2
-  - Udayan12167
 name: "Debug and Profile Bears"
 requirements:
   - "At least one patch to the coala core should be accepted and merged."
   - "The student should be familiar with ongoing technical [cEPs](https://coala.io/cep)."
   - "The proposal needs to contain a clear concept."
   - "Familiarity with pdb is a plus."
-status: crowded
+status: in_progress
 tags:
   - Core
   - Bears

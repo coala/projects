@@ -4,8 +4,9 @@ desc: "GitMate.io helps by automating tasks on GitHub and GitLab. There are new 
 requirements:
   - "The participant should have at least one patch to [GitMate](https://gitlab.com/gitmate/open-source/gitmate-2) accepted."
 mentors:
-  - sils
   - nkprince007
+  - sils
+  - manu-chroma
 initiatives:
   - GSoC
 difficulty: medium
@@ -15,6 +16,7 @@ issues:
   - "https://github.com/coala/projects/issues/532"
   - "https://gitlab.com/gitmate/GitMate-2-ideas/issues/31"
   - "https://gitlab.com/gitmate/open-source/gitmate-2/issues/363"
+status: in_progress
 tags:
   - IGitt
   - GitMate

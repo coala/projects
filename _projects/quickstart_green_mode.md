@@ -11,7 +11,8 @@ issues:
 markdown: quickstart_green_mode.md
 mentors:
   - satwikkansal
-  - jayvdb
+  - adtac
+  - dracarys09
 name: "Quickstart Green Mode"
 requirements:
 - "The applicant should have at least one patch accepted to coala-quickstart
@@ -19,6 +20,7 @@ requirements:
 - "The participant should have an understanding of coala's structure and
   config files."
 - "The proposal needs to contain a clear concept."
+status: in_progress
 tags:
 - coala-quickstart
 - coala-ci

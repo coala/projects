@@ -14,9 +14,12 @@ issues:
 markdown: corobo_enhancement.md
 mentors:
   - meetmangukiya
+  - gbin
+  - mixih
 name: "corobo enhancements(security, configurability and tests)"
 requirements:
   - "At least one patch to corobo should be accepted and merged."
+status: in_progress
 tags:
   - community
   - corobo

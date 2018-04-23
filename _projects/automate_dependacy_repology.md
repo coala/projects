@@ -13,13 +13,15 @@ issues:
   - "https://github.com/repology/repology/issues/512"
 markdown: automate_dependency_repology.md
 mentors:
-  - jayvdb
+  - xferra
   - waldyrious
-  - AMDmi3
+  - yukiisbored
+  - fexpr
 name: "Automation of Dependency Management using Repology"
 requirements:
   - "At least one patch to the coala core should be accepted and merged."
   - "The proposal needs to show some familiarity with coala's dependency management implementation."
+status: in_progress
 tags:
   - Automation
   - Installation

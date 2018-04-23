@@ -10,6 +10,7 @@ issues:
   - "https://github.com/coala/coala/issues/1690"
 markdown: nested_languages.md
 mentors:
+  - corona10
   - Udayan12167
   - NiklasMM
 name: "Handle Nested Programming Languages"
@@ -17,6 +18,7 @@ requirements:
   - "At least one patch to the coala core should be accepted and merged."
   - "The student should be familiar with ongoing technical [cEPs](https://coala.io/cep)."
   - "The proposal needs to contain a clear concept."
+status: in_progress
 tags:
   - Core
   - Bears

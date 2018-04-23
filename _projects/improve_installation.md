@@ -11,15 +11,15 @@ issues:
   - "https://github.com/coala/coala-bears/issues/664"
 markdown: improve_installation.md
 mentors:
-  - Adrianzatreanu
   - Udayan12167
-  - fneu
+  - mbodenhamer
+  - xferra
 name: "Improve installation of coala and coala-bears"
 requirements:
   - "The participant should have one patch to [coala-bears](https://github.com/coala/coala-bears) accepted."
   - "Huge plus is being familiar with the current design of cib"
   - "Knowledge of conda is a bonus, but not required."
-status: crowded
+status: in_progress
 tags:
   - Bears
   - cib

@@ -9,12 +9,13 @@ issues: []
 markdown: newcomer_metrics.md
 mentors:
   - jayvdb
+  - gkrishnan724
   - prnvdixit
 name: "Newcomer metrics and gamification"
 requirements:
   - "The student should have patches and PRs in coala/community repo."
   - "The student should be familiar with web design tools & trends."
-status: crowded
+status: in_progress
 tags:
   - community
   - webservice
