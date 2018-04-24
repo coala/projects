@@ -10,11 +10,10 @@ plugins:
   - jekyll-netlify
 
 # Build settings
-exclude: [vendor]
+exclude: [vendor, _projects/example.md]
 markdown: kramdown
 collections:
   projects:
     output: true
-    exclude: [example.md]
   faq:
     output: true
