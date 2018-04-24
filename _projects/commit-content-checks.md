@@ -8,6 +8,8 @@ issues:
  - "https://github.com/coala/coala-bears/issues/337"
  - "https://github.com/coala/coala-bears/issues/1976"
  - "https://github.com/coala/coala-bears/issues/1037"
+ - "https://github.com/coala/coala-bears/issues/2409"
+ - "https://github.com/coala/coala-bears/issues/1360"
 mentors:
  - damngamerz
  - guyzmo
