@@ -65,7 +65,7 @@ References
 
 ##### PREPARATION/BONDING
 
-* The list of planned migrated bears (at least 5) are drafted completly.
+* The list of planned migrated bears (at least 5) are drafted completely.
 * The names and settings of the needed aspects are drafted completely.
 
 ##### CODING PHASE 1
