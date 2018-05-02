@@ -16,6 +16,11 @@ script:
     fi
   - docker run -v=$(pwd):/app --workdir=/app coala/base coala --ci
 
+notifications:
+  email: false
+  webhooks: https://www.travisbuddy.com/
+  on_success: never
+
 env:
   global:
     - NOKOGIRI_USE_SYSTEM_LIBRARIES=true  # Speeds installation of html-proofer
