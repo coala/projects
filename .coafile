@@ -8,7 +8,8 @@ link_ignore_list =
   https://gitlab.com/**,
   https://withgoogle.com/**,
   https://avatars.githubusercontent.com/**,
-  https://github.com/**
+  https://github.com/**,
+  https://satwikkansal.xyz/**,
 # clbin.com doesnt work in link_ignore_list
 # See https://github.com/coala/coala-bears/issues/2126
 link_ignore_regex = clbin.com
