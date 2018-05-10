@@ -9,19 +9,19 @@ initiatives:
   - GSoC
   - RGSoC
 issues:
-  - "https://gitlab.com/coala/GSoC-2017/issues/21"
-  - "https://gitlab.com/coala/GSoC-2017/issues/56"
-  - "https://gitlab.com/coala/GSoC-2017/issues/58"
-  - "https://gitlab.com/coala/GSoC-2017/issues/59"
-  - "https://gitlab.com/coala/GSoC-2017/issues/150"
-  - "https://gitlab.com/coala/GSoC-2017/issues/60"
-  - "https://gitlab.com/coala/GSoC-2017/issues/61"
-  - "https://gitlab.com/coala/GSoC-2017/issues/62"
-  - "https://gitlab.com/coala/GSoC-2017/issues/63"
-  - "https://gitlab.com/coala/GSoC-2017/issues/64"
-  - "https://gitlab.com/coala/GSoC-2017/issues/65"
-  - "https://gitlab.com/coala/GSoC-2017/issues/66"
-  - "https://gitlab.com/coala/GSoC-2017/issues/67"
+  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/21"
+  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/56"
+  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/58"
+  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/59"
+  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/150"
+  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/60"
+  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/61"
+  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/62"
+  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/63"
+  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/64"
+  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/65"
+  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/66"
+  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/67"
 markdown: enhance_coala_quickstart.md
 mentors:
   - adtac
@@ -60,32 +60,32 @@ However, there’s scope for improvement in the following areas:
 
 #### Milestones
 
-##### [PREPARATION/BONDING](https://gitlab.com/coala/GSoC-2017/milestones/6) 4th May - 29th May
+##### [PREPARATION/BONDING](https://gitlab.com/coala/GSoC/GSoC-2017/milestones/6) 4th May - 29th May
 * [X] Identified all the kinds of configuration files to be worked
   on in the project.
 * [X] Figure out all the useful information that could be
   extracted from these files.
 * [X] Get the cEP https://github.com/coala/cEPs/issues/80 merged.
 
-##### [CODING PHASE 1: Extracting Information](https://gitlab.com/coala/GSoC-2017/milestones/20) 30th May - 26th June
+##### [CODING PHASE 1: Extracting Information](https://gitlab.com/coala/GSoC/GSoC-2017/milestones/20) 30th May - 26th June
 
 * [ ] The basic structure of the information extraction system is implemented.
 * [ ] Extract information from `Gruntfile.js`, `package.json` and `Gemfile`.
 
-##### [CODING PHASE 2: Utilizing the Information](https://gitlab.com/coala/GSoC-2017/milestones/21) 30th June - 24th July
+##### [CODING PHASE 2: Utilizing the Information](https://gitlab.com/coala/GSoC/GSoC-2017/milestones/21) 30th June - 24th July
 
 * [ ] CLI: Add autocomplete feature, add prompts for "detect" and "fix" capabilities.
 * [ ] Collect and organize bears' metadata.
 * [ ] Filter and recommend bears after utilizing extracted information.
 
-##### [CODING PHASE 3: CLI enhancements](https://gitlab.com/coala/GSoC-2017/milestones/22) 28th July - 21st August
+##### [CODING PHASE 3: CLI enhancements](https://gitlab.com/coala/GSoC/GSoC-2017/milestones/22) 28th July - 21st August
 
 * [ ] Validate user input.
 * [ ] Fix warning and formattings on the CLI.
 * [ ] Continuous Integration.
 * [ ] Complete Pending tasks (if any).
 
-##### [Stretch Goals](https://gitlab.com/coala/GSoC-2017/milestones/4)
+##### [Stretch Goals](https://gitlab.com/coala/GSoC/GSoC-2017/milestones/4)
 
 * [ ] Implement `.editorconfig` parser and extract information from `.editorconfig`
 * [ ] Extract information from other meta-files.

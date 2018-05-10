@@ -9,24 +9,24 @@ initiatives:
   - GSoC
   - RGSoC
 issues:
-  - "https://gitlab.com/coala/GSoC-2017/issues/51"
-  - "https://gitlab.com/coala/GSoC-2017/issues/52"
-  - "https://gitlab.com/coala/GSoC-2017/issues/53"
-  - "https://gitlab.com/coala/GSoC-2017/issues/54"
-  - "https://gitlab.com/coala/GSoC-2017/issues/55"
-  - "https://gitlab.com/coala/GSoC-2017/issues/127"
-  - "https://gitlab.com/coala/GSoC-2017/issues/128"
-  - "https://gitlab.com/coala/GSoC-2017/issues/129"
-  - "https://gitlab.com/coala/GSoC-2017/issues/130"
-  - "https://gitlab.com/coala/GSoC-2017/issues/131"
-  - "https://gitlab.com/coala/GSoC-2017/issues/132"
-  - "https://gitlab.com/coala/GSoC-2017/issues/133"
-  - "https://gitlab.com/coala/GSoC-2017/issues/134"
-  - "https://gitlab.com/coala/GSoC-2017/issues/135"
-  - "https://gitlab.com/coala/GSoC-2017/issues/136"
-  - "https://gitlab.com/coala/GSoC-2017/issues/137"
-  - "https://gitlab.com/coala/GSoC-2017/issues/138"
-  - "https://gitlab.com/coala/GSoC-2017/issues/158"
+  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/51"
+  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/52"
+  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/53"
+  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/54"
+  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/55"
+  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/127"
+  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/128"
+  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/129"
+  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/130"
+  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/131"
+  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/132"
+  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/133"
+  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/134"
+  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/135"
+  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/136"
+  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/137"
+  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/138"
+  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/158"
 markdown: coala_cli.md
 mentors:
   - yukiisbored
@@ -74,12 +74,12 @@ become much more user friendly and intuitive.
 
 #### MILESTONES
 
-[BONDING] https://gitlab.com/coala/GSoC-2017/milestones/16
-[PHASE 1] https://gitlab.com/coala/GSoC-2017/milestones/17
-[PHASE 2] https://gitlab.com/coala/GSoC-2017/milestones/18
-[PHASE 3] https://gitlab.com/coala/GSoC-2017/milestones/19
+[BONDING] https://gitlab.com/coala/GSoC/GSoC-2017/milestones/16
+[PHASE 1] https://gitlab.com/coala/GSoC/GSoC-2017/milestones/17
+[PHASE 2] https://gitlab.com/coala/GSoC/GSoC-2017/milestones/18
+[PHASE 3] https://gitlab.com/coala/GSoC/GSoC-2017/milestones/19
 
-##### [PREPARATION/BONDING](https://gitlab.com/coala/GSoC-2017/milestones/16)
+##### [PREPARATION/BONDING](https://gitlab.com/coala/GSoC/GSoC-2017/milestones/16)
 
 - [X] The [cEP](https://github.com/coala/cEPs/pull/79/files) has been updated, finished and merged with
   the help of mockups and community feedback.
@@ -88,12 +88,12 @@ become much more user friendly and intuitive.
 
 Related issues:
 
-[Google Form] https://gitlab.com/coala/GSoC-2017/issues/54
-[cEP] https://gitlab.com/coala/GSoC-2017/issues/52
-[mockups] https://gitlab.com/coala/GSoC-2017/issues/53
+[Google Form] https://gitlab.com/coala/GSoC/GSoC-2017/issues/54
+[cEP] https://gitlab.com/coala/GSoC/GSoC-2017/issues/52
+[mockups] https://gitlab.com/coala/GSoC/GSoC-2017/issues/53
 
 
-##### [CODING PHASE 1](https://gitlab.com/coala/GSoC-2017/milestones/17)
+##### [CODING PHASE 1](https://gitlab.com/coala/GSoC/GSoC-2017/milestones/17)
 
 - [ ] Implemented at least 3 improvements from the above list including what has
   been proposed by the participant.
@@ -102,46 +102,46 @@ Related issues:
 
 Related issues:
 
-[CLI] https://gitlab.com/coala/GSoC-2017/issues/55
-[Letters instead of numbers] https://gitlab.com/coala/GSoC-2017/issues/127
-[Do nothing] https://gitlab.com/coala/GSoC-2017/issues/130
-[Chaining actions] https://gitlab.com/coala/GSoC-2017/issues/129
-[Testing and writing documentation] https://gitlab.com/coala/GSoC-2017/issues/133
+[CLI] https://gitlab.com/coala/GSoC/GSoC-2017/issues/55
+[Letters instead of numbers] https://gitlab.com/coala/GSoC/GSoC-2017/issues/127
+[Do nothing] https://gitlab.com/coala/GSoC/GSoC-2017/issues/130
+[Chaining actions] https://gitlab.com/coala/GSoC/GSoC-2017/issues/129
+[Testing and writing documentation] https://gitlab.com/coala/GSoC/GSoC-2017/issues/133
 
-##### [CODING PHASE 2](https://gitlab.com/coala/GSoC-2017/milestones/18)
+##### [CODING PHASE 2](https://gitlab.com/coala/GSoC/GSoC-2017/milestones/18)
 
 - [ ] Implement 'Reprompt' for actions
 
 Related issues:
-[Reprompt] https://gitlab.com/coala/GSoC-2017/issues/131
+[Reprompt] https://gitlab.com/coala/GSoC/GSoC-2017/issues/131
 
 - [ ] Implement 'selection action for all results' option
 
 Related issue:
-[selection action] https://gitlab.com/coala/GSoC-2017/issues/132
+[selection action] https://gitlab.com/coala/GSoC/GSoC-2017/issues/132
 
 - [ ] Implement 'ApplyPatchAction'
 
 Related issue:
-[apply patch] https://gitlab.com/coala/GSoC-2017/issues/134
+[apply patch] https://gitlab.com/coala/GSoC/GSoC-2017/issues/134
 
-##### [CODING PHASE 3](https://gitlab.com/coala/GSoC-2017/milestones/19)
+##### [CODING PHASE 3](https://gitlab.com/coala/GSoC/GSoC-2017/milestones/19)
 
 - [ ] Implemented, documented and tested all improvements.
 
 Related issue:
-[tests] https://gitlab.com/coala/GSoC-2017/issues/138
+[tests] https://gitlab.com/coala/GSoC/GSoC-2017/issues/138
 
 - [ ] Implement 'interactive patches'
 
 Related issues:
-[patches] https://gitlab.com/coala/GSoC-2017/issues/136
-[functionality] https://gitlab.com/coala/GSoC-2017/issues/137
+[patches] https://gitlab.com/coala/GSoC/GSoC-2017/issues/136
+[functionality] https://gitlab.com/coala/GSoC/GSoC-2017/issues/137
 
 - [ ] Creation of asciinemas showing the usage of the implemented CLI improvements.
 
 Related issue:
-[asciinemas] https://gitlab.com/coala/GSoC-2017/issues/158
+[asciinemas] https://gitlab.com/coala/GSoC/GSoC-2017/issues/158
 
 https://github.com/coala/coala/issues/2912
 https://github.com/coala/coala/issues/2699

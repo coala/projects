@@ -10,10 +10,10 @@ tarball: https://rawgit.com/nkprince007/GSoCReport/master/project.tar
 mentors: >
  [Lasse Schuirmann](https://github.com/sils) & [Fabian Neuschmidt](https://github.com/fneu)
 phase:
- - Bonding : https://gitlab.com/coala/GSoC-2017/milestones/1
- - Phase 1 : https://gitlab.com/coala/GSoC-2017/milestones/30
- - Phase 2 : https://gitlab.com/coala/GSoC-2017/milestones/31
- - Phase 3 : https://gitlab.com/coala/GSoC-2017/milestones/32
+ - Bonding : https://gitlab.com/coala/GSoC/GSoC-2017/milestones/1
+ - Phase 1 : https://gitlab.com/coala/GSoC/GSoC-2017/milestones/30
+ - Phase 2 : https://gitlab.com/coala/GSoC/GSoC-2017/milestones/31
+ - Phase 3 : https://gitlab.com/coala/GSoC/GSoC-2017/milestones/32
 bio: >
  I'm a final year student of Computer Science & Engineering at National Institute of Technology, Durgapur, India. I participated in GSoC and worked with [coala](https://coala.io) and [GitMate](https://gitmate.io) to build the second version of GitMate to help developers speed up their review process. I also worked on improving and extending support for GitLab on IGitt, developing an algorithm to
  detect duplicate issues and implemented several plugins for GitMate.

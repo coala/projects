@@ -10,10 +10,10 @@ tarball: https://rawgit.com/Nosferatul/GSoCReport/master/Nosferatul_coala.tar
 mentors: >
  [Adrian Zatreanu](https://github.com/Adrianzatreanu) & [Muhammad Kaisar Arkhan](https://github.com/yukiisbored)
 phase:
- - Bonding : https://gitlab.com/coala/GSoC-2017/milestones/16
- - Phase 1 : https://gitlab.com/coala/GSoC-2017/milestones/17
- - Phase 2 : https://gitlab.com/coala/GSoC-2017/milestones/18
- - Phase 3 : https://gitlab.com/coala/GSoC-2017/milestones/19
+ - Bonding : https://gitlab.com/coala/GSoC/GSoC-2017/milestones/16
+ - Phase 1 : https://gitlab.com/coala/GSoC/GSoC-2017/milestones/17
+ - Phase 2 : https://gitlab.com/coala/GSoC/GSoC-2017/milestones/18
+ - Phase 3 : https://gitlab.com/coala/GSoC/GSoC-2017/milestones/19
 bio: >
  I'm a 3rd year student of Computer Science & Engineering at Politehnica University of Bucharest. I participated in GSoC and worked with [coala](https://coala.io) to improve coala CLI experience. The end goal of the project was to: make coala easier to use, adds new functionality so the user could have multiple options when he uses coala and design mockups based on the feedback from the community.
 social:

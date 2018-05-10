@@ -10,10 +10,10 @@ tarball: https://rawgit.com/meetmangukiya/GSoCReport/master/patches.tar
 mentors: >
  [Udayan Tandon](https://github.com/udayan12167) & [Dmytro Sadovnychyi](https://github.com/sadovnychyi)
 phase:
- - Bonding : https://gitlab.com/coala/GSoC-2017/milestones/2
- - Phase 1 : https://gitlab.com/coala/GSoC-2017/milestones/23
- - Phase 2 : https://gitlab.com/coala/GSoC-2017/milestones/24
- - Phase 3 : https://gitlab.com/coala/GSoC-2017/milestones/25
+ - Bonding : https://gitlab.com/coala/GSoC/GSoC-2017/milestones/2
+ - Phase 1 : https://gitlab.com/coala/GSoC/GSoC-2017/milestones/23
+ - Phase 2 : https://gitlab.com/coala/GSoC/GSoC-2017/milestones/24
+ - Phase 3 : https://gitlab.com/coala/GSoC/GSoC-2017/milestones/25
 bio: >
  I'm a second year student of K.J. Somaiya College of Engineering, Mumbai. I
  participated in GSoC and worked with [coala](https://coala.io) to port cobot

@@ -12,10 +12,10 @@ mentors: >
  [Stefan Zimmermann](https://github.com/userzimmermann),
  [Steven Myint](https://github.com/myint)
 phase:
- - Bonding : https://gitlab.com/coala/GSoC-2017/milestones/36
- - Phase 1 : https://gitlab.com/coala/GSoC-2017/milestones/37
- - Phase 2 : https://gitlab.com/coala/GSoC-2017/milestones/38
- - Phase 3 : https://gitlab.com/coala/GSoC-2017/milestones/39
+ - Bonding : https://gitlab.com/coala/GSoC/GSoC-2017/milestones/36
+ - Phase 1 : https://gitlab.com/coala/GSoC/GSoC-2017/milestones/37
+ - Phase 2 : https://gitlab.com/coala/GSoC/GSoC-2017/milestones/38
+ - Phase 3 : https://gitlab.com/coala/GSoC/GSoC-2017/milestones/39
 bio: >
  Hi! I am Dhika, a 3rd Information Technology student in University of Gadjah
  Mada, Indonesia. I like coding and play video games in ~~not only~~ my

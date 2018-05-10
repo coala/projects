@@ -9,23 +9,23 @@ initiatives:
   - GSoC
   - RGSoC
 issues:
-  - "https://gitlab.com/coala/GSoC-2017/issues/12"
-  - "https://gitlab.com/coala/GSoC-2017/issues/35"
-  - "https://gitlab.com/coala/GSoC-2017/issues/36"
-  - "https://gitlab.com/coala/GSoC-2017/issues/37"
-  - "https://gitlab.com/coala/GSoC-2017/issues/38"
-  - "https://gitlab.com/coala/GSoC-2017/issues/39"
-  - "https://gitlab.com/coala/GSoC-2017/issues/40"
-  - "https://gitlab.com/coala/GSoC-2017/issues/41"
-  - "https://gitlab.com/coala/GSoC-2017/issues/190"
-  - "https://gitlab.com/coala/GSoC-2017/issues/191"
-  - "https://gitlab.com/coala/GSoC-2017/issues/194"
-  - "https://gitlab.com/coala/GSoC-2017/issues/195"
-  - "https://gitlab.com/coala/GSoC-2017/issues/196"
-  - "https://gitlab.com/coala/GSoC-2017/issues/197"
-  - "https://gitlab.com/coala/GSoC-2017/issues/198"
-  - "https://gitlab.com/coala/GSoC-2017/issues/199"
-  - "https://gitlab.com/coala/GSoC-2017/issues/204"
+  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/12"
+  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/35"
+  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/36"
+  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/37"
+  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/38"
+  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/39"
+  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/40"
+  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/41"
+  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/190"
+  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/191"
+  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/194"
+  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/195"
+  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/196"
+  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/197"
+  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/198"
+  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/199"
+  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/204"
 markdown: coala_web.md
 mentors:
   - sils
@@ -71,14 +71,14 @@ is [here](https://github.com/rahulcode22/Hackerrank/issues/6).
 
 #### Milestones
 
-##### [PREPARATION/BONDING](https://gitlab.com/coala/GSoC-2017/milestones/3)
+##### [PREPARATION/BONDING](https://gitlab.com/coala/GSoC/GSoC-2017/milestones/3)
 
 * Decouple CSS from web projects and create unified library.
 * Make code coala compliant in landing-frontend, projects and webServices.
 * Add ```analytics``` endpoint in webServices to obtain bear click data.
 * Finalize enhanced UI mockups for coala Online and coala-html.
 
-##### [CODING PHASE 1](https://gitlab.com/coala/GSoC-2017/milestones/7)
+##### [CODING PHASE 1](https://gitlab.com/coala/GSoC/GSoC-2017/milestones/7)
 
 * Add ```--dir``` and ```--sections_only``` option in coala-quickstart.
 * Add backend support for coala Online module on webServices.
@@ -86,14 +86,14 @@ is [here](https://github.com/rahulcode22/Hackerrank/issues/6).
 * Create frontend for coala Online by creating a JS library using directives
 from coala-html.
 
-##### [CODING PHASE 2](https://gitlab.com/coala/GSoC-2017/milestones/8)
+##### [CODING PHASE 2](https://gitlab.com/coala/GSoC/GSoC-2017/milestones/8)
 
 * Add frontend support for GitHub repository linting on coala.io.
 * Implement a coafile bot.
 * Make projects repo easily configurable so that other orgs can use it.
 * Improve coala Online and GH linting UI based on user feedback.
 
-##### [CODING PHASE 3](https://gitlab.com/coala/GSoC-2017/milestones/9)
+##### [CODING PHASE 3](https://gitlab.com/coala/GSoC/GSoC-2017/milestones/9)
 
 * Add CI on landing-frontend, projects and webServices.
 * Enhance coala-html UI and Add searching and filtering functionality.

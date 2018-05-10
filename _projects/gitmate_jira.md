@@ -10,27 +10,27 @@ initiatives:
   - GSoC
   - RGSoC
 issues:
-  - "https://gitlab.com/coala/GSoC-2017/issues/6"
-  - "https://gitlab.com/coala/GSoC-2017/issues/26"
-  - "https://gitlab.com/coala/GSoC-2017/issues/27"
-  - "https://gitlab.com/coala/GSoC-2017/issues/7"
-  - "https://gitlab.com/coala/GSoC-2017/issues/24"
-  - "https://gitlab.com/coala/GSoC-2017/issues/79"
-  - "https://gitlab.com/coala/GSoC-2017/issues/83"
-  - "https://gitlab.com/coala/GSoC-2017/issues/84"
-  - "https://gitlab.com/coala/GSoC-2017/issues/85"
-  - "https://gitlab.com/coala/GSoC-2017/issues/86"
-  - "https://gitlab.com/coala/GSoC-2017/issues/87"
-  - "https://gitlab.com/coala/GSoC-2017/issues/88"
-  - "https://gitlab.com/coala/GSoC-2017/issues/89"
-  - "https://gitlab.com/coala/GSoC-2017/issues/90"
-  - "https://gitlab.com/coala/GSoC-2017/issues/91"
-  - "https://gitlab.com/coala/GSoC-2017/issues/92"
-  - "https://gitlab.com/coala/GSoC-2017/issues/93"
-  - "https://gitlab.com/coala/GSoC-2017/issues/94"
-  - "https://gitlab.com/coala/GSoC-2017/issues/95"
-  - "https://gitlab.com/coala/GSoC-2017/issues/96"
-  - "https://gitlab.com/coala/GSoC-2017/issues/97"
+  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/6"
+  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/26"
+  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/27"
+  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/7"
+  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/24"
+  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/79"
+  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/83"
+  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/84"
+  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/85"
+  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/86"
+  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/87"
+  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/88"
+  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/89"
+  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/90"
+  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/91"
+  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/92"
+  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/93"
+  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/94"
+  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/95"
+  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/96"
+  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/97"
 markdown: gitmate_jira.md
 mentors:
   - nkprince007
@@ -61,9 +61,9 @@ Please ask us for a Jira license to play around with at any time.
 
 See also last year's project which was about adding GitLab:
 
-- https://gitlab.com/coala/GSoC-2017/milestones/1
-- https://gitlab.com/coala/GSoC-2017/milestones/30
-- https://gitlab.com/coala/GSoC-2017/milestones/31
-- https://gitlab.com/coala/GSoC-2017/milestones/32
+- https://gitlab.com/coala/GSoC/GSoC-2017/milestones/1
+- https://gitlab.com/coala/GSoC/GSoC-2017/milestones/30
+- https://gitlab.com/coala/GSoC/GSoC-2017/milestones/31
+- https://gitlab.com/coala/GSoC/GSoC-2017/milestones/32
 
 To get started on GitMate, please follow [our guide](http://docs.gitmate.io/Developers/Newcomers_Guide/).

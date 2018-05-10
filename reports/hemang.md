@@ -10,10 +10,10 @@ tarball: https://github.com/hemangsk/GSoCReport/raw/master/hemangsk_coala.tar
 mentors: >
  [Lasse Schuirmann](https://github.com/sils) & [Fabian Neuschmidt](https://github.com/fneu)
 phase:
- - Bonding : https://gitlab.com/coala/GSoC-2017/milestones/3
- - Phase 1 : https://gitlab.com/coala/GSoC-2017/milestones/7
- - Phase 2 : https://gitlab.com/coala/GSoC-2017/milestones/8
- - Phase 3 : https://gitlab.com/coala/GSoC-2017/milestones/9
+ - Bonding : https://gitlab.com/coala/GSoC/GSoC-2017/milestones/3
+ - Phase 1 : https://gitlab.com/coala/GSoC/GSoC-2017/milestones/7
+ - Phase 2 : https://gitlab.com/coala/GSoC/GSoC-2017/milestones/8
+ - Phase 3 : https://gitlab.com/coala/GSoC/GSoC-2017/milestones/9
 bio: >
  I'm a final year student of Computer Science & Engineering at University School of Information,
  Communication & Technology, GGS IP University. I participated in GSoC and worked with [coala](https://coala.io) to facilitate users to use coala online and functionality for one click Git Repository linting. I also worked on a bot to generate coafile, worked on improving UI of coala-html and configurability of coala-projects. I also worked on adding Notification and Thread support in the IGitt library.  

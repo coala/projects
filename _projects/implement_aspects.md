@@ -99,25 +99,25 @@ and compare the result.
 
 #### Milestones
 
-##### [PREPARATION/BONDING](https://gitlab.com/coala/GSoC-2017/milestones/36)
+##### [PREPARATION/BONDING](https://gitlab.com/coala/GSoC/GSoC-2017/milestones/36)
 
 * A solid plan for the implementation and the exact features exist.
 * Any needed changes to [cEP-0005](https://coala.io/cep5) have been merged.
 
-##### [CODING PHASE 1](https://gitlab.com/coala/GSoC-2017/milestones/37)
+##### [CODING PHASE 1](https://gitlab.com/coala/GSoC/GSoC-2017/milestones/37)
 
 * coala understands the new aspect-based configuration file.
 * The new aspect-based configuration file is documented properly.
 * Fix one issue on autoflake
 
-##### [CODING PHASE 2](https://gitlab.com/coala/GSoC-2017/milestones/38)
+##### [CODING PHASE 2](https://gitlab.com/coala/GSoC/GSoC-2017/milestones/38)
 
 * coala can pick the right bears to resolve an aspect.
 * coala use few prioritization criteria to pick those bear.
 * coala can return only the relevant results based on aspects configuration.
 * Fix one issue on autoflake
 
-##### [CODING PHASE 3](https://gitlab.com/coala/GSoC-2017/milestones/39)
+##### [CODING PHASE 3](https://gitlab.com/coala/GSoC/GSoC-2017/milestones/39)
 
 * Ensure backward compatibility with old bears and configuration file.
 * Everything is documented properly.

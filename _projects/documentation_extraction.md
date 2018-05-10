@@ -54,9 +54,9 @@ errors and perform other aesthetical fixes.
 ##### CODING PHASE 1
 
 * Fix DocumentationExtraction related issues.
-  Related: [#18](https://gitlab.com/coala/GSoC-2017/issues/18)
+  Related: [#18](https://gitlab.com/coala/GSoC/GSoC-2017/issues/18)
 * Fix DocumentationComment related issues.
-  Related: [#19](https://gitlab.com/coala/GSoC-2017/issues/19)
+  Related: [#19](https://gitlab.com/coala/GSoC/GSoC-2017/issues/19)
 
 ##### CODING PHASE 2
 

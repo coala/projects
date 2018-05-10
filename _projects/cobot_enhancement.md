@@ -8,15 +8,15 @@ status: completed
 initiatives:
   - GSoC
 issues:
-  - "https://gitlab.com/coala/GSoC-2017/issues/152"
-  - "https://gitlab.com/coala/GSoC-2017/issues/50"
-  - "https://gitlab.com/coala/GSoC-2017/issues/45"
-  - "https://gitlab.com/coala/GSoC-2017/issues/44"
-  - "https://gitlab.com/coala/GSoC-2017/issues/47"
-  - "https://gitlab.com/coala/GSoC-2017/issues/46"
-  - "https://gitlab.com/coala/GSoC-2017/issues/20"
-  - "https://gitlab.com/coala/GSoC-2017/issues/49"
-  - "https://gitlab.com/coala/GSoC-2017/issues/48"
+  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/152"
+  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/50"
+  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/45"
+  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/44"
+  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/47"
+  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/46"
+  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/20"
+  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/49"
+  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/48"
 markdown: cobot_enhancement.md
 mentors:
   - Udayan12167
@@ -66,7 +66,7 @@ Proposal PDF: https://meetmangukiya.github.io/GSoC_cobot_enhancement.pdf
 
 ##### PREPARATION/BONDING
 
-Milestone: https://gitlab.com/coala/GSoC-2017/milestones/2
+Milestone: https://gitlab.com/coala/GSoC/GSoC-2017/milestones/2
 
 * The applicant has made a cEP of how the new plugins will be implemented, how
   will it be tested, etc.
@@ -74,7 +74,7 @@ Milestone: https://gitlab.com/coala/GSoC-2017/milestones/2
 
 ##### CODING PHASE 1
 
-Milestone: https://gitlab.com/coala/GSoC-2017/milestones/23
+Milestone: https://gitlab.com/coala/GSoC/GSoC-2017/milestones/23
 
 * Port all the plugins to errbot.
 * Write half of the new features proposed.
@@ -82,14 +82,14 @@ Milestone: https://gitlab.com/coala/GSoC-2017/milestones/23
 
 ##### CODING PHASE 2
 
-Milestone: https://gitlab.com/coala/GSoC-2017/milestones/24
+Milestone: https://gitlab.com/coala/GSoC/GSoC-2017/milestones/24
 
 * Write the other half of the new features proposed.
 * Start implementing the topic modeling functions, etc.
 
 ##### CODING PHASE 3
 
-Milestone: https://gitlab.com/coala/GSoC-2017/milestones/25
+Milestone: https://gitlab.com/coala/GSoC/GSoC-2017/milestones/25
 
 * Topic modeling should be implemented completely and should also be able to
   trace back to the related document in the training data.

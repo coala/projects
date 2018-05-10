@@ -10,10 +10,10 @@ tarball: https://rawgit.com/satwikkansal/GSoC-Report/master/patches.tar
 mentors: >
  [Adhityaa](https://github.com/adtac) & [Zatreanu Adrian-Gabriel](https://github.com/Adrianzatreanu)
 phase:
- - Bonding : https://gitlab.com/coala/GSoC-2017/milestones/6
- - Phase 1 : https://gitlab.com/coala/GSoC-2017/milestones/20
- - Phase 2 : https://gitlab.com/coala/GSoC-2017/milestones/21
- - Phase 3 : https://gitlab.com/coala/GSoC-2017/milestones/22
+ - Bonding : https://gitlab.com/coala/GSoC/GSoC-2017/milestones/6
+ - Phase 1 : https://gitlab.com/coala/GSoC/GSoC-2017/milestones/20
+ - Phase 2 : https://gitlab.com/coala/GSoC/GSoC-2017/milestones/21
+ - Phase 3 : https://gitlab.com/coala/GSoC/GSoC-2017/milestones/22
 bio: >
  I'm a final year Software Engineering undergrad from Delhi Technological University, New Delhi, India. I was a Google Summer of Code student for coala over the summer of 2017 and primarily worked on the tool [coala-quickstart](https://github.com/coala/coala-quickstart). My project involved developing an information extraction & utilization framework for project files and improving the existing CLI of quickstart.
 
@@ -259,7 +259,7 @@ activity:
   - `package.json`
   - `Gemfile`
 
-  More information about each of the files can be found [here](https://gitlab.com/coala/GSoC-2017/issues/21)
+  More information about each of the files can be found [here](https://gitlab.com/coala/GSoC/GSoC-2017/issues/21)
 - Utilizing the information extracted from project files to
   - Suggest static code analysis routines to users
   - Automatically identify values required for settings in `.coafile` (coala's configuration file)
