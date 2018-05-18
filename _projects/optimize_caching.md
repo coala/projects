@@ -1,15 +1,16 @@
 ---
 collaborating_projects:
   - coala
-desc: "Improve coala's performance by improving file caching and other performance bottlenecks."
+desc: "Improve coala's caching and IO for the NextGen-Core"
 difficulty: medium
 initiatives:
   - GSoC
   - RGSoC
 issues:
-  - "https://github.com/coala/coala/issues/2541"
-  - "https://github.com/coala/coala/issues/2699"
+  - "https://github.com/coala/coala/issues/3530"
   - "https://github.com/coala/coala/issues/2912"
+  - "https://github.com/coala/coala/issues/2541"
+  - "https://github.com/coala/coala/issues/5136"
 markdown: optimize_caching.md
 mentors:
   - adtac
@@ -28,8 +29,9 @@ tags:
 Currently, coala supports caching of project files. With it, coala runs
 code analysis only on files that had changed since the last run, giving a
 huge amortized performance improvement compared to simply running coala on
-everything regardless. But it is still rather slow and there is still
-room for improvement.
+everything regardless. But it is still rather slow. On the other hand coala's
+NextGen-Core has minimal caching support and needs a caching mechanism better
+than the one used by the current core.
 
 For example, we recently discovered that we have been importing all
 the required modules irrespective of the conditional branch the program
@@ -40,10 +42,12 @@ this greatly improved coala's startup speed.
 Performance is key to usability - with faster runtimes, users can get on
 with their work quicker. And it's fun looking for performance bottlenecks!
 
-In this project, you're to improve on the current strategies. Some enhancements
-such as section-level caching, globbing improvements to not expand on
-unmodified directories, and others have been preliminarily explored. Please
-refer to the related issues to learn more about these.
+In this project, you're to come up with improved versions of the current caching
+strategies used by coala's core and integrate these with the NextGen-Core.
+Some enhancements such as ignoring unmodified directories and use of
+`FileFactory` and `Directory` classes have been already explored and are to be
+implemented as a part of this project. Please refer to the related issues to
+learn more about these.
 
 The student is also highly encouraged to come up with new solutions that may
 increase performance even further.
@@ -52,8 +56,8 @@ increase performance even further.
 
 ##### PREPARATION/BONDING
 
-* The applicant has identified at least 3 other performance bottlenecks that can be  
-  improved. These can be smaller improvements, focussing on one particular  
+* The applicant has identified at least 3 other performance bottlenecks that can be
+  improved. These can be smaller improvements, focussing on one particular
   aspect of coala's core.
 * The applicant has drafted and merged a [cEP](https://github.com/coala/ceps)  
   describing all the proposed changes thoroughly.
@@ -62,23 +66,27 @@ increase performance even further.
 
 ##### CODING PHASE 1
 
-* The Proposed change to not explore unchanged directories has been  
-  implemented.
-* Thorough tests have been performed to concretely ascertain a measurable  
+* Thorough tests have been performed to concretely ascertain a measurable
   performance gain.
+* `Directory` class has been implemented.
+* `FileFactory` class has been implemented and the file contents in the
+  `file-dict` have been replaced with the factory objects. (Both these classes
+  would later be used for implementing ignore directories functionality)
 * The corresponding code is properly tested, documented, reviewed, and merged.
 
 ##### CODING PHASE 2
 
-* Section-based caching has been implemented.
+* The Proposed change to ignore unchanged directories has been implemented.
+* Thorough tests have been performed to concretely ascertain a measurable  
+  performance gain.
+* At least one of the cache control flags have been implemented.
 * The corresponding code has been thoroughly tested, documented, reviewed, and  
   merged.
-* At least one of the proposed performance bottleneck improvements have been  
-  implemented, tested, documented, and merged.
 
 ##### CODING PHASE 3
 
-* At least an additional proposed performance bottleneck improvement has been  
-  implemented, tested, documented, and merged.
+* All the remaining cache control flags like `--cache-optimize`,
+  `--cache-compression`, etc have been implemented.
+* The corresponding code is properly tested, documented, reviewed, and merged.
 * A final report describing the measured performance improvements for the  
   various implemented techniqes has been published.
