@@ -13,10 +13,9 @@ issues:
   - "https://github.com/repology/repology/issues/512"
 markdown: automate_dependency_repology.md
 mentors:
-  - xferra
   - waldyrious
-  - yukiisbored
   - fexpr
+  - underyx
 name: "Automation of Dependency Management using Repology"
 requirements:
   - "At least one patch to the coala core should be accepted and merged."
