@@ -22,19 +22,19 @@ tags:
   - community
   - web
 ---
-The basic idea is an extended version of [GSOC Task List](http://github.com/summerofcode/gsoc-prep-tasks).
+The basic idea is an extended version of [GSOC Task List](https://github.com/summerofcode/gsoc-prep-tasks).
 
 In this project, tasks means open issues and unmerged pull request coming from
 GSOC open source projects.
 
-[GSOC prep task](http://summerofcode.github.io/gsoc-prep-tasks) is an issue
+[GSOC prep task](https://coala.github.io/git-task-list/) is an issue
 finding tools that is (currently) integrated only with GitHub. It helps filter
 out the GitHub issues and only show the issues that are newcomer friendly and
 coming from limited GSoC organization. It limits the organization because
 different organization use different kind of issue tracking such as Phabricator
 and GitLab.
 
-**Git Task List** is conceptually the same as [GSOC prep task](http://summerofcode.github.io/gsoc-prep-tasks).
+**Git Task List** is conceptually the same as [GSOC prep task](https://coala.github.io/git-task-list/).
 Git Task List target a broader task type which include pull request review as
 the task. The goal of this project is to help developer to keep contributing to
 open source project by providing a sets of tasks that has been filtered using
@@ -59,7 +59,7 @@ the ability to select prefered programming language, tags, owner of the pull
 requests, and other metadata that is provided by the web services
 (GitHub/GitLab).
 
-Because the concept of this project, is the same as [GSOC prep task](http://summerofcode.github.io/gsoc-prep-tasks)
+Because the concept of this project, is the same as [GSOC prep task](https://coala.github.io/git-task-list/)
 , it can be used as the starting point of this project.
 
 #### Known Issue Tracker Usage In GSOC Organization
