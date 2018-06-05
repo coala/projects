@@ -1,0 +1,15 @@
+overrides: coala.yaml
+
+language: ruby
+gitignore_language: Jekyll
+gitignore_extra_rulesets:
+  - GitBook
+
+configuration:
+  template_dir:
+    - ../coala-mobans/templates/
+    - ../coala-mobans/assets/
+  configuration: .moban.yaml
+  configuration_dir: ../coala-mobans/
+targets:
+  - .gitignore: coala-gitignore.jj2
