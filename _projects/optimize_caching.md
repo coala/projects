@@ -13,7 +13,7 @@ issues:
   - "https://github.com/coala/coala/issues/5136"
 markdown: optimize_caching.md
 mentors:
-  - adtac
+  - Makman2
   - shreyans800755
   - fneu
 name: "Optimize Caching"
