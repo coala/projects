@@ -110,7 +110,7 @@ the API is accessible.
   issue tracker.
 
 ##### Phase 3
-- Browse PR by authors. ([issues/20](https://github.com/summerofcode/gsoc-prep-tasks/issues/20))
+- Browse PR by authors. ([coala/git-task-list#20](https://github.com/coala/git-task-list/issues/20))
 - Add support GitLab CE.
 - Add Phabricator support.
 - Add support to some GSOC 2018 organizations that are using Phabricator and
