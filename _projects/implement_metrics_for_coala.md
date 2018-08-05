@@ -1,7 +1,8 @@
 ---
 collaborating_projects:
   - coala
-desc: "There is more to software quality than just passing builds - coala should support generating metrics for your code."
+desc: "There is more to software quality than just passing builds - coala
+       should support generating metrics for your code."
 difficulty: high
 initiatives:
   - GSoC

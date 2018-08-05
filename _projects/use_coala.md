@@ -1,7 +1,8 @@
 ---
 collaborating_projects:
   - docker-coala-base
-desc: "Use coala CI on a popular GitHub project, of your choice, using a Docker image on Travis CI, and report the results to the coala developers."
+desc: "Use coala CI on a popular GitHub project, of your choice, using a Docker
+       image on Travis CI, and report the results to the coala developers."
 difficulty: beginner
 status: completed
 initiatives:
@@ -208,8 +209,8 @@ To enable Travis CI on your fork of the repository, go to
 
 ### Trigger a Travis CI test build
 
-Every time there is a commit to your fork, Travis CI will attempt to build the project,
-using the configuration in a special file called [`.travis.yml`](https://docs.travis-ci.com/user/customizing-the-build).
+Every time there is a commit to your fork, Travis CI will attempt to build the
+project, using the configuration in a special file called [`.travis.yml`](https://docs.travis-ci.com/user/customizing-the-build).
 
 On your GitHub repository page, such as `https://github.com/your_username/your_selected_repository_name`,
 click "Create new file".
@@ -226,7 +227,8 @@ addons:
 script:
   - file --version || true
   - find . -not \( -path ./.git -prune \) -type f -exec file -N {} + > file.list
-  - sed 's/^\.\/\(.*\):/\1:/;s/^.*\/\(.*\):/\1:/;/^[^:]*\..*:/{s/^.*\(\.[^. ]*\):/\1:/;}' file.list | sort | uniq -c | sort -nr
+  - sed 's/^\.\/\(.*\):/\1:/;s/^.*\/\(.*\):/\1:/;/^[^:]*\..*:/{s/^.*\(\.[^. ]
+    *\):/\1:/;}' file.list | sort | uniq -c | sort -nr
 ```
 
 This will list all of the extensions used in the repository, with additional information

@@ -1,7 +1,9 @@
 ---
 collaborating_projects:
   - docker-coala-base
-desc: "Fix a popular GitHub project so that the repository contents conform to linter rules that are verified by coala CI on each commit using Travis CI."
+desc: "Fix a popular GitHub project so that the repository contents conform to
+       linter rules that are verified by coala CI on each commit using Travis
+       CI."
 difficulty: medium
 status: completed
 initiatives:

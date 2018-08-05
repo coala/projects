@@ -1,5 +1,6 @@
 ---
-desc: "A technique to view the performance of a piece of software and automatically identify and classify performance drops and gains."
+desc: "A technique to view the performance of a piece of software and
+       automatically identify and classify performance drops and gains."
 developers_involved: []
 difficulty: medium
 status: in_progress

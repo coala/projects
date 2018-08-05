@@ -3,7 +3,8 @@ collaborating_projects:
   - coala
   - GitMate
   - IGitt
-desc: "GitMate will support GitHub very soon with it's plugin system - GitLab and Bitbucket are not far away thanks to your help!"
+desc: "GitMate will support GitHub very soon with it's plugin system - GitLab and Bitbucket are not far away thanks to
+       your help!"
 developers_involved: []
 difficulty: medium
 status: completed

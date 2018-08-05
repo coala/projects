@@ -1,7 +1,9 @@
 ---
 collaborating_projects:
   - docker-coala-base
-desc: "Implement coala CI on a popular GitHub project, of your choice, using a Docker image on Travis CI, and report the results to the coala developers."
+desc: "Implement coala CI on a popular GitHub project, of your choice, using a
+       Docker image on Travis CI, and report the results to the coala
+       developers."
 difficulty: medium
 status: completed
 initiatives:
@@ -147,7 +149,8 @@ After you have submitted your Pull Request, add a comment:
 This Pull Request is being done as part of the Google Code-In task https://github.com/coala/coala/wiki/Google-Code-In-Task-Implement-coala .
 
 The mentors are : @jayvdb , @sils, @..
-In addition to normal review comments, collaborators are welcome to come and discuss the task at https://gitter.im/coala/coala .
+In addition to normal review comments, collaborators are welcome to come and
+discuss the task at https://gitter.im/coala/coala .
 ```
 
 ## Review comments

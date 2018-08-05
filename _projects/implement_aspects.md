@@ -1,7 +1,8 @@
 ---
 collaborating_projects:
   - coala
-desc: "This project is about annotating results of bears with ``aspects`` which are like categories allowing to group results."
+desc: "This project is about annotating results of bears with ``aspects`` which
+       are like categories allowing to group results."
 developers_involved: []
 difficulty: medium
 status: completed
@@ -16,7 +17,9 @@ name: "Convert Bears to Aspects"
 requirements:
   - "The participant should have one patch to any bear accepted."
   - "The participant should have understanding of [cEP-0005](https://github.com/coala/cEPs/blob/master/cEP-0005.md)."
-  - "The proposal should contain bears which are planned to be addressed and a rough draft on which aspects will be needed and how they will be implemented."
+  - "The proposal should contain bears which are planned to be addressed and a
+     rough draft on which aspects will be needed and how they will be
+     implemented."
 tags:
   - Documentation
   - Bears

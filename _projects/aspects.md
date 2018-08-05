@@ -18,8 +18,10 @@ name: "Implement Aspects Support"
 requirements:
   - "The participant should have one patch to any bear accepted."
   - "The participant should have one patch to the coala core accepted."
-  - "The participant should have a solid understanding of [cEP-0005](https://github.com/coala/cEPs/blob/master/cEP-0005.md)."
-  - "The participant should have a solid understanding of [cEP-0002](https://github.com/coala/cEPs/blob/master/cEP-0002.md)."
+  - "The participant should have a solid understanding of
+     [cEP-0005](https://github.com/coala/cEPs/blob/mzaster/cEP-0005.md)."
+  - "The participant should have a solid understanding of
+     [cEP-0002](https://github.com/coala/cEPs/blob/master/cEP-0002.md)."
 tags:
   - Core
   - Bears

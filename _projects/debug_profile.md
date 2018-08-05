@@ -37,7 +37,8 @@ comprehensive environment for this.
 
 In this project the participant shall develop a system to easily
 step into the analysis code (likely using the Pdb module already integrated
-into Python) and step out as soon as the analysis finished. The following are desirable goals for such a toolset's features:
+into Python) and step out as soon as the analysis finished. The following are
+desirable goals for such a toolset's features:
 
 1. The ability to jump directly into Bear code and move through it using a
 debugger interface such as pdb.

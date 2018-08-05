@@ -49,7 +49,8 @@ variable renamings while the user should be asked for the new variable name.
 
 #### Sample mockups
 
-Source: https://docs.google.com/document/d/1BLZO2tD93yKdO7XhMb5NgJvytu-pWDtPMRidGmjQ8EY/edit?usp=sharing (You are free to use ideas discussed in the proposal).
+Source: https://docs.google.com/document/d/1BLZO2tD93yKdO7XhMb5NgJvytu-pWDtPMRidGmjQ8EY/edit?usp=sharing
+(You are free to use ideas discussed in the proposal).
 
 Candidates can take help of following sample mockups to understand the use
 cases better. The mockups discussed below however need not be strictly

@@ -1,7 +1,9 @@
 ---
 collaborating_projects:
   - coala
-desc: "Multiple programming languages can coexist in the same source file - coala should support writing code analysis that only works on parts of files."
+desc: "Multiple programming languages can coexist in the same source 
+       file - coala should support writing code analysis that only works on
+       parts of files."
 difficulty: high
 initiatives:
   - GSoC
@@ -58,9 +60,11 @@ advanced path would be to come up with a more abstract way to define how arbitra
 ##### CODING PHASE 2
 
 * At least three common combinations of languages are supported.
-* OR if applicable an abstract method of combining languages has been developed and at least one bear exists which uses this method.
+* OR if applicable an abstract method of combining languages has been developed
+  and at least one bear exists which uses this method.
 
 ##### CODING PHASE 3
 
-* At least 5 common combinations of languages are supported either via explicit implementations or an abstract system to combine arbitrary languages.
+* At least 5 common combinations of languages are supported either via explicit
+  implementations or an abstract system to combine arbitrary languages.
 * Several working bears exist that are able to handle examples of nested languages.

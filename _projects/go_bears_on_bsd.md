@@ -1,7 +1,8 @@
 ---
 collaborating_projects:
   - coala
-desc: "Explore improvements to coala's dependency management through having Go Linters installed in *BSD systems automatically."
+desc: "Explore improvements to coala's dependency management through having Go
+       Linters installed in *BSD systems automatically."
 difficulty: medium
 initiatives:
   - GSoC
@@ -97,6 +98,5 @@ automatically using Repology on multiple operating systems.
   implemented and tested.
 * The student has set up an official CI server to the working repo for testing
   on FreeBSD.
-* Documentation added on how to do the same for new Linter Bears to [Writing
-  Linter
-  Bears](https://api.coala.io/en/latest/Developers/Writing_Linter_Bears.html).
+* Documentation added on how to do the same for new Linter Bears to 
+  [Writing Linter Bears](https://api.coala.io/en/latest/Developers/Writing_Linter_Bears.html).

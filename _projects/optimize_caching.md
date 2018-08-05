@@ -19,7 +19,8 @@ mentors:
 name: "Optimize Caching"
 requirements:
   - "At least one patch to the coala core should be accepted and merged."
-  - "The student should be familiar with ongoing technical cEPs especially [cEP-0002](https://github.com/coala/cEPs/blob/master/cEP-0002.md)."
+  - "The student should be familiar with ongoing technical cEPs especially
+     [cEP-0002](https://github.com/coala/cEPs/blob/master/cEP-0002.md)."
   - "The proposal needs to show some familiarity with coala's caching implementation."
 status: in_progress
 tags:

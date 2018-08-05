@@ -1,7 +1,9 @@
 ---
 collaborating_projects:
   - GitMate
-desc: "GitMate.io is now an MVP with proper unit tests. However, we still lack support for quick integration tests on feature additions and bug fixes. Kudos, if you could help us with that."
+desc: "GitMate.io is now an MVP with proper unit tests. However, we still lack
+       support for quick integration tests on feature additions and bug fixes. 
+       Kudos, if you could help us with that."
 developers_involved: []
 difficulty: medium
 initiatives:
@@ -17,7 +19,8 @@ mentors:
   - fneu
 name: "Improve testing on GitMate"
 requirements:
-  - "The participant should have at least one patch to [GitMate](https://gitlab.com/gitmate/open-source/gitmate-2) accepted."
+  - "The participant should have at least one patch accepted to
+     [GitMate](https://gitlab.com/gitmate/open-source/gitmate-2)."
   - "The participant should demonstrate that he can run unit tests from the
   shell in his proposal."
   - "The participant should have sufficient knowledge in dealing with py.test
@@ -76,6 +79,8 @@ We have a whole lot of mocking before the actual testing begins. Therefore, we
 would like to see a clearly determined and viable approach with examples as to
 how they would simplify the testing in the applicant's proposal.
 
-Refer our base, [GitmateTestCase](https://gitlab.com/gitmate/open-source/gitmate-2/blob/master/gitmate_config/tests/test_base.py) for more details on how our tests are run.
+Refer our base, 
+[GitmateTestCase](https://gitlab.com/gitmate/open-source/gitmate-2/blob/master/gitmate_config/tests/test_base.py)
+for more details on how our tests are run.
 
 To get started on GitMate, please follow [our guide](http://docs.gitmate.io/Developers/Newcomers_Guide/).

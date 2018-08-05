@@ -1,8 +1,10 @@
 ---
 name: "Implement GitMate Plugins for coala"
-desc: "GitMate.io helps by automating tasks on GitHub and GitLab. There are new plugins that are specific to coala that should be implemented. "
+desc: "GitMate.io helps by automating tasks on GitHub and GitLab. There are new
+       plugins that are specific to coala that should be implemented. "
 requirements:
-  - "The participant should have at least one patch to [GitMate](https://gitlab.com/gitmate/open-source/gitmate-2) accepted."
+  - "The participant should have at least one patch to 
+     [GitMate](https://gitlab.com/gitmate/open-source/gitmate-2) accepted."
 mentors:
   - nkprince007
   - sils

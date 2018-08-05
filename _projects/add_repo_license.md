@@ -112,7 +112,8 @@ Check the other repositories created by the main contributors.
 Maybe they consistently use a license, and simply forgot to add
 it to the repository that you have found in Step 1.
 
-If you are confident that you have found the license that is implicitly chosen by the project team members, skip to Step 3.
+If you are confident that you have found the license that is implicitly chosen
+by the project team members, skip to Step 3.
 
 ### Or, choose a suitable license for a repository without any licenses
 
@@ -121,7 +122,8 @@ Determining which license to propose for a respository is not easy.
 That decision is usually best left to the existing team of contributors,
 who may have a strong preference that they have not disclosed publicly.
 
-It is recommended that beginners go back to step 1 and find a different repository that already mentions a specific license.
+It is recommended that beginners go back to step 1 and find a different
+repository that already mentions a specific license.
 
 ## Step 3
 

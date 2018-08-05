@@ -1,7 +1,8 @@
 ---
 collaborating_projects:
   - coala
-desc: "There are a number of possible options to improve the coala interface written down in [a draft of cEP-0004](https://github.com/coala/cEPs/pull/29/files)."
+desc: "There are a number of possible options to improve the coala interface
+       written down in [a draft of cEP-0004](https://github.com/coala/cEPs/pull/29/files)."
 developers_involved: []
 difficulty: medium
 status: completed
@@ -147,4 +148,5 @@ https://github.com/coala/coala/issues/2912
 https://github.com/coala/coala/issues/2699
 https://github.com/coala/coala/issues/2541
 
-GSoC Proposal for this project: https://docs.google.com/document/d/10FHYhRzK9IxroDoPxI5V_nWCR3DO-g-C-g12B0WKkQA/edit?usp=sharing
+GSoC Proposal for this project:- 
+https://docs.google.com/document/d/10FHYhRzK9IxroDoPxI5V_nWCR3DO-g-C-g12B0WKkQA/edit?usp=sharing

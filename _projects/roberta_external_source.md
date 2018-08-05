@@ -2,7 +2,9 @@
 collaborating_projects:
   - coala
   - openroberta
-desc: "Create a loader for projects from remote data sources that can be used from the coala web page in order to provide one click linting for online projects. "
+desc: "Create a loader for projects from remote data sources that can be used
+       from the coala web page in order to provide one click linting for online
+       projects."
 difficulty: high
 status: disabled
 initiatives:
@@ -14,7 +16,8 @@ mentors:
 name: "One click linting for online projects in the browser"
 requirements:
   - "The applicant should be be familiar with bear creation and XML parsing using xpath or a similar query language"
-  - "The applicant should be reasonable familiar with the coala codebase and the workings of REST APIs, including authentication."
+  - "The applicant should be reasonable familiar with the coala codebase and the workings of REST APIs, including
+	 authentication."
   - "The applicant has contributed to a relevant coala module, the Open Roberta platform, or both."
 tags:
   - Bears
@@ -60,21 +63,32 @@ additional certification through Fraunhofer IAIS in Sankt Augustin, Germany.
 
 ##### PREPARATION/BONDING
 
-* Familiarity with the OpenRoberta partner project is established and a method for external access is designed and implemented in a basic fashion
-* A design goal is reached with the coala project on how to integrate external data sources into the coala web page, including mock-ups and a prototype implementation for the UI
+* Familiarity with the OpenRoberta partner project is established and a method
+  for external access is designed and implemented in a basic fashion
+* A design goal is reached with the coala project on how to integrate external
+  data sources into the coala web page, including mock-ups and a prototype 
+  implementation for the UI
 
 ##### CODING PHASE 1
 
-* A bear for downloaded NEPO-programs is created that checks for certain simple properties of the program, like nesting depths and whether any part of the program tree is undefined. The specific properties shall be defined in the GSoC application.
-* The infrastructure for downloading external resources through the web interface is established and working in a basic fashion
+* A bear for downloaded NEPO-programs is created that checks for certain simple
+  properties of the program, like nesting depths and whether any part of the
+  program tree is undefined. The specific properties shall be defined in the
+  GSoC application.
+* The infrastructure for downloading external resources through the web
+  interface is established and working in a basic fashion.
 
 ##### CODING PHASE 2
 
 * A NEPO program stored on the Open Roberta Lab can be checked from the web interface
-* The infrastructure for downloading external resources through the web interface is well documented and loaders for other resource locations can easily be added
+* The infrastructure for downloading external resources through the web
+  interface is well documented and loaders for other resource locations can easily be added
 * All necessary changes to the webpage UI are implemented
 
 ##### CODING PHASE 3
 
-* A NEPO program stored on the Open Roberta Lab can be checked from the web interface and a user receives useful advice about the quality of their project
-* A github repository can be checked from the web interface. A useful collection of bears is chosen using github's project language hints.
+* A NEPO program stored on the Open Roberta Lab can be checked from the web
+  interface and a user receives useful advice about the quality of their
+  project
+* A github repository can be checked from the web interface. A useful
+  collection of bears is chosen using github's project language hints.

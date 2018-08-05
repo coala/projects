@@ -14,8 +14,11 @@ mentors:
 name: "Improve Generic Bear Quality"
 requirements:
   - "The participant should have one bugfix patch to any bear accepted."
-  - "The participant should have an understanding of the algorithms behind existing Generic bears and test framework for bears."
-  - "The proposal should contain issues which are planned to be addressed, chosen (and potentially [filed](https://github.com/coala/coala-bears/issues/new)) by the student."
+  - "The participant should have an understanding of the algorithms behind
+     existing Generic bears and test framework for bears."
+  - "The proposal should contain issues which are planned to be addressed, 
+     chosen (and potentially
+     [filed](https://github.com/coala/coala-bears/issues/new)) by the student."
 tags:
   - Documentation
   - Bears

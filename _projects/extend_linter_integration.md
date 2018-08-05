@@ -79,7 +79,8 @@ the same number of characters (632) due to which testing transforms to a
 challenging task. Hit and trial methods or the usage of a debugger are the
 only possible ways to overcome these errors.
 ```
-E           AssertionError: Lists differ: [&lt;Result object(id=0xce0383d576a84f34848d66d0ddc87479, origin=[632 chars]710&gt;] != [&lt;Result object(id=0x7e58527926a345f8a2bb36305c58f9f6, origin=[632 chars]400&gt;]
+E           AssertionError: Lists differ: [&lt;Result object(id=0xce0383d576a84f34848d66d0ddc87479, origin=[632 chars]
+		    710&gt;] != [&lt;Result object(id=0x7e58527926a345f8a2bb36305c58f9f6, origin=[632 chars]400&gt;]
 E           
 E           First differing element 0:
 E           &lt;Result object(id=0xce0383d576a84f34848d66d0ddc87479, origin=[631 chars]0710&gt;
@@ -91,9 +92,13 @@ difficult to debug things like:
 >           raise AssertionError(str(err) + " \n" + "\n".join(msg))
 E           AssertionError: 0 == 0 : The local bear 'CheckstyleBear' yields no result although it should.
 E           Running bear CheckstyleBear...
-E           Running 'java -jar /home/ubuntu/.local/share/coala-bears/CheckstyleBear/checkstyle.jar -c /home/ubuntu/.local/share/coala-bears/CheckstyleBear/google.xml /home/ubuntu/coala-bears/tests/java/test_files/CheckstyleGood.java'
+E           Running 'java -jar /home/ubuntu/.local/share/coala-bears/CheckstyleBear/checkstyle.jar -c /home/ubuntu/
+			.local/share/coala-bears/CheckstyleBear/google.xml /home/ubuntu/coala-bears/tests/java/test_files/
+			CheckstyleGood.java'
 E           Running bear CheckstyleBear...
-E           Running 'java -jar /home/ubuntu/.local/share/coala-bears/CheckstyleBear/checkstyle.jar -c /home/ubuntu/.local/share/coala-bears/CheckstyleBear/google.xml /home/ubuntu/coala-bears/tests/java/test_files/CheckstyleBad.java'
+E           Running 'java -jar /home/ubuntu/.local/share/coala-bears/CheckstyleBear/checkstyle.jar
+			-c /home/ubuntu/.local/share/coala-bears/CheckstyleBear/google.xml
+			/home/ubuntu/coala-bears/tests/java/test_files/CheckstyleBad.java'
 
 tests/LocalBearTestHelper.py:34: AssertionError
 ```
