@@ -19,7 +19,7 @@
         <br>
             <div class="row no-margin">
                 <div class="col m12">
-                    <h4 class="left light">Google Summer of Code 2017 Work Product Submission </h4>
+                    <h4 class="left light">Google Summer of Code {{ page.report_year | default : '2017' }} Work Product Submission </h4>
                 </div>
                 <br>
             </div> 
