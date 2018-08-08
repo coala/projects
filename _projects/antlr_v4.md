@@ -77,5 +77,3 @@ developer writing the bear.
 - The Bear is merged and documented.
 - A tutorial is merged which contains instructions on how to write a Bear
 using the AST API.
-
-

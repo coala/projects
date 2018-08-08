@@ -27,15 +27,17 @@ therefore adding an ignore comment -->
               <div ng-show="project.mentors.length>0" class="card-action"> <span ng-repeat="mentor in project.mentors | limitTo:4"><a ng-href="https://github.com/{{mentor}}" class="mentors-github-id" target="_blank">{{mentor}}</a></span> </div>
               <div ng-show="project.initiatives.length>0" class="project-overview-element clickable card-action"> <span ng-click="search(initiative)" class="pr-element-detail chip" ng-repeat="initiative in project.initiatives">{{ initiative }}</span>
                 <br> </div>
-              <div ng-show="project.collaborating_projects.length>0" class="project-overview-element clickable card-action"> <span ng-click="search(project)" class="pr-element-detail chip" ng-repeat="project in project.collaborating_projects">{{ project }}</span>
+              <div ng-show="project.collaborating_projects.length>0 && project.status.length<1" class="project-overview-element clickable card-action"> <span ng-click="search(project)" class="pr-element-detail chip" ng-repeat="project in project.collaborating_projects">{{ project }}</span>
                 <br> </div>
-              <div ng-show="project.status=='crowded'" class="red white-text flag card-action center"> <span class="status-title">HIGH INVOLVEMENT</span>
+              <div ng-show="project.status.indexOf('crowded') != -1 && project.mentors.length>=1" class="red white-text card-action center"> <span class="status-title">HIGH INVOLVEMENT</span>
                 <br> <span class="tiny">If you haven't put work into this, look out for other projects for better chances!</span> </div>
-              <div ng-show="project.status=='in_progress'" class="yellow black-text flag card-action center"> <span class="status-title">IN PROGRESS</span>
+              <div ng-show="project.status.indexOf('in_progress') != -1 && project.mentors.length>=1" class="yellow black-text card-action center"> <span class="status-title">IN PROGRESS</span>
                 <br> <span class="tiny">Work on this project is going on at full pace!</span> </div>
-              <div ng-show="project.status=='completed'" class="green white-text flag card-action center"> <span class="status-title">COMPLETED</span>
+              <div ng-show="project.status.indexOf('in_progress') != -1" class="yellow black-text flag card-action center"> <span class="status-title">IN PROGRESS</span>
+                <br> <span class="tiny">Work on this project is going on at full pace!</span> </div>
+              <div ng-show="project.status.indexOf('completed') != -1 && project.mentors.length>=1" class="green white-text card-action center"> <span class="status-title">COMPLETED</span>
                 <br> <span class="tiny">Hooray!</span> </div>
-              <div ng-show="project.status=='disabled'" class="grey white-text flag card-action center"> <span class="status-title">DISABLED</span>
+              <div ng-show="project.status.indexOf('disabled') != -1 || project.mentors.length<1" class="grey white-text card-action center"> <span class="status-title">DISABLED</span>
                 <br> <span class="tiny">This project is currently unavailable. See project description for details</span> </div>
             </div>
           </div>

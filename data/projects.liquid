@@ -16,8 +16,7 @@
 "collaborating_projects" : [{% for cp in post.collaborating_projects %}"{{ cp }}"{% unless forloop.last %},{% endunless %}{% endfor %}],
 "content_url" : "{{post.url}}",
 "path" : "{{post.path}}",
-"status" : "{{post.status}}",
+"status" : [{% for status in post.status %} "{{ status }}" {% unless forloop.last %},{% endunless %}{% endfor %}],
 "markdown" : "{{post.path | replace: '_projects/',''}}"
 }{% unless forloop.last %},{% endunless %}{% endfor %}
 ]
-
