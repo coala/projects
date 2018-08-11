@@ -4,7 +4,7 @@ desc: "A technique to view the performance of a piece of software and
 developers_involved: []
 difficulty: medium
 status: in_progress
-intiatives:
+initiatives:
   - Paper
 issues: []
 markdown: commit_based_perftest.md
