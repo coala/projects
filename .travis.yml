@@ -2,7 +2,7 @@ services: docker
 
 language: ruby
 rvm:
-  - 2.3.3
+  - 2.5.1
 cache: bundler
 
 .disable_global: &disable_global
