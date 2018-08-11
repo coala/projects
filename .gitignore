@@ -186,6 +186,9 @@ tags
 .idea/**/dictionaries
 .idea/**/shelf
 
+# Generated files
+.idea/**/contentModel.xml
+
 # Sensitive or high-churn files
 .idea/**/dataSources/
 .idea/**/dataSources.ids
@@ -396,9 +399,14 @@ cscope.in.out
 cscope.po.out
 
 
-# Patch & backup files
-*.patch
+*.bak
+*.gho
+*.ori
 *.orig
+*.tmp
+*.orig
+*.rej
+*.patch
 *.diff
 
 # Pytest profile files
