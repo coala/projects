@@ -1,6 +1,9 @@
 ---
-layout: report
-permalink: /GSoC/2017/StatusReport/NaveenKumarSangi
+categories:
+  - GSoC
+  - 2017
+  - StatusReport
+date: 2017-08-27
 student: Naveen Kumar Sangi
 organisation: coala
 organisation_link: https://coala.io

@@ -1,6 +1,9 @@
 ---
-layout: report
-permalink: /GSoC/2017/StatusReport/adhikasp
+categories:
+  - GSoC
+  - 2017
+  - StatusReport
+date: 2017-08-27
 student: Adhika Setya Pramudita
 organisation: coala
 organisation_link : https://coala.io

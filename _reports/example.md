@@ -1,8 +1,10 @@
 <!--
 
 ---
-layout: report
-permalink: /GSoC/2017/StatusReport/<name>
+categories:
+  - GSoC
+  - <year of completing GSoC>
+  - StatusReport
 student: <name>
 organisation: coala
 organisation_link: https://coala.io

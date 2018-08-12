@@ -1,7 +1,10 @@
 ---
-layout: report
+categories:
+  - GSoC
+  - 2018
+  - StatusReport
+date: 2018-08-12
 report_year: '2018'
-permalink: /GSoC/2018/StatusReport/pareksha
 student: Pareksha Manchanda
 organisation: coala
 organisation_link: https://coala.io

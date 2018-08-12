@@ -1,6 +1,9 @@
 ---
-layout: report
-permalink: /GSoC/2018/StatusReport/li-boxuan
+categories:
+  - GSoC
+  - 2018
+  - StatusReport
+date: 2018-08-12
 student: Boxuan Li
 organisation: coala
 organisation_link: https://coala.io

@@ -1,6 +1,9 @@
 ---
-layout: report
-permalink: /GSoC/2017/StatusReport/satwikkansal
+categories:
+  - GSoC
+  - 2017
+  - StatusReport
+date: 2017-08-28
 student: Satwik Kansal
 organisation: coala
 organisation_link: https://coala.io

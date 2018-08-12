@@ -1,6 +1,9 @@
 ---
-layout: report
-permalink: /GSoC/2017/StatusReport/HemangKumar
+categories:
+  - GSoC
+  - 2017
+  - StatusReport
+date: 2017-08-26
 student: Hemang Kumar
 organisation: coala
 organisation_link : https://coala.io

@@ -1,6 +1,10 @@
 ---
-layout: report
-permalink: /GSoC/2017/StatusReport/AlexMaxim
+categories:
+  - GSoC
+  - 2017
+  - StatusReport
+date: 2017-08-28
+title: AlexMaxim
 student: Alexandru-Sorin Maxim
 organisation: coala
 organisation_link : https://coala.io
