@@ -17,7 +17,9 @@ requirements:
   - "The applicant should have at least one patch merged to any of the coala repositories."
   - "Familiarity with Git, GitHub API, Phabricator API, and GitLab API"
   - "Familiarity with EmberJS and GitHub Pages"
-status: in_progress
+status:
+  - in_progress
+  - disabled
 tags:
   - community
   - web
