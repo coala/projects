@@ -19,6 +19,7 @@
             'code' : 'ro'
         }];
         selected_language = JSON.parse(window.localStorage.getItem('lang')) || langs[0];
+
         return {
             setData: function (val) {
                 angular.forEach(langs, function(v, k){
@@ -253,6 +254,10 @@
                 }
 
                 $scope.projectRequest = function () {
+
+                    var redirectTo = {
+                      "integrate_pyflakes-enhanced_ast_into_coala_" : "integrate_pyflakes-enhanced_ast_into_coala"
+                    };
                     $scope.projects_url_dict = {}
                     $scope.projects_url_list = Object.keys($scope.projects_url_dict);
                     angular.forEach($scope.projectList, function(value, key){
@@ -262,6 +267,9 @@
 
                     var project_requested = encodeURIComponent($location.search().project);
                     if(project_requested){
+                        if(project_requested in redirectTo){
+                          project_requested = redirectTo[project_requested]
+                        }
                         if(Object.keys($scope.projects_url_dict).indexOf(project_requested) > -1){
                             self.showProject($scope.projectList[$scope.projects_url_dict[project_requested]])
                         }
