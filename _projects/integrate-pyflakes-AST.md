@@ -13,11 +13,11 @@ mentors:
   - jayvdb
   - myint
   - adhikasp
-name: "Integrate pyflakes-enhanced AST into coala "
+name: "Integrate pyflakes-enhanced AST into coala"
 requirements:
-  - "The participant has a patch to any bear merged. Check out 
+  - "The participant has a patch to any bear merged. Check out
      [existing bear proposal](https://github.com/coala/coala-bears/issues)."
-  - "The participant has a patch to pyflakes merged. Check out 
+  - "The participant has a patch to pyflakes merged. Check out
      [easy task](https://bugs.launchpad.net/pyflakes/+bugs?field.tag=easy)."
 status: completed
 tags:
@@ -25,7 +25,7 @@ tags:
   - Pyflakes
 ---
 flake8 has many plugins which are commonly used in the python development
-community. flake8 is a wrapper, similar to coala, that provides the 
+community. flake8 is a wrapper, similar to coala, that provides the
 AST to its plugins. Instead of coala using the flake8
 wrapper, which adds another level of complexity and uncertainty with regards
 to configuration, coala would like to directly load the python-enhanced AST
@@ -39,7 +39,7 @@ This project focuses on integrating the
 [AST](https://en.wikipedia.org/wiki/Abstract_syntax_tree) into coala and
 redesign flake8 plugins
 [`flake8-future-import`](https://github.com/xZise/flake8-future-import) and
-[`flake8-builtins`](https://github.com/gforcada/flake8-builtins) so that they 
+[`flake8-builtins`](https://github.com/gforcada/flake8-builtins) so that they
 use pyflakes-enhanced AST.
 A seperate wrapper is also needed to be designed so that the pre-existing
 plugins can work without any modification.
