@@ -26,9 +26,9 @@ bio: >
   to make enhancements in [corobo](https://github.com/coala/corobo) which is a
   bot used by the coala community to onboard newcomers and automate development
   tasks.
-  My project was dedicated make corobo secure by reducing its surface
-  vulnerability. I also implemented a better testing infrastructure to test
-  plugins , as well as to made the existing plugins configurable so that they
+  My project was dedicated to make corobo secure by reducing its surface
+  vulnerability. I also implemented a better testing infrastructure to test the
+  plugins, as well as to make the existing plugins configurable so that they
   can also be adapted by other communities to cater their needs.
 social:
   - GitHub:
