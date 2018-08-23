@@ -19,7 +19,7 @@ requirements:
   - "Being familiar with the current Bear API and what it provides."
   - "Knowledge of ANTLR and Java is a bonus."
   - "Knowledge of ASTs and basic language grammar."
-status: in_progress
+status: completed
 tags:
   - API
   - AST

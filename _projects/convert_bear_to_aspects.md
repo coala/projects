@@ -20,7 +20,7 @@ requirements:
   - "The proposal should contain bears which are planned to be addressed and a
      rough draft on which aspects will be needed and how they will be
      implemented."
-status: in_progress
+status: completed
 tags:
   - Documentation
   - Bears

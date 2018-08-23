@@ -11,7 +11,7 @@ mentors:
   - jendrikseipp
   - The-Compiler
 difficulty: medium
-status: in_progress
+status: completed
 initiatives:
   - GSoC
 issues:

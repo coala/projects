@@ -19,7 +19,7 @@ mentors:
 name: "corobo enhancements(security, configurability and tests)"
 requirements:
   - "At least one patch to corobo should be accepted and merged."
-status: in_progress
+status: completed
 tags:
   - community
   - corobo
