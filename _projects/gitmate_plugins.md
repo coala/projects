@@ -18,7 +18,7 @@ issues:
   - "https://github.com/coala/projects/issues/532"
   - "https://gitlab.com/gitmate/GitMate-2-ideas/issues/31"
   - "https://gitlab.com/gitmate/open-source/gitmate-2/issues/363"
-status: in_progress
+status: completed
 tags:
   - IGitt
   - GitMate

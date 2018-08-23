@@ -1,7 +1,6 @@
 ---
 collaborating_projects:
   - coala
-status: in_progress
 desc: "Develop an efficient strategy that allows coala to maintain a number of plugins for different editors."
 difficulty: medium
 initiatives:

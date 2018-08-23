@@ -17,7 +17,7 @@ name: "Meta-review"
 requirements:
   - "The applicant should have at least one patch merged to any of the coala repositories."
   - "The applicant should be familiar with GitHub GraphQL API and JavaScript."
-status: in_progress
+status: completed
 tags:
   - community
   - web

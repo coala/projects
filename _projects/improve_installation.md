@@ -21,7 +21,7 @@ requirements:
   - "The participant should have one patch to [coala-bears](https://github.com/coala/coala-bears) accepted."
   - "Huge plus is being familiar with the current design of cib"
   - "Knowledge of conda is a bonus, but not required."
-status: in_progress
+status: completed
 tags:
   - Bears
   - cib

@@ -19,7 +19,7 @@ name: "coala Language Server"
 requirements:
   - "The applicant should have at least one patch accepted to any of the coala repositories."
   - "The applicant should be familiar with language server protocol."
-status: in_progress
+status: completed
 tags:
   - Language Server
   - Plugins
