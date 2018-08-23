@@ -16,7 +16,7 @@ mentors:
  - latacz-io
 initiatives:
  - GSoC
-status: in_progress
+status: completed
 tags:
  - CI
 collaborating_projects:

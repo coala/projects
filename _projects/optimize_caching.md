@@ -22,7 +22,7 @@ requirements:
   - "The student should be familiar with ongoing technical cEPs especially
      [cEP-0002](https://github.com/coala/cEPs/blob/master/cEP-0002.md)."
   - "The proposal needs to show some familiarity with coala's caching implementation."
-status: in_progress
+status: completed
 tags:
   - Core
   - Bears

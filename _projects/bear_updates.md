@@ -18,7 +18,7 @@ requirements:
   - "The participant should have understanding of the linter and test framework for bears."
   - "The proposal should contain issues which are planned to be addressed, chosen 
      (and potentially [filed](https://github.com/coala/coala-bears/issues/new)) by the student."
-status: in_progress
+status: disabled
 tags:
   - Documentation
   - Bears

@@ -20,7 +20,7 @@ requirements:
 - "The participant should have an understanding of coala's structure and
   config files."
 - "The proposal needs to contain a clear concept."
-status: in_progress
+status: completed
 tags:
 - coala-quickstart
 - coala-ci

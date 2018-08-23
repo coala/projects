@@ -20,7 +20,7 @@ name: "Automation of Dependency Management using Repology"
 requirements:
   - "At least one patch to the coala core should be accepted and merged."
   - "The proposal needs to show some familiarity with coala's dependency management implementation."
-status: in_progress
+status: disabled
 tags:
   - Automation
   - Installation
