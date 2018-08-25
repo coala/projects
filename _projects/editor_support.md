@@ -9,8 +9,7 @@ initiatives:
   - RGSoC
 issues:
   - "https://github.com/coala/coala-atom/issues/37"
-  - "https://github.com/coala/coala-emacs/issues/11"
-  - "https://github.com/coala/coala-eclipse/issues/25"
+  - "https://github.com/coala/coala-eclipse/issues/51"
   - "https://github.com/coala/coala-vim/issues/24"
   - "https://github.com/coala/coala-gedit/issues/5"
   - "https://github.com/coala/coala-sublime/issues/4"
@@ -47,7 +46,7 @@ For sublime, we'll be using the
 which is a plugin by itself.
 For atom, we have the apm testing architecture
 which does not require a GUI.
-For VI and emacs, we will most likely use a testing framework such as
+For VI, we will most likely use a testing framework such as
 [Vimcasts](https://github.com/kana/vim-vspec).
 For some editors like gedit, running tests is not easy and
 there is no api to do it. In such cases we  would want to use
