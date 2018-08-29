@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<div class="main-content container-fluid">
+  <div class="row">
+    <div class="col m8 offset-m2">
+      <h1 class="fine center">Hello there!</h1>
+      <h4 class="light center">
+        We are the mentors for coala in GSoC 2018.
+      </h4>
+      <h4 class="light center">
+        Just drop a message on <a href="https://coala.io/chat" class="bear-link">Gitter</a> -
+        we'd love to help you personally.
+      </h4>
+      <br> </div>
+  </div>
+</div>
+<section>
+  <div class="container">
+    <div class="row user">
+      <div class="parent-wrapper">
+        <div class="parent">
+          <div ng-repeat="member in gic.mentorsList" class="card child card-main sc">
+            <a ng-href="https://github.com/{{member.github_handle}}">
+              <div class="empty"></div>
+              <!-- data-proofer-ignore as html-proofer doesn't recognise ng-src -->
+              <div class="data thumbnail center"> <img alt="{{member.github_handle}}" class="center dp" height="100" ng-src="{{ member.github_avatar_url }}" data-proofer-ignore>
+                <div class="name center">{{ member.name }}</div>
+                <div class="handle center yellow-text text-darken-4">
+                  @{{ member.github_handle }}
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<br>
+<br>
+<div class="main-content container">
+  <div class="row">
+    <div class="col m8 offset-m2">
+      <h1 class="fine center">Admins</h1>
+      <h4 class="light center">
+        We are the admins for coala in GSoC 2018.
+      </h4>
+      <h4 class="light center">
+        Just drop a message on <a href="https://coala.io/chat" class="bear-link">Gitter</a>
+      </h4>
+    </div>
+  </div>
+</div>
+<section>
+  <div class="container">
+    <div class="row user">
+      <div class="parent-wrapper">
+        <div class="parent">
+          <div ng-repeat="member in gic.adminsList" class="card card-main child sc">
+            <a ng-href="https://github.com/{{member.github_handle}}">
+              <div class="empty"></div>
+              <!-- data-proofer-ignore as html-proofer doesn't recognise ng-src -->
+              <div class="data thumbnail center"> <img alt="{{member.github_handle}}" class="center dp" height="100" ng-src="{{ member.github_avatar_url }}" data-proofer-ignore>
+                <div class="name center">{{ member.name }}</div>
+                <div class="handle center yellow-text text-darken-4">
+                  @{{ member.github_handle }}
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
