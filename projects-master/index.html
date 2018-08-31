@@ -1,0 +1,83 @@
+---
+---
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>{{ site.title }}
+  {% if jekyll.environment != "production" %}
+    - Development {{ site.netlify.context }} - {{ site.netlify.branch }} @ {{ site.netlify.commit }}
+  {% endif %}
+  </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.0/angular-route.min.js"></script>
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+  <script src="resources/vendors/angular-sanitize/angular-sanitize.js"></script>
+  <script src="resources/vendors/showdown/showdown.js"></script>
+  <script src="resources/vendors/markdown/markdown.js"></script>
+  <script src="resources/js/app.js"></script>
+  <script src="resources/js/analytics.js"></script>
+  <link rel="stylesheet" href="resources/vendors/materialize/css/materialize.css">
+  <link rel="stylesheet" href="resources/css/style.css">
+  <link rel="stylesheet" href="https://rawgit.com/coala/coalaCSS/master/coala.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,300i,400,400i,700,700i|Roboto:100,200,300,400,500,600,700,800,900|Ubuntu+Mono|Overpass+Mono|Inconsolata" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+  <a href="{{ site.githuburl }}" class="for-non-mobile"> <img class="ribbon" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"> </a>
+  <main ng-app="coala">
+    <div ng-controller="TabController as tc">
+      <div>
+        <div class="row">
+          <div class="col s12">
+            <ul class="tabs uppercase">
+              <li class="tab col m4"><a ng-click="tc.setTab('/projects')" onmousedown="keyPressed(event, '#/projects')" ng-class="{active:tc.isSet('/projects')}">Projects</a>
+              </li>
+              <li class="tab col m4"><a ng-click="tc.setTab('/mentors')" onmousedown="keyPressed(event, '#/mentors')" ng-class="{active:tc.isSet('/mentors')}">Mentors</a>
+              </li>
+              <li class="tab col m4"><a ng-click="tc.setTab('/faq')" onmousedown="keyPressed(event, '#/faq')" onerror="" ng-class="{active:tc.isSet('/faq')}">Faq</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div ng-view=""></div>
+    </div>
+    <div ng-controller="LanguageController as langCtrl" style="position: relative; margin: auto; width: 100px;">
+    <select ng-init="language = init_language" ng-options="l as l.name for l in langs" ng-model="language" ng-change="update()">
+    </select>
+  </div>
+  </main>
+  <footer class="page-footer footer-light transparent">
+    <div class="row center for-mobile"> <a class="github-button" href="{{ site.githuburl }}" data-size="large">Fork</a> </div>
+    <div class="row">
+      <div class="col m6 offset-m3 center"> <img class="footer-logo" src="https://api.coala.io/en/latest/_static/images/coala_logo.svg" alt="coala"> <span class="footer-title">{{ site.organization }}</span> </div>
+    </div>
+    <div class="footer-small-title center"> <span class="blue-grey-text text-lighten-3 uppercase"> Licensed under {{ site.license }}</span> </div>
+  </footer>
+</body>
+
+</html>
+
+
+<script>
+$(document).ready(function () {
+    $('select').material_select();
+    //$('ul.tabs').tabs();
+    $('.github-card').html('<img src="http://placehold.it/100x100" />')
+})
+</script>
+<script>
+  function keyPressed(event, loc) {
+      if (event.ctrlKey) {
+          window.open(loc, '_blank');
+      }
+  }
+</script>

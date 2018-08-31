@@ -1,0 +1,51 @@
+---
+---
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Page Not Found | {{ site.title }}</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .hidden-until-ready {
+      visibility: hidden;
+    }
+  </style>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+  <link rel="stylesheet" href="resources/vendors/materialize/css/materialize.css">
+  <link rel="stylesheet" href="resources/css/404.css">
+  <link rel="stylesheet" href="https://rawgit.com/coala/coalaCSS/master/coala.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,300i,400,400i,700,700i|Roboto:100,200,300,400,500,600,700,800,900|Ubuntu+Mono|Overpass+Mono|Inconsolata" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body class="hidden-until-ready">
+  <main>
+    <div class="coala-book container">
+      <img src="resources/images/coala-404.png" alt="missing coala in shock">
+    </div>
+    <div class="error container">
+      <h3 class="message">Oops! That was unexpected...</h3>
+      <p><span>coala</span> couldn't find the page you're looking for.</p>
+      <div class="buttons center">
+        <a href="/" class="btn home">Crawl back home</a>
+      </div>
+    </div>
+  </main>
+  <footer class="page-footer footer-light transparent">
+    <div class="row">
+      <div class="col m6 s12 offset-m3 center"> <img class="footer-logo" src="https://api.coala.io/en/latest/_static/images/coala_logo.svg" alt="coala"> <span class="footer-title">{{ site.organization }}</span> </div>
+    </div>
+    <div class="footer-small-title center"> <span class="blue-grey-text text-lighten-3 uppercase"> Licensed under {{ site.license }}</span> </div>
+  </footer>
+  <script>
+    window.onload = (e) => {
+      document.querySelectorAll(".hidden-until-ready").forEach(el => {
+        el.classList.remove('hidden-until-ready');
+      });
+    };
+  </script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+merge:
+  fast-forward: only
+  script:
+    - bash .ci/check_maintainership.sh
+
+decrypt:
+  rultor_secrets.sh: "repo/.ci/rultor_secrets.sh.asc"

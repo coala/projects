@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<div class="main-content-faq container">
+  <ul class="collapsible" data-collapsible="accordion">
+    <li ng-repeat="faq in faqs">
+      <div class="collapsible-header"><i class="fa fa-question" aria-hidden="true"></i>
+        <p btf-markdown="faq.question"></p>
+      </div>
+      <div class="collapsible-body">
+        <p btf-markdown="faq.answer"></p>
+      </div>
+    </li>
+  </ul>
+</div>
+<script>
+$(document).ready(function() {
+  $('.collapsible').collapsible();
+});
+
+</script>
