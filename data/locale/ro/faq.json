@@ -1,15 +1,15 @@
 {
-  "i_want_to_do_a_gsoc.md": "Vreau sa particip la GSOC!",
-  "gsoc_requirements.md": "Care sunt cerintele pentru a fi acceptat?",
-  "own_project_idea.md": "Am o idee proprie pentru proiect! (Mentori si studenti!)",
-  "steal_project_idea.md": "Ce se intampla daca cineva imi fura propria idee pentru rezolvarea proiectului?",
-  "writing_a_great_proposal.md": "Cum pot sa scriu o propunere deosebita?",
-  "is_mentor_necessary.md": "Prezentarea proiectului de pe site nu are mentori, dar sunt interesat de proiect?",
-  "contact_mentor.md": "Am gasit un proiect interesant! Cum pot sa imi contactez mentorul?",
-  "working_out_the_proposal.md": "Cand trebuie sa incep sa lucrez la propunerea mea?",
-  "student_obligations.md": "Care sunt obligatiile mele ca student in timpul GSOC-ului?",
-  "mentor_obligations.md": "Care sunt obligatiile mele ca mentor in timpul GSOC-ului?",
+  "i-want-to-do-a-gsoc.md": "Vreau sa particip la GSOC!",
+  "gsoc-requirements.md": "Care sunt cerintele pentru a fi acceptat?",
+  "own-project-idea.md": "Am o idee proprie pentru proiect! (Mentori si studenti!)",
+  "steal-project-idea.md": "Ce se intampla daca cineva imi fura propria idee pentru rezolvarea proiectului?",
+  "writing-a-great-proposal.md": "Cum pot sa scriu o propunere deosebita?",
+  "is-mentor-necessary.md": "Prezentarea proiectului de pe site nu are mentori, dar sunt interesat de proiect?",
+  "contact-mentor.md": "Am gasit un proiect interesant! Cum pot sa imi contactez mentorul?",
+  "working-out-the-proposal.md": "Cand trebuie sa incep sa lucrez la propunerea mea?",
+  "student-obligations.md": "Care sunt obligatiile mele ca student in timpul GSOC-ului?",
+  "mentor-obligations.md": "Care sunt obligatiile mele ca mentor in timpul GSOC-ului?",
   "thesis.md": "Vreau sa scriu o teza cu coala!",
-  "application_template.md": "Ai un sablon pentru aplicatie?",
-  "project_participation.md": "Toate proiectele afisate o sa faca parte din GSOC (sau alte initiative)?"
+  "application-template.md": "Ai un sablon pentru aplicatie?",
+  "project-participation.md": "Toate proiectele afisate o sa faca parte din GSOC (sau alte initiative)?"
 }

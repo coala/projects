@@ -1,29 +1,28 @@
 ---
 collaborating_projects:
   - coala
-desc: "This project is about collecting bears based on aspects that the user wants to have checked."
+desc: "This project is about updating bear to use aspect feature."
 developers_involved: []
-difficulty: high
-status: completed
+difficulty: medium
 initiatives:
   - GSoC
   - RGSoC
 issues: []
-markdown: implement-aspects.md
+markdown: convert-bear-to-aspects.md
 mentors:
-  - userzimmermann
-  - jayvdb
-  - myint
-name: "Implement Aspects Support"
+  - adhikasp
+  - jschwarzwalder
+  - tadityar
+name: "Convert Bears to Aspects"
 requirements:
   - "The participant should have one patch to any bear accepted."
-  - "The participant should have one patch to the coala core accepted."
-  - "The participant should have a solid understanding of
-     [cEP-0005](https://github.com/coala/cEPs/blob/mzaster/cEP-0005.md)."
-  - "The participant should have a solid understanding of
-     [cEP-0002](https://github.com/coala/cEPs/blob/master/cEP-0002.md)."
+  - "The participant should have understanding of [cEP-0005](https://github.com/coala/cEPs/blob/master/cEP-0005.md)."
+  - "The proposal should contain bears which are planned to be addressed and a
+     rough draft on which aspects will be needed and how they will be
+     implemented."
+status: completed
 tags:
-  - Core
+  - Documentation
   - Bears
   - Aspects
 ---
@@ -49,9 +48,11 @@ they can simply add the "UnusedCode" aspect and coala will figure out what
 bears must be used and how to use them.
 
 The goal of this project is to create the aspects categories and annotate
-results of bears with them.
-This is what makes the aspects available to users and has to be built into each
-bear individually.
+results of bears with them. The minimal expected result is coala/coala
+repository could be run with aspect-based setting (see
+<https://github.com/coala/coala/issues/4669> for the suggested but non-complete
+bear list needed to accomplish this). This is what makes the aspects available
+to users and has to be built into each bear individually.
 
 References
 
@@ -66,19 +67,24 @@ References
 
 ##### PREPARATION/BONDING
 
+* The list of planned migrated bears (at least 5) are drafted completely.
 * The names and settings of the needed aspects are drafted completely.
 
 ##### CODING PHASE 1
 
-* A third of the defined aspects are properly defined, documented and merged.
-* A third of the defined bears return results with aspects.
+* All of the drafted aspect are successfully merged and documented.
 
 ##### CODING PHASE 2
 
-* Two thirds of the defined aspects are properly defined, documented and merged.
-* Two thirds of the defined bears return results with aspects.
+* Improve existing helper function to make mapping setting to aspect setting
+  easier.
+* Two thirds of the defined bears is annotated, could be executed under
+  aspect config, and return results with aspects data.
 
 ##### CODING PHASE 3
 
-* All of the defined aspects are properly defined, documented and merged.
-* All of the defined bears return results with aspects.
+* All of the defined bears is annotated, could be executed under
+  aspect config, and return results with aspects data.
+* Implement integration test, make sure the coala/coala repo could be run
+  with aspect-based setting that similiar with current `.coafile` setting and
+  return the same result set.

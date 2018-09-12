@@ -1,5 +1,5 @@
 {
-  "roberta_external_source.md": {
+  "roberta-external-source.md": {
     "name" : "Linting dengan satu klik untuk proyek online di browser",
     "desc" : "Buat sebuah loader untuk proyek-proyek dari sumber data remote yang bisa digunakan dari halaman web coala untuk menyediakan linting dalam satu klik untuk proyek-proyek online.",
     "requirements" : [
