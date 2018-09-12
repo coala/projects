@@ -49,7 +49,7 @@ activity:
       - repo: projects
       - link: https://github.com/coala/projects/commit/10d706aa
       - details: >
-         coala_language_server.md: Update project details
+         coala-language-server.md: Update project details
 
   - 2:
       - repo: cEPs
