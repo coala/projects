@@ -3,7 +3,7 @@ collaborating_projects:
   - coala
   - GitMate
   - IGitt
-desc: "GitMate will support GitHub very soon with it's plugin system - GitLab and Bitbucket are not far away thanks to
+desc: "GitMate will support GitHub very soon with it's plugin system - GitLab and Bitbucket are not far away thanks for
        your help!"
 developers_involved: []
 difficulty: medium
@@ -40,7 +40,7 @@ mentors:
   - fneu
 name: "Implement GitLab and Bitbucket Support for GitMate"
 requirements:
-  - "The participant should have one patch to [GitMate-2](https://gitlab.com/gitmate/gitmate-2) accepted."
+  - "The participant should have one patch to [GitMate-2](https://gitlab.com/gitmate/open-source/gitmate-2) accepted."
   - "Django knowledge  is a big plus."
 tags:
   - Web
