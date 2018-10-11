@@ -145,7 +145,7 @@ Replace `mit` with the short license identifier that GitHub has allocated to the
 ## Examples
 
 Examples of this task being done by Indonesian University students can be found at
-[this blog post](http://besutkode.org/elimination/2016/11/01/31-october-elimination-results/).
+[this blog post](https://github.com/BesutKode/BesutKode.github.io/blob/master/_posts/2016-11-01-31-october-elimination-results.md).
 
 ## Stackoverflow tags
 
