@@ -39,7 +39,7 @@ file_naming_convention = kebab
 
 [spacing]
 bears = SpaceConsistencyBear
-files = **.html, **.css, **.js, **.json
+files = **.html, **.css, **.js, **.json, **.md
 ignore = vendor/**, resources/vendors/**, _site/**
 use_spaces = True
 
