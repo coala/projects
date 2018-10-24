@@ -7,7 +7,6 @@ date: 2018-08-14
 student: Guangyuan Yang
 organisation: coala
 organisation_link: https://coala.io
-report_year: 2018
 project: Go Bears on BSD
 project_link: https://summerofcode.withgoogle.com/projects/#4521151787696128
 tarball: https://github.com/yzgyyang/gsoc-reports/raw/master/gsoc18/GuangyuanYang-coala-gsoc18.tar.gz

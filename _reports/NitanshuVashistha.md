@@ -7,7 +7,6 @@ date: 2018-08-12
 student: Nitanshu Vashistha
 organisation: coala
 organisation_link: https://coala.io
-report_year: 2018
 project: Corobo Enhancement - Security, Testing And Configurability
 project_link: https://summerofcode.withgoogle.com/projects/#6603667076022272
 tarball: https://rawgit.com/nvzard/GSoC-Report/master/project.tar.gz

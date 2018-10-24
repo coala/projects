@@ -3,7 +3,6 @@ categories:
   - GSoC
   - 2018
   - StatusReport
-report_year: 2018
 date: 2018-08-12
 student: Palash Nigam
 organisation: coala

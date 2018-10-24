@@ -11,7 +11,6 @@ organisation_link: https://coala.io
 project: <project title>
 date: YYYY-MM-DD
 project_link: <project link>
-report_year: <year of completing GSoC>
 tarball: <tarball of patches' link>
 sha256sum: <sha256sum of tarball>
 mentors: >

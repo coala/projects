@@ -7,7 +7,6 @@ date: 2018-08-14
 student: Ishan Srivastava
 organisation: coala
 organisation_link: https://coala.io
-report_year: 2018
 project: Quickstart Green Mode
 project_link: https://summerofcode.withgoogle.com/projects/#5792652830703616
 tarball: https://cdn.rawgit.com/ishanSrt/ishanSrt.github.io/443d578d/ishanSrt.tar.gz

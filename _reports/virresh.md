@@ -9,7 +9,6 @@ organisation: coala
 organisation_link : https://coala.io
 project: Integrate ANTLR v4 to coala
 project_link: https://summerofcode.withgoogle.com/projects/#6067962113425408
-report_year: 2018
 tarball: https://github.com/virresh/GSoC-18_Report/raw/master/patches.tar
 sha256sum: 43cd5aaf56b735abf34bba8fbf9f83f2cba716c9f20f76c3954228887f61e220
 mentors: >

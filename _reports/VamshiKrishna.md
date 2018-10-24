@@ -4,7 +4,6 @@ categories:
   - 2018
   - StatusReport
 date: 2018-08-12
-report_year: '2018'
 student: Vamshi Krishna Bommerla
 organisation: coala
 organisation_link: https://coala.io

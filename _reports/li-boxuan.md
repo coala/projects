@@ -7,7 +7,6 @@ date: 2018-08-12
 student: Boxuan Li
 organisation: coala
 organisation_link: https://coala.io
-report_year: 2018
 project: Meta-review
 project_link: https://summerofcode.withgoogle.com/projects/#5188493739819008
 tarball: https://github.com/li-boxuan/GSoCReport/raw/master/li-boxuan_coala.tar.gz

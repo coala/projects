@@ -7,7 +7,6 @@ date: 2018-08-12
 student: Kilari Teja
 organisation: coala
 organisation_link: https://coala.io
-report_year: 2018
 project: coala language server
 project_link: https://summerofcode.withgoogle.com/projects/#4971369184362496
 tarball: https://github.com/ksdme/GSoCReport/raw/master/ksdme_coala.tar.gz

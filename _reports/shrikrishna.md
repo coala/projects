@@ -7,7 +7,6 @@ date: 2018-08-12
 student: Shrikrishna Singh
 organisation: coala
 organisation_link: https://coala.io
-report_year: 2018
 project: Newcomer Metrics and Gamification
 project_link: https://summerofcode.withgoogle.com/projects/#5892040252981248
 tarball: https://github.com/sks444/GSoC-18-Patches/raw/master/project.tar.gz
