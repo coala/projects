@@ -1,7 +1,7 @@
 ---
 collaborating_projects:
   - coala
-desc: "This project is about improving the 
+desc: "This project is about improving the
        [bear installation tool](https://gitlab.com/coala/cib)
        and working around platform dependent requirements."
 difficulty: medium

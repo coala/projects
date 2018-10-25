@@ -60,9 +60,9 @@ increase performance even further.
 * The applicant has identified at least 3 other performance bottlenecks that can be
   improved. These can be smaller improvements, focussing on one particular
   aspect of coala's core.
-* The applicant has drafted and merged a [cEP](https://github.com/coala/ceps)  
+* The applicant has drafted and merged a [cEP](https://github.com/coala/ceps)
   describing all the proposed changes thoroughly.
-* Preliminary prototypes have been tested to validate the proposed changes'  
+* Preliminary prototypes have been tested to validate the proposed changes'
   performance improvements.
 
 ##### CODING PHASE 1
@@ -78,10 +78,10 @@ increase performance even further.
 ##### CODING PHASE 2
 
 * The Proposed change to ignore unchanged directories has been implemented.
-* Thorough tests have been performed to concretely ascertain a measurable  
+* Thorough tests have been performed to concretely ascertain a measurable
   performance gain.
 * At least one of the cache control flags have been implemented.
-* The corresponding code has been thoroughly tested, documented, reviewed, and  
+* The corresponding code has been thoroughly tested, documented, reviewed, and
   merged.
 
 ##### CODING PHASE 3
@@ -89,5 +89,5 @@ increase performance even further.
 * All the remaining cache control flags like `--cache-optimize`,
   `--cache-compression`, etc have been implemented.
 * The corresponding code is properly tested, documented, reviewed, and merged.
-* A final report describing the measured performance improvements for the  
+* A final report describing the measured performance improvements for the
   various implemented techniqes has been published.

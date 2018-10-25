@@ -98,5 +98,5 @@ automatically using Repology on multiple operating systems.
   implemented and tested.
 * The student has set up an official CI server to the working repo for testing
   on FreeBSD.
-* Documentation added on how to do the same for new Linter Bears to 
+* Documentation added on how to do the same for new Linter Bears to
   [Writing Linter Bears](https://api.coala.io/en/latest/Developers/Writing_Linter_Bears.html).

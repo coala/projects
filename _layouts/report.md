@@ -22,7 +22,7 @@
                     <h4 class="left light">Google Summer of Code {{ page.date | date: '%Y' }} Work Product Submission </h4>
                 </div>
                 <br>
-            </div> 
+            </div>
             <br>
             <div class="row no-margin">
                 <div class="col m6">
@@ -107,7 +107,7 @@
                         </div>
                     </div>
                 </div>
-            </div>  
+            </div>
             <br>
              <div class="row no-margin">
                 <div class="col m12">
@@ -127,14 +127,14 @@
                     </thead>
                     <tbody class="card activity">
                         {% for commits in page.activity %}
-                        {% for c in commits %} 
+                        {% for c in commits %}
                            <tr>
                                 <td class="fl">{{ c[1][0]["repo"] | slice: 0 }}</td>
                                 <td class="">&nbsp;{{ c[1][0]["repo"] }}</td>
                                 <td><a href='{{ c[1][1]["link"] }}'>View</a></td>
                                 <td>{{ c[1][2]["details"] | markdownify}}</td>
                            </tr>
-                        {% endfor %}                      
+                        {% endfor %}
                         {% endfor %}
                     </tbody>
                 </table>
@@ -148,4 +148,4 @@
             <br><br>
         </div>
     </body>
-</html> 
+</html>

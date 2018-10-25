@@ -77,10 +77,10 @@ Your remote list should now look like:
 
 ```bash
 $ git remote -v
-myfork	git@github.com:<your_username>/<your_selected_repository_name>.git (fetch)
-myfork	git@github.com:<your_username>/<your_selected_repository_name>.git (push)
-origin	https://github.com/<origin_username>/<your_selected_repository_name> (fetch)
-origin	https://github.com/<origin_username>/<your_selected_repository_name> (push)
+myfork  git@github.com:<your_username>/<your_selected_repository_name>.git (fetch)
+myfork  git@github.com:<your_username>/<your_selected_repository_name>.git (push)
+origin  https://github.com/<origin_username>/<your_selected_repository_name> (fetch)
+origin  https://github.com/<origin_username>/<your_selected_repository_name> (push)
 ```
 
 ## Create a clean branch

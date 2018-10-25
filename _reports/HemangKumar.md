@@ -19,7 +19,7 @@ phase:
  - Phase 3 : https://gitlab.com/coala/GSoC/GSoC-2017/milestones/9
 bio: >
  I'm a final year student of Computer Science & Engineering at University School of Information,
- Communication & Technology, GGS IP University. I participated in GSoC and worked with [coala](https://coala.io) to facilitate users to use coala online and functionality for one click Git Repository linting. I also worked on a bot to generate coafile, worked on improving UI of coala-html and configurability of coala-projects. I also worked on adding Notification and Thread support in the IGitt library.  
+ Communication & Technology, GGS IP University. I participated in GSoC and worked with [coala](https://coala.io) to facilitate users to use coala online and functionality for one click Git Repository linting. I also worked on a bot to generate coafile, worked on improving UI of coala-html and configurability of coala-projects. I also worked on adding Notification and Thread support in the IGitt library.
 social:
  - GitHub:
    - username: hemangsk
@@ -37,9 +37,9 @@ email: hemangsk@gmail.com
 blog: http://hemangsk.github.io/stories.html
 activity:
  - 0:
-   - repo: coala-quickstart 
+   - repo: coala-quickstart
    - link: https://github.com/coala/coala-quickstart/commits/master?author=hemangsk
-   - details: > 
+   - details: >
       Add --allow-incomplete-sections mode and bump coala version.
  - 1:
    - repo: coalaCSS
@@ -49,7 +49,7 @@ activity:
  - 2:
    - repo: coala Projects
    - link: https://github.com/coala/projects/commits/master?author=hemangsk
-   - details: > 
+   - details: >
        Commits **f26ae52** through **6497def** were part of GSoC.
  - 3:
    - repo: IGitt
@@ -182,7 +182,7 @@ activity:
  - 32:
    - repo: landing-frontend
    - link: https://github.com/coala/landing-frontend/commits/master?author=hemangsk
-   - details: > 
+   - details: >
       Commits  **7e2efb3** through **a48a08a** were part of GSoC.
 ---
 
@@ -195,7 +195,7 @@ The coala Online module now has support for all the bears, bears with optional a
 
 <br>
 
-coala-quickstart has got a new running mode, allow-incomplete-sections which helps users to create a coafile without omitting bears with non optional settings. 
+coala-quickstart has got a new running mode, allow-incomplete-sections which helps users to create a coafile without omitting bears with non optional settings.
 
 <br>
 
@@ -219,11 +219,11 @@ It was a great learning experience overall, but a few challenges which proved to
 
 #### Work to be done
 
-The first task, is to get all the supporting tools like coala Online, coala-html and projects.coala.io need to incooperate user feedback on the changes user experience. 
+The first task, is to get all the supporting tools like coala Online, coala-html and projects.coala.io need to incooperate user feedback on the changes user experience.
 
 <br>
 
-coafile_bot will be able to do wonders on GitLab as well once GitLab introduces Notification API. Initally I want to promote it as much as I can so that developers can have general awareness about linting, the tools available and how coala comes into the picture, and from there they can use coafile bot and then ultimately improve their git workflow. 
+coafile_bot will be able to do wonders on GitLab as well once GitLab introduces Notification API. Initally I want to promote it as much as I can so that developers can have general awareness about linting, the tools available and how coala comes into the picture, and from there they can use coafile bot and then ultimately improve their git workflow.
 
 <br>
 Essentially the projects.coala.io page can be used for a particular program like GSoC, GCI and also for general project management of an organization. Now some organization may want more flexibility on a particular feature. Depending on what more coala needs for project management, and depending upon consensus of other organization voting on a new feature, there is a great room for improvement in projects.coala.io

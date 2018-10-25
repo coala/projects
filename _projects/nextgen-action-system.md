@@ -21,11 +21,11 @@ coala needs to have a global set of actions that it tries to apply on all
 tries to apply it but it needs to do that for every `Result` that every bear
 ever generates.
 
-We need a way allow results to define actions by themselves, like 
+We need a way allow results to define actions by themselves, like
 `result = Result(actions=[ApplyPatchAction, ...]). Here is the benefit of such
 an approach:
 * Bears can specify their own actions, for example the GitCommitBear would
-  highly benefit from this (actions could be added for amending commits). Then, 
+  highly benefit from this (actions could be added for amending commits). Then,
   the bear writers could get much more creative and generate even more useful
   bears.
 
@@ -36,7 +36,7 @@ an approach:
 * Student should have a clear plan and conceptual work must be finished.
 * The applicant should know how to work with the community.
 
-##### CODING PHASE 1 
+##### CODING PHASE 1
 
 * Changes to the `Result` class must be finished including writing tests and documentation.
 

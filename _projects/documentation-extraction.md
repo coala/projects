@@ -28,7 +28,7 @@ end up having one.
 
 This probably is partly due to the fact that having a second place to write
 documentation makes it easy to "forget" about it. To solve this problem, and
-also to offer developers easier access to some important information, many 
+also to offer developers easier access to some important information, many
 languages support having documentation in source files. The problem with this
 is, that most linters only work on code or pure documentation files but can not
 lint documentation in source files. This leads to a lack of checks for in

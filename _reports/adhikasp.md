@@ -103,7 +103,7 @@ activity:
    - repo: coala
    - link: https://github.com/coala/coala/pull/4397/commits/1622f3042eafb169becd0963e57cc01df53e0750
    - details: >
-      Aspect: Include AspectList in ``__all__`` 
+      Aspect: Include AspectList in ``__all__``
  - 13:
    - repo: coala
    - link: https://github.com/coala/coala/pull/4397/commits/1ce4dd96a30c2acb913fb9a9f05cfc7dcac87c0f
@@ -113,7 +113,7 @@ activity:
    - repo: coala
    - link: https://github.com/coala/coala/pull/4397/commits/82d9b0045636819be154792a0c3d81e664c410d4
    - details: >
-      Make Language pickle-able 
+      Make Language pickle-able
  - 15:
    - repo: coala
    - link: https://github.com/coala/coala/pull/4490/commits/579b417f2f043139f3dfd4f97c3cceccc61b1c8f
@@ -143,12 +143,12 @@ activity:
    - repo: coala
    - link: https://github.com/coala/coala/pull/4532/commits/4de73784a9e89f60077abaf229e22b3ff289f2c8
    - details: >
-      Bear.py: Make ``languages`` JSON compliant 
+      Bear.py: Make ``languages`` JSON compliant
  - 21:
    - repo: coala
    - link: https://github.com/coala/coala/pull/4532/commits/53d6f50dd2c326bca3d83b61137357d8ad7ed62e
    - details: >
-      coalaJSONTest: Revert wrong variable usage 
+      coalaJSONTest: Revert wrong variable usage
  - 22:
    - repo: autoflake
    - link: https://github.com/myint/autoflake/pull/23/commits/be622cfd511bb3bb65a36087991cb540ad53a32a
@@ -168,12 +168,12 @@ activity:
    - repo: coala
    - link: https://github.com/coala/coala/pull/4582/commits/256854c282b3e2a3f80403411aac10309684bfa4
    - details: >
-      AspectTestBear: Fix return result 
+      AspectTestBear: Fix return result
  - 26:
    - repo: coala
    - link: https://github.com/coala/coala/pull/4582/commits/c7135e93d64bf77980a70b03dcac55e4a300a6c5
    - details: >
-      BearTest: Make ``check_message`` could check regex 
+      BearTest: Make ``check_message`` could check regex
  - 27:
    - repo: coala
    - link: https://github.com/coala/coala/pull/4582/commits/1bd2e8793985c2e97605f3f35d563475861d4e7f
@@ -223,17 +223,17 @@ activity:
    - repo: coala
    - link: https://github.com/coala/coala/pull/4687/commits/1ea2609a43901c775ae48bb1d318e4fdd55279a9
    - details: >
-      Language: Add various language definition stub 
+      Language: Add various language definition stub
  - 37:
    - repo: coala
    - link: https://github.com/coala/coala/pull/4689/commits/30717d6c4183cd309ab827e2c269ef7a9365ad73
    - details: >
-      Language: Add PHP and Fortran language stub 
+      Language: Add PHP and Fortran language stub
  - 38:
    - repo: coala
    - link: https://github.com/coala/coala/pull/4689/commits/ffe3192c2f926bc27dc4dc9c9cfde1284c36f1c5
    - details: >
-      Language: Fix missing or wrong aliases 
+      Language: Fix missing or wrong aliases
  - 39:
    - repo: coala
    - link: https://github.com/coala/coala/pull/4689/commits/2fb27cf8f4399ec6aba36b86d2993e6c3b81d0ee
@@ -243,7 +243,7 @@ activity:
    - repo: coala-bears
    - link: https://github.com/coala/coala-bears/pull/2023/commits/08cb3b1f66ac7a5ecb880daa19289e89ebd9ecd0
    - details: >
-      TextLintBearTest: Modify `bad_alex_no_dead_link` 
+      TextLintBearTest: Modify `bad_alex_no_dead_link`
  - 41:
    - repo: coala-bears
    - link: https://github.com/coala/coala-bears/pull/2023/commits/52d75b58223cbd88f09701e1755726d953ed42ce
@@ -253,7 +253,7 @@ activity:
    - repo: coala-bears
    - link: https://github.com/coala/coala-bears/pull/2023/commits/2bff58313dbd12e5ebc00db492496e864f8eb4db
    - details: >
-      CPDBear: Use ``language`` correctly 
+      CPDBear: Use ``language`` correctly
  - 43:
    - repo: coala-bears
    - link: https://github.com/coala/coala-bears/pull/2017/commits/ac2a975df48feb9f70f51336640798e185da11eb
@@ -263,7 +263,7 @@ activity:
    - repo: coala-bears
    - link: https://github.com/coala/coala-bears/pull/2017/commits/1347da8a284b4ba36052f85e201c0eecf0cb5a79
    - details: >
-      PyUnusedCodeBear: Bump autoflake to v0.7 
+      PyUnusedCodeBear: Bump autoflake to v0.7
  - 45:
    - repo: demo-aspect
    - link: https://github.com/adhikasp/demo-aspect

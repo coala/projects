@@ -52,15 +52,15 @@ tags:
 [Jira](https://www.atlassian.com/software/jira) support.
 Many open source projects and companies use Jira.
 
-For more information about Jira and their REST API, you can look at 
+For more information about Jira and their REST API, you can look at
 [an existing Python implementation](https://github.com/pycontribs/jira#jira-python-library).
 
 This project involves adding a Jira implementation to [IGitt](https://gitlab.com/gitmate/open-source/IGitt/)
 as well as using that within [GitMate.io](https://gitmate.io/) (i.e. add webhooks and "signup with jira").
 
 We look forward to hearing about your approach to making this happen. If you
-want, you can define optional goals which could be little snippets of 
-automation targeted to Jira users. 
+want, you can define optional goals which could be little snippets of
+automation targeted to Jira users.
 (See also [our documentation about creating plugins](http://docs.gitmate.io/Developers/Writing_Plugin/).)
 
 Please ask us for a Jira license to play around with at any time.

@@ -56,7 +56,7 @@ activity:
   - 3:
       - repo: cEPs
       - link: https://github.com/coala/cEPs/pull/114/commits/ea25f09ae08b4bc7423453460b14cb16eb3a0db6
-      - details: > 
+      - details: >
          cEP-0016.md: Add cEP for the project.
   - 4:
       - repo: coala-bears

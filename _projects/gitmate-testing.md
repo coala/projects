@@ -2,7 +2,7 @@
 collaborating_projects:
   - GitMate
 desc: "GitMate.io is now an MVP with proper unit tests. However, we still lack
-       support for quick integration tests on feature additions and bug fixes. 
+       support for quick integration tests on feature additions and bug fixes.
        Kudos, if you could help us with that."
 developers_involved: []
 difficulty: medium
@@ -79,7 +79,7 @@ We have a whole lot of mocking before the actual testing begins. Therefore, we
 would like to see a clearly determined and viable approach with examples as to
 how they would simplify the testing in the applicant's proposal.
 
-Refer our base, 
+Refer our base,
 [GitmateTestCase](https://gitlab.com/gitmate/open-source/gitmate-2/blob/master/gitmate_config/tests/test_base.py)
 for more details on how our tests are run.
 

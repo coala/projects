@@ -20,7 +20,7 @@ phase:
   - Phase 2 : https://gitlab.com/coala/GSoC/GSoC-2018/milestones/39
   - Phase 3 : https://gitlab.com/coala/GSoC/GSoC-2018/milestones/40
 bio: >
-  Hi ! I am Viresh Gupta, an undergrad student at Indraprastha Institute of 
+  Hi ! I am Viresh Gupta, an undergrad student at Indraprastha Institute of
   Information Technology, Delhi, India. I love coding in and out and like to
   lay my hands on whatever tech I can find. I also love to read books, observe
   nature and star gaze in my free time. I chose coala for my GSoC project
@@ -297,10 +297,10 @@ depend on any external linting tools).
 
 As an outcome of this project, coala will be able to support any arbitrary
 language, provided there exists a grammar for it, and thus this project is a
-step towards the future of native bear development with coala.  
+step towards the future of native bear development with coala.
 
-Library availaible at: <https://gitlab.com/coala/bears/coala-antlr>  
-Docs hosted at: <https://virresh.gitlab.io/coala-antlr/>  
+Library availaible at: <https://gitlab.com/coala/bears/coala-antlr>
+Docs hosted at: <https://virresh.gitlab.io/coala-antlr/>
 
 ### Work Done
 
@@ -328,7 +328,7 @@ while leveraging the power of ANTLR.
 ##### antlr-v4-grammars
 
 Some issues were identified with the upstream grammars and were reported, along
-with suggested corrections as PR. 
+with suggested corrections as PR.
 [Link](https://github.com/antlr/grammars-v4/issues/created_by/virresh)
 
 ##### community
@@ -355,7 +355,7 @@ commits.
 
 ### Challenges
 
-Major challenge in the project for me was to come up with a library design 
+Major challenge in the project for me was to come up with a library design
 that's flexible enough to support all grammars, and yet powerful enough to
 leverage all features provided by a grammar.
 

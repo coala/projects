@@ -30,7 +30,7 @@ Why?
 ## Usage
 
 To clone the repository and run this website on your local machine, [install Jekyll](https://jekyllrb.com/docs/installation/) for your OS and type the following commands:
-				
+
     $ sudo gem install jekyll bundler
     $ git clone https://github.com/coala/projects.git
     $ cd projects
@@ -54,7 +54,7 @@ A sample project definition is available [here](https://github.com/coala/project
 
 Users can also add FAQs by simply creating a markdown file in _faq folder.
 
-Format for faq markdown file is as follows: 
+Format for faq markdown file is as follows:
 ```
 ---
 Question: <Write the question here>

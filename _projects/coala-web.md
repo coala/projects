@@ -41,12 +41,12 @@ tags:
 
 This project aims to increase the user base of coala and provide a web based
 interface to use coala on their projects. The project is conceptually built upon
-various previous projects (coala-gui, coala-html) which have helped us refine, 
+various previous projects (coala-gui, coala-html) which have helped us refine,
 redefine and revisit our GUI approach.
 
 By providing first time users a one click interface to obtain a coafile online
 and to run coala at coala.io on their projects by two means, by pasting the code
-in the given editor box, and by pasting the link to their GitHub repository in 
+in the given editor box, and by pasting the link to their GitHub repository in
 a link box. This will help them to get started with coala very easily.
 
 The next thing where the project will help us is that it will provide an
@@ -67,7 +67,7 @@ bot name in the issues section of their GitHub repositories, and then this bot
 will comment back with a coafile for their project. Additionaly it will also
 make a Pull Request with that coafile. The prototype can be found
 [here](https://github.com/hemangsk/gh-node-bot-prototype) and an example issue
-is [here](https://github.com/rahulcode22/Hackerrank/issues/6). 
+is [here](https://github.com/rahulcode22/Hackerrank/issues/6).
 
 #### Milestones
 
@@ -97,6 +97,6 @@ from coala-html.
 
 * Add CI on landing-frontend, projects and webServices.
 * Enhance coala-html UI and Add searching and filtering functionality.
-* Solve [coala-html#34](https://github.com/coala/coala-html/issues/34) and 
+* Solve [coala-html#34](https://github.com/coala/coala-html/issues/34) and
 [coala-html#33](https://github.com/coala/coala-html/issues/33)
 * Revisit code in landing-frontend, projects and webServices and add tests.

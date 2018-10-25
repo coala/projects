@@ -66,7 +66,7 @@ followed. Candidate is expected to incorporate their own ideas and designs.
 |    |     |  PlaceholderName : Help string related to the placeholder.
 |    |     |  More placeholders (only 2-3 placeholders are described, others(if any) can be displayed
 |    |     |  when the user selects to apply the Interactive Patch.
-|    | *0: Do nothing 
+|    | *0: Do nothing
 |    |  1: Open file(s)
 |    |  2: Apply interactive Patch
 |    |  3: Add ignore comment
@@ -99,7 +99,7 @@ the help of `fix_generation_function`.
 |    |  2: Apply patch
 |    |  3: Add ignore comment
 |    |  4: Show patch 2 (default name for the action, but can be customized)
-|    |  5: Show patch 3 (This option changes into “More Patches” option, 
+|    |  5: Show patch 3 (This option changes into “More Patches” option,
 |    |                   if there are more that 3 suggested patches)
 |    | Enter number (Ctrl-D to exit):
 ```
@@ -128,7 +128,7 @@ Example for a `NamingBear`
 |    |     | + {max_student_limit} = 5
 |    | *0: Do nothing
 |    |  1: Open file(s)
-|    |  2: Apply patch (changes Max_studentLimit to max_student_limit, has highest 
+|    |  2: Apply patch (changes Max_studentLimit to max_student_limit, has highest
                         confidence due to user\'s snake-case preference in coafile)
 |    |  3: Apply interactive patch (to let the user manually change the variable name)
 |    |  4: Show CONSTANTS patch (python specific, will propose to use MAX_STUDENT_LIMIT)

@@ -17,15 +17,15 @@ name: "One click linting for online projects in the browser"
 requirements:
   - "The applicant should be be familiar with bear creation and XML parsing using xpath or a similar query language"
   - "The applicant should be reasonable familiar with the coala codebase and the workings of REST APIs, including
-	 authentication."
+     authentication."
   - "The applicant has contributed to a relevant coala module, the Open Roberta platform, or both."
 tags:
   - Bears
   - Web
 ---
 
-**Disabled: This project is not available for GSOC 2018. 
-See OpenRoberta's GSOC 
+**Disabled: This project is not available for GSOC 2018.
+See OpenRoberta's GSOC
 [page](https://summerofcode.withgoogle.com/organizations/6256279438229504/)
 if you are interested in working with them**
 
@@ -66,7 +66,7 @@ additional certification through Fraunhofer IAIS in Sankt Augustin, Germany.
 * Familiarity with the OpenRoberta partner project is established and a method
   for external access is designed and implemented in a basic fashion
 * A design goal is reached with the coala project on how to integrate external
-  data sources into the coala web page, including mock-ups and a prototype 
+  data sources into the coala web page, including mock-ups and a prototype
   implementation for the UI
 
 ##### CODING PHASE 1

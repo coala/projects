@@ -16,7 +16,7 @@ requirements:
   - "The participant should have one bugfix patch to any bear accepted."
   - "The participant should have an understanding of the algorithms behind
      existing Generic bears and test framework for bears."
-  - "The proposal should contain issues which are planned to be addressed, 
+  - "The proposal should contain issues which are planned to be addressed,
      chosen (and potentially
      [filed](https://github.com/coala/coala-bears/issues/new)) by the student."
 tags:
@@ -50,7 +50,7 @@ Until then, they are mere prototypes to feed the everlasting hunger of new and
 cool things.
 These bears can be found
 [here](https://github.com/coala/coala-bears/tree/master/bears/general). Issues
-related to generic bears can be found 
+related to generic bears can be found
 [here](https://github.com/coala/coala-bears/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3Aarea%2Fgenericbears%20).
 
 The task is to fix as many issues with these bears and make them as usable

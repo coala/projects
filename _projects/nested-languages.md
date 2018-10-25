@@ -1,7 +1,7 @@
 ---
 collaborating_projects:
   - coala
-desc: "Multiple programming languages can coexist in the same source 
+desc: "Multiple programming languages can coexist in the same source
        file - coala should support writing code analysis that only works on
        parts of files."
 difficulty: high

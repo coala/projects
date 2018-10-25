@@ -148,5 +148,5 @@ https://github.com/coala/coala/issues/2912
 https://github.com/coala/coala/issues/2699
 https://github.com/coala/coala/issues/2541
 
-GSoC Proposal for this project:- 
+GSoC Proposal for this project:-
 https://docs.google.com/document/d/10FHYhRzK9IxroDoPxI5V_nWCR3DO-g-C-g12B0WKkQA/edit?usp=sharing

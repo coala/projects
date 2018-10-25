@@ -1,6 +1,6 @@
 ---
 question: "A showcased project on the website doesn't have a mentor, but
-	I'm interested in that project?"
+           I'm interested in that project?"
 ---
 You just have to choose a project and write an awesome proposal.
 Mentors are set after we choose the projects (which is done by choosing the students).

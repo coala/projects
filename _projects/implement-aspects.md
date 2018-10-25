@@ -125,6 +125,6 @@ and compare the result.
 * Ensure backward compatibility with old bears and configuration file.
 * Everything is documented properly.
 * Write AutoflakeBear that will use all of the aspect feature as a proof of
-  works. 
-* Integration test, run and compare coala result in a project with the new 
+  works.
+* Integration test, run and compare coala result in a project with the new
   aspect configuration and old configuration setup.

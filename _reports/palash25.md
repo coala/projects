@@ -87,7 +87,7 @@ activity:
       - repo: coala
       - link: https://github.com/coala/coala/commit/81bbca42f82319aed22ba7f90781d886d559d4dd
       - details: >
-         NextGen_Core.rst: Update caching section. 
+         NextGen_Core.rst: Update caching section.
   - 9:
       - repo: coala
       - link: https://github.com/coala/coala/commit/87d3dffd1a52c42ac60da0199ee34bd95827b8ff

@@ -37,8 +37,8 @@ installing these dependencies.
 
 Repology is a packaging hub. It analyzes a lot of package repositories and
 other sources, comparing packages versions across them and gatherinng relevant
-information. It shows you in which repositories a given project is packaged, 
-which version is the latest and which needs updating, who maintains the 
+information. It shows you in which repositories a given project is packaged,
+which version is the latest and which needs updating, who maintains the
 package, and other related information. The student has to use this information
 and implement improvments to the automated management of dependencies.
 
@@ -57,7 +57,7 @@ suitable scope and make a proposal accordingly.
 ##### CODING PHASE 1
 
 * All the existing LinterBears and Package Manager classes are connected with their respective Repology IDs.
-* Documentation added on how to do the same for new Linter Bears to 
+* Documentation added on how to do the same for new Linter Bears to
   [Writing Linter Bears](https://api.coala.io/en/latest/Developers/Writing_Linter_Bears.html)
 
 ##### CODING PHASE 2

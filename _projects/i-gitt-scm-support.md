@@ -31,9 +31,9 @@ However, there are some git hosters that are not yet supported by IGitt.
 One such hoster is BitBucket. So it is necessary to add BitBucket support to
 IGitt before using it to convert the VCS bears in coala-bears.
 
-Other git hosters like Gerrit and Phabricator are important for IGitt adoption 
+Other git hosters like Gerrit and Phabricator are important for IGitt adoption
 into large OSS organizations. So are some other non-git SCM, such as Fossil
-and Launchpad. 
+and Launchpad.
 
 Support for all these git hosters should be added to IGitt.
 
@@ -65,5 +65,5 @@ for this project is to make an enhancement to https://github.com/guyzmo/git-repo
 
 ##### CODING PHASE 3
 
-* Submit the new backends to the main IGitt repo hosted on GitLab. 
+* Submit the new backends to the main IGitt repo hosted on GitLab.
 * Add Fossil and Launchpad support to IGitt.

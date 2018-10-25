@@ -16,7 +16,7 @@ name: "Improve Lint Bear Quality"
 requirements:
   - "The participant should have one bugfix patch to any bear accepted."
   - "The participant should have understanding of the linter and test framework for bears."
-  - "The proposal should contain issues which are planned to be addressed, chosen 
+  - "The proposal should contain issues which are planned to be addressed, chosen
      (and potentially [filed](https://github.com/coala/coala-bears/issues/new)) by the student."
 status: disabled
 tags:
@@ -27,17 +27,17 @@ tags:
 
 This project is about improving the general quality of coala's linter bears.
 
-Since it is very easy to write them even for very inexperienced contributors, 
+Since it is very easy to write them even for very inexperienced contributors,
 linter bears in coala often suffer from mediocre quality, especially once they
 made it into the codebase.
 They do work, but not necessarily on all platforms or for all usecases. They are documented, but not
-necessarily understandable. They are tested, but lack corner cases or exploratory tests. 
+necessarily understandable. They are tested, but lack corner cases or exploratory tests.
 [See existing issues](https://github.com/coala/coala-bears/issues?q=is%3Aopen+is%3Aissue+label%3Aarea%2Flintbears)
 
 Students working on this project familiarize themselves in-depth with the
 working of the `linter` decorator and the existing linter bears. They identify
 systematic issues with the way linter bears are developed and maintained and
-work to fix those issues and improve and amend 
+work to fix those issues and improve and amend
 [existing documentation](http://api.coala.io/en/latest/Developers/Writing_Linter_Bears.html)
 to avoid them in the future. A number of existing bears is updated and improved to fit the new standards.
 
@@ -48,7 +48,7 @@ Possible areas to investigate include:
   cumbersome and ugly to add more test cases.
 * Support for underlying tool: The support for the underlying tool is mostly
   left to the contributers discretion. Students could come up with a guideline
-  on how well a tool's options must be supported and documented or even 
+  on how well a tool's options must be supported and documented or even
   automated ways to test for this (maybe via a bear?).
 
 #### Milestones
@@ -61,9 +61,9 @@ Possible areas to investigate include:
 
 ##### CODING PHASE 1
 
- * Ideas for how to solve each of the identified issues are drafted. 
+ * Ideas for how to solve each of the identified issues are drafted.
    If possible ways to automatically check bears are drafted.
- * Changes to the [linter bear documentation](http://api.coala.io/en/latest/Developers/Writing_Linter_Bears.html) 
+ * Changes to the [linter bear documentation](http://api.coala.io/en/latest/Developers/Writing_Linter_Bears.html)
    to improve quality of future bears are proposed.
  * A list of bears which suffer from any of the identified issues is composed.
 

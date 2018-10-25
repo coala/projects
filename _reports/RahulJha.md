@@ -44,7 +44,7 @@ activity:
  - 1:
    - repo: vulture
    - link: https://github.com/jendrikseipp/vulture/commit/e5012c424fdba1a6aa0b5da8e9befdf2e98e0fc9
-   - details: > 
+   - details: >
        Add tests for version.
  - 2:
    - repo: vulture
@@ -149,26 +149,26 @@ activity:
 
 <br>
 
-1.) In addition to the first line of unused code, Vulture now reports the last 
+1.) In addition to the first line of unused code, Vulture now reports the last
 line of unused code. The results can now also be sorted according to their size.
 
 <br>
 
-2.) Other than the conventional dead code (defined but not used), vulture 
+2.) Other than the conventional dead code (defined but not used), vulture
 now also finds unsatisfiable conditions in `if/while` statements. Also,
-any code appearing after `return`, `break`, `continue` and `raise` statements 
+any code appearing after `return`, `break`, `continue` and `raise` statements
 is also reported as dead code.
 
 <br>
 
-3.) Confidence values are now reported with every result. Also, a 
-`min_confidence` parameter can be passed to Vulture. It then only reports 
+3.) Confidence values are now reported with every result. Also, a
+`min_confidence` parameter can be passed to Vulture. It then only reports
 results for which `confidence` > `min_confidence`.
 
 <br>
 
-4.) The Vulture API has been extended and it now exhibits all characteristics 
-of dead code, like `confidence`, `first_lineno`, `last_lineno`, `message`, etc. 
+4.) The Vulture API has been extended and it now exhibits all characteristics
+of dead code, like `confidence`, `first_lineno`, `last_lineno`, `message`, etc.
 It provides user with much more flexibility for automating tests with Vulture.
 
 <br>

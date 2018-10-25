@@ -5,5 +5,4 @@ Other than the [requirements from Google](https://developers.google.com/open-sou
 
 * You have completed the [coala Newcomers guide](https://coala.io/newcomer)
 * You have a submission to [our usability survey](https://coala.io/usability)
-	so we know that you know how to *use coala*.
-	
+  so we know that you know how to *use coala*.

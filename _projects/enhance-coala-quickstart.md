@@ -51,9 +51,9 @@ However, there’s scope for improvement in the following areas:
   files are to be linted with csslint, we could use this information to target
   CSSLintBear at exactly these files.
 - Improving the interface:
-	- Removing non user-friendly warnings.
-	- Increasing automation.
-	- Validate user input before writing to the generated coafile.
+    - Removing non user-friendly warnings.
+    - Increasing automation.
+    - Validate user input before writing to the generated coafile.
 - Continuous Integration: Like other coala repositories, add Appveyor
   (Windows) and Travis (OSX) integartions.
 
