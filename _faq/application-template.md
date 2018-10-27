@@ -1,7 +1,7 @@
 ---
 question: "Do you have an application template?"
 ---
-coala 2018 Application Template
+coala {{ "now" | date: "%Y" | plus:"1" }} Application Template
 ===============================
 
 ```
