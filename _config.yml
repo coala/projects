@@ -6,6 +6,8 @@ baseurl: ""  # the subpath of your site, e.g. /blog
 url: ""  # the base hostname & protocol for your site
 githuburl: "https://github.com/coala/projects"
 
+gsoc_switch_month: 6
+
 plugins:
   - jekyll-netlify
 
