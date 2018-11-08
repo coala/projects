@@ -10,6 +10,7 @@ organisation_link: https://coala.io
 project: Integrate pyflakes-enhanced AST into coala
 project_link: https://summerofcode.withgoogle.com/projects/#5549789140221952
 tarball: https://rawgit.com/MacBox7/GSoC-Report/master/project.tar.gz
+sha256sum: cf0c8e3daded8b61384a7ebf7d5ce17b535ce165f9e4694c986f1bf9e4ab9e68
 mentors: >
  [John Vandenberg](https://github.com/jayvdb),
  [Adhika Setya Pramudita](https://github.com/adhikasp),

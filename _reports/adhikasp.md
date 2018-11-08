@@ -10,6 +10,7 @@ organisation_link : https://coala.io
 project: Implement Aspect
 project_link: https://summerofcode.withgoogle.com/projects/#5847850440196096
 tarball: https://rawgit.com/adhikasp/GSoC-2017-Report/master/adhikasp_tarball.tar.gz
+sha256sum: c3b80d5e1dcc5d30ca2409267d56d978abfb0ccb7f1d05abb77b208cda1ab2b9
 mentors: >
  [John Vandenberg](http://github.com/jayvdb),
  [Stefan Zimmermann](https://github.com/userzimmermann),

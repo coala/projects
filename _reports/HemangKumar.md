@@ -10,6 +10,7 @@ organisation_link : https://coala.io
 project: Improve coala Website & Supporting Tools
 project_link: https://summerofcode.withgoogle.com/projects/#6012382913495040
 tarball: https://github.com/hemangsk/GSoCReport/raw/master/hemangsk_coala.tar
+sha256sum: 8ecf7e3155a764db16c21652943bdcde70a40865fcc7dc5f20f5e56dee48de09
 mentors: >
  [Lasse Schuirmann](https://github.com/sils) & [Fabian Neuschmidt](https://github.com/fneu)
 phase:

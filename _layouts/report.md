@@ -82,6 +82,14 @@
                             <div class="center"><h5 class="light no-margin">Patches Tarball</h5></div>
                             <br>
                             <div class="center"><a href="{{ page.tarball }}">Download</a></div>
+                            <br>
+                            <div class="center sha256sum_hash">
+                                <strong>SHA-256</strong>:
+                                <p id="sha256sum_hash_value">
+                                    {{page.sha256sum}}
+                                </p>
+                                <i class="fa fa-clipboard" aria-hidden="true"><span class="hinttext">Copy Hash value</span></i>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -147,5 +155,21 @@
             </div>
             <br><br>
         </div>
+        <script>
+        $('document').ready(function(){
+            var hash_value = document.getElementById('sha256sum_hash_value').textContent.trim();
+            document.getElementById('sha256sum_hash_value').textContent = hash_value.substring(0,7);
+            document.querySelector('.fa-clipboard').addEventListener('click', function(){
+                var new_element = document.createElement('textarea');
+                $('new_element:first').addClass('hash_value_dup');
+                new_element.value = hash_value;
+                new_element.setAttribute('readonly', '');
+                document.body.appendChild(new_element);
+                new_element.select();
+                document.execCommand('copy');
+                document.body.removeChild(new_element);
+                });
+        })
+        </script>
     </body>
 </html>

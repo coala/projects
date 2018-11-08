@@ -1,3 +1,41 @@
+.hash_value_dup {
+  position: 'absolute';
+  left: '-9999px';
+}
+.hinttext {
+  visibility: hidden;
+  width: 120px;
+  background-color: gray;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  top: 95%;
+  left: 60%;
+  margin-left: -60px;
+}
+.hinttext::after {
+  content: " ";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent gray transparent;
+}
+.fa-clipboard:hover {
+  cursor: pointer;
+}
+.fa-clipboard:hover .hinttext {
+  visibility: visible;
+}
+.project-detail-element > .clickable:hover, .clickable:hover .chip:hover {
+  cursor: pointer;
+  background-color: #f3f5f8;
+}
 .report .card {
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.0), 0 1px 1px 0 rgba(0, 0, 0, 0.0), 0 1px 1px 0px rgba(0, 0, 0, 0.05);
   margin-bottom: 0 !important;
@@ -70,18 +108,21 @@
     display: none;
   }
 }
-.theatre .name {
-  padding-left: 0.5em;
-  padding-right: 0.5em;
-}
-
-.project-detail-element > .clickable:hover, .clickable:hover .chip:hover {
-  cursor: pointer;
-  background-color: #f3f5f8;
-}
 .ribbon {
   position: absolute;
   top: 0; right: 0;
   border: 0;
   z-index: 9;
+}
+.sha256sum_hash {
+  display: flex;
+  justify-content: space-evenly;
+}
+.theatre .name {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+#sha256sum_hash_value {
+  word-wrap: break-word;
 }

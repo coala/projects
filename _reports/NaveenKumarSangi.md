@@ -10,6 +10,7 @@ organisation_link: https://coala.io
 project: Extending GitMatev2.0 to support GitLab and Bitbucket
 project_link: https://summerofcode.withgoogle.com/projects/#4985377849868288
 tarball: https://rawgit.com/nkprince007/GSoCReport/master/project.tar
+sha256sum: 320d138d599bc8fe6cb7a109f1f78f0dc24f30dc1c8fcf3f18240d32cd4573ca
 mentors: >
  [Lasse Schuirmann](https://github.com/sils) & [Fabian Neuschmidt](https://github.com/fneu)
 phase:

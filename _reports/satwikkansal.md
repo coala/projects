@@ -10,6 +10,7 @@ organisation_link: https://coala.io
 project: Enhance coala-quickstart
 project_link: https://summerofcode.withgoogle.com/projects/#4853947354316800
 tarball: https://rawgit.com/satwikkansal/GSoC-Report/master/patches.tar
+sha256sum: 0296b7a4c12e367b0ef27c02595f93069805c69b6a3d59f3e41e64a105c7f393
 mentors: >
  [Adhityaa](https://github.com/adtac) & [Zatreanu Adrian-Gabriel](https://github.com/Adrianzatreanu)
 phase:

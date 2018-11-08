@@ -10,6 +10,7 @@ organisation_link : https://coala.io
 project: Removing dead code with Vulture
 project_link: https://summerofcode.withgoogle.com/projects/#6564412442804224
 tarball: https://github.com/RJ722/vulture/files/1255118/GSoC_RJ722_Rahul_Jha.tar.gz
+sha256sum: 7190862f40822b83b020c5db2d3d6db6b065829c90171710bf48cd5112cdeb6a
 mentors: >
  [Jendrik Seipp](https://github.com/jendrikseipp)
 phase:

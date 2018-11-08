@@ -10,6 +10,7 @@ organisation_link: https://coala.io
 project: cobot enhancement, testing and porting
 project_link: https://summerofcode.withgoogle.com/projects/#4913450777051136
 tarball: https://rawgit.com/meetmangukiya/GSoCReport/master/patches.tar
+sha256sum: cf47c2ae5a3b450c547d8e49c284703d7f1698699c927ede4ae8abbe7b46e1b7
 mentors: >
  [Udayan Tandon](https://github.com/udayan12167) & [Dmytro Sadovnychyi](https://github.com/sadovnychyi)
 phase:

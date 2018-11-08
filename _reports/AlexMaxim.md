@@ -11,6 +11,7 @@ organisation_link : https://coala.io
 project: Improve the coala CLI
 project_link: https://summerofcode.withgoogle.com/projects/#4940869170888704
 tarball: https://rawgit.com/Nosferatul/GSoCReport/master/Nosferatul_coala.tar
+sha256sum: ad04739a67b822ee73b764d78554a47615450321bc52a996b04a136e99fe37f9
 mentors: >
  [Adrian Zatreanu](https://github.com/Adrianzatreanu) & [Muhammad Kaisar Arkhan](https://github.com/yukiisbored)
 phase:
