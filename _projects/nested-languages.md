@@ -14,7 +14,6 @@ markdown: nested-languages.md
 mentors:
   - corona10
   - Udayan12167
-  - NiklasMM
 name: "Handle Nested Programming Languages"
 requirements:
   - "At least one patch to the coala core should be accepted and merged."

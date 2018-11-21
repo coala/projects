@@ -9,7 +9,6 @@ initiatives:
 issues: []
 markdown: bear-updates.md
 mentors:
-  - NiklasMM
   - AbdealiJK
   - mixih
 name: "Improve Lint Bear Quality"

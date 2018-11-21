@@ -12,7 +12,6 @@ issues: []
 markdown: documentation-extraction.md
 mentors:
   - SanketDG
-  - NiklasMM
 name: "Documentation Extraction and Parsing"
 requirements:
   - "The participant should have one bugfix patch to any bear accepted."
