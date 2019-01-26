@@ -29,14 +29,25 @@ Why?
 
 ## Usage
 
-To clone the repository and run this website on your local machine, [install Jekyll](https://jekyllrb.com/docs/installation/) for your OS and type the following commands:
+### Dependencies
 
-    $ sudo gem install jekyll bundler
+1. Install [asdf-vm](https://asdf-vm.github.io/asdf/#/core-manage-asdf-vm) for your OS.
+2. Using asdf-vm, install [ruby](https://github.com/asdf-vm/asdf-ruby).
+3. Install Jekyll
+    
+        $ gem install jekyll bundler
+
+### Clone and Run
+
+Clone coala Projects repository
+    
     $ git clone https://github.com/coala/projects.git
+    
+Run coala Projects website
+
     $ cd projects
     $ bundle install
     $ bundle exec jekyll serve
-
 
 Then you can simply go to either of the following addresses in your browser to access the site:
 
