@@ -1,3 +1,5 @@
+---
+---
 (function(){
     var app = angular.module('coala', ['ngSanitize','btford.markdown', 'ngRoute']);
 
@@ -385,6 +387,16 @@
                 self = this
                 self.mentorsList = {}
                 self.adminsList = {}
+
+                $scope.getGsocYear = function() {
+                    var gsocSwitchMonth = {{ site.gsoc_switch_month }}
+                    var currentDate = new Date()
+                    if (currentDate.getMonth() >= gsocSwitchMonth) {
+                        return currentDate.getFullYear() + 1
+                    } else {
+                        return currentDate.getFullYear()
+                    }
+                }
 
                 $http.get('data/projects.liquid')
                     .then(function (res) {
