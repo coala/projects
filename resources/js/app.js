@@ -90,7 +90,7 @@
         }
     })
 
-    app.directive('projects',  ['$http',  '$timeout', '$location', 'Languages', function ($http, $timeout, $location, Languages) {
+    app.directive('projects', ['$http', '$timeout', '$location', 'Languages', 'orderByFilter', function ($http, $timeout, $location, Languages, orderBy) {
         return {
             restrict: 'E',
             templateUrl: '/partials/tabs/projects.html',
@@ -106,6 +106,10 @@
 
                 $scope.sortOrder = function(project) {
                     return mapping[project.status];
+                }
+
+                $scope.sortProjects = function () {
+                    $scope.projectList = orderBy($scope.projectList, 'mapped_status');
                 }
 
                 $scope.getDefaultProjectsMetadata = function () {
@@ -265,8 +269,12 @@
                     $scope.projects_url_list = Object.keys($scope.projects_url_dict);
                     angular.forEach($scope.projectList, function(value, key){
                         value["url"] = encodeURIComponent(value["name"].split(' ').join('_').toLowerCase());
+                        var mapped_status = $scope.sortOrder(value);
+                        $scope.projectList[key]['mapped_status'] = mapped_status;
                         $scope.projects_url_dict[value["url"]] = key
                     });
+
+                    $scope.sortProjects();
 
                     var project_requested = encodeURIComponent($location.search().project);
                     if(project_requested){
