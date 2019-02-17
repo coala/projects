@@ -1,0 +1,13 @@
+---
+---
+[
+{% for report in site.reports %}
+{
+ "categories": [{% for category in report.categories %}"{{ category }}"{% unless forloop.last %},{% endunless %}{% endfor %}],
+ "date": "{{ report.date }}",
+ "student": "{{ report.student }}",
+ "project": "{{ report.project }}",
+ "project_link": "{{ report.project_link }}",
+ "url": "{{ report.url }}"
+}{% unless forloop.last %},{% endunless %}{% endfor %}
+]

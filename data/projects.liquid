@@ -4,6 +4,7 @@
 {% for post in site.projects %}
 {
 "name" : "{{ post.name }}",
+"title" : "{{ post.improved_title }}",
 "desc" : "{{ post.desc }}",
 "requirements" : [{% for req in post.requirements %}"{{ req }}"{% unless forloop.last %},{% endunless %}
 {% endfor %}],
