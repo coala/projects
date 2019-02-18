@@ -1,12 +1,28 @@
 title: coala Projects
-license: GNU AFFERO GENERAL PUBLIC LICENSE V3.0
+license:
+  full_form: GNU AFFERO GENERAL PUBLIC LICENSE V3.0
+  short_form: GNU AGPL v3.0
 organization: coala
 description: A website that showcases interesting projects, using Angular JS.
 baseurl: ""  # the subpath of your site, e.g. /blog
 url: ""  # the base hostname & protocol for your site
 githuburl: "https://github.com/coala/projects"
 
+gitter:
+  gsoc:
+    room: "https://gitter.im/coala/coala/gsoc"
+
 gsoc_switch_month: 6
+
+org:
+  site_links:
+    documentation: "https://coala.io/docs"
+    newcomer_doc: "https://coala.io/newcomer"
+    code_of_conduct: "https://coala.io/coc"
+    blog: "https://blog.coala.io"
+
+twitter:
+  username: coala_io
 
 plugins:
   - jekyll-netlify

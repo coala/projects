@@ -74,11 +74,65 @@
       </select>
     </div>
   </main>
-  <footer class="page-footer footer-light transparent">
-    <div class="row">
-      <div class="col m6 offset-m3 center"> <img class="footer-logo" src="https://api.coala.io/en/latest/_static/images/coala_logo.svg" alt="coala"> <span class="footer-title">{{ site.organization }}</span> </div>
+  <footer class="page-footer">
+    <div class="row center for-mobile"> <a class="github-button" href="{{ site.githuburl }}" data-size="large">Fork</a> </div>
+    <div class="container">
+        <div class="row">
+            <div class="col m3 s12">
+                <h5 class="white-text fine">Site Links</h5>
+                <ul>
+                    <li><a class="grey-text text-lighten-3" href="{{ site.org.site_links.documentation }}">Documentation</a></li>
+                    <li><a class="grey-text text-lighten-3" href="{{ site.org.site_links.newcomer_doc }}">Newcomer Docs</a></li>
+                    <li><a class="grey-text text-lighten-3" href="{{ site.org.site_links.code_of_conduct }}">Code of Conduct</a></li>
+                    <li><a class="grey-text text-lighten-3" href="{{ site.org.site_links.blog }}">Blog</a></li>
+                </ul>
+            </div>
+            <div class="col m9 s12 center">
+              <div class="center">
+                <h3 class="fine white-text">
+                  <span>
+                    <img class="footer-logo" src="https://api.coala.io/en/latest/_static/images/coala_logo.svg" alt="coala">
+                  </span>
+                  <span>{{ site.organization }}</span>
+                </h3>
+              </div>
+              <div class="center footer-icons">
+                <span class="icon">
+                  <a href="https://twitter.com/{{ site.twitter.username }}" target="_blank" class="btn center">
+                    <i class="fa fa-twitter" aria-hidden="true">
+                      Follow us on Twitter
+                    </i>
+                  </a>
+                </span>
+                <span class="icon">
+                  <a href="{{ site.gitter.gsoc.room }}" target="_blank" class="btn center">
+                    <i class="fa fa-commenting-o" aria-hidden="true">
+                      Join Chat on Gitter
+                    </i>
+                  </a>
+                </span>
+                <span class="icon">
+                  <a href="{{ site.githuburl }}" target="_blank" class="btn center">
+                    <i class="fa fa-github" aria-hidden="true">
+                      Star us on GitHub
+                    </i>
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
-    <div class="footer-small-title center"> <span class="blue-grey-text text-lighten-3 uppercase"> Licensed under {{ site.license }}</span> </div>
+    <div class="footer-copyright">
+        <div class="container">
+            <span class="left">
+                ©
+                <span id="current-year"></span>
+                coala
+            </span>
+            <span class="grey-text text-lighten-4 right">{{ site.licence.short_form }}</span>
+        </div>
+    </div>
   </footer>
 </body>
 
@@ -89,6 +143,7 @@
 $(document).ready(function () {
     $('select').material_select();
     $(".button-collapse").sideNav();
+    $('#current-year').html(new Date().getFullYear());
     $('.github-card').html('<img src="http://placehold.it/100x100" />')
 })
 </script>

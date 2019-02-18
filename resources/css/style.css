@@ -35,8 +35,17 @@
 .fa-clipboard:hover .hinttext {
   visibility: visible;
 }
+.footer-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  line-height: 3em;
+}
 .gsoc-students {
   margin-top: 1em;
+}
+.icon {
+  color: white;
 }
 .justify-text {
   text-align: justify;
