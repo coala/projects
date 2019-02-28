@@ -11,6 +11,7 @@ markdown: generic-bears.md
 mentors:
   - abhsag24
   - Mixih
+  - damngamerz
 name: "Improve Generic Bear Quality"
 requirements:
   - "The participant should have one bugfix patch to any bear accepted."
