@@ -34,15 +34,15 @@ Why?
 1. Install [asdf-vm](https://asdf-vm.github.io/asdf/#/core-manage-asdf-vm) for your OS.
 2. Using asdf-vm, install [ruby](https://github.com/asdf-vm/asdf-ruby).
 3. Install Jekyll
-    
+
         $ gem install jekyll bundler
 
 ### Clone and Run
 
 Clone coala Projects repository
-    
+
     $ git clone https://github.com/coala/projects.git
-    
+
 Run coala Projects website
 
     $ cd projects
