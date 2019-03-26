@@ -25,6 +25,7 @@ requirements:
   shell in his proposal."
   - "The participant should have sufficient knowledge in dealing with py.test
   and Django."
+status: disabled
 tags:
   - GitMate
   - py.test
