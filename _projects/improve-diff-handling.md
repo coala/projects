@@ -11,7 +11,6 @@ issues:
 markdown: improve-diff-handling.md
 mentors:
   - satwikkansal
-  - sils
   - jayvdb
 name: "Improve Diff Handling"
 requirements:
