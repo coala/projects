@@ -55,6 +55,9 @@
             when('/faq', {
                 template: '<faq></faq>'
             }).
+            when('/forms', {
+                template: '<forms></forms>'
+            }).
             otherwise({
                 redirectTo: '/projects'
             });
@@ -437,6 +440,23 @@
 
             },
             controllerAs: "gic"
+        }
+    }]);
+
+    app.directive('forms', ['$http', function ($http) {
+        return {
+            restrict: 'E',
+            templateUrl: '/partials/tabs/forms.html',
+            controller: function ($scope, $rootScope) {
+                self = this
+                self.formsList = []
+
+                $http.get('https://webservices.coala.io/osforms')
+                    .then(function (forms) {
+                        self.formsList = forms.data
+                    })
+            },
+            controllerAs: "osforms"
         }
     }]);
 

@@ -1,5 +1,12 @@
+.apply-flex {
+  display: flex;
+  justify-content: center;
+}
 .black-shadow {
   box-shadow: 0 0 15px 2px black;
+}
+.center-align-text {
+  text-align: center;
 }
 .hash_value_dup {
   position: 'absolute';
