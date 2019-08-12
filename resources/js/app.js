@@ -58,6 +58,9 @@
             when('/forms', {
                 template: '<forms></forms>'
             }).
+            when('/events', {
+                template: '<events></events>'
+            }).
             otherwise({
                 redirectTo: '/projects'
             });
@@ -650,6 +653,65 @@
                     })
             },
             controllerAs: "osforms"
+        }
+    }]);
+
+    app.directive('events', ['$http', function ($http) {
+        return {
+            restrict: 'E',
+            templateUrl: '/partials/tabs/events.html',
+            controller: function ($scope, $rootScope) {
+                var today = new Date()
+                $scope.eventsData = []
+                $scope.eventsList = {
+                    ongoing_events: {
+                        name: 'Ongoing Event(s)',
+                        events: []
+                    },
+                    upcoming_events: {
+                        name: 'Upcoming Events(s)',
+                        events: []
+                    },
+                    past_events: {
+                        name: 'Past Event(s)',
+                        events: []
+                    }
+                }
+
+                $http.get('https://webservices.coala.io/calendar')
+                .then(function(result){
+                    self.eventsData = result.data
+                })
+
+                $scope.groupEvents = function(){
+                    angular.forEach($scope.eventsData, function(event){
+                        var event_start_time = new Date(event.start_date_time)
+                        if(event.end_date_time === null){
+                            var event_end_time = new Date(today.getTime() + 86400000)
+                        }
+                        else{
+                            var event_end_time = new Date(event.end_date_time)
+                        }
+
+                        if(event_start_time <= today && today <= event_end_time) {
+                            $scope.eventsList.ongoing_events.events.push(event)
+                        }  // ongoing event
+                        else if (event_end_time < today &&
+                            ((today - event_start_time) / (86400000) <= 90)) {
+                            $scope.eventsList.past_events.events.push(event)
+                        }  // has happened in last 3 months
+                        else if(
+                            event_start_time > today && event_end_time > today &&
+                            ((event_start_time - today) / (86400000) <= 90)) {
+                            $scope.eventsList.upcoming_events.events.push(event)
+                        }  // will occur in next 3 months
+                    })
+                }
+
+                $scope.groupEvents()
+
+            },
+            controllerAs: "ed"
         }
     }]);
 

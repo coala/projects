@@ -19,6 +19,15 @@
 .black-shadow {
   box-shadow: 0 0 15px 2px black;
 }
+.break-word {
+  word-wrap: break-word;
+}
+.center-align-text {
+  text-align: center;
+}
+.constant-content-height {
+  height: 150px;
+}
 .center-content {
   justify-content: center;
 }
@@ -30,6 +39,13 @@
 }
 .display-none {
   display: none;
+}
+.event-card {
+  width: 320px;
+  margin-right: 20px;
+}
+.events-detail {
+  margin: 15px 0;
 }
 .evenly-spread-content {
   justify-content: space-evenly;
@@ -97,6 +113,15 @@
 }
 i.fa {
   cursor: pointer;
+}
+.lighter-font {
+  font-weight: lighter;
+}
+.no-events-available {
+  font-size: 1.2em;
+  height: 30vh;
+  justify-content: center;
+  flex-direction: column;
 }
 .project-detail-element > .clickable:hover, .clickable:hover .chip:hover {
   cursor: pointer;
