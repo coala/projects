@@ -31,6 +31,10 @@
 .center-content {
   justify-content: center;
 }
+.closed {
+  background-color: #cb2431;
+  color: white
+}
 .close-filters {
   right: 6%;
   margin-top: 1.25rem;
@@ -117,11 +121,22 @@ i.fa {
 .lighter-font {
   font-weight: lighter;
 }
+.merged {
+  background-color: #6f42c1;
+  color: white;
+}
 .no-events-available {
   font-size: 1.2em;
   height: 30vh;
   justify-content: center;
   flex-direction: column;
+}
+.no-state {
+  background-color: #e4e4e4;
+}
+.open, .opened {
+  background-color: #2cbe4e;
+  color: white;
 }
 .project-detail-element > .clickable:hover, .clickable:hover .chip:hover {
   cursor: pointer;

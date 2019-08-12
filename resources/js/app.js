@@ -121,6 +121,7 @@
                     self.displayFilters = !self.displayFilters
                     $('select').material_select();
                 }
+                self.issueStates = {}
 
                 $scope.sortOrder = function(project) {
                     return mapping[project.status];
@@ -480,6 +481,34 @@
                 }
 
                 $scope.getAllFilters();
+                self.getIssueStateClass = function(issue){
+                    return self.issueStates[issue]
+                }
+
+                function getIssueState(issue) {
+                    self.issueStates[issue] = 'no-state'
+                    $http({
+                        method: 'GET',
+                        url: 'https://webservices.coala.io/issue/details',
+                        params: { url: issue }
+                    }).then(function (response) {
+                        var issue_data = response.data
+                        self.issueStates[issue] = issue_data.state
+                    })
+                }
+
+                function getAllRelatedIssuesState(){
+                    $http.get('data/projects.liquid')
+                        .then(function (res) {
+                            angular.forEach(res.data, function(project){
+                                angular.forEach(project.issues, function(issue){
+                                    getIssueState(issue)
+                                })
+                            })
+                        })
+                }
+                getAllRelatedIssuesState()
+
             },
             controllerAs: 'lc'
         }
