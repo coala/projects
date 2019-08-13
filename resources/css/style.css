@@ -1,3 +1,6 @@
+.break-word {
+  word-wrap: break-word;
+}
 .hash_value_dup {
   position: 'absolute';
   left: '-9999px';
@@ -31,6 +34,12 @@
 }
 .fa-clipboard:hover .hinttext {
   visibility: visible;
+}
+.gsoc-students {
+  margin-top: 1em;
+}
+.justify-text {
+  text-align: justify;
 }
 nav {
   background-color: #37474f;
@@ -101,6 +110,9 @@ nav {
 .report .padding-table tbody tr {
   border-bottom: 1px solid aliceblue;
 }
+.report-url a {
+  color: #f57f17 !important;
+}
 @media only screen and (min-width: 993px) {
   .container {
       width: 90% !important;
@@ -123,6 +135,9 @@ nav {
 .sha256sum_hash {
   display: flex;
   justify-content: space-evenly;
+}
+.students {
+  padding: 0 20px;
 }
 .theatre .name {
   padding-left: 0.5em;

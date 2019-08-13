@@ -1,0 +1,60 @@
+---
+title: coala GSoC Projects Report
+---
+<!DOCTYPE html>
+<div class="main-content container-fluid">
+  <div class="row">
+    <div class="col m8 offset-m2">
+      <h1 class="fine center">Hello World!</h1>
+      <h4 class="light center">
+       The students who've participted in Google Summer of Code with {{ site.organization }}
+      </h4>
+    </div>
+  </div>
+</div>
+<div class="main-content students">
+  {% assign reportsByYear = site.reports | group_by_exp:"report", "report.date | date: '%y'" %}
+  <div class="row">
+    <div class="col s12">
+      <ul class="tabs transparent-bg">
+        {% for year in reportsByYear reversed %}
+        <li class="tab col s2"><a href="#gsoc-{{ year.name }}" class="large-font">GSoC'{{ year.name }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% for year in reportsByYear reversed %}
+    <section id="gsoc-{{ year.name }}">
+      <div class="container">
+        <div class="row user">
+          <div class="parent-wrapper">
+            <div class="gsoc-students">
+              <div class="parent">
+                {% for report in year.items %}
+                <div class="card child card-main sc">
+                  <a href="{{ report.social[0].GitHub[1].link }}" class="gh-user" target="_blank">
+                  <div class="empty"></div>
+                  <div class="data thumbnail center" style="max-height: 150px;">
+                    <img src="https://github.com/{{ report.social[0].GitHub[0].username }}.png"
+                        alt="{{ report.student }}" class="center dp" height="100" title="{{ report.student }}"
+                        data-proofer-ignore>
+                    <div class="handle center yellow-text text-darken-4 report-url">
+                      <a href="{{ report.url }}.html">{{ report.project }}</a>
+                    </div>
+                  </div>
+                  </a>
+                </div>
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    {% endfor %}
+  </div>
+</div>
+<script>
+$(document).ready(function () {
+    $('.students .tabs').tabs();
+})
+</script>

@@ -1,25 +1,12 @@
----
-title: coala GSoC project reports
----
-
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{{ page.title }}</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="../resources/css/style.css">
   </head>
-
-  <body class="report">
-    <h1>{{ page.title }}</h1>
-    {% assign reportsByYear = site.reports | group_by_exp:"report", "report.date | date: '%Y'" %}
-    {% for year in reportsByYear reversed %}
-      <h2>{{ year.name }}</h2>
-      <ul>
-        {% for report in year.items %}
-          <li><a href="{{ report.url }}.html">{{ report.student }}: {{ report.project }}</a></li>
-        {% endfor %}
-      </ul>
-    {% endfor %}
-  </body>
+  <body></body>
+  <script>
+      window.onload = function(){
+          window.open('/#/students', '_self');
+      };
+  </script>
 </html>

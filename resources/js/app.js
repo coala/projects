@@ -55,6 +55,9 @@
             when('/faq', {
                 template: '<faq></faq>'
             }).
+            when('/students', {
+                template: '<students></students>'
+            }).
             otherwise({
                 redirectTo: '/projects'
             });
@@ -413,6 +416,15 @@
 
             },
             controllerAs: "gic"
+        }
+    }]);
+
+    app.directive('students', ['$http', function ($http) {
+        return {
+            restrict: 'E',
+            templateUrl: '/partials/tabs/students.html',
+            controller: function ($scope, $rootScope) { },
+            controllerAs: "gsoc"
         }
     }]);
 

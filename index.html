@@ -52,6 +52,11 @@
               FAQs
             </a>
           </li>
+          <li ng-class="{active:nc.isSet('/students')}">
+            <a ng-click="nc.setView('/students')" onmousedown="keyPressed(event, '#/students')" onerror="">
+              GSoC Students
+            </a>
+          </li>
           <li><a href="{{ site.githuburl }}" target="_blank" title="Fork us on GitHub"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a></li>
         </ul>
       </div>
@@ -60,6 +65,7 @@
       <li ng-class="{active:nc.isSet('/projects')}"><a class="uppercase" ng-click="nc.setView('/projects')" onmousedown="keyPressed(event, '#/projects')">Projects</a></li>
       <li ng-class="{active:nc.isSet('/mentors')}"><a class="uppercase" ng-click="nc.setView('/mentors')" onmousedown="keyPressed(event, '#/mentors')">Mentors</a></li>
       <li ng-class="{active:nc.isSet('/faq')}"><a ng-click="nc.setView('/faq')" onmousedown="keyPressed(event, '#/faq')" onerror="">FAQs</a></li>
+      <li ng-class="{active:nc.isSet('/students')}"><a ng-click="nc.setView('/students')" onmousedown="keyPressed(event, '#/students')" onerror="">GSoC Students</a></li>
       <li><a href="{{ site.githuburl }}" target="_blank" title="Fork us on GitHub"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a></li>
     </ul>
     <div ng-view=""></div>
