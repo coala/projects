@@ -25,16 +25,18 @@
             </div>
             <br>
             <div class="row no-margin">
-                <div class="col m6">
+                <div class="col m12 l6">
                     <div class="card flex1">
                         <div class="card-content">
                             <h5 class="light no-margin"><a href="{{page.organisation_link}}">{{ page.organisation }}</a></h5>
                             <h3 class="light">{{ page.student }}</h3>
-                            <p>{{page.bio | markdownify}}</p>
+                            <div class="justify-text">
+                                <p>{{page.bio | markdownify}}</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col m3">
+                <div class="col s6 l3">
                     <div class="card flex1">
                         <div class="card-content">
                             <div class="center"><h4 class="light no-margin">Project Title</h4></div>
@@ -46,11 +48,11 @@
                         <div class="card-content">
                             <div class="center"><h4 class="light no-margin">GSoC Blog</h4></div>
                             <br>
-                            <div class="center"><a class="blog-link" href="{{ page.blog }}">{{ page.blog }}</a></div>
+                            <div class="center break-word"><a class="blog-link" href="{{ page.blog }}">{{ page.blog }}</a></div>
                         </div>
                     </div>
                 </div>
-                <div class="col m3">
+                <div class="col s6 l3">
                     <div class="card flex1">
                         <div class="card-content links-section">
                             {% for ih in page.social %}
@@ -67,7 +69,7 @@
                             <br>
                             <div class="row no-margin center">
                                 <div class="col m3"><i class="fa fa-envelope-o"></i></div>
-                                <div class="col m9"><a href="mailto:{{ page.email }}">{{ page.email }}</a></div>
+                                <div class="col m9 break-word"><a href="mailto:{{ page.email }}">{{ page.email }}</a></div>
                             </div>
 
                         </div>
@@ -76,7 +78,7 @@
             </div>
             <br>
             <div class="row no-margin">
-                <div class="col m2">
+                <div class="col s6 m4 l2">
                     <div class="card flex1">
                         <div class="card-content">
                             <div class="center"><h5 class="light no-margin">Patches Tarball</h5></div>
@@ -95,7 +97,7 @@
                 </div>
                 {% for ih in page.phase %}
                     {% for item in ih %}
-                        <div class="col m2">
+                        <div class="col s6 m4 l2">
                             <div class="card flex1">
                                 <div class="card-content">
                                 <div class="center"><h5 class="light no-margin">{{item[0]}}</h5></div>
@@ -106,7 +108,7 @@
                         </div>
                     {% endfor %}
                 {% endfor %}
-                <div class="col m2">
+                <div class="col s6 m4 l2">
                     <div class="card flex1">
                         <div class="card-content">
                         <div class="center"><h5 class="light no-margin">Mentors</h5></div>
@@ -124,7 +126,7 @@
                 <br>
             </div>
             <div class="no-margin">
-                <table class="padding-table">
+                <table class="padding-table highlight">
                     <thead class="no-border">
                         <tr class="blue-grey-text text-lighten-2">
                             <td></td>
