@@ -32,6 +32,12 @@
 .fa-clipboard:hover .hinttext {
   visibility: visible;
 }
+nav {
+  background-color: #37474f;
+}
+.nav-logo {
+  width: 50px;
+}
 .project-detail-element > .clickable:hover, .clickable:hover .chip:hover {
   cursor: pointer;
   background-color: #f3f5f8;

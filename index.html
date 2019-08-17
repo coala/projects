@@ -22,8 +22,8 @@
   <script src="resources/js/app.js"></script>
   <script src="resources/js/analytics.js"></script>
   <link rel="stylesheet" href="resources/vendors/materialize/css/materialize.css">
-  <link rel="stylesheet" href="resources/css/style.css">
   <link rel="stylesheet" href="https://rawgit.com/coala/coalaCSS/master/coala.css">
+  <link rel="stylesheet" href="resources/css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,300i,400,400i,700,700i|Roboto:100,200,300,400,500,600,700,800,900|Ubuntu+Mono|Overpass+Mono|Inconsolata" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -31,32 +31,44 @@
 </head>
 
 <body>
-  <a href="{{ site.githuburl }}" class="for-non-mobile"> <img class="ribbon" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"> </a>
   <main ng-app="coala">
-    <div ng-controller="TabController as tc">
-      <div>
-        <div class="row">
-          <div class="col s12">
-            <ul class="tabs uppercase">
-              <li class="tab col m4"><a ng-click="tc.setTab('/projects')" onmousedown="keyPressed(event, '#/projects')" ng-class="{active:tc.isSet('/projects')}">Projects</a>
-              </li>
-              <li class="tab col m4"><a ng-click="tc.setTab('/mentors')" onmousedown="keyPressed(event, '#/mentors')" ng-class="{active:tc.isSet('/mentors')}">Mentors</a>
-              </li>
-              <li class="tab col m4"><a ng-click="tc.setTab('/faq')" onmousedown="keyPressed(event, '#/faq')" onerror="" ng-class="{active:tc.isSet('/faq')}">Faq</a>
-              </li>
-            </ul>
-          </div>
-        </div>
+    <nav ng-controller="NavController as nc">
+      <div class="nav-wrapper">
+        <a href="/" class="brand-logo"><img class="nav-logo" src="screenshots/logo.png" alt="logo"></a>
+        <a data-activates="mobile-nav" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li ng-class="{active:nc.isSet('/projects')}">
+            <a class="uppercase" ng-click="nc.setView('/projects')" onmousedown="keyPressed(event, '#/projects')">
+              Projects
+            </a>
+          </li>
+          <li ng-class="{active:nc.isSet('/mentors')}">
+            <a class="uppercase" ng-click="nc.setView('/mentors')" onmousedown="keyPressed(event, '#/mentors')">
+              Mentors
+            </a>
+          </li>
+          <li ng-class="{active:nc.isSet('/faq')}">
+            <a ng-click="nc.setView('/faq')" onmousedown="keyPressed(event, '#/faq')" onerror="">
+              FAQs
+            </a>
+          </li>
+          <li><a href="{{ site.githuburl }}" target="_blank" title="Fork us on GitHub"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a></li>
+        </ul>
       </div>
-      <div ng-view=""></div>
-    </div>
+    </nav>
+    <ul class="side-nav" id="mobile-nav" ng-controller="NavController as nc">
+      <li ng-class="{active:nc.isSet('/projects')}"><a class="uppercase" ng-click="nc.setView('/projects')" onmousedown="keyPressed(event, '#/projects')">Projects</a></li>
+      <li ng-class="{active:nc.isSet('/mentors')}"><a class="uppercase" ng-click="nc.setView('/mentors')" onmousedown="keyPressed(event, '#/mentors')">Mentors</a></li>
+      <li ng-class="{active:nc.isSet('/faq')}"><a ng-click="nc.setView('/faq')" onmousedown="keyPressed(event, '#/faq')" onerror="">FAQs</a></li>
+      <li><a href="{{ site.githuburl }}" target="_blank" title="Fork us on GitHub"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a></li>
+    </ul>
+    <div ng-view=""></div>
     <div ng-controller="LanguageController as langCtrl" style="position: relative; margin: auto; width: 100px;">
-    <select ng-init="language = init_language" ng-options="l as l.name for l in langs" ng-model="language" ng-change="update()">
-    </select>
-  </div>
+      <select ng-init="language = init_language" ng-options="l as l.name for l in langs" ng-model="language" ng-change="update()">
+      </select>
+    </div>
   </main>
   <footer class="page-footer footer-light transparent">
-    <div class="row center for-mobile"> <a class="github-button" href="{{ site.githuburl }}" data-size="large">Fork</a> </div>
     <div class="row">
       <div class="col m6 offset-m3 center"> <img class="footer-logo" src="https://api.coala.io/en/latest/_static/images/coala_logo.svg" alt="coala"> <span class="footer-title">{{ site.organization }}</span> </div>
     </div>
@@ -70,7 +82,7 @@
 <script>
 $(document).ready(function () {
     $('select').material_select();
-    //$('ul.tabs').tabs();
+    $(".button-collapse").sideNav();
     $('.github-card').html('<img src="http://placehold.it/100x100" />')
 })
 </script>

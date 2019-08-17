@@ -76,10 +76,10 @@
         }
     })
 
-    app.controller('TabController', function ($location) {
-        this.tab = $location.path()
-        this.setTab = function (stab) {
-            this.tab = stab
+    app.controller('NavController', function ($location) {
+        this.view = $location.path()
+        this.setView = function (stab) {
+            this.view = stab
             $location.path(stab);
         }
         this.isSet = function (stab) {
