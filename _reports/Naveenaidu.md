@@ -1,12 +1,16 @@
 ---
-layout: report
+categories:
+   - GSoC
+   - 2019
+   - StatusReport
+date: 2019-08-25
 student: Naveen Naidu
 organisation: coala
 organisation_link : https://coala.io
 project: Handle Nested Programming Languages
 project_link: https://summerofcode.withgoogle.com/projects/#5842650266075136
 tarball: https://github.com/Naveenaidu/GSoCReport-2019/raw/master/naveen_naidu.tar.gz
-sha256sum: a3213cee9533168a65df47f1821c3401521a257a22fddea54e6f94326fe6ece6
+sha256sum: ff05b66e38ebc51c3201e291d55950c7700a2cb07b8c49ea90f8ca54c19c2ecd
 mentors: >
  [Virresh Gupta](https://github.com/virresh) & [Saurav Singh](https://github.com/damngamerz) & [Marcos Gomez](https://github.com/margobra8)
 phase:
@@ -40,97 +44,97 @@ activity:
       cEP-033: Handle Nested Programming Languages
  - 1:
    - repo: coala
-   - link: https://github.com/coala/coala/pull/6066/commits/bb57315d982360383663d37c0f70efe3dbfcbaee
-   - details: >
-      Implement NlSection
-
- - 2:
-   - repo: coala
-   - link: https://github.com/coala/coala/pull/6066/commits/dd27757467bb3ef41b03dd076eecf60d792929a5
+   - link: https://github.com/coala/coala/pull/6066/commits/8be125bf9ac145812eb6b4bd92b407efad69611a
    - details: >
       Implement NlSectionPosition
 
+ - 2:
+   - repo: coala
+   - link: https://github.com/coala/coala/pull/6066/commits/1b00daf9692560fdd6d633548c04af166f47dc1c
+   - details: >
+      Implement NlSection
+
  - 3:
    - repo: coala
-   - link: https://github.com/coala/coala/pull/6066/commits/8f1a37cd921c6e5370fddd669221c5f740723ff7
+   - link: https://github.com/coala/coala/pull/6066/commits/4a5296ed945246e4b9ef9d8965c475c006b84fb3
    - details: >
       Implement Parser Base Class
 
  - 4:
    - repo: coala
-   - link: https://github.com/coala/coala/pull/6066/commits/5780a6345ad6e85ed5ad37ec3e11ff939b2ad4f3
+   - link: https://github.com/coala/coala/pull/6066/commits/ac5e04f2e6e0ec2f009cacb9dec0c4c70b48a7ee
    - details: >
       Implement PyJinjaParser
 
  - 5:
    - repo: coala
-   - link: https://github.com/coala/coala/pull/6066/commits/5b86750c193efd7c995a5bf3615cc9657c8e17a9
+   - link: https://github.com/coala/coala/pull/6066/commits/6006be65edecdb3a166bc8ab385010a5c183ada9
    - details: >
       test-requirements.txt: Add regex module
 
  - 6:
    - repo: coala
-   - link: https://github.com/coala/coala/pull/6066/commits/6cd1bc67177f56cad57c6d7e98fcee83bb797608
+   - link: https://github.com/coala/coala/pull/6066/commits/26453e2dad5dd3ad94d288496f1e927c226a8e79
    - details: >
       DefaultArgumentParser.py: Add nested language mode support
 
  - 7:
    - repo: coala
-   - link: https://github.com/coala/coala/pull/6066/commits/1c0035d1350af72c139d0cb95023e20ad405ee07
+   - link: https://github.com/coala/coala/pull/6066/commits/ea1a6b82e267c5bf9883b5057267b8fd00539a8a
    - details: >
       TestUtilities.py: Add PEP8TestBear, Jinja2TestBear
 
  - 8:
    - repo: coala
-   - link: https://github.com/coala/coala/pull/6066/commits/27fecf92474b1f5334469c29205fe501aeee04ba
+   - link: https://github.com/coala/coala/pull/6066/commits/9def58ad258bbd6a783ff4f4727a5dd8451e6641
    - details: >
       NlInfoExtractor: Add NlInfoExtractor
 
  - 9:
    - repo: coala
-   - link: https://github.com/coala/coala/pull/6066/commits/71c0d041a50e704907e34e212fac5f5e0ae4e91d
+   - link: https://github.com/coala/coala/pull/6066/commits/8f1b2d5cde068fc3e6e9ff51c0bb4c103ef769c2
    - details: >
       NlFileHandler: Add NlFileHandler
 
  - 10:
    - repo: coala
-   - link: https://github.com/coala/coala/pull/6066/commits/20652070886c393f8c4962c2917469c83b46415a
+   - link: https://github.com/coala/coala/pull/6066/commits/7bd48a4ca1bfe8733f69f35a87f024a025394b2f
    - details: >
       NlCliParsing: Add NlCliParsing
 
  - 11:
    - repo: coala
-   - link: https://github.com/coala/coala/pull/6066/commits/04404d6785b2a56881ee5a6b56e69a3d9fae6082
+   - link: https://github.com/coala/coala/pull/6066/commits/40a179f56455b9f870a5edb14ab864092af66744
    - details: >
       Implement NlCore
 
  - 12:
    - repo: coala
-   - link: https://github.com/coala/coala/pull/6066/commits/8f45c52ae199ad7dbd08b37c67a809243b2d06d8
+   - link: https://github.com/coala/coala/pull/6066/commits/b4c754773986f6909801d9093e284a522d2305ba
    - details: >
       coala_main: Add support for nested language mode
 
  - 13:
    - repo: coala
-   - link: https://github.com/coala/coala/pull/6066/commits/42a8470e1da5861b859e98e8cd2209a709e41c77
+   - link: https://github.com/coala/coala/pull/6066/commits/2f7085ec425b582183ba91e1c212f96e90e223d2
    - details: >
       ConsoleInteraction: Add support for nested language mode
 
  - 14:
    - repo: coala
-   - link: https://github.com/coala/coala/pull/6066/commits/41114bda053d34590592230eeeccd9953f43847e
+   - link: https://github.com/coala/coala/pull/6066/commits/a611b34ffcc73adb880f85a78b4b5da7243bcee9
    - details: >
       Processing.py: Add support for nested language mode
 
  - 15:
    - repo: coala
-   - link: https://github.com/coala/coala/pull/6066/commits/e8488e55a581d21bc4b14c800f865f44719044ba
+   - link: https://github.com/coala/coala/pull/6066/commits/77953ddf928d00c9f100cfeeb3a5957c791ef328
    - details: >
       ConfigurationGathering: Add support for nested language mode
 
  - 16:
    - repo: coala
-   - link: https://github.com/coala/coala/pull/6066/commits/5c4e058b4221ee8256881fc0d3f95f5d72ec7f1c
+   - link: https://github.com/coala/coala/pull/6066/commits/d7a2f15faf0bbfcbdd461bf1bcbbe1c0ff2acb6e
    - details: >
       result_action: Add support for nested language mode
 
@@ -144,6 +148,8 @@ activity:
 * [coala](https://github.com/coala/coala/) now has a nested language mode. It allows coala
 to lint through the files that have a combination of nested languages and provided
 patches to the user, just like how it's done in the normal mode.
+
+* The PR for the above work done is persent [here](https://github.com/coala/coala/pull/6066)
 
 * The vast majority of my project was based on laying down the architecuture to make this
 project possible. And hence, I only implemented the support for the files that have
