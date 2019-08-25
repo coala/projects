@@ -1,3 +1,4 @@
+---
 collaborating_projects:
   - coala
 desc: "Provide support for writing configurations using
