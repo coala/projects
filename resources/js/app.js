@@ -55,6 +55,9 @@
             when('/faq', {
                 template: '<faq></faq>'
             }).
+            when('/forms', {
+                template: '<forms></forms>'
+            }).
             otherwise({
                 redirectTo: '/projects'
             });
@@ -386,6 +389,30 @@
                 self.mentorsList = {}
                 self.adminsList = {}
 
+                $scope.getMentorsWebservicesURL = function(year){
+                    return 'https://webservices.coala.io/mentors?year='+year+'&program=GSoC'
+                }
+
+                var today = new Date()
+                if (today.getMonth() >= 6){
+                    self.nextProgramYear = today.getFullYear() + 1
+                }
+                else {
+                    self.nextProgramYear = today.getFullYear()
+                }
+
+                var mentorsWebservicesURL = $scope.getMentorsWebservicesURL(self.nextProgramYear);
+
+                $http.get(mentorsWebservicesURL)
+                    .then(function(response){
+                        var mentors = response.data
+                        angular.forEach(mentors, function (data) {
+                            self.mentorsList[data.user.login] = {
+                                "github_handle": data.user.login,
+                                "github_avatar_url": "https://avatars.githubusercontent.com/" + data.user.login
+                            }
+                        });
+                    })
                 $http.get('data/projects.liquid')
                     .then(function (res) {
                         $scope.projects = res.data.filter(project => project.status != "completed")
@@ -413,6 +440,23 @@
 
             },
             controllerAs: "gic"
+        }
+    }]);
+
+    app.directive('forms', ['$http', function ($http) {
+        return {
+            restrict: 'E',
+            templateUrl: '/partials/tabs/forms.html',
+            controller: function ($scope, $rootScope) {
+                self = this
+                self.formsList = []
+
+                $http.get('https://webservices.coala.io/osforms')
+                    .then(function (forms) {
+                        self.formsList = forms.data
+                    })
+            },
+            controllerAs: "osforms"
         }
     }]);
 
