@@ -34,6 +34,7 @@ ignore =
   _site/**,
   _projects/README.md,
   data/locale/en/projects/README.md,
+  _reports/AmolGrover.md,
 # README.md symlinks: https://github.com/coala/coala-bears/issues/2950
 max_lines_per_file = 500
 
