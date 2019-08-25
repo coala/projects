@@ -5,8 +5,39 @@ therefore adding an ignore comment -->
   <br>
   <div class="main-content container">
     <div class="col m8 col offset-m2 s12">
-      <div class="input-field searchbar">
-        <input ng-model="searchText" placeholder="Search for a project" id="search" type="search" class="validate"> </div>
+      <div class="filter-projects-inputs">
+        <div class="input-field searchbar">
+          <input ng-model="searchText" placeholder="Search for a project" id="search" type="search" class="validate"> </div>
+        <div class="filter-btn apply-flex center-content">
+          <a id="filters" class="waves-effect waves-light btn-large" ng-click="toggleFiltersDisplay()">
+            <b>Filter Projects</b>
+          </a>
+        </div>
+      </div>
+      <div ng-class="{'display-none':!lc.displayFilters}" ng-click="toggleFiltersDisplay()">
+        <i class="fa fa-times close-filters"></i>
+      </div>
+      <div class="all-filters-option apply-flex center-content fade-in" ng-class="{'display-none':!lc.displayFilters}">
+        <h6><b>Filter Google Summer of Code Projects</b></h6>
+        <div class="filters-inputs apply-flex">
+          <div class="filter-select-fields apply-flex evenly-spread-content">
+            <label class="project-filter" ng-repeat="(filter, metadata) in projectFilterOptions">
+              <select class="{{ filter }}-selector" ng-model="metadata.model" ng-change="setModelList(filter, metadata.model)" name="{{ filter }}-selector" multiple>
+                <option value="" disabled>{{ metadata.label }}</option>
+                <option value="{{ value }}" ng-repeat="(key, value) in metadata.options">{{ key }}</option>
+              </select>
+            </label>
+          </div>
+          <div class="filter-btns">
+            <a class="waves-effect waves-light btn" ng-click="applyFilters()">
+              <i class="fa fa-check" aria-hidden="true"> Apply Filters</i>
+            </a>
+            <a class="waves-effect waves-light btn" ng-click="clearFilters()">
+              <i class="fa fa-trash-o clear-filters"> Clear Filters</i>
+            </a>
+          </div>
+        </div>
+      </div>
       <div style="text-align: center;">
         For more project ideas, <a href="https://github.com/coala/projects/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%22Project+Proposal%22">click here</a>.
         <br>
@@ -21,6 +52,9 @@ therefore adding an ignore comment -->
       <div class="row outline">
         <div class="parent-wrapper">
           <div class="parent">
+            <div class="no-projects-found" ng-show="projectList.length === 0">
+              {{ message.noProjectsFound }}
+            </div>
             <div ng-repeat="project in projectList | filter: searchText | orderBy: sortOrder" class="card child">
               <div class="card-content waves-effect" ng-click="lc.showProject(project)">
                 <div class="card-title center">{{ project.name }}</div>
@@ -72,7 +106,7 @@ therefore adding an ignore comment -->
         <div ng-show="currentProject.developers_involved.length>0" class="project-detail-element">
           <div class="small-heading uppercase">Developers Involved</div> <span class="pr-element-detail chip" ng-repeat="developers in currentProject.developers_involved">@{{developers}}</span> </div>
         <div ng-show="currentProject.issues.length>0" class="project-detail-element">
-          <div class="small-heading uppercase">Related issues</div> <span ng-click="redirect(issue)" class="pr-element-detail chip clickable" ng-repeat="issue in currentProject.issues">{{ issue | format_issue }}</span>
+          <div class="small-heading uppercase">Related issues</div> <span ng-click="redirect(issue)" class="pr-element-detail chip clickable" ng-class="lc.getIssueStateClass(issue)" ng-repeat="issue in currentProject.issues">{{ issue | format_issue }}</span>
           <br>
           <br>
           <br>
@@ -96,6 +130,8 @@ therefore adding an ignore comment -->
         scrollTop: $(".showcase").offset().top},
         'slow');
     })
+
+    $('.filter-select-fields select').material_select();
 
     $('.modal').modal({
       dismissible: true, // Modal can be dismissed by clicking outside of the modal

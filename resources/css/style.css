@@ -1,3 +1,59 @@
+.all-filters-option {
+  position: relative;
+  z-index: 1002;
+  min-width: 350px;
+  margin: 10px 0;
+  background-color: white;
+  box-shadow: 0 0 15px 2px black;
+  border-radius: 20px;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.apply-flex {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+.black-shadow {
+  box-shadow: 0 0 15px 2px black;
+}
+.break-word {
+  word-wrap: break-word;
+}
+.center-align-text {
+  text-align: center;
+}
+.constant-content-height {
+  height: 150px;
+}
+.center-content {
+  justify-content: center;
+}
+.closed {
+  background-color: #cb2431;
+  color: white
+}
+.close-filters {
+  right: 6%;
+  margin-top: 1.25rem;
+  position: absolute;
+  z-index: 1003;
+}
+.display-none {
+  display: none;
+}
+.event-card {
+  width: 320px;
+  margin-right: 20px;
+}
+.events-detail {
+  margin: 15px 0;
+}
+.evenly-spread-content {
+  justify-content: space-evenly;
+}
 .hash_value_dup {
   position: 'absolute';
   left: '-9999px';
@@ -31,6 +87,56 @@
 }
 .fa-clipboard:hover .hinttext {
   visibility: visible;
+}
+.filter-projects-inputs {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  margin-top: 1rem;
+}
+.filter-btn {
+    width: 165px;
+    z-index: 0;
+}
+.filter-btn .btn-large {
+    border-radius: 100px;
+    box-shadow: 0 0 10px 1px darkslategray;
+}
+.filters-btns {
+  width: 50%;
+}
+.filters-inputs {
+  justify-content: space-around;
+  padding: 20px 0;
+}
+.filter-select-fields {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  justify-content: space-around;
+}
+i.fa {
+  cursor: pointer;
+}
+.lighter-font {
+  font-weight: lighter;
+}
+.merged {
+  background-color: #6f42c1;
+  color: white;
+}
+.no-events-available {
+  font-size: 1.2em;
+  height: 30vh;
+  justify-content: center;
+  flex-direction: column;
+}
+.no-state {
+  background-color: #e4e4e4;
+}
+.open, .opened {
+  background-color: #2cbe4e;
+  color: white;
 }
 .project-detail-element > .clickable:hover, .clickable:hover .chip:hover {
   cursor: pointer;
@@ -114,6 +220,11 @@
   border: 0;
   z-index: 9;
 }
+.searchbar {
+  width: 85%;
+  min-width: 340px;
+  margin-top: 0;
+}
 .sha256sum_hash {
   display: flex;
   justify-content: space-evenly;
@@ -125,4 +236,16 @@
 
 #sha256sum_hash_value {
   word-wrap: break-word;
+}
+@-webkit-keyframes fade-in {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+@keyframes fade-in {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+.fade-in {
+    -webkit-animation-name: fade-in;
+    animation-name: fade-in;
 }
