@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<div class="main-content container-fluid">
+  <div class="row">
+    <div class="col m8 offset-m2">
+      <h1 class="fine center">Organization Events</h1>
+      <br>
+    </div>
+  </div>
+</div>
+<div class="all-events-detail" ng-repeat="category in eventsList">
+    <div class="events-detail" ng-show="category.events.length>0">
+        <h5 class="lighter-font">{{ category.name }}</h5>
+        <hr>
+        <div class="apply-flex">
+            <div class="card blue-grey darken-1 event-card" ng-repeat="event in category.events">
+                <div class="card-content white-text constant-content-height">
+                    <span class="card-title">{{ event.title }}</span>
+                    <p class="break-word">{{ event.description }}</p>
+                    <em class="break-word" ng-show="event.description === null">No event description available!</em>
+                </div>
+                <div class="card-action">
+                    <a>
+                        {{ event.start_date_time | date:"medium" }}
+                        <span ng-show="event.end_date_time !== null">
+                            - {{ event.end_date_time | date:"medium" }}
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="apply-flex no-events-available" ng-hide="eventsData.length>0">
+    <h6 class="center-align-text">
+        No Events Found! If you're already a member of organization and a developer,
+        you can share it with us on <a href="https://community.coala.io/">Community website</a>
+        by logging-in.
+    </h6>
+</div>

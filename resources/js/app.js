@@ -55,6 +55,12 @@
             when('/faq', {
                 template: '<faq></faq>'
             }).
+            when('/forms', {
+                template: '<forms></forms>'
+            }).
+            when('/events', {
+                template: '<events></events>'
+            }).
             otherwise({
                 redirectTo: '/projects'
             });
@@ -94,21 +100,213 @@
             controller: function ($scope, $location, Languages) {
                 self = this
 
+                $scope.message = {}
+                $scope.projectFilterOptions = {}
+                $scope.selectedStatusesList = []
+                $scope.selectedTagsList = []
+                $scope.selectedLevelsList = []
+                $scope.selectedInitiativesList = []
+                $scope.selectedCollabsList = []
+
                 var mapping = {
                     '': 0,
                     'crowded': 1,
                     'in_progress': 2,
-                    'completed': 3
+                    'completed': 3,
+                    'disabled': 4
+                }
+
+                self.displayFilters = false
+                $scope.toggleFiltersDisplay = function(){
+                    self.displayFilters = !self.displayFilters
+                    $('select').material_select();
                 }
 
                 $scope.sortOrder = function(project) {
                     return mapping[project.status];
                 }
 
+                $scope.getFiltersMetadata = function(){
+                    $http.get('data/projects.liquid')
+                        .then(function (res) {
+                            var projects = res.data;
+                            angular.forEach(projects, function(project){
+                                if (project.status.length === 0){
+                                    $scope.projectFilterOptions.status.options['NOT YET STARTED'] = 0
+                                }
+                                angular.forEach(project.status, function(state){
+                                    $scope.projectFilterOptions.status.options[state.toUpperCase()] = mapping[state]
+                                })
+                                angular.forEach(project.tags, function(tag){
+                                    $scope.projectFilterOptions.tags.options[tag] = tag
+                                })
+                                $scope.projectFilterOptions.difficulty.options[project.difficulty.toUpperCase()] = project.difficulty
+                                angular.forEach(project.initiatives, function(initiative){
+                                    $scope.projectFilterOptions.initiatives.options[initiative] = initiative
+                                })
+                                angular.forEach(project.collaborating_projects, function(collab){
+                                    $scope.projectFilterOptions['collab-projects'].options[collab] = collab
+                                })
+                            })
+                        })
+                }
+
+                $scope.initializeSelectorData = function(name, label, model_name){
+                    $scope.projectFilterOptions[name] = {
+                        label: label, model: model_name,options: {}
+                    }
+                }
+
+                $scope.getAllFilters = function () {
+                    $scope.initializeSelectorData('status', 'Status', 'selectedStatusesList')
+                    $scope.initializeSelectorData('tags', 'Project Tags', 'selectedTagsList')
+                    $scope.initializeSelectorData('difficulty', 'Difficulty Level', 'selectedLevelsList')
+                    $scope.initializeSelectorData('initiatives', 'Initiatives', 'selectedInitiativesList')
+                    $scope.initializeSelectorData('collab-projects', 'Collaborating Projects', 'selectedCollabsList')
+                    $scope.getFiltersMetadata()
+                }
+
+                function filterProjectsByStatus(projects){
+                    var selectedProjects = []
+                    angular.forEach(projects, function(project){
+                        if (project.status.length === 0 && !selectedProjects.includes(project)){
+                            if (
+                                ($scope.selectedStatusesList.includes("0") && project.mentors.length > 0) ||
+                                ($scope.selectedStatusesList.includes("4") && project.mentors.length === 0)
+                            ){
+                                selectedProjects.push(project)
+                            }
+                        }
+                        else {
+                            angular.forEach(project.status, function (state) {
+                                var mappedState = (mapping[state]).toString()
+                                if ($scope.selectedStatusesList.includes(mappedState) && !selectedProjects.includes(project)) {
+                                    selectedProjects.push(project)
+                                }
+                            })
+                        }
+                    })
+                    return selectedProjects
+                }
+
+                function filterProjectsByTags(projects){
+                    var selectedProjects = []
+                    angular.forEach(projects, function(project){
+                        angular.forEach(project.tags, function(tag){
+                            if ($scope.selectedTagsList.includes(tag) && !selectedProjects.includes(project)){
+                                selectedProjects.push(project)
+                            }
+                        })
+                    })
+                    return selectedProjects
+                }
+
+                function filterProjectsByDifficulty(projects){
+                    var selectedProjects = []
+                    angular.forEach(projects, function(project){
+                        if ($scope.selectedLevelsList.includes(project.difficulty) && !selectedProjects.includes(project)){
+                            selectedProjects.push(project)
+                        }
+                    })
+                    return selectedProjects
+                }
+
+                function filterProjectsByInitiatives(projects){
+                    var selectedProjects = []
+                    angular.forEach(projects, function(project){
+                        angular.forEach(project.initiatives, function(initiative){
+                            if ($scope.selectedInitiativesList.includes(initiative) && !selectedProjects.includes(project)){
+                                selectedProjects.push(project)
+                            }
+                        })
+                    })
+                    return selectedProjects
+                }
+
+                function filterProjectsByCollaboratingProjects(projects){
+                    var selectedProjects = []
+                    angular.forEach(projects, function(project){
+                        angular.forEach(project.collaborating_projects, function(collab){
+                            if ($scope.selectedCollabsList.includes(collab) && !selectedProjects.includes(project)){
+                                selectedProjects.push(project)
+                            }
+                        })
+                    })
+                    return selectedProjects
+                }
+
+                $scope.setModelList = function(filter, list){
+                    if (filter === 'status'){
+                        $scope.selectedStatusesList = list
+                    }
+                    else if (filter === 'tags'){
+                        $scope.selectedTagsList = list
+                    }
+                    else if (filter === 'difficulty'){
+                        $scope.selectedLevelsList = list
+                    }
+                    else if (filter === 'initiatives'){
+                        $scope.selectedInitiativesList = list
+                    }
+                    else {
+                        $scope.selectedCollabsList = list
+                    }
+                }
+
+                function anyFiltersApplied(){
+                    return (
+                        $scope.selectedStatusesList.length > 0 ||
+                        $scope.selectedTagsList.length > 0 ||
+                        $scope.selectedLevelsList.length > 0 ||
+                        $scope.selectedInitiativesList.length > 0 ||
+                        $scope.selectedCollabsList.length > 0
+                    )
+                }
+
+                $scope.applyFilters = function(){
+                    var filteredProjects = $scope.allProjects
+                    if(anyFiltersApplied()){
+                        if ($scope.selectedStatusesList.length > 0 && filteredProjects.length > 0) {
+                            filteredProjects = filterProjectsByStatus(filteredProjects)
+                        }
+                        if ($scope.selectedTagsList.length > 0 && filteredProjects.length > 0) {
+                            filteredProjects = filterProjectsByTags(filteredProjects)
+                        }
+                        if ($scope.selectedLevelsList.length > 0 && filteredProjects.length > 0) {
+                            filteredProjects = filterProjectsByDifficulty(filteredProjects)
+                        }
+                        if ($scope.selectedInitiativesList.length > 0 && filteredProjects.length > 0) {
+                            filteredProjects = filterProjectsByInitiatives(filteredProjects)
+                        }
+                        if ($scope.selectedCollabsList.length > 0 && filteredProjects.length > 0) {
+                            filteredProjects = filterProjectsByCollaboratingProjects(filteredProjects)
+                        }
+                        if (filteredProjects.length === 0){
+                            $scope.message.noProjectsFound = 'No projects found for your selected filters' +
+                            ' options! Please try a different filter search combination.'
+                            $scope.projectList = []
+                        }
+                        else {
+                            $scope.projectList = filteredProjects
+                        }
+                    }
+                    else {
+                        $scope.projectList = filteredProjects
+                    }
+                }
+
+                $scope.clearFilters = function(){
+                    $scope.projectList = $scope.allProjects
+                    var select = $('select')
+                    select.prop('selectedIndex', 0)
+                    select.material_select()
+                }
+
                 $scope.getDefaultProjectsMetadata = function () {
                     $http.get('data/projects.liquid')
                         .then(function (res) {
                             $scope.projectList = res.data;
+                            $scope.allProjects = res.data;
                             $scope.projectRequest();
                         })
                 }
@@ -281,6 +479,7 @@
                     $scope.searchText = search_requested
                 }
 
+                $scope.getAllFilters();
             },
             controllerAs: 'lc'
         }
@@ -386,6 +585,30 @@
                 self.mentorsList = {}
                 self.adminsList = {}
 
+                $scope.getMentorsWebservicesURL = function(year){
+                    return 'https://webservices.coala.io/mentors?year='+year+'&program=GSoC'
+                }
+
+                var today = new Date()
+                if (today.getMonth() >= 6){
+                    self.nextProgramYear = today.getFullYear() + 1
+                }
+                else {
+                    self.nextProgramYear = today.getFullYear()
+                }
+
+                var mentorsWebservicesURL = $scope.getMentorsWebservicesURL(self.nextProgramYear);
+
+                $http.get(mentorsWebservicesURL)
+                    .then(function(response){
+                        var mentors = response.data
+                        angular.forEach(mentors, function (data) {
+                            self.mentorsList[data.user.login] = {
+                                "github_handle": data.user.login,
+                                "github_avatar_url": "https://avatars.githubusercontent.com/" + data.user.login
+                            }
+                        });
+                    })
                 $http.get('data/projects.liquid')
                     .then(function (res) {
                         $scope.projects = res.data.filter(project => project.status != "completed")
@@ -413,6 +636,82 @@
 
             },
             controllerAs: "gic"
+        }
+    }]);
+
+    app.directive('forms', ['$http', function ($http) {
+        return {
+            restrict: 'E',
+            templateUrl: '/partials/tabs/forms.html',
+            controller: function ($scope, $rootScope) {
+                self = this
+                self.formsList = []
+
+                $http.get('https://webservices.coala.io/osforms')
+                    .then(function (forms) {
+                        self.formsList = forms.data
+                    })
+            },
+            controllerAs: "osforms"
+        }
+    }]);
+
+    app.directive('events', ['$http', function ($http) {
+        return {
+            restrict: 'E',
+            templateUrl: '/partials/tabs/events.html',
+            controller: function ($scope, $rootScope) {
+                var today = new Date()
+                $scope.eventsData = []
+                $scope.eventsList = {
+                    ongoing_events: {
+                        name: 'Ongoing Event(s)',
+                        events: []
+                    },
+                    upcoming_events: {
+                        name: 'Upcoming Events(s)',
+                        events: []
+                    },
+                    past_events: {
+                        name: 'Past Event(s)',
+                        events: []
+                    }
+                }
+
+                $http.get('https://webservices.coala.io/calendar')
+                .then(function(result){
+                    self.eventsData = result.data
+                })
+
+                $scope.groupEvents = function(){
+                    angular.forEach($scope.eventsData, function(event){
+                        var event_start_time = new Date(event.start_date_time)
+                        if(event.end_date_time === null){
+                            var event_end_time = new Date(today.getTime() + 86400000)
+                        }
+                        else{
+                            var event_end_time = new Date(event.end_date_time)
+                        }
+
+                        if(event_start_time <= today && today <= event_end_time) {
+                            $scope.eventsList.ongoing_events.events.push(event)
+                        }  // ongoing event
+                        else if (event_end_time < today &&
+                            ((today - event_start_time) / (86400000) <= 90)) {
+                            $scope.eventsList.past_events.events.push(event)
+                        }  // has happened in last 3 months
+                        else if(
+                            event_start_time > today && event_end_time > today &&
+                            ((event_start_time - today) / (86400000) <= 90)) {
+                            $scope.eventsList.upcoming_events.events.push(event)
+                        }  // will occur in next 3 months
+                    })
+                }
+
+                $scope.groupEvents()
+
+            },
+            controllerAs: "ed"
         }
     }]);
 

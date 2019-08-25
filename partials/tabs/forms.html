@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<div class="main-content container-fluid">
+  <div class="row">
+    <div class="col m8 offset-m2">
+      <h1 class="fine center">Open Source Forms</h1>
+      <br>
+    </div>
+  </div>
+</div>
+<section>
+  <div class="container">
+      <table class="striped" ng-show="osforms.formsList.length !== 0" style="margin-bottom:20px;">
+        <thead>
+            <tr class="center-align-text">
+                <th>Title</th>
+                <th>Submissions Till</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="form in osforms.formsList">
+                <td>
+                    <div>
+                        <strong><a href="{{ form.url }}" data-proofer-ignore>{{ form.title }}</a></strong>
+                        <div style="padding-left: 10px;">
+                            <p ng-show="form.description !== null">{{ form.description }}</p>
+                            <p ng-show="form.user !== null">
+                                Uploaded by: <a href="https://github.com/{{ form.user }}" data-proofer-ignore>{{ form.user }}</a>
+                            </p>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    {{ form.expiry_date | date:"medium" }}
+                </td>
+            </tr>
+        </tbody>
+      </table>
+      <div class="apply-flex" ng-show="osforms.formsList.length === 0" style="padding: 5% 0;">
+        <h6>
+            No forms have been uploaded, yet! If you are already a member of organization and a developer,
+            you can share it with us on <a href="https://community.coala.io/">Community website</a>
+            by logging-in.
+        </h6>
+      </div>
+  </div>
+</section>
