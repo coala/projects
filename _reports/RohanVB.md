@@ -1,6 +1,9 @@
 ---
-layout: report
-url: RohanVB
+categories:
+  - GSoC
+  - 2019
+  - StatusReport
+date: 2019-08-25
 student: Rohan Bhambhoria
 organisation: coala
 organisation_link : https://coala.io
