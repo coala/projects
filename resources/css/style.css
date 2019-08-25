@@ -1,3 +1,6 @@
+.black-shadow {
+  box-shadow: 0 0 15px 2px black;
+}
 .hash_value_dup {
   position: 'absolute';
   left: '-9999px';
