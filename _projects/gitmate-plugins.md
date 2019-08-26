@@ -1,5 +1,6 @@
 ---
 name: "Implement GitMate Plugins for coala"
+improved_title: "Implement GitMate automations and plugins for coala"
 desc: "GitMate.io helps by automating tasks on GitHub and GitLab. There are new
        plugins that are specific to coala that should be implemented. "
 requirements:

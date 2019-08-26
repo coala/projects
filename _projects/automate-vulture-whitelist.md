@@ -1,5 +1,6 @@
 ---
 name: "Automate Whitelist creation for vulture"
+improved_title: "Improve Whitelisting Infrastructure for Vulture"
 collaborating_projects:
   - coala
   - vulture

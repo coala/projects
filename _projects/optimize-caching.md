@@ -5,7 +5,6 @@ desc: "Improve coala's caching and IO for the NextGen-Core"
 difficulty: medium
 initiatives:
   - GSoC
-  - RGSoC
 issues:
   - "https://github.com/coala/coala/issues/3530"
   - "https://github.com/coala/coala/issues/2912"
@@ -17,6 +16,7 @@ mentors:
   - shreyans800755
   - fneu
 name: "Optimize Caching"
+improved_title: "Optimize Caching for the NextGen-Core"
 requirements:
   - "At least one patch to the coala core should be accepted and merged."
   - "The student should be familiar with ongoing technical cEPs especially

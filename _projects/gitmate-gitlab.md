@@ -10,7 +10,6 @@ difficulty: medium
 status: completed
 initiatives:
   - GSoC
-  - RGSoC
 issues:
   - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/6"
   - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/26"
@@ -39,6 +38,7 @@ mentors:
   - seblat
   - fneu
 name: "Implement GitLab and Bitbucket Support for GitMate"
+improved_title: "Extending GitMatev2.0 to support GitLab and Bitbucket"
 requirements:
   - "The participant should have one patch to [GitMate-2](https://gitlab.com/gitmate/gitmate-2) accepted."
   - "Django knowledge  is a big plus."

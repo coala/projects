@@ -7,14 +7,14 @@ difficulty: high
 status: completed
 initiatives:
   - GSoC
-  - RGSoC
 issues: []
-markdown: implement-aspects.md
+markdown: aspects.md
 mentors:
   - userzimmermann
   - jayvdb
   - myint
 name: "Implement Aspects Support"
+improved_title: "Implement Aspect"
 requirements:
   - "The participant should have one patch to any bear accepted."
   - "The participant should have one patch to the coala core accepted."
