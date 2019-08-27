@@ -1,4 +1,4 @@
-.all-filters-option {
+.all-filters-option {  /* Ignore CSSLintBear */
   animation-duration: 1s;
   animation-fill-mode: both;
   background-color: white;
@@ -32,35 +32,35 @@
   display: none;
 }
 .evenly-spread-content {
-  justify-content: space-evenly;
+  justify-content: space-evenly;  /* Ignore CSSLintBear */
 }
 .hash_value_dup {
-  position: 'absolute';
-  left: '-9999px';
+  left: -9999px;
+  position: absolute;
 }
 .hinttext {
-  visibility: hidden;
-  width: 120px;
   background-color: gray;
-  color: #fff;
-  text-align: center;
-  padding: 5px 0;
   border-radius: 6px;
-  position: absolute;
-  z-index: 1;
-  top: 95%;
+  color: #fff;
   left: 60%;
   margin-left: -60px;
+  padding: 5px 0;
+  position: absolute;
+  text-align: center;
+  top: 95%;
+  visibility: hidden;
+  width: 120px;
+  z-index: 1;
 }
 .hinttext::after {
-  content: " ";
-  position: absolute;
+  border-color: transparent transparent gray transparent;
+  border-style: solid;
+  border-width: 5px;
   bottom: 100%;
+  content: " ";
   left: 50%;
   margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: transparent transparent gray transparent;
+  position: absolute;
 }
 .fa-clipboard:hover {
   cursor: pointer;
@@ -71,7 +71,7 @@
 .filter-projects-inputs {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-evenly;
+  justify-content: space-evenly;  /* Ignore CSSLintBear */
   margin-top: 1rem;
 }
 .filter-btn {
@@ -91,14 +91,14 @@
 }
 .filter-select-fields {
   justify-content: space-around;
-  padding-top: 20px;
   padding-bottom: 10px;
+  padding-top: 20px;
   width: 100%;
 }
 .footer-icons {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-evenly;  /* Ignore CSSLintBear */
   line-height: 3em;
 }
 .gsoc-students {
@@ -120,12 +120,12 @@ nav {
   width: 50px;
 }
 .project-detail-element > .clickable:hover, .clickable:hover .chip:hover {
-  cursor: pointer;
   background-color: #f3f5f8;
+  cursor: pointer;
 }
 .report .card {
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.0), 0 1px 1px 0 rgba(0, 0, 0, 0.0), 0 1px 1px 0px rgba(0, 0, 0, 0.05);
-  margin-bottom: 0 !important;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.0), 0 1px 1px 0 rgba(0, 0, 0, 0.0), 0 1px 1px 0 rgba(0, 0, 0, 0.05);
+  margin-bottom: 0;
 }
 .report {
   background-color: #f3f5f8;
@@ -143,14 +143,14 @@ nav {
   height: 100%;
 }
 .report .blog-title {
-  letter-spacing: 0.1em;
   font-weight: 500;
+  letter-spacing: 0.1em;
   text-align: center;
 }
 .report .links-section a {
-  text-decoration: none;
   color: lightslategray;
   padding: 0.1em;
+  text-decoration: none;
 }
 .report .row {
   display: -webkit-box;
@@ -159,7 +159,7 @@ nav {
   display: flex;
   flex-wrap: wrap;
 }
-.report .row > [class*='col'] {
+.report .row > [class*='col'] {  /* Ignore CSSLintBear */
   display: flex;
   flex-direction: column;
 }
@@ -174,7 +174,7 @@ nav {
   text-align: center;
 }
 .report .card {
-  word-break: break-word;
+  word-break: break-word;  /* Ignore CSSLintBear */
 }
 .report td p {
   display: inline;
@@ -183,11 +183,11 @@ nav {
   border-bottom: 1px solid aliceblue;
 }
 .report-url a {
-  color: #f57f17 !important;
+  color: #f57f17;
 }
 @media only screen and (min-width: 993px) {
   .container {
-      width: 90% !important;
+      width: 90%;
   }
   .for-mobile {
     display: none;
@@ -198,20 +198,14 @@ nav {
     display: none;
   }
 }
-.ribbon {
-  position: absolute;
-  top: 0; right: 0;
-  border: 0;
-  z-index: 9;
-}
 .searchbar {
-  width: 85%;
-  min-width: 340px;
   margin-top: 0;
+  min-width: 340px;
+  width: 85%;
 }
 .sha256sum_hash {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-evenly;  /* Ignore CSSLintBear */
 }
 .students {
   padding: 0 20px;
@@ -220,8 +214,7 @@ nav {
   padding-left: 0.5em;
   padding-right: 0.5em;
 }
-
-#sha256sum_hash_value {
+.sha256sum_hash_value {
   word-wrap: break-word;
 }
 @-webkit-keyframes fade-in {

@@ -87,7 +87,7 @@
                             <br>
                             <div class="center sha256sum_hash">
                                 <strong>SHA-256</strong>:
-                                <p id="sha256sum_hash_value">
+                                <p class="sha256sum_hash_value">
                                     {{page.sha256sum}}
                                 </p>
                                 <i class="fa fa-clipboard" aria-hidden="true"><span class="hinttext">Copy Hash value</span></i>
