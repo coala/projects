@@ -17,6 +17,7 @@ requirements:
   - "At least one patch accepted to coala community, projects and webservices
   repository."
   - "The applicant should be familiar with AngularJS, Django and Python."
+status: completed
 tags:
   - community
   - projects

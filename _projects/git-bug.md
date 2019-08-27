@@ -12,6 +12,7 @@ mentors:
  - MichaelMure
 initiatives:
  - GSoC
+status: completed
 tags:
  - git
  - bugtracker

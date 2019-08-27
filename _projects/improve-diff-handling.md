@@ -16,6 +16,7 @@ name: "Improve Diff Handling"
 requirements:
   - "The proposal has to contain a clear concept and implementation approach."
   - "The applicant should have one patch accepted to the coala core."
+status: completed
 tags:
   - Core
   - CLI

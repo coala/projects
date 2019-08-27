@@ -19,6 +19,7 @@ requirements:
   - "The proposal should contain issues which are planned to be addressed,
      chosen (and potentially
      [filed](https://github.com/coala/coala-bears/issues/new)) by the student."
+status: completed
 tags:
   - Documentation
   - Bears

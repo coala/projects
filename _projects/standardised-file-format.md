@@ -18,6 +18,7 @@ requirements:
     coala"
   - "The applicant should be familiar with Python."
   - "The applicant should be familiar with coala configuration system"
+status: completed
 tags:
   - Core
   - Configuration

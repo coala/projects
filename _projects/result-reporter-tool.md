@@ -20,6 +20,7 @@ requirements:
     coala or coala-bears."
   - "The applicant should be familiar with Python."
   - "Familiarity with continuous integration tools (e.g. Jenkins) is a plus."
+status: completed
 tags:
   - Core
   - Linter

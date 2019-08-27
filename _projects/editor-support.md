@@ -18,6 +18,7 @@ mentors:
   - AbdealiJK
   - fneu
 name: "Cohesive Editor Support"
+status: completed
 requirements:
   - "The proposal has to provide a convincing strategy for testing, documentation and maintaining editor plugins"
   - "The applicant should have one patch accepted to any of the coala plugins."
