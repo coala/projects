@@ -2,7 +2,7 @@
 # Ignoring InvalidLinkBear since coala links are broken
 bears = coalaBear
 files = **.yml, **.html, **.md, **.js, **.css, **.json
-ignore = vendor/**, resources/vendors/**, _site/**, _book/**
+ignore = vendor/**, resources/vendors/**, _site/**, _book/**, node_modules/**
 # These sites all reject spiders
 link_ignore_list =
   https://twitter.com/**,
@@ -20,6 +20,11 @@ link_ignore_list =
 # See https://github.com/coala/coala-bears/issues/2126
 link_ignore_regex = clbin.com
 
+[css]
+bears = CSSLintBear
+files = **.css
+ignore = resources/vendors/**.css, node_modules/**
+
 [commit]
 bears = GitCommitBear
 shortlog_trailing_period = False
@@ -31,6 +36,7 @@ bears = LineCountBear
 ignore =
   vendor/**,
   resources/vendors/**,
+  node_modules/**,
   data/projects.js,
   _site/**,
   _projects/README.md,
@@ -43,26 +49,26 @@ max_lines_per_file = 500
 [filenames]
 bears = FilenameBear
 files = **.yml, **.html, **.js, **.css
-ignore = vendor/**, resources/vendors/**, _site/**, _reports/**
+ignore = vendor/**, resources/vendors/**, node_modules/**, _site/**, _reports/**
 file_naming_convention = snake
 
 [markdown_filenames]
 bears = FilenameBear
 files = **.md
-ignore = vendor/**, resources/vendors/**, _reports/**, _site/**, _projects/integrate-pyflakes-AST.md, data/locale/en/projects/**
+ignore = vendor/**, resources/vendors/**, node_modules/**, _reports/**, _site/**, _projects/integrate-pyflakes-AST.md, data/locale/en/projects/**
 file_naming_convention = kebab
 
 [spacing]
 bears = SpaceConsistencyBear
 files = **.html, **.css, **.js, **.json, **.md
-ignore = vendor/**, resources/vendors/**, _site/**
+ignore = vendor/**, resources/vendors/**, node_modules/**, _site/**
 use_spaces = True
 
 [html]
 bears = HTMLLintBear
 files = **.html
 htmllint_ignore = optional_tag, protocol, indentation,  concerns_separation, capitalization
-ignore = vendor/**, resources/vendors/**, _site/**
+ignore = vendor/**, resources/vendors/**, node_modules/**, _site/**
 
 [yml]
 bears = YAMLLintBear

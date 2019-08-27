@@ -35,6 +35,7 @@ jobs:
         - curl "${GRAVIS}.install-jdk-travis.sh"
           --output ~/.install-jdk-travis.sh
         - source ~/.install-jdk-travis.sh
+        - npm install -g csslint@^1.0.5
       install:
         - cOALA_ZIP_URL=https://github.com/coala/coala/archive/master.zip
         - curl -fsSL -o coala-master.zip $cOALA_ZIP_URL
