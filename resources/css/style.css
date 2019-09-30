@@ -206,7 +206,7 @@ nav {
 }
 .searchbar {
   width: 85%;
-  border-radius: 50px;
+  border-radius: 50px!important;
   min-width: 340px;
   margin-top: 0;
 }
