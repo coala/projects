@@ -210,7 +210,7 @@ nav {
   margin-top: 0;
 }
 .searchbar #search{
-    border-radius: 50px!important;
+  border-radius: 50px!important;
 }
 .sha256sum_hash {
   display: flex;
