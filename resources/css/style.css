@@ -204,10 +204,11 @@ nav {
   border: 0;
   z-index: 9;
 }
-.searchbar {
+.searchbar #search{
   width: 85%;
   min-width: 340px;
   margin-top: 0;
+  border-radius: 50px!important;
 }
 .sha256sum_hash {
   display: flex;
