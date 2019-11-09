@@ -208,7 +208,7 @@ nav {
   width: 85%;
   min-width: 340px;
   margin-top: 0;
-  border-radius: 50px!important;
+  border-radius: 50px;
 }
 .sha256sum_hash {
   display: flex;
