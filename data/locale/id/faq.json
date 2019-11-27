@@ -1,5 +1,5 @@
 {
-  "i_want_to_do_a_gsoc.md": "Saya ingin mengikuti GSoC!",
+  "i-want-to-do-a-gsoc.md": "Saya ingin mengikuti GSoC!",
   "gsoc-requirements.md": "Apa yang dibutuhkan untuk diterima GSoC?",
   "own-project-idea.md": "Saya memiliki ide untuk sebuah proyek! (Mentor dan murid!)",
   "steal-project-idea.md": "Apa yang terjadi apabila seseorang mencuri ide unik saya untuk memecahakan sebuah proyek?",
@@ -11,5 +11,8 @@
   "mentor-obligations.md": "Apa kewajiban saya sebagai mentor saat menjalakan GSoC?",
   "thesis.md": "saya ingin menulis tesis bersama coala!",
   "application-template.md": "Apakah anda memiliki templat aplikasi?",
-  "project-participation.md": "Apakah semua proyek yang terdaftar akan menjadi bagian dari GSoC (atau inisiasi lainnya)?"
+  "project-participation.md": "Apakah semua proyek yang terdaftar akan menjadi bagian dari GSoC (atau inisiasi lainnya)?",
+  "cep-and-its-importance.md": "Apa itu CEP? Mengapa begitu penting untuk melakukan analisis pra-GSoC dan merancang proposal sedini mungkin?",
+  "coala-will-apply-for-gsoc.md": "Apakah coala akan berlaku untuk Google Summer of Code tahun depan?",
+  "high-involvement-status.md": "Apa arti status Keterlibatan Tinggi dari proyek apa pun?"
 }
