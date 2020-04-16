@@ -83,8 +83,8 @@ in a language, the following steps can be followed:
 - Create ```faq.json```, ```projects.json```, ```faq``` and ```projects``` folder
 if they do not exist already.
 - Add translated content of a project inside ```projects``` folder. The names of the
-file should be same.
-- Similiarly translated content of a faq goes inside ```data/locale/ < language-id > /faq```
+files should be the same.
+- Similarly translated content of a faq goes inside ```data/locale/ < language-id > /faq```
 folder.
 - For the faq.json and projects.json metadata, refer to Bahasa and Hindi
 Translations available in ```data/locale``` directory.
