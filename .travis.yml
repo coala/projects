@@ -8,11 +8,15 @@ cache: bundler
 .disable_global: &disable_global
   rvm: false
   cache: false
-  before_install: false
-  install: false
-  script: false
+  before_install: []
+  install: []
+  script: []
 
 env:
+  global:
+    - GRAVIS="https://raw.githubusercontent.com/DanySK/Gravis-CI/master/"
+    - JDK="adopt@1.8.0-212"
+
 jobs:
   include:
     - stage: moban
@@ -27,6 +31,10 @@ jobs:
       language: python
       python: 3.6
       cache: pip
+      before_install:
+        - curl "${GRAVIS}.install-jdk-travis.sh"
+          --output ~/.install-jdk-travis.sh
+        - source ~/.install-jdk-travis.sh
       install:
         - cOALA_ZIP_URL=https://github.com/coala/coala/archive/master.zip
         - curl -fsSL -o coala-master.zip $cOALA_ZIP_URL

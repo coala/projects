@@ -1,5 +1,6 @@
 [global]
-bears = coalaBear, InvalidLinkBear
+# Ignoring InvalidLinkBear since coala links are broken
+bears = coalaBear
 files = **.yml, **.html, **.md, **.js, **.css, **.json
 ignore = vendor/**, resources/vendors/**, _site/**, _book/**
 # These sites all reject spiders
