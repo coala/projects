@@ -34,6 +34,9 @@
 .evenly-spread-content {
   justify-content: space-evenly;  /* Ignore CSSLintBear */
 }
+.gsoc-report {
+  cursor: pointer;
+}
 .hash_value_dup {
   left: -9999px;
   position: absolute;

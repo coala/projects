@@ -1,5 +1,6 @@
 ---
 name: "Commit content inspection"
+improved_title: "Git Commit Content Inspection"
 desc: "Verification that the commit message accurately describes the patch"
 requirements:
  - "Merged pull requests to a vcs bear, e.g. GitCommitBear."

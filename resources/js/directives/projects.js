@@ -1,5 +1,5 @@
 angular.module('coala')
-    .directive('projects', ['$http', '$timeout', '$location', 'Languages', 'orderByFilter', function ($http, $timeout, $location, Languages, orderBy) {
+    .directive('projects', ['$http', '$timeout', '$location', '$window', 'Languages', 'orderByFilter', function ($http, $timeout, $location, $window, Languages, orderBy) {
         return {
             restrict: 'E',
             templateUrl: '/partials/tabs/projects.html',
@@ -221,6 +221,7 @@ angular.module('coala')
                             $scope.projectList = res.data;
                             $scope.allProjects = res.data;
                             $scope.projectRequest();
+                            $scope.mapReportToProject();
                         })
                 }
 
@@ -397,6 +398,36 @@ angular.module('coala')
                 }
 
                 $scope.getAllFilters();
+                $scope.redirectToReport = function () {
+                    $window.open($scope.currentProject.report.url, '_blank');
+                }
+
+                $scope.mapReportToProject = function () {
+                    $http.get('data/reports.liquid')
+                        .then(function (res) {
+                            var completedProjects = []
+                            angular.forEach($scope.projectList, function(project){
+                                if (project.status.includes('completed') && project.mentors.length > 0) {
+                                    completedProjects.push(project)
+                                }
+                            })
+                            angular.forEach(res.data, function (report) {
+                                var completed_project = report.project.toLowerCase()
+                                angular.forEach(completedProjects, function (project) {
+                                    var project_title = project.title.length > 0 ? project.title.toLowerCase() : project.name.toLowerCase()
+                                    if (completed_project === project_title) {
+                                        angular.forEach(project.initiatives, function (initiative) {
+                                            if (report.categories.indexOf(initiative) != -1) {
+                                                report.initiative = initiative
+                                                project.report = report
+                                                return
+                                            }
+                                        })
+                                    }
+                                })
+                            })
+                        })
+                }
             },
             controllerAs: 'lc'
         }

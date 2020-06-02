@@ -14,6 +14,7 @@ mentors:
   - xferra
   - yukiisbored
 name: "Linter Dependency Management from a Bare-Metal System"
+improved_title: "Go Bears on BSD"
 requirements:
   - "At least one patch to the coala core should be accepted and merged."
   - "The proposal needs to show familiarity with coala's dependency management implementation."

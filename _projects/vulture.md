@@ -8,12 +8,12 @@ difficulty: medium
 status: completed
 initiatives:
   - GSoC
-  - RGSoC
 issues: []
 markdown: vulture.md
 mentors:
   - jendrikseipp
 name: "Vulture dead code removal"
+improved_title: "Removing dead code with Vulture"
 requirements:
   - "The participant should have one patch to [vulture](https://github.com/jendrikseipp/vulture) accepted."
   - "Being familiar with the current Bear API and what it provides. Fixing an

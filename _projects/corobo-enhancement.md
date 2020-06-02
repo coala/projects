@@ -17,6 +17,7 @@ mentors:
   - gbin
   - mixih
 name: "corobo enhancements(security, configurability and tests)"
+improved_title: "Corobo Enhancement - Security, Testing And Configurability"
 requirements:
   - "At least one patch to corobo should be accepted and merged."
 status: completed

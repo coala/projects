@@ -6,7 +6,6 @@ desc: "This project is about integrating ANTLR into the coala bear API. "
 difficulty: high
 initiatives:
   - GSoC
-  - RGSoC
 issues: []
 markdown: antlr-v4.md
 mentors:
@@ -14,6 +13,7 @@ mentors:
   - corona10
   - aptrishu
 name: "Integrate ANTLR v4 into coala"
+improved_title: "Integrate ANTLR v4 to coala"
 requirements:
   - "The participant should have one patch to [coala](https://github.com/coala/coala) accepted."
   - "Being familiar with the current Bear API and what it provides."
