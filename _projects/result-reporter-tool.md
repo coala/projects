@@ -5,7 +5,7 @@ desc: "Implement a result reporter tool that converts linter/bear results
 into various formats"
 difficulty: medium
 initiatives:
-  - GSoC
+  - GSoC19
 issues:
   - "https://github.com/coala/projects/issues/555"
   - "https://github.com/coala/coala/issues/2757"

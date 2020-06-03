@@ -5,7 +5,7 @@ collaborating_projects:
 desc: "This project is about integrating ANTLR into the coala bear API. "
 difficulty: high
 initiatives:
-  - GSoC
+  - GSoC18
   - RGSoC
 issues: []
 markdown: antlr-v4.md

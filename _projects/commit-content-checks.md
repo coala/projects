@@ -15,7 +15,7 @@ mentors:
  - guyzmo
  - latacz-io
 initiatives:
- - GSoC
+ - GSoC18
 status: completed
 tags:
  - CI

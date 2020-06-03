@@ -4,7 +4,7 @@ collaborating_projects:
 desc: "Improve coala's caching and IO for the NextGen-Core"
 difficulty: medium
 initiatives:
-  - GSoC
+  - GSoC18
   - RGSoC
 issues:
   - "https://github.com/coala/coala/issues/3530"

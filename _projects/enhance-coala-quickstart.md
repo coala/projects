@@ -6,7 +6,7 @@ developers_involved: []
 difficulty: medium
 status: completed
 initiatives:
-  - GSoC
+  - GSoC17
   - RGSoC
 issues:
   - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/21"
@@ -91,4 +91,3 @@ However, there’s scope for improvement in the following areas:
 * [ ] Extract information from other meta-files.
 * [ ] Smart update of generated `.coafile` w.r.t. changes in meta-files.
 * [ ] Installing required bear-dependencies using cib.
-

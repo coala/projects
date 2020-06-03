@@ -4,7 +4,7 @@ collaborating_projects:
 desc: "coala should support developers of code analysis by providing facilities to debug and profile bears."
 difficulty: high
 initiatives:
-  - GSoC
+  - GSoC18
   - RGSoC
 issues:
   - "https://github.com/coala/coala/issues/565"

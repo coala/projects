@@ -4,7 +4,7 @@ collaborating_projects:
 desc: "The project is about fixing Issues with Generic Bears and providing better API."
 difficulty: medium
 initiatives:
-  - GSoC
+  - GSoC19
   - RGSoC
 issues: []
 markdown: generic-bears.md

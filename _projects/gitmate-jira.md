@@ -7,7 +7,7 @@ desc: "GitMate.io helps by automating tasks on GitHub and GitLab. It's time to a
 developers_involved: []
 difficulty: medium
 initiatives:
-  - GSoC
+  - GSoC17
   - RGSoC
 issues:
   - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/6"

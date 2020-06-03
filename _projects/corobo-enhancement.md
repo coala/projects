@@ -5,7 +5,7 @@ desc: "Improve testing infrastructure, new plugins, improve labhub and security,
 developers_involved: []
 difficulty: medium
 initiatives:
-  - GSoC
+  - GSoC18
 issues:
   - "https://github.com/coala/projects/issues/498"
   - "https://github.com/coala/corobo/issues/424"

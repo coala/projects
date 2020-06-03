@@ -6,7 +6,7 @@ developers_involved: []
 difficulty: high
 status: completed
 initiatives:
-  - GSoC
+  - GSoC17
   - RGSoC
 issues: []
 markdown: documentation-extraction.md

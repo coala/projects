@@ -6,7 +6,7 @@ developers_involved: []
 difficulty: medium
 status: completed
 initiatives:
-  - GSoC
+  - GSoC17
 issues:
   - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/152"
   - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/50"

@@ -11,7 +11,7 @@ issues:
 mentors:
  - MichaelMure
 initiatives:
- - GSoC
+ - GSoC19
 status: completed
 tags:
  - git

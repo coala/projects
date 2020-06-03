@@ -6,7 +6,7 @@ desc: "Multiple programming languages can coexist in the same source
        parts of files."
 difficulty: high
 initiatives:
-  - GSoC
+  - GSoC19
   - RGSoC
 issues:
   - "https://github.com/coala/coala/issues/1690"

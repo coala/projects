@@ -5,7 +5,7 @@ collaborating_projects:
 desc: "Integrate pyflakes-enhanced AST into coala so that bears can access it."
 difficulty: medium
 initiatives:
-  - GSoC
+  - GSoC18
   - RGSoC
 issues: []
 markdown: integrate-pyflakes-AST.md

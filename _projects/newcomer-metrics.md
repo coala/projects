@@ -4,7 +4,7 @@ collaborating_projects:
 desc: "Provide public metrics about newcomers and the newcomer process."
 difficulty: medium
 initiatives:
-  - GSoC
+  - GSoC18
 issues: []
 markdown: newcomer-metrics.md
 mentors:

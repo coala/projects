@@ -10,7 +10,7 @@ mentors:
   - sils
   - manu-chroma
 initiatives:
-  - GSoC
+  - GSoC18
 difficulty: medium
 issues:
   - "https://github.com/coala/projects/issues/488"

@@ -5,7 +5,7 @@ collaborating_projects:
 desc: "Improve coala's dependency installation and management, by automating using data from repology."
 difficulty: medium
 initiatives:
-  - GSoC
+  - GSoC18
   - RGSoC
 issues:
   - "https://gitlab.com/coala/package_manager/issues/159"

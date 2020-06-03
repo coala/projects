@@ -7,7 +7,7 @@ requirements:
   - "An enhancement to the coala VCS bears"
   - "An enhancement to IGitt"
 initiatives:
-  - GSoC
+  - GSoC17
 collaborating_projects:
   - coala
   - IGitt

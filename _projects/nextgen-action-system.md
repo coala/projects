@@ -9,7 +9,7 @@ mentors:
  - abhishalya
  - Vamshi99
 initiatives:
- - GSoC
+ - GSoC19
 status: completed
 tags:
  - core

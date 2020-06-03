@@ -5,7 +5,7 @@ desc: "Provide support for writing configurations using
        a standardised file format(TOML)"
 difficulty: hard
 initiatives:
-  - GSoC
+  - GSoC19
 markdown: standardised-file-format.md
 mentors:
   - Nosferatul
