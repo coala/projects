@@ -9,8 +9,8 @@ initiatives:
 issues: []
 markdown: generic-bears.md
 mentors:
-  - abhsag24
-  - Mixih
+  - abhishalya
+  - sangamcse
 name: "Improve Generic Bear Quality"
 requirements:
   - "The participant should have one bugfix patch to any bear accepted."
