@@ -10,7 +10,7 @@ angular.module('coala')
 
                 $http.get('data/projects.liquid')
                     .then(function (res) {
-                        $scope.projects = res.data.filter(project => project.status != "completed")
+                        $scope.projects = res.data.filter(project => project.initiatives.includes("GSoC19"))
                         angular.forEach($scope.projects, function (value, key) {
                             angular.forEach(value.mentors, function (value, key) {
                                 self.mentorsList[value] = {

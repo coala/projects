@@ -4,7 +4,7 @@ collaborating_projects:
 desc: "Implement a meta-review system that tracks and provides meaningful analysis of reactions on reviews."
 difficulty: medium
 initiatives:
-  - GSoC
+  - GSoC18
 issues:
   - "https://github.com/coala/projects/issues/480"
 markdown: meta-review.md

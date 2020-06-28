@@ -4,7 +4,7 @@ collaborating_projects:
 desc: "Develop an efficient strategy that allows coala to maintain a number of plugins for different editors."
 difficulty: medium
 initiatives:
-  - GSoC
+  - GSoC19
   - RGSoC
 issues:
   - "https://github.com/coala/coala-atom/issues/37"

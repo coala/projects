@@ -4,7 +4,7 @@ collaborating_projects:
 desc: "Bears should be able to offer more than just one possible patch for an issue."
 difficulty: low
 initiatives:
-  - GSoC
+  - GSoC19
   - RGSoC
 issues:
   - "https://github.com/coala/coala/issues/1021"

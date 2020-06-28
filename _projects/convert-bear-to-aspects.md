@@ -5,7 +5,7 @@ desc: "This project is about updating bear to use aspect feature."
 developers_involved: []
 difficulty: medium
 initiatives:
-  - GSoC
+  - GSoC18
   - RGSoC
 issues: []
 markdown: convert-bear-to-aspects.md

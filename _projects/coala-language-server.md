@@ -4,7 +4,7 @@ collaborating_projects:
 desc: "Offer coala languager server."
 difficulty: medium
 initiatives:
-  - GSoC
+  - GSoC18
   - RGSoC
 issues:
   - "https://github.com/coala/coala-vs-code/issues/3"

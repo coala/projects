@@ -13,7 +13,7 @@ mentors:
 difficulty: medium
 status: completed
 initiatives:
-  - GSoC
+  - GSoC18
 issues:
 - "https://github.com/jendrikseipp/vulture/issues/109"
 - "https://github.com/jendrikseipp/vulture/issues/8"

@@ -6,7 +6,7 @@ developers_involved: []
 difficulty: medium
 status: completed
 initiatives:
-  - GSoC
+  - GSoC16
   - RGSoC
 issues:
   - "https://github.com/coala/engagement/issues/66"

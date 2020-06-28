@@ -5,7 +5,7 @@ desc: "Enhance and Improve the architecture of coala Community and Projects
 website with new API Endpoints in webservices."
 difficulty: hard
 initiatives:
-  - GSoC
+  - GSoC19
 issues:
   - "https://github.com/coala/projects/issues/691"
 markdown: enhance-and-improve-coala-community-and-projects-website.md

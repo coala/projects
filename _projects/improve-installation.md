@@ -6,7 +6,7 @@ desc: "This project is about improving the
        and working around platform dependent requirements."
 difficulty: medium
 initiatives:
-  - GSoC
+  - GSoC18
   - RGSoC
 issues:
   - "https://github.com/coala/coala-bears/issues/845"

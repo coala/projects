@@ -6,7 +6,7 @@ desc: "Offer a general mechanism of highlighting code analysis results from
        external tools in jetbrain IDE, the primary goal is to support coala."
 difficulty: high
 initiatives:
-  - GSoC
+  - GSoC19
   - RGSoC
 issues:
   - "https://github.com/coala/coala/issues/2019"

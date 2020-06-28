@@ -7,7 +7,7 @@ developers_involved: []
 difficulty: medium
 status: completed
 initiatives:
-  - GSoC
+  - GSoC17
 issues: []
 markdown: aspects.md
 mentors:

@@ -6,10 +6,10 @@ requirements:
  - "The proposal needs to contain a clear concept."
 difficulty: "high"
 mentors:
- - Makman2
- - jayvdb
+ - abhishalya
+ - Vamshi99
 initiatives:
- - GSoC
+ - GSoC19
 status: completed
 tags:
  - core

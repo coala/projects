@@ -7,7 +7,7 @@ developers_involved: []
 difficulty: medium
 status: completed
 initiatives:
-  - GSoC
+  - GSoC17
   - RGSoC
 issues: []
 markdown: vulture.md
