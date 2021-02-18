@@ -15,7 +15,7 @@ cache: bundler
 env:
   global:
     - GRAVIS="https://raw.githubusercontent.com/DanySK/Gravis-CI/master/"
-    - JDK="adopt@1.8.0-212"
+    - JDK="adopt@1.8.0-275"
 
 jobs:
   include:
