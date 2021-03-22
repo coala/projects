@@ -132,7 +132,8 @@ ignore = _projects/corobo-enhancement.md,
          _projects/generic-bears.md,
          _projects/python-support.md,
          _projects/improve-corobo.md,
-         _projects/gitmate-coala.md
+         _projects/gitmate-coala.md,
+         _projects/git-bug2.md
 
 [old_linelength_projects]
 files = _projects/corobo-enhancement.md,
@@ -187,7 +188,8 @@ files = _projects/corobo-enhancement.md,
         _projects/generic-bears.md,
         _projects/python-support.md,
         _projects/improve-corobo.md,
-        _projects/gitmate-coala.md
+        _projects/gitmate-coala.md,
+        _projects/git-bug2.md
 ignore_length_regex = .*https?://
 bears = LineLengthBear
 max_line_length = 120
