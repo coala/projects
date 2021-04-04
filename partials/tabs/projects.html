@@ -14,11 +14,14 @@ therefore adding an ignore comment -->
           </a>
         </div>
       </div>
-      <div ng-class="{'display-none':!lc.displayFilters}" ng-click="toggleFiltersDisplay()">
-        <i class="fa fa-times close-filters"></i>
-      </div>
+      
       <div class="all-filters-option apply-flex center-content fade-in" ng-class="{'display-none':!lc.displayFilters}">
-        <h6><b>Filter Projects</b></h6>
+        <span>
+          <div ng-class="{'display-none':!lc.displayFilters}" ng-click="toggleFiltersDisplay()">
+            <i class="fa fa-times close-filters"></i>
+          </div>
+          <h4><b>Filter Projects</b></h4>
+        </span>
         <div class="filters-inputs apply-flex">
           <div class="filter-select-fields apply-flex evenly-spread-content">
             <label class="project-filter" ng-repeat="(filter, metadata) in projectFilterOptions">
