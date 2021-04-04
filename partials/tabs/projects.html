@@ -61,6 +61,8 @@ therefore adding an ignore comment -->
                 <div btf-markdown="project.desc" class="markdown"></div>
               </div>
               <div ng-show="project.mentors.length>0" class="card-action"> <span ng-repeat="mentor in project.mentors | limitTo:4"><a ng-href="https://github.com/{{mentor}}" class="mentors-github-id" target="_blank">{{mentor}}</a></span> </div>
+              <div ng-show="project.difficulty.length>0" class="project-overview-element clickable card-action"> <span ng-click="search(project.difficulty)" class="pr-element-detail chip" >{{ project.difficulty }}</span>
+                <br> </div>
               <div ng-show="project.initiatives.length>0" class="project-overview-element clickable card-action"> <span ng-click="search(initiative)" class="pr-element-detail chip" ng-repeat="initiative in project.initiatives">{{ initiative }}</span>
                 <br> </div>
               <div ng-show="project.collaborating_projects.length>0 && project.status.length<1" class="project-overview-element clickable card-action"> <span ng-click="search(project)" class="pr-element-detail chip" ng-repeat="project in project.collaborating_projects">{{ project }}</span>
