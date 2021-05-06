@@ -15,7 +15,7 @@ therefore adding an ignore comment -->
         </div>
       </div>
       <div class="all-filters-option apply-flex center-content fade-in" ng-class="{'display-none':!lc.displayFilters}">
-        <span> 
+        <span>
           <div ng-class="{'display-none':!lc.displayFilters}" ng-click="toggleFiltersDisplay()">
             <i class="fa fa-times close-filters"></i>
           </div>
@@ -59,8 +59,8 @@ therefore adding an ignore comment -->
                 <div class="card-title center">{{ project.name }}</div>
                 <div btf-markdown="project.desc" class="markdown"></div>
               </div>
-              <div ng-show="project.mentors.length>0" class="card-action"> <span ng-repeat="mentor in project.mentors | limitTo:4"><a ng-href="https://github.com/{{mentor}}" class="mentors-github-id" target="_blank">{{mentor}}</a></span> </div>
-              <div ng-show="project.difficulty.length>0" class="project-overview-element clickable card-action"> <span ng-click="search(project.difficulty)" class="pr-element-detail chip" >{{ project.difficulty }}</span>
+              <div ng-show="project.mentors.length>0" class="card-action"> <span ng-repeat="mentor in project.mentors | limitTo:4"><a ng-href="https://github.com/{{mentor}}" class="mentors-github-id" target="_blank">{{ mentor }}</a></span> </div>
+              <div ng-show="project.difficulty.length>0" class="project-overview-element clickable card-action"> <span ng-click="search(project.difficulty)" class="pr-element-detail chip">{{ project.difficulty }}</span>
                 <br> </div>
               <div ng-show="project.initiatives.length>0" class="project-overview-element clickable card-action"> <span ng-click="search(initiative)" class="pr-element-detail chip" ng-repeat="initiative in project.initiatives">{{ initiative }}</span>
                 <br> </div>
@@ -105,11 +105,11 @@ therefore adding an ignore comment -->
         <div ng-show="currentProject.mentors.length>0" class="project-detail-element">
           <div class="small-heading uppercase">Mentors</div>
             <span class="pr-element-detail chip" ng-repeat="mentor in currentProject.mentors">
-              <a ng-href="https://github.com/{{mentor}}" class="mentors-github-id chip" target="_blank">@{{mentor}}</a>
+              <a ng-href="https://github.com/{{mentor}}" class="mentors-github-id chip" target="_blank">@{{ mentor }}</a>
             </span>
         </div>
         <div ng-show="currentProject.developers_involved.length>0" class="project-detail-element">
-          <div class="small-heading uppercase">Developers Involved</div> <span class="pr-element-detail chip" ng-repeat="developers in currentProject.developers_involved">@{{developers}}</span> </div>
+          <div class="small-heading uppercase">Developers Involved</div> <span class="pr-element-detail chip" ng-repeat="developers in currentProject.developers_involved">@{{ developers }}</span> </div>
         <div ng-show="currentProject.issues.length>0" class="project-detail-element">
           <div class="small-heading uppercase">Related issues</div> <span ng-click="redirect(issue)" class="pr-element-detail chip clickable" ng-repeat="issue in currentProject.issues">{{ issue | format_issue }}</span>
           <br>
