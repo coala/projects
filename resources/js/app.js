@@ -47,7 +47,7 @@
             $routeProvider.
             when('/projects', {
                 template: '<projects></projects>',
-                reloadOnSearch: false
+                reloadOnSearch: true
             }).
             when('/mentors', {
                 template: '<mentors></mentors>'
