@@ -200,8 +200,12 @@ nav {
 }
 .searchbar {
   margin-top: 0;
-  min-width: 340px;
   width: 85%;
+  min-width: 340px;
+  border-radius: 15px;
+  border: 1px #000 solid;
+  padding: 5px 5px 5px 25px;
+  position: absolute;
 }
 .sha256sum_hash {
   display: flex;
